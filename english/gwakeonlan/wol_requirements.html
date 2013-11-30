@@ -1,0 +1,65 @@
+---
+layout: gwakeonlan
+title: Requirements
+language: english
+---
+          <h1><a name="requirements" class="anchor" href="#requirements"></a>Requirements</h1>
+          <p>To allow {{ site.data.gwakeonlan.name }} to turn on a machine
+            <strong>all these requirements</strong> must be met.<br />
+            Each machine to turn on must:</p>
+          <ol id="requirements" class="requirements">
+            <li>have an integrated (or PCI/PCIE) Ethernet network card.</li>
+            <li>have the network cable plugged all the time.</li>
+            <li>have the power cable plugged all the time.</li>
+            <li>support the Wake On LAN with the
+              <a href="http://en.wikipedia.org/wiki/Wake-on-LAN#Magic_packet">Magic Packet</a>.</li>
+            <li>have the Wake On LAN
+              <a href="wol_bios.html">enabled in the BIOS</a>.</li>
+            <li>have the Wake On LAN by Magic Packet
+              <a href="wol_os.html">enabled in the Operating System</a>.</li>
+            <li>be powered off from the Operating System.</li>
+          </ol>
+
+          <p>If one or more of these requirements is not met
+            <strong>all the time</strong>, the Wake On LAN will not work.</p>
+          <p>It will fail if a requirement is not met for some time,
+            <strong>even after the machine was turned off</strong>, 
+            like to unplug the power cord from the machine and connecting it
+            later.</p>
+
+          <h1><a name="additional" class="anchor" href="#additional"></a>Additional requirements for Internet</h1>
+          <p>In the case the command is sent through the Internet (not local
+            broadcast) additional requirements must be met:</p>
+          <ol id="requirements">
+            <li><span class="requirements">The machine to turn on must be
+              reachable from the network.</span><br />
+              The machine must not be connected with a modem directly connected
+              to the machine, otherwise the data cannot be received if the
+              network is disconnected.
+              A connected and <strong>reachable router</strong> is then recommended
+              to be able to receive the data sent from
+              {{ site.data.gwakeonlan.name }}.</li>
+            <li><span class="requirements">The UDP data sent from 
+              {{ site.data.gwakeonlan.name }} must reach the destination machine.</span><br />
+              The router must forward the UDP data from the specified port
+              number to the destination IP address in its local network.
+              This is generally done in the router configuration setting up a
+              <strong>Virtual Server, Port forwarding or Port mapping</strong>. 
+              Plese refer to your router documentation to know how to setup your
+              router.</li>
+            <li><span class="requirements">The router must remember the turned off machines</span><br />
+              Many consumer routers forget the MAC addresses on their local 
+              network after 2-5 minutes of inactivity, so even if a machine was
+              properly shutdown with all the above requirements the receiving
+              router may not to be able to remember on what MAC address to
+              forward the data.<br />
+              The success key to accomplish this is called
+              <a href="http://en.wikipedia.org/wiki/Address_Resolution_Protocol">static ARP cache</a> 
+              which statically assigns a MAC address to the IP address to forward.
+              Plese refer to your router documentation to know how to setup your
+              router.<br />
+              If this requirement cannot be met because if your router doesn't
+              support a static ARP cache as an alternative you can setup an
+              always-on computer to act as a gateway and configure the ARP cache
+              in its operating system.</li>
+          </ol>

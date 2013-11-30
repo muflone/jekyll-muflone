@@ -1,0 +1,33 @@
+{% include header.html module=site.data.gespeaker %}
+{{ content }}
+        </section>
+        <aside id="sidebar">
+          <ul class="menu1">
+            <li class="menu1"><a href="index.html">{% if page.language == 'italian' %}Introduzione{% else %}Introduction{% endif %}</a></li>
+            <li class="menu1"><a href="download.html">{% if page.language == 'italian' %}Scarica{% else %}Download{% endif %}</a></li>
+            <li class="menu1"><a href="install.html">{% if page.language == 'italian' %}Installazione{% else %}Installation{% endif %}</a></li>
+            <li class="menu1"><a href="screenshots.html">{% if page.language == 'italian' %}Schermate{% else %}Screenshots{% endif %}</a></li>
+            <li class="menu1"><a href="languages.html">{% if page.language == 'italian' %}Lingue supportate{% else %}Supported languages{% endif %}</a></li>
+            <li class="menu1"><a href="mbrola.html">{% if page.language == 'italian' %}Motore MBROLA{% else %}MBROLA engine{% endif %}</a></li>
+            <li class="menu1"><a href="mbrola-availability.html">{% if page.language == 'italian' %}Voci MBROLA{% else %}MBROLA voices{% endif %}</a></li>
+            <ul class="menu2">
+              <li class="menu2"><a href="mbrola-ubuntu1004.html">Ubuntu 10.04</a></li>
+              <li class="menu2"><a href="mbrola-ubuntu1010.html">Ubuntu 10.10</a></li>
+              <li class="menu2"><a href="mbrola-ubuntu1104.html">Ubuntu 11.04</a></li>
+              <li class="menu2"><a href="mbrola-ubuntu1110.html">Ubuntu 11.10</a></li>
+              <li class="menu2"><a href="mbrola-ubuntu1204.html">Ubuntu 12.04</a></li>
+              <li class="menu2"><a href="mbrola-ubuntu1210.html">Ubuntu 12.10</a></li>
+              <li class="menu2"><a href="mbrola-ubuntu1304.html">Ubuntu 13.04</a></li>
+              <li class="menu2"><a href="mbrola-debian6.html">Debian 6</a></li>
+              <li class="menu2"><a href="mbrola-debian7.html">Debian 7</a></li>
+              <li class="menu2"><a href="mbrola-debian8.html">Debian 8</a></li>
+              <li class="menu2"><a href="mbrola-debiansid.html">Debian sid</a></li>
+              <li class="menu2"><a href="mbrola-opensuse11.html">openSUSE 11</a></li>
+              <li class="menu2"><a href="mbrola-opensuse12.html">openSUSE 12</a></li>
+              <li class="menu2"><a href="mbrola-opensuse13.html">openSUSE 13</a></li>
+              <li class="menu2"><a href="mbrola-archlinux.html">Arch Linux</a></li>
+            </ul>
+            <li class="menu1"><a href="demo.html">{% if page.language == 'italian' %}Voci dimostrative{% else %}Demo voices{% endif %}</a></li>
+            <li class="menu1"><a href="changelog.html">{% if page.language == 'italian' %}Cambiamenti{% else %}Changelog{% endif %}</a></li>
+          </ul>
+{% include footer.html module=site.data.gespeaker %}

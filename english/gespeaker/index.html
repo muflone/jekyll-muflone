@@ -1,0 +1,33 @@
+---
+layout: gespeaker
+title: Introduction
+language: english
+---
+          <h1><a name="description" class="anchor" href="#description"></a>Description</h1>
+          <p>{{ site.data.gespeaker.name }} is a free GTK+ frontend for espeak.
+            It allows you to play a text in many languages with settings for
+            voice, pitch, volume and speed.
+            The text read can also be <a href="demo.html">recorded to WAV 
+            file</a> for future listening.</p>
+          <p>The text can be read with <a href="languages.html">many available 
+            languages</a>.</p>
+          <p><img src="../../resources/{{ page.layout }}/archive/latest/{{ page.language }}/main.png"></p>
+          <p>To hear some samples of recorded voices please see the 
+            <a href="demo.html">demo voices</a> page.</p>
+
+          <h1><a name="installation" class="anchor" href="#installation"></a>Installation</h1>
+          <p>The stable versions released with source code and prebuilt packages
+            are linked in the <a href="download.html">Download page</a>.
+            For information about installation from packages or source code
+            please refer to the <a href="install.html">Installation page</a>.</p>
+          <p>The {{ site.data.gespeaker.name }} development version source code is 
+            <a href="{{ site.data.gespeaker.gitrepo }}">available on Github</a>.</p>
+
+          <h1><a name="mbrola" class="anchor" href="#mbrola"></a>Enable enhanced voice support</h1>
+          <p>Since version 0.6 it supports the speech synthesizer MBROLA for a 
+            better speech experience.</p>
+          <p>See the <a href="mbrola.html">MBROLA</a> page for instructions on
+            enable the enhanced MBROLA voice support.</p>
+
+{% include translations.html module=site.data.gespeaker languages_page=true %}
+{% include license.html module=site.data.gespeaker short=false %}

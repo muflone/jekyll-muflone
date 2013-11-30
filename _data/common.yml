@@ -1,0 +1,10 @@
+name: Muflone
+lowername: muflone
+gitrepo: https://github.com/muflone
+sections:
+- module: muflone
+- module: gespeaker
+- module: gwakeonlan
+- module: gextractwinicons
+- module: bluewho
+- module: cpucompare

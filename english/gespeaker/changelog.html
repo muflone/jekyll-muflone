@@ -1,0 +1,109 @@
+---
+layout: gespeaker
+title: Introduction
+language: english
+---
+          <h1><a name="version08" class="anchor" href="#version08"></a>Version 0.8 (Jun 13, 2010)</h1>
+          <ul>
+            <li>Moved translators from .po files to doc/translators</li>
+            <li>New polish translation by Andrey J.</li>
+            <li>New DBUS interface to interact from external apps</li>
+            <li>Fixed minimum words gap from 5 to 0 in main UI</li>
+          </ul>
+          <p><img src="../../resources/{{ page.layout }}/archive/0.8/{{ page.language }}/about.png" alt="{{ site.data.gespeaker.name }} 0.8"></p>
+
+          <h1><a name="version07" class="anchor" href="#version07"></a>Version 0.7 (Dic 13, 2009)</h1>
+          <ul>
+            <li>New handlepaths module to reflect the changed directory structure.</li>
+            <li>New setup.py for distutils installation.</li>
+            <li>New packaging following the Debian policy.</li>
+          </ul>
+          <p><img src="../../resources/{{ page.layout }}/archive/0.7/{{ page.language }}/about.png" alt="{{ site.data.gespeaker.name }} 0.7"></p>
+
+          <h1><a name="version06" class="anchor" href="#version06"></a>Version 0.6 (Jul 18, 2009)</h1>
+          <ul>
+            <li>Fixed audio testing localized string.</li>
+            <li>An error message is now shown if the audio player is not found 
+              instead of quietly ignore the error.</li>
+            <li>New spanish translation provided by David Prieto.</li>
+            <li>New MBROLA support with more realistic voices.</li>
+            <li>Added MBROLA voices to languages list.</li>
+            <li>Tabbed preferences dialog for new MBROLA support.</li>
+            <li>Moved language, voice type and variants to base settings and 
+              pitch, volume, speed and gap sliders to advanced settings upon 
+              suggestion of frandavid100.</li>
+            <li>Added automatic txt extension on saving text file.</li>
+            <li>Added automatic wav extension on saving WAVE file. 
+              This was causing weird noises on playing the recorded track if it
+              wasn't a .wav filename.</li>
+          </ul>
+          <p><img src="../../resources/{{ page.layout }}/archive/0.6/{{ page.language }}/main.jpg" alt="Main window for {{ site.data.gespeaker.name }} 0.6"></p>
+          <p><img src="../../resources/{{ page.layout }}/archive/0.6/{{ page.language }}/mbrola.jpg" alt="Preferences window for MBROLA for {{ site.data.gespeaker.name }} 0.6"></p>
+
+          <h1><a name="version05" class="anchor" href="#version05"></a>Version 0.5 (Jun 30, 2009)</h1>
+          <ul>
+            <li>Added an extender separator for settings to allow maximum usage 
+              of the window with the text.</li>
+            <li>Added filters for load/save text dialogs.</li>
+            <li>Added support for recording the audio track to wave.</li>
+            <li>Added a statusbar showing the active record mode.</li>
+            <li>Added preferences dialog.</li>
+            <li>Added preferences save and reload for welcome message, window 
+              size, voice settings and expander status.</li>
+            <li>Added support for audio frontend: <code>ALSA</code> (aplay), 
+              <code>PulseAudio</code> (paplay) and user customized player 
+              command, with audio command test.</li>
+            <li>Added voice variants by scanning 
+              <code>/usr/share/espeak-data/voices/!v</code> folder for extra
+              voice variants.</li>
+            <li>Fixed stock icon for <code>DialogFileOpenSave</code>.</li>
+          </ul>
+          <p><img src="../../resources/{{ page.layout }}/archive/0.5/{{ page.language }}/main.png" alt="Main window for {{ site.data.gespeaker.name }} 0.5"></p>
+          <p><img src="../../resources/{{ page.layout }}/archive/0.5/{{ page.language }}/preferences.png" alt="Preferences window for {{ site.data.gespeaker.name }} 0.5"></p>
+
+          <h1><a name="version04" class="anchor" href="#version04"></a>Version 0.4 (Jun 20, 2009)</h1>
+          <ul>
+            <li>Added <code>SubprocessWrapper.Popen</code> to wrap 
+              subprocess.Popen in order to support python versions prior to 2.6
+              which don't have the delete argument on object creation.</li>
+            <li>Added <code>TempfileWrapper.NamedTemporaryFile</code> to wrap
+              tempfile's Popen object in order to support python versions prior
+              to 2.6 which don't have terminate and send_signal methods.
+              Actually no more used, left for future usage.</li>
+            <li>Now {{ site.data.gespeaker.name }} works with python version 2.4
+              and higher.</li>
+            <li>Temporary file for output to speech is created at program start
+              so new temporary files are no longer created after each play.</li>
+            <li>Included pause and resume features.</li>
+            <li>New icon and logo, kindly provided by MIX.</li>
+            <li>New french translation provided by Emmanuel.</li>
+          </ul>
+          <p><img src="../../resources/{{ page.layout }}/archive/0.4/{{ page.language }}/main.png" alt="Main window for {{ site.data.gespeaker.name }} 0.4"></p>
+
+          <h1><a name="version03" class="anchor" href="#version03"></a>Version 0.3 (Jun 18, 2009)</h1>
+          <ul>
+            <li>Used only for testing, never released.</li>
+            <li>Added support for voice type (male/female) via +12 for female voice.</li>
+            <li>Removed escaped text substitution with a more secure temporary
+              file with the text to play.</li>
+            <li>Substituted direct shell piping with more secure subprocess' piping.</li>
+            <li>Better control of external calls, now both espeak and player
+              execution are polled for exitcode and terminated if requested.</li>
+            <li>Added documentation and artists parameters to <code>DialogAbout</code>.</li>
+          </ul>
+
+          <h1><a name="version02" class="anchor" href="#version02"></a>Version 0.2 (Jun 14, 2009)</h1>
+          <ul>
+            <li>Changed UI layout according to Gnome HIG specifications 
+              http://library.gnome.org/devel/hig-book/stable/design-window.html.en</li>
+            <li>Fixed <code>DialogAbout.set_icon_from_file</code> icon usage, 
+              which was wrongly hardcoded.</li>
+            <li>Symlinked copyright file to <code>/usr/share/doc/gespeaker/copyright</code></li>
+          </ul>
+          <p><img src="../../resources/{{ page.layout }}/archive/0.2/{{ page.language }}/main.png" alt="Main window for {{ site.data.gespeaker.name }} 0.2"></p>
+
+          <h1><a name="version01" class="anchor" href="#version01"></a>Version 0.1 (Jun 13, 2009)</h1>
+          <ul>
+            <li>Initial release.</li>
+          </ul>
+          <p><img src="../../resources/{{ page.layout }}/archive/0.1/{{ page.language }}/main.jpg" alt="Main window for {{ site.data.gespeaker.name }} 0.1"></p>

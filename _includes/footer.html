@@ -1,0 +1,19 @@
+{% if include.module %}
+          <p class="repo-owner"><a href="{{ include.module.gitrepo }}">{{ include.module.name }}</a> {% if page.language == 'italian' %}&egrave; sviluppato da{% else %}is developed by{% endif %} {{ site.author }}.</p>
+          <p>{% if page.language == 'italian' %}Questa pagina usa il tema Architect di{% else %}This page uses the Architect theme by{% endif %} <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+{% endif %}
+{% include google-analytics.html %}
+
+    <div class="footer">
+      Copyright &copy; 2013 Fabio Castelli |
+      <a href="/">Home</a> | 
+      <a href="/english/"><img src="../../resources/index/16-english.png"> English</a> |
+      <a href="/italian/"><img src="../../resources/index/16-italian.png"> Italian</a> |
+      <a href="/{{ page.language }}/muflone/#contacts">Contacts</a>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,36 @@
+{% if page.language == 'italian' %}
+          <h1><a name="packages" class="anchor" href="#packages"></a>Pacchetti da scaricare</h1>
+          <p>Quelli qui riportati sono pacchetti per differenti distribuzioni.
+            Scegliere quello pi&ugrave; idoneo alla distribuzione che si
+            utilizza e fare riferimento alla pagina 
+            <a href="install.html">Installazione</a> per informazioni sulla
+            loro installazione.</p>
+          <ul>
+  {% for package in include.module.packages %}
+            <li><strong>Versione {{ package.version }}</strong>
+              <a href="../../resources/{{ page.layout }}/archive/{{ package.version }}/{{ package.filename }}">
+    {% case package.type %}
+    {%   when 'source'    %}          in formato tar.gz</a> con codice sorgente per installazione manuale<br />
+    {%   when 'archlinux' %}          in formato tar.xz</a> per Arch Linux e derivate<br />
+    {%   when 'debian'    %}          in formato deb</a> per Debian, Ubuntu e derivate<br />
+    {% endcase %}          MD5: {{ package.md5sum }}</li>
+  {% endfor %}
+          </ul>
+{% else %}
+          <h1><a name="packages" class="anchor" href="#packages"></a>Downloadable packages</h1>
+          <p>The following are packages for different distributions.
+            Choose that more suitable for the distribution in use and refer to
+            the page <a href="install.html">Installation</a> for information
+            about their installation.</p>
+          <ul>
+  {% for package in include.module.packages %}
+            <li><strong>Version {{ package.version }}</strong>
+              <a href="../../resources/{{ page.layout }}/archive/{{ package.version }}/{{ package.filename }}">
+    {% case package.type %}
+    {%   when 'source'    %}          in tar.gz format</a> with source code for manual installation<br />
+    {%   when 'archlinux' %}          in tar.xz format</a> for Arch Linux and derivatives<br />
+    {%   when 'debian'    %}          in deb format</a> for Debian, Ubuntu and derivatives<br />
+    {% endcase %}          MD5: {{ package.md5sum }}</li>
+  {% endfor %}
+          </ul>
+{% endif %}

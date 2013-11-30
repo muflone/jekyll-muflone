@@ -1,0 +1,67 @@
+{% if page.language == 'italian' %}
+          <h1><a name="translations" class="anchor" href="#translations"></a>Traduzioni</h1>
+          <p>{{ include.module.name }} &egrave; attualmente tradotto nelle 
+            {% if include.languages_page %}<a href="languages.html">{% endif %}seguenti lingue{% if include.languages_page %}</a>{% endif %}:</p>
+          <ul>
+  {% for language in include.module.languages %}
+    {% case language %}
+      {% when 'english'    %}        <li>Inglese</li>
+      {% when 'french'     %}        <li>Francese</li>
+      {% when 'german'     %}        <li>Tedesco</li>
+      {% when 'hungarian'  %}        <li>Ungherese</li>
+      {% when 'italian'    %}        <li>Italiano</li>
+      {% when 'russian'    %}        <li>Russo</li>
+      {% when 'spanish'    %}        <li>Spagnolo</li>
+      {% when 'polish'     %}        <li>Polacco</li>
+      {% when 'catalan'    %}        <li>Catalano</li>
+      {% when 'hebrew'     %}        <li>Ebraico</li>
+      {% when 'basque'     %}        <li>Basco</li>
+      {% when 'dutch'      %}        <li>Olandese</li>
+      {% when 'portoguese' %}        <li>Portoghese</li>
+      {% when 'slovak'     %}        <li>Slovacco</li>
+      {% when 'slovenian'  %}        <li>Sloveno</li>
+      {% when 'turkish'    %}        <li>Turco</li>
+    {% endcase %}
+  {% endfor %}
+          </ul>
+          <p>Sono richiesti traduttori, aiutaci a tradurre
+            {{ include.module.name }} in altre lingue.</p>
+          <p>Prego {% if include.module.translations_repo %}compila le tue traduzioni su 
+            <a href="{{ include.module.translations_repo }}" target="_blank">{{ include.module.translations_repo }}</a>
+            oppure {% endif %}apri una richiesta sul sistema di 
+            <a href="{{ include.module.gitrepo }}/issues">segnalazioni su GitHub</a>
+            oppure apri una
+            <a href="{{ include.module.gitrepo }}/pulls">richiesta di pull su GitHub</a>.</p>
+{% else %}
+          <h1><a name="translations" class="anchor" href="#translations"></a>Translations</h1>
+          <p>{{ include.module.name }} is actually translated in the
+            {% if include.languages_page %}<a href="languages.html">{% endif %}following languages{% if include.languages_page %}</a>{% endif %}:</p>
+          <ul>
+  {% for language in include.module.languages %}
+    {% case language %}
+      {% when 'english'    %}        <li>English</li>
+      {% when 'french'     %}        <li>French</li>
+      {% when 'german'     %}        <li>German</li>
+      {% when 'hungarian ' %}        <li>Hungarian</li>
+      {% when 'italian'    %}        <li>Italian</li>
+      {% when 'russian'    %}        <li>Russian</li>
+      {% when 'spanish'    %}        <li>Spanish</li>
+      {% when 'polish'     %}        <li>Polish</li>
+      {% when 'catalan'    %}        <li>Catalan</li>
+      {% when 'hebrew'     %}        <li>Hebrew</li>
+      {% when 'basque'     %}        <li>Basque</li>
+      {% when 'dutch'      %}        <li>Dutch</li>
+      {% when 'portoguese' %}        <li>Portoguese</li>
+      {% when 'slovak'     %}        <li>Slovak</li>
+      {% when 'slovenian'  %}        <li>Slovenian</li>
+      {% when 'turkish'    %}        <li>Turkish</li>
+    {% endcase %}
+  {% endfor %}
+          </ul>
+          <p>Translators are needed, please help in translating
+            {{ include.module.name }} in others languages.</p>
+          <p>Please {% if include.module.translations_repo %}submit your translations to
+            <a href="{{ include.module.translations_repo }}" target="_blank">{{ include.module.translations_repo }}</a>
+            or {% endif %}file an issue in <a href="{{ include.module.gitrepo }}/issues">GitHub bugtracker</a>
+            or <a href="{{ include.module.gitrepo }}/pulls">pull a request on GitHub</a>.</p>
+{% endif %}

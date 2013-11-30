@@ -1,0 +1,20 @@
+{% if page.language == 'italian' %}
+          <h1><a name="distributions" class="anchor" href="#distributions"></a>Versioni nelle distribuzioni</h1>
+          <p>Alcune distribuzioni Linux come Ubuntu e Debian possono fornire
+            {{ include.module.name }} nei loro repository ma si tratta quasi
+            sempre di versioni arretrate.
+            Il processo di rilascio di un software nei repository ufficiali
+            delle distribuzioni &egrave; laborioso e richiede tanto tempo di
+            aggiornamento.</p>
+          <p>L'ultima versione disponibile &egrave; quella presente nella 
+            <a href="{{ include.module.gitrepo }}/releases">pagina rilasci su GitHub</a>.</p>
+{% else %}
+          <h1><a name="distributions" class="anchor" href="#distributions"></a>Versions in the distributions</h1>
+          <p>Some Linux distributions like Ubuntu and Debian could offer
+            {{ include.module.name }} in their repositories but very often is
+            an old version.
+            The release process for a software to reach the official repositories
+            in the distributions is difficult and requires a lot of time.</p>
+          <p>The Latest available version is that one indicated in the 
+            <a href="{{ include.module.gitrepo }}/releases">releases page on GitHub</a>.</p>
+{% endif %}

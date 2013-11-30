@@ -1,0 +1,91 @@
+{% if page.language == 'italian' %}
+  {% case include.type %}
+    {% when 'debian' %}
+          <h1><a name="debian" class="anchor" href="#debian"></a>Installazione su Debian, Ubuntu e derivate</h1>
+          <p>E' possibile scaricare il pacchetto <strong>deb</strong> dalla
+            pagina <a href="download.html">Scarica</a> e installarlo utilizzando:<br />
+          <code>cd "~/cartella con il file scaricato"<br />
+            sudo dpkg -i "nome del file.deb"</code></p>
+    {% when 'archlinux' %}
+          <h1><a name="archlinux" class="anchor" href="#archlinux"></a>Installazione su Arch Linux e derivate</h1>
+          <p>In AUR &egrave; presente l'ultima versione disponibile, &egrave;
+            possibile scaricarla e compilarla utilizzando yaourt (o un analogo
+            gestore per AUR) con <code>yaourt -S {{ include.module.lowername }}</code>
+            e seguire le istruzioni del gestore di AUR.</p> 
+      {% if include.development %}
+          <p>E' anche disponibile la versione di sviluppo in AUR e pu&ograve;
+            essere installata utilizzando yaourt (o un analogo gestore per AUR)
+            con <code>yaourt -S {{ include.module.lowername }}-git</code>.</p>
+      {% endif %}
+          <p>Per chi non volesse impiegare AUR &egrave; possibile scaricare il
+            pacchetto <strong>tar.xz</strong> dalla pagina 
+            <a href="download.html">Scarica</a> e installarlo utilizzando:<br />
+            <code>cd "~/cartella con il file scaricato"<br />
+            sudo pacman -U "nome del file.pkg.tar.xz"</code></p>
+    {% when 'source' %}
+          <h1><a name="source" class="anchor" href="#source"></a>Installazione dal codice sorgente</h1>
+          <p>Se non fosse disponibile il pacchetto preassemblato per la propria
+            distribuzione &egrave; possibile utilizzare il pacchetto col codice
+            sorgente per installare {{ include.module.name }} utilizzando:<br />
+          <code>cd "~/cartella con il file scaricato"<br />
+            mkdir {{ include.module.lowername }}-install<br />
+            tar xvzf "nome del file.pkg.tar.gz" -C {{ include.module.lowername }}-install<br />
+            cd {{ include.module.lowername }}-install/{{ include.module.lowername }}-*<br />
+            python2 setup.py build<br />
+            sudo python2 setup.py install</code></p>
+          <p>Al termine dell'installazione, se non sono stati riportati errori
+            sar&agrave; possibile eliminare la cartella 
+            {{ include.module.lowername }}-install da root oppure tramite
+            <code>sudo rm -rf "{{ include.module.lowername }}-install"</code>
+            e il file sorgente scaricato.</p>
+          <p><strong>Attenzione!</strong> Dopo aver eseguito la procedura di
+            installazione manuale da codice sorgente non sar&agrave; possibile
+            disinstallare automaticamente il software ma sar&agrave; necessario
+            eliminare manualmente tutti i files installati che sono indicati
+            durante l'ultimo passaggio del processo di installazione.</p>
+  {% endcase %}
+{% else %}
+  {% case include.type %}
+    {% when 'debian' %}
+          <h1><a name="debian" class="anchor" href="#debian"></a>Installation on Debian, Ubuntu and derivatives</h1>
+          <p>It's possible to download the <strong>deb</strong> package from the
+            <a href="download.html">Download</a> page and install it using:<br />
+          <code>cd "~/folder with the downloaded file"<br />
+            sudo dpkg -i "file name.deb"</code></p>
+    {% when 'archlinux' %}
+          <h1><a name="archlinux" class="anchor" href="#archlinux"></a>Installation on Arch Linux and derivatives</h1>
+          <p>In the AUR you can find the latest available version, it can be
+            downloaded and built using yaourt (or a similar AUR helper) using
+            <code>yaourt -S {{ include.module.lowername }}</code>
+            and then following the AUR helper instructions.</p>
+      {% if include.development %}
+          <p>The development version is also available in the AUR and can be
+            installed using yaourt (or a similar AUR helper) with 
+            <code>yaourt -S {{ include.module.lowername }}-git</code>.</p>
+      {% endif %}
+          <p>For anyone which doesn't want to use AUR the 
+            <strong>tar.xz</strong> package can be downloaded from the
+            <a href="download.html">Download</a> page and installed using:<br />
+            <code>cd "~/folder with the downloaded file"<br />
+            sudo pacman -U "file name.pkg.tar.xz"</code></p>
+    {% when 'source' %}
+          <h1><a name="source" class="anchor" href="#source"></a>Installation from source code</h1>
+          <p>If the prebuilt package will not be available for your distribution
+            you can use the source code package to install 
+            {{ include.module.name }} using:<br />
+            <code>cd "~/folder with the downloaded file"<br />
+            mkdir {{ include.module.lowername }}-install<br />
+            tar xvzf "file name.pkg.tar.gz" -C {{ include.module.lowername }}-install<br />
+            cd {{ include.module.lowername }}-install/{{ include.module.lowername }}-*<br />
+            python2 setup.py build<br />
+            sudo python2 setup.py install</code></p>
+          <p>After the installation, if no errors were reported the folder
+            {{ include.module.lowername }}-install can be removed from root or
+            via <code>sudo rm -rf "{{ include.module.lowername }}-install"</code>
+            and the same for the downloaded source package.</p>
+          <p><strong>Warning!</strong> After executing the manual installation
+            from source code an automatic software uninstall will not be 
+            possibile but you will have to manually delete all the installed
+            files that were reported during the last installation step.</p>
+  {% endcase %}
+{% endif %}
