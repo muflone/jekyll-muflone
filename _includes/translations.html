@@ -1,5 +1,5 @@
 {% if page.language == 'italian' %}
-          <h1><a name="translations" class="anchor" href="#translations"></a>Traduzioni</h1>
+          <h1><a name="translations" class="anchor"></a>Traduzioni</h1>
           <p>{{ include.module.name }} &egrave; attualmente tradotto nelle 
             {% if include.languages_page %}<a href="languages.html">{% endif %}seguenti lingue{% if include.languages_page %}</a>{% endif %}:</p>
           <ul>
@@ -33,7 +33,7 @@
             oppure apri una
             <a href="{{ include.module.gitrepo }}/pulls">richiesta di pull su GitHub</a>.</p>
 {% else %}
-          <h1><a name="translations" class="anchor" href="#translations"></a>Translations</h1>
+          <h1><a name="translations" class="anchor"></a>Translations</h1>
           <p>{{ include.module.name }} is actually translated in the
             {% if include.languages_page %}<a href="languages.html">{% endif %}following languages{% if include.languages_page %}</a>{% endif %}:</p>
           <ul>

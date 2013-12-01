@@ -2,14 +2,14 @@
             <div class="products-table">
 {% for section in site.data.common.sections %}
   {% case section.module %}
-    {% when 'muflone'          %}{% assign module=site.data.muflone %}
+    {% when 'muflone'          %}{% assign module=site.data.contacts %}
     {% when 'gespeaker'        %}{% assign module=site.data.gespeaker %}
     {% when 'gwakeonlan'       %}{% assign module=site.data.gwakeonlan %}
     {% when 'gextractwinicons' %}{% assign module=site.data.gextractwinicons %}
     {% when 'bluewho'          %}{% assign module=site.data.bluewho %}
     {% when 'cpucompare'       %}{% assign module=site.data.cpucompare %}
   {% endcase %}
-              <div class="product product-column"><div><a href="{{ module.lowername }}/">
+              <div class="product product-column"><div><a href="{{ module.lowername }}/{{ page.language }}/">
                 <img src="../resources/{{ module.lowername }}/archive/latest/icon128.png">
                 <div class="product-name">{{ module.name }}</div></a>
                 <div>{% if page.language == 'italian' %}{{ module.description.italian }}{% else %}{{ module.description.english }}{% endif %}</div>

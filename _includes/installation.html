@@ -1,13 +1,13 @@
 {% if page.language == 'italian' %}
   {% case include.type %}
     {% when 'debian' %}
-          <h1><a name="debian" class="anchor" href="#debian"></a>Installazione su Debian, Ubuntu e derivate</h1>
+          <h1><a name="debian" class="anchor"></a>Installazione su Debian, Ubuntu e derivate</h1>
           <p>E' possibile scaricare il pacchetto <strong>deb</strong> dalla
             pagina <a href="download.html">Scarica</a> e installarlo utilizzando:<br />
           <code>cd "~/cartella con il file scaricato"<br />
             sudo dpkg -i "nome del file.deb"</code></p>
     {% when 'archlinux' %}
-          <h1><a name="archlinux" class="anchor" href="#archlinux"></a>Installazione su Arch Linux e derivate</h1>
+          <h1><a name="archlinux" class="anchor"></a>Installazione su Arch Linux e derivate</h1>
           <p>In AUR &egrave; presente l'ultima versione disponibile, &egrave;
             possibile scaricarla e compilarla utilizzando yaourt (o un analogo
             gestore per AUR) con <code>yaourt -S {{ include.module.lowername }}</code>
@@ -23,7 +23,7 @@
             <code>cd "~/cartella con il file scaricato"<br />
             sudo pacman -U "nome del file.pkg.tar.xz"</code></p>
     {% when 'source' %}
-          <h1><a name="source" class="anchor" href="#source"></a>Installazione dal codice sorgente</h1>
+          <h1><a name="source" class="anchor"></a>Installazione dal codice sorgente</h1>
           <p>Se non fosse disponibile il pacchetto preassemblato per la propria
             distribuzione &egrave; possibile utilizzare il pacchetto col codice
             sorgente per installare {{ include.module.name }} utilizzando:<br />
@@ -47,13 +47,13 @@
 {% else %}
   {% case include.type %}
     {% when 'debian' %}
-          <h1><a name="debian" class="anchor" href="#debian"></a>Installation on Debian, Ubuntu and derivatives</h1>
+          <h1><a name="debian" class="anchor"></a>Installation on Debian, Ubuntu and derivatives</h1>
           <p>It's possible to download the <strong>deb</strong> package from the
             <a href="download.html">Download</a> page and install it using:<br />
           <code>cd "~/folder with the downloaded file"<br />
             sudo dpkg -i "file name.deb"</code></p>
     {% when 'archlinux' %}
-          <h1><a name="archlinux" class="anchor" href="#archlinux"></a>Installation on Arch Linux and derivatives</h1>
+          <h1><a name="archlinux" class="anchor"></a>Installation on Arch Linux and derivatives</h1>
           <p>In the AUR you can find the latest available version, it can be
             downloaded and built using yaourt (or a similar AUR helper) using
             <code>yaourt -S {{ include.module.lowername }}</code>
@@ -69,7 +69,7 @@
             <code>cd "~/folder with the downloaded file"<br />
             sudo pacman -U "file name.pkg.tar.xz"</code></p>
     {% when 'source' %}
-          <h1><a name="source" class="anchor" href="#source"></a>Installation from source code</h1>
+          <h1><a name="source" class="anchor"></a>Installation from source code</h1>
           <p>If the prebuilt package will not be available for your distribution
             you can use the source code package to install 
             {{ include.module.name }} using:<br />
