@@ -1,8 +1,8 @@
 name: gExtractWinIcons
 lowername: gextractwinicons
 description:
-  italian: Estrai cursori, icone e immagini PNG da file di risorse per Microsoft Windows (come .exe, .dll, .ocx e .cpl).
-  english: Extract cursors, icons and PNG images from MS Windows resources files (like .exe, .dll, .ocx and .cpl).
+  italian: Estrai cursori, icone e immagini da file di risorse per Microsoft Windows (come .exe, .dll, .ocx e .cpl).
+  english: Extract cursors, icons and images from MS Windows resources files (like .exe, .dll, .ocx and .cpl).
 gitrepo: https://github.com/muflone/gextractwinicons
 translations_repo: https://www.transifex.com/projects/p/gextractwinicons/
 packages:

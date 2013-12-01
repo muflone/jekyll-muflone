@@ -1,8 +1,8 @@
 name: CPUCompare
 lowername: cpucompare
 description:
-  italian: Esegui confronti tra numerosi modelli di CPU, divisi per marca e serie fino a trovare quelle di tuo interesse.
-  english: Compare between a large number of CPU models, browsing for brand and series to find those of your interest.
+  italian: Esegui confronti tra numerosi modelli di CPU per trovare quelle di tuo interesse.
+  english: Compare between a large number of CPU models to find those of your interest.
 gitrepo: https://github.com/muflone/cpucompare
 packages:
 - version: 0.6
