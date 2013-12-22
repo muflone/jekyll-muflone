@@ -2,12 +2,13 @@
             <div class="products-table">
 {% for section in site.data.common.sections %}
   {% case section.module %}
-    {% when 'muflone'          %}{% assign module=site.data.contacts %}
-    {% when 'gespeaker'        %}{% assign module=site.data.gespeaker %}
-    {% when 'gwakeonlan'       %}{% assign module=site.data.gwakeonlan %}
-    {% when 'gextractwinicons' %}{% assign module=site.data.gextractwinicons %}
-    {% when 'bluewho'          %}{% assign module=site.data.bluewho %}
-    {% when 'cpucompare'       %}{% assign module=site.data.cpucompare %}
+    {% when 'muflone'                %}{% assign module=site.data.contacts %}
+    {% when 'gespeaker'              %}{% assign module=site.data.gespeaker %}
+    {% when 'gwakeonlan'             %}{% assign module=site.data.gwakeonlan %}
+    {% when 'gextractwinicons'       %}{% assign module=site.data.gextractwinicons %}
+    {% when 'bluewho'                %}{% assign module=site.data.bluewho %}
+    {% when 'cpucompare'             %}{% assign module=site.data.cpucompare %}
+    {% when 'remmina-plugin-builder' %}{% assign module=site.data.remmina-plugin-builder %}
   {% endcase %}
               <div class="product product-column"><div><a href="{{ module.lowername }}/{{ page.language }}/">
                 <img src="../resources/{{ module.lowername }}/archive/latest/icon128.png">

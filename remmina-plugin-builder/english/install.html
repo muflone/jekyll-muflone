@@ -1,0 +1,63 @@
+---
+layout: remmina-plugin-builder
+title: Installation
+language: english
+---
+          <h1><a name="build" class="anchor"></a>Build process</h1>
+          <p>Unlike other softwares {{ site.data.remmina-plugin-builder.name }}
+            is not meant to be installed and run on your machine but it provides
+            a development environment to build plugins for Remmina.</p>
+          <p>Its purpose is to ease the process of building Remmina plugins,
+            which at the actual stage, would require the whole Remmina source
+            code to simply build a plugin. Using 
+            {{ site.data.remmina-plugin-builder.name }} the build process will
+            simply require the plugin source code files to be put into a 
+            specific folder and compile it with few commands.</p>
+
+          <h1><a name="prepare" class="anchor"></a>Prepare for the build</h1>
+          <p>The prepare process simply needs the extraction of
+            {{ site.data.remmina-plugin-builder.name }} source code using:</p>
+          <div><code>cd "~/folder with the downloaded file"</code></div>
+          <div><code>mkdir {{ site.data.remmina-plugin-builder.lowername }}-install</code></div>
+          <div><code>tar xvzf "file name.tar.gz" -C {{ site.data.remmina-plugin-builder.lowername }}-install</code></div>
+          <div><code>cd {{ site.data.remmina-plugin-builder.lowername }}-install/{{ site.data.remmina-plugin-builder.lowername }}-*</code></div>
+
+          <h1><a name="compile" class="anchor"></a>Compile the plugin</h1>
+          <p>Then you need to put the plugin source code into the
+            <strong>remmina-plugin-to-build</strong> folder and compile
+            everything using:</p>
+          <div><code>cmake -DCMAKE_INSTALL_PREFIX=/usr .</code></div>
+          <div><code>make</code></div>
+          <p>If the previous commands don't return any errors you should read 
+            something like:</p>
+          <div><code>Scanning dependencies of target PLUGIN-NAME</code></div>
+          <div><code>[100%] Building C object remmina-plugin-to-build/PLUGIN-NAME/..o</code></div>
+          <div><code>Linking C shared library PLUGIN-NAME.so</code></div>
+          <div><code>[100%] Built target PLUGIN-NAME</code></div>
+          <p>The compiled plugin library can be found under 
+            <strong>remmina-plugin-to-build/PLUGIN-NAME</strong> folder.</p>
+
+          <h1><a name="installation" class="anchor"></a>Install the plugin</h1>
+          <p>If you want to automatically install the plugin in your system you
+            can use:</p>
+          <div><code>sudo make install</code></div>
+
+          <h1><a name="package" class="anchor"></a>Package the plugin</h1>
+          <p>If you want to package the plugin instead of intall it in your 
+            system you can use:</p>
+          <div><code>make DESTDIR=FOLDER install</code></div>
+          <p>You should see something similar to:</p>
+          <div><code>[100%] Built target PLUGIN-NAME</code></div>
+          <div><code>Install the project...</code></div>
+          <div><code>-- Install configuration: "Release"</code></div>
+          <div><code>-- Installing: PACKAGE/usr/lib/remmina/plugins/PLUGIN-NAME.so</code></div>
+          <div><code>-- Installing: PACKAGE/usr/share/icons/hicolor/16x16/emblems/PLUGIN-NAME.png</code></div>
+          <div><code>-- Installing: PACKAGE/usr/share/icons/hicolor/22x22/emblems/PLUGIN-NAME.png</code></div>
+          <p>Finally you'll find the plugin library under the specified 
+            destination folder. It's up to you to complete the rest of the
+            package itself.</p>
+
+          <h1><a name="cleanup" class="anchor"></a>Cleanup</h1>
+          <p>After the installation/package phase the whole 
+          {{ site.data.remmina-plugin-builder.lowername }}-install folder can be
+          removed.</p>

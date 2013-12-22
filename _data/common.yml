@@ -8,3 +8,4 @@ sections:
 - module: gextractwinicons
 - module: bluewho
 - module: cpucompare
+- module: remmina-plugin-builder
