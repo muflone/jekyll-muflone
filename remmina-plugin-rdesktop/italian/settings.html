@@ -1,0 +1,42 @@
+---
+layout: remmina-plugin-rdesktop
+title: Impostazioni
+language: italian
+---
+          <h1><a name="general" class="anchor"></a>Scheda Generale</h1>
+          <p><img src="../../resources/{{ page.layout }}/archive/latest/{{ page.language }}/general.png"></p>
+          <ul>
+{% include remmina-setting.html name="Server"                         codename="server"             description="L'indirizzo del serve a cui connettersi." %}
+{% include remmina-setting.html name="Nome utente"                    codename="username"           description="Il nome utente utilizzato per stabilire la connessione." %}
+{% include remmina-setting.html name="Password"                       codename="password"           description="La password utilizzata per autenticare il nome utente." %}
+{% include remmina-setting.html name="Domain"                         codename="domain"             description="Il dominio di rete della macchina di destinazione." %}
+{% include remmina-setting.html name="Risoluzione"                    codename="resolution"         description="La risoluzione della finestra server." %}
+{% include remmina-setting.html name="Color depth"                    codename="colordepth"         description="La profondit&agrave; di colore per la finestra dell'immagine." %}
+{% include remmina-setting.html name="Experience"                     codename="experience"         description="Una lista di impostazioni di prestazioni per velocizzare la connessione di rete." %}
+{% include remmina-setting.html name="Sound"                          codename="sound"              description="Specifica l'uscita audio se disattivarla oppure se processarla sul lato client oppure se lasciarla sul lato server." %}
+{% include remmina-setting.html name="Share folder"                   codename="sharefolder"        description="Specifica una cartella da condividere con il server." %}
+          </ul>
+
+          <h1><a name="advanced" class="anchor"></a>Scheda Avanzato</h1>
+          <p><img src="../../resources/{{ page.layout }}/archive/latest/{{ page.language }}/advanced.png"></p>
+          <ul>
+{% include remmina-setting.html name="Window title"                   codename="title"              description="Il titolo della finestra se distaccata." %}
+{% include remmina-setting.html name="Client name"                    codename="clientname"         description="Il nome del client da mostrare al server." %}
+{% include remmina-setting.html name="Startup program"                codename="exec"               description="Il programma da eseguire dopo la connessione (lasciare vuoto per il desktop regolare)." %}
+{% include remmina-setting.html name="Startup path"                   codename="execpath"           description="Il percorso del programma da avvio da eseguire" %}
+{% include remmina-setting.html name="Keyboard map"                   codename="keymap"             description="La disposizione di tastiera da utilizzare." %}
+{% include remmina-setting.html name="Fullscreen"                     codename="fullscreen"         description="Imposta la finestra distaccata a schermo intero." %}
+{% include remmina-setting.html name="Seamless RDP"                   codename="seamlessrdp"        description="Eseguire il programma di avvio in maniera trasparente, nascondendo il resto del desktop." %}
+{% include remmina-setting.html name="Seamless RDP Shell path"        codename="seamlessrdpshell"   description="Il percorso della shell Seamless RDP." %}
+{% include remmina-setting.html name="Attach to console"              codename="console"            description="Attacca alla console invece di stabilire una nuova connessione RDP." %}
+{% include remmina-setting.html name="RDP Datastream compression"     codename="compression"        description="Comprimere i dati RDP." %}
+{% include remmina-setting.html name="Bitmap caching"                 codename="bitmapcaching"      description="Conserva le immagini in memoria per migliorare le prestazioni." %}
+{% include remmina-setting.html name="Don't send mouse motion events" codename="nomousemotion"      description="Non muovere il cursore del mouse sul lato server se il puntatore del mouse viene mosso dal lato client." %}
+{% include remmina-setting.html name="Hide WM decorations"            codename="hidedecorations"    description="Nasconde le decorazioni del gestore delle finestre." %}
+{% include remmina-setting.html name="Detached window"                codename="detached"           description="Scollega la finestra di RDesktop invece di mostrarla integrata in Remmina." %}
+{% include remmina-setting.html name="Don't grab keyboard"            codename="nograbkeyboard"     description="Non ignorare le associazioni di tastiera del gestore finestre quando la finestra ha il focus." %}
+{% include remmina-setting.html name="Force RDP version 4"            codename="rdp4"               description="Forza l'uso della versione 4 del protocollo RDP." %}
+{% include remmina-setting.html name="Force RDP version 5"            codename="rdp5"               description="Forza l'uso della versione 5 del protocollo RDP." %}
+{% include remmina-setting.html name="Numlock synchronization"        codename="syncnumlock"        description="Sincronizza lo stato dei led del tastierino numerico." %}
+{% include remmina-setting.html name="Disable encryption"             codename="noencryption"       description="Disabilita la cifratura se causa problemi." %}
+          </ul>

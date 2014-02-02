@@ -1,0 +1,20 @@
+name: Remmina Plugin Exec
+lowername: remmina-plugin-exec
+description:
+  italian: Un plugin di protocollo per Remmina per eseguire un processo esterno.
+  english: A Remmina protocol plugin to execute an external process.
+gitrepo: https://github.com/muflone/remmina-plugin-exec
+translations_repo: 
+packages:
+- version: 1.0.0.2
+  filename: remmina-plugin-exec-1.0.0.2.tar.gz
+  type: source
+  md5sum: 80512750D5DC729C679C21B722B1800B
+- version: 1.0.0.1
+  filename: remmina-plugin-exec-1.0.0.1.tar.gz
+  type: source
+  md5sum: 050ABE1BFFA97AF51C800B6746EE2F9A
+- version: 1.0.0.0
+  filename: remmina-plugin-exec-1.0.0.0.tar.gz
+  type: source
+  md5sum: CFFD0A2C21C4797E70512A902595ACD7

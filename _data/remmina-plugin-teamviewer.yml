@@ -1,0 +1,20 @@
+name: Remmina Plugin TeamViewer
+lowername: remmina-plugin-teamviewer
+description:
+  italian: Un plugin di protocollo per Remmina per stabilire connessioni tramite TeamViewer.
+  english: A Remmina protocol plugin to establish connections through TeamViewer.
+gitrepo: https://github.com/muflone/remmina-plugin-teamviewer
+translations_repo: 
+packages:
+- version: 1.0.0.2
+  filename: remmina-plugin-teamviewer-1.0.0.2.tar.gz
+  type: source
+  md5sum: 1B3110F4860E18EBF4F3926DA0691001
+- version: 1.0.0.1
+  filename: remmina-plugin-teamviewer-1.0.0.1.tar.gz
+  type: source
+  md5sum: 4D41D9ED140C9F70ACC38CEC76528F31
+- version: 1.0.0.0
+  filename: remmina-plugin-teamviewer-1.0.0.0.tar.gz
+  type: source
+  md5sum: F9522EA88925B72381944AB5889BC773

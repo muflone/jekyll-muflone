@@ -1,0 +1,11 @@
+---
+layout: remmina-plugin-open
+title: Settings
+language: english
+---
+          <h1><a name="general" class="anchor"></a>Basic tab</h1>
+          <p><img src="../../resources/{{ page.layout }}/archive/latest/{{ page.language }}/general.png"></p>
+          <ul>
+{% include remmina-setting.html name="Startup program"                codename="server"             description="The file to open, including its path." %}
+{% include remmina-setting.html name="Launcher"                       codename="launcher"           description="The application used to detect the file association.<ul><li><strong>Automatically detected</strong> will use the xdg-open launcher</li><li><strong>Open for GNOME</strong> will use the gnome-open launcher</li></ul>" %}
+          </ul>

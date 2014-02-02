@@ -20,9 +20,9 @@ language: italian
           <p>Il processo di preparazione semplicemente richiede l'estraazione del
             codice sorgente di {{ site.data.remmina-plugin-builder.name }} con:</p>
           <div><code>cd "~/cartella con il file scaricato"</code></div>
-          <div><code>mkdir {{ site.data.remmina-plugin-builder.lowername }}-install</code></div>
-          <div><code>tar xvzf "nome del file.tar.gz" -C {{ site.data.remmina-plugin-builder.lowername }}-install</code></div>
-          <div><code>cd {{ site.data.remmina-plugin-builder.lowername }}-install/{{ site.data.remmina-plugin-builder.lowername }}-*</code></div>
+          <div><code>mkdir build</code></div>
+          <div><code>tar xvzf "nome del file.tar.gz" -C build</code></div>
+          <div><code>cd build/{{ site.data.remmina-plugin-builder.lowername }}-*</code></div>
 
           <h1><a name="compile" class="anchor"></a>Compilazione del plugin</h1>
           <p>Quindi &egrave; necessario posizionare il codice sorgente del plugin
@@ -61,5 +61,4 @@ language: italian
 
           <h1><a name="cleanup" class="anchor"></a>Pulizia</h1>
           <p>Dopo la fase di installazione/impacchettamento l'intera cartella
-          {{ site.data.remmina-plugin-builder.lowername }}-install potr&agrave;
-          essere eliminata.</p>
+          build potr&agrave; essere eliminata.</p>

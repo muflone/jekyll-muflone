@@ -1,0 +1,11 @@
+---
+layout: remmina-plugin-exec
+title: Impostazioni
+language: italian
+---
+          <h1><a name="general" class="anchor"></a>Scheda Generale</h1>
+          <p><img src="../../resources/{{ page.layout }}/archive/latest/{{ page.language }}/general.png"></p>
+          <ul>
+{% include remmina-setting.html name="Programma di avvio"             codename="server"             description="Il processo esterno da avviare, comprensivo del percorso e di tutti gli argomenti." %}
+{% include remmina-setting.html name="Synchronous open"               codename="synchronous"        description="Se selezionato, indica che l'apertura del processo sar&agrave; sincrona e Remmina rester&agrave; in attesa della chiusura del processo." %}
+          </ul>

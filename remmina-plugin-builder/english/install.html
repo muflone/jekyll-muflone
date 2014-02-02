@@ -18,9 +18,9 @@ language: english
           <p>The prepare process simply needs the extraction of
             {{ site.data.remmina-plugin-builder.name }} source code using:</p>
           <div><code>cd "~/folder with the downloaded file"</code></div>
-          <div><code>mkdir {{ site.data.remmina-plugin-builder.lowername }}-install</code></div>
-          <div><code>tar xvzf "file name.tar.gz" -C {{ site.data.remmina-plugin-builder.lowername }}-install</code></div>
-          <div><code>cd {{ site.data.remmina-plugin-builder.lowername }}-install/{{ site.data.remmina-plugin-builder.lowername }}-*</code></div>
+          <div><code>mkdir build</code></div>
+          <div><code>tar xvzf "file name.tar.gz" -C build</code></div>
+          <div><code>cd build/{{ site.data.remmina-plugin-builder.lowername }}-*</code></div>
 
           <h1><a name="compile" class="anchor"></a>Compile the plugin</h1>
           <p>Then you need to put the plugin source code into the
@@ -58,6 +58,5 @@ language: english
             package itself.</p>
 
           <h1><a name="cleanup" class="anchor"></a>Cleanup</h1>
-          <p>After the installation/package phase the whole 
-          {{ site.data.remmina-plugin-builder.lowername }}-install folder can be
+          <p>After the installation/package phase the whole build folder can be
           removed.</p>

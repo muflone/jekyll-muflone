@@ -1,0 +1,24 @@
+name: Remmina Plugin RDesktop
+lowername: remmina-plugin-rdesktop
+description:
+  italian: Un plugin di protocollo per Remmina per stabilire connessioni RDP tramite RDesktop.
+  english: A Remmina protocol plugin to establish RDP connection through RDesktop.
+gitrepo: https://github.com/muflone/remmina-plugin-rdesktop
+translations_repo: 
+packages:
+- version: 1.0.0.3
+  filename: remmina-plugin-rdesktop-1.0.0.3.tar.gz
+  type: source
+  md5sum: 6B882C27235750BB49A5B2B1BEDD0596
+- version: 1.0.0.2
+  filename: remmina-plugin-rdesktop-1.0.0.2.tar.gz
+  type: source
+  md5sum: 7F5BC5568CC097378FB50456E7B7D09A
+- version: 1.0.0.1
+  filename: remmina-plugin-rdesktop-1.0.0.1.tar.gz
+  type: source
+  md5sum: 990CDF17E5C3CA399CA932F3DCAA5903
+- version: 1.0.0.0
+  filename: remmina-plugin-rdesktop-1.0.0.0.tar.gz
+  type: source
+  md5sum: 66E25B76949CE6C11897F7992CD0FD27

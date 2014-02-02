@@ -1,0 +1,16 @@
+name: Remmina Plugin Open
+lowername: remmina-plugin-open
+description:
+  italian: Un plugin di protocollo per Remmina per aprire un file o un documento utilizzando l'applicazione associata.
+  english: A Remmina protocol plugin to open a file or documento using its associated application.
+gitrepo: https://github.com/muflone/remmina-plugin-open
+translations_repo: 
+packages:
+- version: 1.0.0.1
+  filename: remmina-plugin-open-1.0.0.1.tar.gz
+  type: source
+  md5sum: C6B1D16D057790552D19C2B23C4DA9BF
+- version: 1.0.0.0
+  filename: remmina-plugin-open-1.0.0.0.tar.gz
+  type: source
+  md5sum: 0259139B3DB94314FB765F4AE7FB920E
