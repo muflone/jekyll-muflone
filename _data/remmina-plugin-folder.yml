@@ -7,6 +7,14 @@ gitrepo: https://github.com/muflone/remmina-plugin-folder
 translations_repo: 
 packages:
 - version: 1.0.0.2
+  filename: remmina-plugin-folder-1.0.0.2-2-i686.pkg.tar.xz
+  type: archlinux32
+  md5sum: 8C49EAE9ECECB8F721718795E4514E30
+- version: 1.0.0.2
+  filename: remmina-plugin-folder-1.0.0.2-2-x86_64.pkg.tar.xz
+  type: archlinux64
+  md5sum: 2D7C5326F4B45959EC2C5788B8877C12
+- version: 1.0.0.2
   filename: remmina-plugin-folder-1.0.0.2.tar.gz
   type: source
   md5sum: C681F23AF54EFE13EB44A0C5E4CC5CD6

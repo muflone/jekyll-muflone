@@ -7,6 +7,14 @@ gitrepo: https://github.com/muflone/remmina-plugin-rdesktop
 translations_repo: 
 packages:
 - version: 1.0.0.3
+  filename: remmina-plugin-rdesktop-1.0.0.3-1-i686.pkg.tar.xz
+  type: archlinux32
+  md5sum: 530666A52308201098B6095C76283BD6
+- version: 1.0.0.3
+  filename: remmina-plugin-rdesktop-1.0.0.3-1-x86_64.pkg.tar.xz
+  type: archlinux64
+  md5sum: CE86623FA2DAF83A17C6C6DFB31D1EFC
+- version: 1.0.0.3
   filename: remmina-plugin-rdesktop-1.0.0.3.tar.gz
   type: source
   md5sum: 6B882C27235750BB49A5B2B1BEDD0596

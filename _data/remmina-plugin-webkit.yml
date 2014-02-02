@@ -1,0 +1,28 @@
+name: Remmina Plugin WebKit
+lowername: remmina-plugin-webkit
+description:
+  italian: Un plugin di protocollo per Remmina per aprire pagine web tramite un browser web WebKit integrato.
+  english: A Remmina protocol plugin to open web pages through an integrated WebKit web browser.
+gitrepo: https://github.com/muflone/remmina-plugin-webkit
+translations_repo: 
+packages:
+- version: 1.0.0.3
+  filename: remmina-plugin-webkit-1.0.0.3-1-i686.pkg.tar.xz
+  type: archlinux32
+  md5sum: 64B0A732FFEED2CE916E613E7D85F7B0
+- version: 1.0.0.3
+  filename: remmina-plugin-webkit-1.0.0.3-1-x86_64.pkg.tar.xz
+  type: archlinux64
+  md5sum: 8DE728B55234424E3BE94848A5EDD9A2
+- version: 1.0.0.3
+  filename: remmina-plugin-webkit-1.0.0.3.tar.gz
+  type: source
+  md5sum: 9D362DDB5A2F379B6B4F5E52A6F223D3
+- version: 1.0.0.2
+  filename: remmina-plugin-webkit-1.0.0.2.tar.gz
+  type: source
+  md5sum: 647B793F2B7EDFBEED885BB3BE0F0C23
+- version: 1.0.0.1
+  filename: remmina-plugin-webkit-1.0.0.1.tar.gz
+  type: source
+  md5sum: 4EC3CCA706C93B000336FDA73A43DAF3

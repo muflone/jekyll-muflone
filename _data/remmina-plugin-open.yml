@@ -7,6 +7,14 @@ gitrepo: https://github.com/muflone/remmina-plugin-open
 translations_repo: 
 packages:
 - version: 1.0.0.1
+  filename: remmina-plugin-open-1.0.0.1-2-i686.pkg.tar.xz
+  type: archlinux32
+  md5sum: 7438064971C899CB1B9E3D2AEF871841
+- version: 1.0.0.1
+  filename: remmina-plugin-open-1.0.0.1-2-x86_64.pkg.tar.xz
+  type: archlinux64
+  md5sum: 5EB9F2F18C6F073EBC6B7B617CC3849D
+- version: 1.0.0.1
   filename: remmina-plugin-open-1.0.0.1.tar.gz
   type: source
   md5sum: C6B1D16D057790552D19C2B23C4DA9BF

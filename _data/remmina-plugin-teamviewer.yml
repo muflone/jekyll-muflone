@@ -7,6 +7,14 @@ gitrepo: https://github.com/muflone/remmina-plugin-teamviewer
 translations_repo: 
 packages:
 - version: 1.0.0.2
+  filename: remmina-plugin-teamviewer-1.0.0.2-1-i686.pkg.tar.xz
+  type: archlinux32
+  md5sum: A558052A1780ECC9BC86F9E43117945C
+- version: 1.0.0.2
+  filename: remmina-plugin-teamviewer-1.0.0.2-1-x86_64.pkg.tar.xz
+  type: archlinux64
+  md5sum: 1041834B388B54AB9EFAC93BB3D2F899
+- version: 1.0.0.2
   filename: remmina-plugin-teamviewer-1.0.0.2.tar.gz
   type: source
   md5sum: 1B3110F4860E18EBF4F3926DA0691001

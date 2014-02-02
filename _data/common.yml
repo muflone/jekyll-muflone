@@ -14,3 +14,6 @@ sections:
 - module: remmina-plugin-open
 - module: remmina-plugin-rdesktop
 - module: remmina-plugin-teamviewer
+- module: remmina-plugin-ultravnc
+- module: remmina-plugin-url
+- module: remmina-plugin-webkit

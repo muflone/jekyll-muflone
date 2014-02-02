@@ -10,9 +10,11 @@
             <li><strong>Versione {{ package.version }}</strong>
               <a href="../../resources/{{ page.layout }}/archive/{{ package.version }}/{{ package.filename }}">
     {% case package.type %}
-    {%   when 'source'    %}          in formato tar.gz</a> con codice sorgente per installazione manuale<br />
-    {%   when 'archlinux' %}          in formato tar.xz</a> per Arch Linux e derivate<br />
-    {%   when 'debian'    %}          in formato deb</a> per Debian, Ubuntu e derivate<br />
+    {%   when 'source'      %}        in formato tar.gz</a> con codice sorgente per installazione manuale<br />
+    {%   when 'archlinux'   %}        in formato pkg.tar.xz</a> per Arch Linux e derivate<br />
+    {%   when 'archlinux32' %}        in formato pkg.tar.xz</a> per Arch Linux i686 (32 bit) e derivate<br />
+    {%   when 'archlinux64' %}        in formato pkg.tar.xz</a> per Arch Linux x86_64 (64 bit) e derivate<br />
+    {%   when 'debian'      %}        in formato deb</a> per Debian, Ubuntu e derivate<br />
     {% endcase %}          MD5: {{ package.md5sum }}</li>
   {% endfor %}
           </ul>
@@ -27,9 +29,11 @@
             <li><strong>Version {{ package.version }}</strong>
               <a href="../../resources/{{ page.layout }}/archive/{{ package.version }}/{{ package.filename }}">
     {% case package.type %}
-    {%   when 'source'    %}          in tar.gz format</a> with source code for manual installation<br />
-    {%   when 'archlinux' %}          in tar.xz format</a> for Arch Linux and derivatives<br />
-    {%   when 'debian'    %}          in deb format</a> for Debian, Ubuntu and derivatives<br />
+    {%   when 'source'      %}        in tar.gz format</a> with source code for manual installation<br />
+    {%   when 'archlinux'   %}        in pkg.tar.xz format</a> for Arch Linux and derivatives<br />
+    {%   when 'archlinux32' %}        in pkg.tar.xz format</a> for Arch Linux i686 (32 bits) and derivatives<br />
+    {%   when 'archlinux64' %}        in pkg.tar.xz format</a> for Arch Linux x86_64 (64 bits) and derivatives<br />
+    {%   when 'debian'      %}        in deb format</a> for Debian, Ubuntu and derivatives<br />
     {% endcase %}          MD5: {{ package.md5sum }}</li>
   {% endfor %}
           </ul>

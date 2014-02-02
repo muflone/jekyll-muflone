@@ -1,0 +1,23 @@
+---
+layout: remmina-plugin-webkit
+title: Settings
+language: english
+---
+          <h1><a name="general" class="anchor"></a>Basic tab</h1>
+          <p><img src="../../resources/{{ page.layout }}/archive/latest/{{ page.language }}/general.png"></p>
+          <ul>
+{% include remmina-setting.html name="Server"                                   codename="server"             description="The server address to connect to." %}
+{% include remmina-setting.html name="Resolution"                               codename="resolution"         description="The server window resolution." %}
+{% include remmina-setting.html name="Detached window"                          codename="detached"           description="Detach the window instead of showing the browser window integrated in Remmina." %}
+          </ul>
+
+          <h1><a name="advanced" class="anchor"></a>Advanced tab</h1>
+          <p><img src="../../resources/{{ page.layout }}/archive/latest/{{ page.language }}/advanced.png"></p>
+          <ul>
+{% include remmina-setting.html name="Disable status bar"                       codename="no status"          description="Disable the lower status bar." %}
+{% include remmina-setting.html name="Disable toolbar"                          codename="no toolbar"         description="Disable the upper toolbar." %}
+{% include remmina-setting.html name="Disable button Back"                      codename="no back"            description="Disable the previous page button." %}
+{% include remmina-setting.html name="Disable button Forward"                   codename="no forward"         description="Disable the next page button." %}
+{% include remmina-setting.html name="Disable URL location"                     codename="no url entry"       description="Disable the entry for URL input." %}
+{% include remmina-setting.html name="Disable button Go/Refresh"                codename="no go"              description="Disable the refresh/go button." %}
+          </ul>

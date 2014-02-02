@@ -1,0 +1,11 @@
+---
+layout: remmina-plugin-url
+title: Settings
+language: english
+---
+          <h1><a name="general" class="anchor"></a>Basic tab</h1>
+          <p><img src="../../resources/{{ page.layout }}/archive/latest/{{ page.language }}/general.png"></p>
+          <ul>
+{% include remmina-setting.html name="URL"                                      codename="server"             description="The web page address to open." %}
+{% include remmina-setting.html name="Browser"                                  codename="browser"            description="The application used to open the web page.<ul><li><strong>Automatically detected</strong> will use the xdg-open launcher</li><li><strong>Graphical browser</strong> will use the x-www-browser launcher</li><li><strong>Console browser</strong> will use the www-browser launcher</li><li><strong>GNOME default browser</strong> will use the gnome-www-browser launcher</li><li><strong>Mozilla Firefox</strong> will use the firefox browser</li><li><strong>Iceweasel</strong> will use the iceweasel browser</li><li><strong>Epiphany</strong> will use the epiphany browser</li></ul>" %}
+          </ul>

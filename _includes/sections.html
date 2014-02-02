@@ -14,6 +14,9 @@
     {% when 'remmina-plugin-open'       %}{% assign module=site.data.remmina-plugin-open %}
     {% when 'remmina-plugin-rdesktop'   %}{% assign module=site.data.remmina-plugin-rdesktop %}
     {% when 'remmina-plugin-teamviewer' %}{% assign module=site.data.remmina-plugin-teamviewer %}
+    {% when 'remmina-plugin-ultravnc'   %}{% assign module=site.data.remmina-plugin-ultravnc %}
+    {% when 'remmina-plugin-url'        %}{% assign module=site.data.remmina-plugin-url %}
+    {% when 'remmina-plugin-webkit'     %}{% assign module=site.data.remmina-plugin-webkit %}
   {% endcase %}
               <div class="product product-column"><div><a href="{{ module.lowername }}/{{ page.language }}/">
                 <img src="../resources/{{ module.lowername }}/archive/latest/icon128.png">
