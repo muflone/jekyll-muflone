@@ -3,9 +3,9 @@
     {% when 'debian' %}
           <h1><a name="debian" class="anchor"></a>Installazione su Debian, Ubuntu e derivate</h1>
           <p>E' possibile scaricare il pacchetto <strong>deb</strong> dalla
-            pagina <a href="download.html">Scarica</a> e installarlo utilizzando:<br />
-          <code>cd "~/cartella con il file scaricato"<br />
-            sudo dpkg -i "nome del file.deb"</code></p>
+            pagina <a href="download.html">Scarica</a> e installarlo utilizzando:</p>
+          <div><code>cd "~/cartella con il file scaricato"</code></div>
+          <div><code>sudo dpkg -i "nome del file.deb"</code></div>
     {% when 'archlinux' %}
           <h1><a name="archlinux" class="anchor"></a>Installazione su Arch Linux e derivate</h1>
           <p>In AUR &egrave; presente l'ultima versione disponibile, &egrave;
@@ -19,25 +19,59 @@
       {% endif %}
           <p>Per chi non volesse impiegare AUR &egrave; possibile scaricare il
             pacchetto <strong>tar.xz</strong> dalla pagina 
-            <a href="download.html">Scarica</a> e installarlo utilizzando:<br />
-            <code>cd "~/cartella con il file scaricato"<br />
-            sudo pacman -U "nome del file.pkg.tar.xz"</code></p>
+            <a href="download.html">Scarica</a> e installarlo utilizzando:</p>
+          <div><code>cd "~/cartella con il file scaricato"</code></div>
+          <div><code>sudo pacman -U "nome del file.pkg.tar.xz"</code></div>
     {% when 'source' %}
           <h1><a name="source" class="anchor"></a>Installazione dal codice sorgente</h1>
           <p>Se non fosse disponibile il pacchetto preassemblato per la propria
             distribuzione &egrave; possibile utilizzare il pacchetto col codice
-            sorgente per installare {{ include.module.name }} utilizzando:<br />
-          <code>cd "~/cartella con il file scaricato"<br />
-            mkdir {{ include.module.lowername }}-install<br />
-            tar xvzf "nome del file.pkg.tar.gz" -C {{ include.module.lowername }}-install<br />
-            cd {{ include.module.lowername }}-install/{{ include.module.lowername }}-*<br />
-            python2 setup.py build<br />
-            sudo python2 setup.py install</code></p>
+            sorgente per installare {{ include.module.name }} utilizzando:</p>
+          <div><code>cd "~/cartella con il file scaricato"</code></div>
+          <div><code>mkdir build</code></div>
+          <div><code>tar xzf "nome del file.pkg.tar.gz" -C build</code></div>
+          <div><code>cd build/{{ include.module.lowername }}-*</code></div>
+          <div><code>python2 setup.py build</code></div>
+          <div><code>sudo python2 setup.py install</code></div>
+          <div><code>cd ..</code></div>
           <p>Al termine dell'installazione, se non sono stati riportati errori
-            sar&agrave; possibile eliminare la cartella 
-            {{ include.module.lowername }}-install da root oppure tramite
-            <code>sudo rm -rf "{{ include.module.lowername }}-install"</code>
-            e il file sorgente scaricato.</p>
+            sar&agrave; possibile eliminare la cartella build da root oppure
+            tramite <code>sudo rm -rf "build"</code> e il file sorgente scaricato.</p>
+          <p><strong>Attenzione!</strong> Dopo aver eseguito la procedura di
+            installazione manuale da codice sorgente non sar&agrave; possibile
+            disinstallare automaticamente il software ma sar&agrave; necessario
+            eliminare manualmente tutti i files installati che sono indicati
+            durante l'ultimo passaggio del processo di installazione.</p>
+    {% when 'source-remmina-builder' %}
+          <h1><a name="source" class="anchor"></a>Installazione dal codice sorgente</h1>
+          <p>Per compilare {{ include.module.name }} dal codice sorgente &egrave;
+            necessario avere anche <a href="../../{{ site.data.remmina-plugin-builder.lowername }}">{{ site.data.remmina-plugin-builder.name }}</a>,
+            un ambiente di sviluppo minimale per la compilazione di plugin per
+            Remmina.</p>
+          <p>Scaricare {{ site.data.remmina-plugin-builder.name }} dalla
+            <a href="../../{{ site.data.remmina-plugin-builder.lowername }}/{{ page.language }}">pagina del progetto</a>
+            e fare riferimento alla 
+            <a href="../../{{ site.data.remmina-plugin-builder.lowername }}/{{ page.language }}/install.html">pagina Installazione</a>.</p>
+
+          <p>Il processo di compilazione richiede semplicemente l'estrazione del
+            codice sorgente sia di 
+            {{ site.data.remmina-plugin-builder.name }} sia di
+            {{ include.module.name }} utilizzando:</p>
+          <div><code>cd "~/cartella con il file scaricato"</code></div>
+          <div><code>tar xzf remmina-plugin-builder-*.tar.gz</code></div>
+          <div><code>tar xzf {{ include.module.lowername }}-*.tar.gz</code></div>
+          <p>Quindi sar&agrave; necessario compilare il plugin con:</p>
+          <div><code>mkdir build</code></div>
+          <div><code>cp -r {{ site.data.remmina-plugin-builder.lowername }}-*/* build</code></div>
+          <div><code>cp -r {{ include.module.lowername }}-*/* build/remmina-plugin-to-build</code></div>
+          <div><code>cd build</code></div>
+          <div><code>cmake -DCMAKE_INSTALL_PREFIX=/usr .</code></div>
+          <div><code>make</code></div>
+          <div><code>sudo make install</code></div>
+          <div><code>cd ..</code></div>
+          <p>Al termine dell'installazione, se non sono stati riportati errori
+            sar&agrave; possibile eliminare la cartella build e il file sorgente
+            scaricato.</p>
           <p><strong>Attenzione!</strong> Dopo aver eseguito la procedura di
             installazione manuale da codice sorgente non sar&agrave; possibile
             disinstallare automaticamente il software ma sar&agrave; necessario
@@ -49,9 +83,9 @@
     {% when 'debian' %}
           <h1><a name="debian" class="anchor"></a>Installation on Debian, Ubuntu and derivatives</h1>
           <p>It's possible to download the <strong>deb</strong> package from the
-            <a href="download.html">Download</a> page and install it using:<br />
-          <code>cd "~/folder with the downloaded file"<br />
-            sudo dpkg -i "file name.deb"</code></p>
+            <a href="download.html">Download</a> page and install it using:</p>
+          <div><code>cd "~/folder with the downloaded file"</code></div>
+          <div><code>sudo dpkg -i "file name.deb"</code></div>
     {% when 'archlinux' %}
           <h1><a name="archlinux" class="anchor"></a>Installation on Arch Linux and derivatives</h1>
           <p>In the AUR you can find the latest available version, it can be
@@ -65,24 +99,55 @@
       {% endif %}
           <p>For anyone which doesn't want to use AUR the 
             <strong>tar.xz</strong> package can be downloaded from the
-            <a href="download.html">Download</a> page and installed using:<br />
-            <code>cd "~/folder with the downloaded file"<br />
-            sudo pacman -U "file name.pkg.tar.xz"</code></p>
+            <a href="download.html">Download</a> page and installed using:</p>
+            <div><code>cd "~/folder with the downloaded file"</code></div>
+            <div><code>sudo pacman -U "file name.pkg.tar.xz"</code></div>
     {% when 'source' %}
           <h1><a name="source" class="anchor"></a>Installation from source code</h1>
           <p>If the prebuilt package will not be available for your distribution
             you can use the source code package to install 
-            {{ include.module.name }} using:<br />
-            <code>cd "~/folder with the downloaded file"<br />
-            mkdir {{ include.module.lowername }}-install<br />
-            tar xvzf "file name.pkg.tar.gz" -C {{ include.module.lowername }}-install<br />
-            cd {{ include.module.lowername }}-install/{{ include.module.lowername }}-*<br />
-            python2 setup.py build<br />
-            sudo python2 setup.py install</code></p>
+            {{ include.module.name }} using:</p>
+          <div><code>cd "~/folder with the downloaded file"</code></div>
+          <div><code>mkdir build</code></div>
+          <div><code>tar xzf "file name.pkg.tar.gz" -C build</code></div>
+          <div><code>cd build/{{ include.module.lowername }}-*</code></div>
+          <div><code>python2 setup.py build</code></div>
+          <div><code>sudo python2 setup.py install</code></div>
+          <div><code>cd ..</code></div>
           <p>After the installation, if no errors were reported the folder
-            {{ include.module.lowername }}-install can be removed from root or
-            via <code>sudo rm -rf "{{ include.module.lowername }}-install"</code>
+            build can be removed from root or via <code>sudo rm -rf "build"</code>
             and the same for the downloaded source package.</p>
+          <p><strong>Warning!</strong> After executing the manual installation
+            from source code an automatic software uninstall will not be 
+            possibile but you will have to manually delete all the installed
+            files that were reported during the last installation step.</p>
+    {% when 'source-remmina-builder' %}
+          <h1><a name="source" class="anchor"></a>Installation from source code</h1>
+          <p>To build {{ include.module.name }} from the source code you will
+            need also <a href="../../{{ site.data.remmina-plugin-builder.lowername }}">{{ site.data.remmina-plugin-builder.name }}</a>,
+            a minimal development environment to build plugins for Remmina.</p>
+          <p>Download {{ site.data.remmina-plugin-builder.name }} from the
+            <a href="../../{{ site.data.remmina-plugin-builder.lowername }}/{{ page.language }}">Project page</a>
+            and refer to the
+            <a href="../../{{ site.data.remmina-plugin-builder.lowername }}/{{ page.language }}/install.html">Installation page</a>.</p>
+
+          <p>The building process simply needs the extraction of both
+            {{ site.data.remmina-plugin-builder.name }} and 
+            {{ include.module.name }} source code using:</p>
+          <div><code>cd "~/folder with the downloaded files"</code></div>
+          <div><code>tar xzf remmina-plugin-builder-*.tar.gz</code></div>
+          <div><code>tar xzf {{ include.module.lowername }}-*.tar.gz</code></div>
+          <p>Next you will need to compile the plugin using:</p>
+          <div><code>mkdir build</code></div>
+          <div><code>cp -r {{ site.data.remmina-plugin-builder.lowername }}-*/* build</code></div>
+          <div><code>cp -r {{ include.module.lowername }}-*/* build/remmina-plugin-to-build</code></div>
+          <div><code>cd build</code></div>
+          <div><code>cmake -DCMAKE_INSTALL_PREFIX=/usr .</code></div>
+          <div><code>make</code></div>
+          <div><code>sudo make install</code></div>
+          <div><code>cd ..</code></div>
+          <p>After the installation, if no errors were reported the folder
+            build can be removed and the same for the downloaded source package.</p>
           <p><strong>Warning!</strong> After executing the manual installation
             from source code an automatic software uninstall will not be 
             possibile but you will have to manually delete all the installed
