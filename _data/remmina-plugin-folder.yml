@@ -15,6 +15,14 @@ packages:
   type: archlinux64
   md5sum: 2D7C5326F4B45959EC2C5788B8877C12
 - version: 1.0.0.2
+  filename: remmina-plugin-folder_1.0.0.2-1_i386.deb
+  type: debian32
+  md5sum: B0850F274A76CB573FB991FDD486B101
+- version: 1.0.0.2
+  filename: remmina-plugin-folder_1.0.0.2-1_amd64.deb
+  type: debian64
+  md5sum: 3D75A599AB6F2A28BBBB6C8000E17FE6
+- version: 1.0.0.2
   filename: remmina-plugin-folder-1.0.0.2.tar.gz
   type: source
   md5sum: C681F23AF54EFE13EB44A0C5E4CC5CD6

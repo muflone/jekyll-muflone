@@ -15,6 +15,8 @@
     {%   when 'archlinux32' %}        in formato pkg.tar.xz</a> per Arch Linux i686 (32 bit) e derivate<br />
     {%   when 'archlinux64' %}        in formato pkg.tar.xz</a> per Arch Linux x86_64 (64 bit) e derivate<br />
     {%   when 'debian'      %}        in formato deb</a> per Debian, Ubuntu e derivate<br />
+    {%   when 'debian32'    %}        in formato deb</a> per Debian i386 (32 bit), Ubuntu e derivate<br />
+    {%   when 'debian64'    %}        in formato deb</a> per Debian amd64 (64 bit), Ubuntu e derivate<br />
     {% endcase %}          MD5: {{ package.md5sum }}</li>
   {% endfor %}
           </ul>
@@ -34,6 +36,8 @@
     {%   when 'archlinux32' %}        in pkg.tar.xz format</a> for Arch Linux i686 (32 bits) and derivatives<br />
     {%   when 'archlinux64' %}        in pkg.tar.xz format</a> for Arch Linux x86_64 (64 bits) and derivatives<br />
     {%   when 'debian'      %}        in deb format</a> for Debian, Ubuntu and derivatives<br />
+    {%   when 'debian32'    %}        in deb format</a> for Debian i386 (32 bits), Ubuntu and derivatives<br />
+    {%   when 'debian64'    %}        in deb format</a> for Debian amd64 (64 bits), Ubuntu and derivatives<br />
     {% endcase %}          MD5: {{ package.md5sum }}</li>
   {% endfor %}
           </ul>

@@ -15,6 +15,14 @@ packages:
   type: archlinux64
   md5sum: 8DE728B55234424E3BE94848A5EDD9A2
 - version: 1.0.0.3
+  filename: remmina-plugin-webkit_1.0.0.3-1_i386.deb
+  type: debian32
+  md5sum: CA27192D65289F5C87FAD5DF6EAB2EC5
+- version: 1.0.0.3
+  filename: remmina-plugin-webkit_1.0.0.3-1_amd64.deb
+  type: debian64
+  md5sum: DA09CA64251DF5D5385DD89D26579D0E
+- version: 1.0.0.3
   filename: remmina-plugin-webkit-1.0.0.3.tar.gz
   type: source
   md5sum: 9D362DDB5A2F379B6B4F5E52A6F223D3
