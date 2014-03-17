@@ -60,3 +60,4 @@ a strong { display: block; font:bold 14px Arial, Helvetica, sans-serif; color: #
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
 .icon { margin-left: 10px; width: 32px; height: 32px; }
+a.author { text-decoration:none; display: block; font:bold 18px Arial, Helvetica, sans-serif; color: #000; }

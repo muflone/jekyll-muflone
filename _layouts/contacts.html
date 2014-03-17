@@ -1,41 +1,45 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="it-IT"><head profile="http://gmpg.org/xfn/11">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Me, well known as Muflone</title>
-  <link rel="stylesheet" href="../../resources/{{ page.layout }}/style.css" type="text/css" media="screen">
-  <script type="text/javascript" language="javascript" src="../../resources/{{ page.layout }}/jquery.js"></script>
-  <!--[if lt IE 7]>
-  <script type="text/javascript" src="../../resources/{{ page.layout }}/pngfix.js"></script>
-  <![endif]-->
-</head>
-<body promptdialogcheckdone="1">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="it-IT">
+  <head profile="http://gmpg.org/xfn/11">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Me, well known as Muflone</title>
+    <link rel="stylesheet" href="../../resources/{{ page.layout }}/style.css" type="text/css" media="screen">
+    <link rel="shortcut icon" href="../../resources/contacts/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../../resources/contacts/favicon.ico" type="image/x-icon">
+    <link rel="author" href="https://plus.google.com/110126524780266653206"/>
+    <script type="text/javascript" language="javascript" src="../../resources/{{ page.layout }}/jquery.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="../../resources/{{ page.layout }}/pngfix.js"></script>
+    <![endif]-->
+  </head>
+  <body promptdialogcheckdone="1">
 
-<div id="top"></div>
-<div id="page">
-  <div class="page-in">
-    <span id="navi">
-      <ul class="navigation">
-        <li><a href="#contacts">{% if page.language == 'italian' %}Contatti{% else %}Contacts{% endif %}</a></li>
-        <li><a href="#developers">{% if page.language == 'italian' %}Angolo sviluppatori{% else %}Developers corner{% endif %}</a></li>
-        <li><a href="#blogs">{% if page.language == 'italian' %}I miei blog{% else %}Blogs{% endif %}</a></li>
-      </ul>
-    </span>
-    <div class="wrapper">
-      <div class="clearfix title">
-        <h1>Me</h1>
-        <p>{% if page.language == 'italian' %}Meglio conosciuto come{% else %}Well known as{% endif %} Muflone</p>
-        <a href="/"><img src="../../resources/{{ page.layout }}/picture.png" alt="Me" align="left"></a>
-      </div>
+  <div id="top"></div>
+  <div id="page">
+    <div class="page-in">
+      <span id="navi">
+        <ul class="navigation">
+          <li><a href="#contacts">{% if page.language == 'italian' %}Contatti{% else %}Contacts{% endif %}</a></li>
+          <li><a href="#developers">{% if page.language == 'italian' %}Angolo sviluppatori{% else %}Developers corner{% endif %}</a></li>
+          <li><a href="#blogs">{% if page.language == 'italian' %}I miei blog{% else %}Blogs{% endif %}</a></li>
+        </ul>
+      </span>
+      <div class="wrapper">
+        <div class="clearfix title">
+          <p><a class="author" href="https://plus.google.com/110126524780266653206?rel=author">{% if page.language == 'italian' %}Contatti di{% else %}Contacts by{% endif %} Fabio Castelli</a></p>
+          <p>{% if page.language == 'italian' %}Meglio conosciuto come{% else %}Well known as{% endif %} Muflone</p>
+          <a href="/"><img src="../../resources/{{ page.layout }}/picture.png" alt="Me" align="left"></a>
+        </div>
 {{ content }}
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-
-<div id="footer"><p>{% if page.language == 'italian' %}Basato su{% else %}Based on{% endif %} <a href="http://john.do/the-digital-business-card-wordpress-theme/" target="_blank">The DBC Theme</a></p></div>
-<script type="text/javascript" language="javascript" src="../../resources/{{ page.layout }}/animate.js"></script>
+  <div id="footer"><p>{% if page.language == 'italian' %}Basato su{% else %}Based on{% endif %} <a href="http://john.do/the-digital-business-card-wordpress-theme/" target="_blank">The DBC Theme</a></p></div>
+  <script type="text/javascript" language="javascript" src="../../resources/{{ page.layout }}/animate.js"></script>
 
 {% include google-analytics.html %}
 
-</body></html>
+  </body>
+</html>
