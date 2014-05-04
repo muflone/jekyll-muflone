@@ -1,5 +1,13 @@
+{% case include.type %}
+  {% when 'footer' %}
+          <div id="icons">
+  {% when 'sidebar' %}
+          <div><strong>Other products:</strong></div>
+  {% when 'main' %}
           <div class="full-width product">
             <div class="products-table">
+{% endcase %}
+
 {% for section in site.data.common.sections %}
   {% case section.module %}
     {% when 'muflone'                   %}{% assign module=site.data.contacts %}
@@ -19,11 +27,32 @@
     {% when 'remmina-plugin-url'        %}{% assign module=site.data.remmina-plugin-url %}
     {% when 'remmina-plugin-webkit'     %}{% assign module=site.data.remmina-plugin-webkit %}
   {% endcase %}
+
+  {% case include.type %}
+    {% when 'footer' %}
+            <a href="../../{{ module.lowername }}/{{page.language }}/">
+              <img src="../../resources/{{ module.lowername }}/archive/latest/icon32.png" title="{{ module.name }}
+{% if page.language == 'italian' %}{{ module.description.italian }}{% else %}{{ module.description.english }}{% endif %}">
+            </a>
+    {% when 'sidebar' %}
+            <div><a href="../../{{ module.lowername }}/{{page.language }}/">
+              <img src="../../resources/{{ module.lowername }}/archive/latest/icon32.png" title="{{ module.name }}
+{% if page.language == 'italian' %}{{ module.description.italian }}{% else %}{{ module.description.english }}{% endif %}">
+              {{ module.name }}</a></div>
+    {% when 'main' %}
               <div class="product product-column"><div><a href="{{ module.lowername }}/{{ page.language }}/">
                 <img src="../resources/{{ module.lowername }}/archive/latest/icon128.png">
                 <div class="product-name">{{ module.name }}</div></a>
                 <div>{% if page.language == 'italian' %}{{ module.description.italian }}{% else %}{{ module.description.english }}{% endif %}</div>
               </div></div>
+  {% endcase %}
 {% endfor %}
+
+{% case include.type %}
+  {% when 'footer' %}
+          </div>
+  {% when 'sidebar' %}
+  {% when 'main' %}
             </div>
           </div>
+{% endcase %}
