@@ -64,12 +64,14 @@ ol#requirements li:before {
 }
 
 .footer, .footer a {
-  padding-top: 20px;
-  padding-bottom: 20px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
   font-weight: bold;
   color: #fff;
   text-align: center;
   background: #2e7bcf url(header-bg.jpg) 0 0 repeat-x;
-  border-bottom: solid 1px #275da1;
+}
+
+.footer div#icons {
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
