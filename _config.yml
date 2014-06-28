@@ -120,3 +120,12 @@ defaults:
       path: remmina-plugin-teamviewer/italian
     values:
       language: italian
+  - scope:
+      path: remmina-plugin-ultravnc
+    values:
+      layout: remmina-plugin-ultravnc
+      language: english
+  - scope:
+      path: remmina-plugin-ultravnc/italian
+    values:
+      language: italian
