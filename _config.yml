@@ -48,3 +48,12 @@ defaults:
       path: gextractwinicons/italian
     values:
       language: italian
+  - scope:
+      path: gptrace
+    values:
+      layout: gptrace
+      language: english
+  - scope:
+      path: gptrace/italian
+    values:
+      language: italian
