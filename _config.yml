@@ -11,3 +11,13 @@ defaults:
       path: bluewho/italian
     values:
       language: italian
+  - scope:
+      path: contacts/english
+    values:
+      layout: contacts
+      language: english
+  - scope:
+      path: contacts/italian
+    values:
+      layout: contacts
+      language: italian
