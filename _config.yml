@@ -39,3 +39,12 @@ defaults:
       path: gespeaker/italian
     values:
       language: italian
+  - scope:
+      path: gextractwinicons
+    values:
+      layout: gextractwinicons
+      language: english
+  - scope:
+      path: gextractwinicons/italian
+    values:
+      language: italian
