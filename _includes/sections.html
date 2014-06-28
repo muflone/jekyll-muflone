@@ -30,12 +30,12 @@
 
   {% case include.type %}
     {% when 'footer' %}
-            <a href="../../{{ module.lowername }}/{{page.language }}/">
+            <a href="../../{{ module.lowername }}/{{ page.language }}/">
               <img src="../../resources/{{ module.lowername }}/archive/latest/icon32.png" title="{{ module.name }}
 {% if page.language == 'italian' %}{{ module.description.italian }}{% else %}{{ module.description.english }}{% endif %}">
             </a>
     {% when 'sidebar' %}
-            <div><a href="../../{{ module.lowername }}/{{page.language }}/">
+            <div><a href="../../{{ module.lowername }}/{{ page.language }}/">
               <img src="../../resources/{{ module.lowername }}/archive/latest/icon32.png" title="{{ module.name }}
 {% if page.language == 'italian' %}{{ module.description.italian }}{% else %}{{ module.description.english }}{% endif %}">
               {{ module.name }}</a></div>
