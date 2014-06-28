@@ -102,3 +102,12 @@ defaults:
       path: remmina-plugin-open/italian
     values:
       language: italian
+  - scope:
+      path: remmina-plugin-rdesktop
+    values:
+      layout: remmina-plugin-rdesktop
+      language: english
+  - scope:
+      path: remmina-plugin-rdesktop/italian
+    values:
+      language: italian
