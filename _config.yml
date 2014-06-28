@@ -111,3 +111,12 @@ defaults:
       path: remmina-plugin-rdesktop/italian
     values:
       language: italian
+  - scope:
+      path: remmina-plugin-teamviewer
+    values:
+      layout: remmina-plugin-teamviewer
+      language: english
+  - scope:
+      path: remmina-plugin-teamviewer/italian
+    values:
+      language: italian
