@@ -30,3 +30,12 @@ defaults:
       path: cpucompare/italian
     values:
       language: italian
+  - scope:
+      path: gespeaker
+    values:
+      layout: gespeaker
+      language: english
+  - scope:
+      path: gespeaker/italian
+    values:
+      language: italian
