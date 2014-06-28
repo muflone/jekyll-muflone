@@ -1,3 +1,4 @@
+{% include set-language.inc %}
 {% case include.type %}
   {% when 'footer' %}
           <div id="icons">
@@ -30,20 +31,20 @@
 
   {% case include.type %}
     {% when 'footer' %}
-            <a href="../../{{ module.lowername }}/{{ page.language }}/">
+            <a href="../../{{ module.lowername }}/{{ language }}/">
               <img src="../../resources/{{ module.lowername }}/archive/latest/icon32.png" title="{{ module.name }}
-{% if page.language == 'italian' %}{{ module.description.italian }}{% else %}{{ module.description.english }}{% endif %}">
+{% if language == 'italian' %}{{ module.description.italian }}{% else %}{{ module.description.english }}{% endif %}">
             </a>
     {% when 'sidebar' %}
-            <div><a href="../../{{ module.lowername }}/{{ page.language }}/">
+            <div><a href="../../{{ module.lowername }}/{{ language }}/">
               <img src="../../resources/{{ module.lowername }}/archive/latest/icon32.png" title="{{ module.name }}
-{% if page.language == 'italian' %}{{ module.description.italian }}{% else %}{{ module.description.english }}{% endif %}">
+{% if language == 'italian' %}{{ module.description.italian }}{% else %}{{ module.description.english }}{% endif %}">
               {{ module.name }}</a></div>
     {% when 'main' %}
-              <div class="product product-column"><div><a href="{{ module.lowername }}/{{ page.language }}/">
+              <div class="product product-column"><div><a href="{{ module.lowername }}/{{ language }}/">
                 <img src="../resources/{{ module.lowername }}/archive/latest/icon128.png">
                 <div class="product-name">{{ module.name }}</div></a>
-                <div>{% if page.language == 'italian' %}{{ module.description.italian }}{% else %}{{ module.description.english }}{% endif %}</div>
+                <div>{% if language == 'italian' %}{{ module.description.italian }}{% else %}{{ module.description.english }}{% endif %}</div>
               </div></div>
   {% endcase %}
 {% endfor %}
