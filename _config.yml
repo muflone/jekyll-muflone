@@ -1,3 +1,13 @@
 pygments: true
 analytics-id: UA-44039396-3
 author: Muflone
+defaults:
+  - scope:
+      path: bluewho
+    values:
+      layout: bluewho
+      language: english
+  - scope:
+      path: bluewho/italian
+    values:
+      language: italian
