@@ -138,3 +138,12 @@ defaults:
       path: remmina-plugin-url/italian
     values:
       language: italian
+  - scope:
+      path: remmina-plugin-webkit
+    values:
+      layout: remmina-plugin-webkit
+      language: english
+  - scope:
+      path: remmina-plugin-webkit/italian
+    values:
+      language: italian
