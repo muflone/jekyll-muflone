@@ -129,3 +129,12 @@ defaults:
       path: remmina-plugin-ultravnc/italian
     values:
       language: italian
+  - scope:
+      path: remmina-plugin-url
+    values:
+      layout: remmina-plugin-url
+      language: english
+  - scope:
+      path: remmina-plugin-url/italian
+    values:
+      language: italian
