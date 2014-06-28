@@ -75,3 +75,12 @@ defaults:
       path: remmina-plugin-builder/italian
     values:
       language: italian
+  - scope:
+      path: remmina-plugin-exec
+    values:
+      layout: remmina-plugin-exec
+      language: english
+  - scope:
+      path: remmina-plugin-exec/italian
+    values:
+      language: italian
