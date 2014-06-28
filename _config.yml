@@ -57,3 +57,12 @@ defaults:
       path: gptrace/italian
     values:
       language: italian
+  - scope:
+      path: gwakeonlan
+    values:
+      layout: gwakeonlan
+      language: english
+  - scope:
+      path: gwakeonlan/italian
+    values:
+      language: italian
