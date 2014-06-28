@@ -66,3 +66,12 @@ defaults:
       path: gwakeonlan/italian
     values:
       language: italian
+  - scope:
+      path: remmina-plugin-builder
+    values:
+      layout: remmina-plugin-builder
+      language: english
+  - scope:
+      path: remmina-plugin-builder/italian
+    values:
+      language: italian
