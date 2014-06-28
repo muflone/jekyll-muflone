@@ -84,3 +84,12 @@ defaults:
       path: remmina-plugin-exec/italian
     values:
       language: italian
+  - scope:
+      path: remmina-plugin-folder
+    values:
+      layout: remmina-plugin-folder
+      language: english
+  - scope:
+      path: remmina-plugin-folder/italian
+    values:
+      language: italian
