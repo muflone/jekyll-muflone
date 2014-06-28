@@ -93,3 +93,12 @@ defaults:
       path: remmina-plugin-folder/italian
     values:
       language: italian
+  - scope:
+      path: remmina-plugin-open
+    values:
+      layout: remmina-plugin-open
+      language: english
+  - scope:
+      path: remmina-plugin-open/italian
+    values:
+      language: italian
