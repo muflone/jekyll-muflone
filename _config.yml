@@ -21,3 +21,12 @@ defaults:
     values:
       layout: contacts
       language: italian
+  - scope:
+      path: cpucompare
+    values:
+      layout: cpucompare
+      language: english
+  - scope:
+      path: cpucompare/italian
+    values:
+      language: italian
