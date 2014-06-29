@@ -15,6 +15,7 @@
 {% for section in site.data.common.sections %}
   {% case section.module %}
     {% when 'muflone'                   %}{% assign module=site.data.contacts %}
+    {% when 'blog'                      %}{% assign module=site.data.blog %}
     {% when 'gespeaker'                 %}{% assign module=site.data.gespeaker %}
     {% when 'gwakeonlan'                %}{% assign module=site.data.gwakeonlan %}
     {% when 'gextractwinicons'          %}{% assign module=site.data.gextractwinicons %}

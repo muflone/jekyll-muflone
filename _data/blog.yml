@@ -1,0 +1,6 @@
+name: Blog
+lowername: blog
+description:
+  italian: Articoli e guide.
+  english: Articles and guides.
+gitrepo: https://github.com/muflone

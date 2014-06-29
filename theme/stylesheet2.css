@@ -75,3 +75,12 @@ ol#requirements li:before {
   padding-top: 10px;
   padding-bottom: 5px;
 }
+
+.center {
+  text-align: center;
+}
+
+.big {
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-size: 30px;
+}

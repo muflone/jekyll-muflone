@@ -3,6 +3,7 @@ lowername: muflone
 gitrepo: https://github.com/muflone
 sections:
 - module: muflone
+- module: blog
 - module: gespeaker
 - module: gwakeonlan
 - module: gextractwinicons

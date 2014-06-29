@@ -2,7 +2,13 @@ analytics-id: UA-44039396-3
 author: Muflone
 username_twitter: il_muflone
 username_disqus: muflone
+permalink: /blog/:categories/:year-:month/:title.html
 defaults:
+  - scope:
+      path: ""
+    values:
+      layout: blog
+      language: english
   - scope:
       path: bluewho
     values:
