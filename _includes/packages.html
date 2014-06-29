@@ -8,7 +8,7 @@
           <ul>
   {% for package in include.module.packages %}
             <li><strong>Versione {{ package.version }}</strong>
-              <a href="../../resources/{{ page.layout }}/archive/{{ package.version }}/{{ package.filename }}">
+              <a href="/resources/{{ page.layout }}/archive/{{ package.version }}/{{ package.filename }}">
     {% case package.type %}
     {%   when 'source'      %}        in formato tar.gz</a> con codice sorgente per installazione manuale<br />
     {%   when 'archlinux'   %}        in formato pkg.tar.xz</a> per Arch Linux e derivate<br />
@@ -29,7 +29,7 @@
           <ul>
   {% for package in include.module.packages %}
             <li><strong>Version {{ package.version }}</strong>
-              <a href="../../resources/{{ page.layout }}/archive/{{ package.version }}/{{ package.filename }}">
+              <a href="/resources/{{ page.layout }}/archive/{{ package.version }}/{{ package.filename }}">
     {% case package.type %}
     {%   when 'source'      %}        in tar.gz format</a> with source code for manual installation<br />
     {%   when 'archlinux'   %}        in pkg.tar.xz format</a> for Arch Linux and derivatives<br />
