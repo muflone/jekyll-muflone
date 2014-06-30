@@ -5,18 +5,18 @@ tags:
   - jekyll
   - documentation
   - archlinux
-summary: Introduzione a Jekyll, un generatore di siti statici con funzionalit&agrave; di blog.
+summary: Introduzione a Jekyll, un generatore di siti statici con funzionalità di blog.
 ---
 
-Sin dalla sua creazione questo sito web &egrave; stato prodotto utilizzando
+Sin dalla sua creazione questo sito web è stato prodotto utilizzando
 [**Jekyll**](http://jekyllrb.com), un generatore di siti web statici con
-funzionalit&agrave; di blog.
+funzionalità di blog.
 
-Non spiegher&ograve; dettagliatamente come utilizzare Jekyll, &egrave; pieno di
-siti web e documentatzione sul web.
+Non spiegherò dettagliatamente come utilizzare Jekyll, è pieno di siti web e
+documentazione sul web.
 
-Fondamentalmente il necessario &egrave; installare prima **Ruby**, quindi
-installare un paio di *gemme* necessarie per eseguire Jekyll.
+Fondamentalmente il necessario è installare prima **Ruby**, quindi installare un
+paio di *gemme* necessarie per eseguire Jekyll.
 
 {% highlight bash %}
 gem update
@@ -33,10 +33,10 @@ gem install jekyll therubyracer
 # 34 gems installed
 {% endhighlight %}
 
-Il primo comando aggiorner&agrave; qualunque gemma Ruby esistente, il secondo
-installer&agrave; jekyll, assieme a tutte le sue dipendenze.
+Il primo comando aggiornerà qualunque gemma Ruby esistente, il secondo
+installerà jekyll, assieme a tutte le sue dipendenze.
 
-Un sito web rapido pu&ograve; essere creato semplicemente eseguendo:
+Un sito web rapido può essere creato semplicemente eseguendo:
 {% highlight bash %}
 jekyll new mywebsite
 # New jekyll site installed in /home/muflone/mywebsite.
@@ -53,22 +53,22 @@ jekyll serve
 {% endhighlight %}
 
 Quindi navigando all'URL [http://localhost:4000/](http://localhost:4000/) 
-sar&agrave; mostrando il nuovo sito web creato da Jekyll.
+sarà mostrando il nuovo sito web creato da Jekyll.
 
-<div class="warning-it">Se il comando <strong>jekyll</strong> non pu&ograve; essere
+<div class="warning-it">Se il comando <strong>jekyll</strong> non può essere
 trovato potrebbe essere necessario aggiungere la cartella gems
 (<strong>~/.gems/ruby/VERSION/bin</strong>) al percorso.</div>
 
 <div>&nbsp;</div>
 
-<div class="tip-it">Un metodo alternativo (che preferisco) &egrave; quello di
-creare un alias bash:
+<div class="tip-it">Un metodo alternativo (che preferisco) è quello di creare
+un alias bash:
 {% highlight bash %}
 alias jekyll ~/.gems/ruby/VERSION/bin/jekyll
 {% endhighlight %}
 </div>
 
-La struttura delle cartella automaticamente create sar&agrave; la seguente:
+La struttura delle cartella automaticamente create sarà la seguente:
 {% highlight bash %}
 mywebsite
 ├── about.md
@@ -91,30 +91,30 @@ mywebsite
 └── _site
 {% endhighlight %}
 
-Il file **_config.yml** &egrave; il file di configurazione principale del
-sito e conterr&agrave; sia le variabili di sistema che quelle definite
-dall'utente per utilizzare all'interno di qualsiasi altra pagina web.
+Il file **_config.yml** è il file di configurazione principale del sito e
+conterrà sia le variabili di sistema che quelle definite dall'utente per
+utilizzare all'interno di qualsiasi altra pagina web.
 
-La cartella **_includes** conterr&agrave; il codice che si desidera includere
-all'interno di un altro utilizzando il tag include. Questo &egrave; utile per
-evitare di riscrivere lo stesso codice pi&ugrave; volte per pagine o sezioni.
+La cartella **_includes** conterrà il codice che si desidera includere
+all'interno di un altro utilizzando il tag include. Questo è utile per
+evitare di riscrivere lo stesso codice più volte per pagine o sezioni.
 Nel sito predefinito saranno forniti tre pezzetti di pagina chiamati footer,
 header ed head.
 
-La cartella **_layouts** conterr&agrave; le impaginazioni per le pagine, una
+La cartella **_layouts** conterrà le impaginazioni per le pagine, una
 sorta di schema vuoto per altre pagine. E' possibile avere un'impaginazione per
 la pagina iniziale e una differente per le altre pagine o un'impaginazione
-differente per gli articoli del blog e cos&igrave; via.
+differente per gli articoli del blog e così via.
 Le impaginazioni sono la chiave per disegnare il sito web ed ospiteranno alcuni
 tag segnaposto che saranno sostituiti dal contenuto principale per ottenere
 una pagina web.
 
-La cartella **_posts** conterr&agrave; tutti gli articoli che successivamente
+La cartella **_posts** conterrà tutti gli articoli che successivamente
 produrranno le pagine web statiche.
 
-La cartella **_site** conterr&agrave; il sito web prodotto dall'unione di tutte
-le parti ed &egrave; questo il contenuto da caricare sul server.
-Quando si navigher&agrave; il sito web locale all'indirizzo http://localhost:4000/
-sar&agrave; mostrato il contenuto della cartella **_site**, non sar&agrave;
-mostrato nessun file di jekyll, n&egrave; alcun file delle cartelle _layouts,
-_include o _posts ma il sito risultante dalla combinazione di questi contenuti.
+La cartella **_site** conterrà il sito web prodotto dall'unione di tutte
+le parti ed è questo il contenuto da caricare sul server.
+Quando si navigherà il sito web locale all'indirizzo http://localhost:4000/
+sarà mostrato il contenuto della cartella **_site**, non sarà mostrato nessun
+file di jekyll, né alcun file delle cartelle _layouts, _include o _posts ma il
+sito risultante dalla combinazione di questi contenuti.
