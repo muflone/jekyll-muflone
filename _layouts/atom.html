@@ -6,8 +6,8 @@
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <id>{{ page.title }}</id>
   <author>
-    <name>Muflone</name>
+    <name>{{ site.author }} &lt;{{ site.author_email }}&gt;</name>
   </author>
-  <rights>Copyright (c) 2013-2014 Fabio Castelli (Muflone)</rights>
+  <rights>Copyright (c) 2013-2014 Fabio Castelli ({{ site.author }})</rights>
 {{ content }}
 </feed>
