@@ -1,0 +1,42 @@
+---
+title: Pagine e post su Jekyll
+category: italian
+tags:
+  - jekyll
+  - documentation
+summary: Cosa sono le pagine e i post per Jekyll? Le differenze tra queste due entit&agrave;.
+---
+
+Questa è la seconda parte di una serie di articoli su 
+[**Jekyll**](http://jekyllrb.com/), un generatore di siti web statici con
+funzionalità di blog.
+Durante la [prima parte]({% post_url italian/2014-06-30-benvenuto-jekyll %}) ho
+presentato l'avvio rapido per create un sito web autogenerato minimale
+utilizzando Jekyll.
+
+All'interno della cartella **_layouts** di un sito automaticamente generato da
+Jekyll possimao trovare tre files: default.html, page.html e post.html.
+Il primo è l'impaginazione generale per ogni pagina del sito, il secondo è
+specifico per pagine normali mentre il terzo è specifo per post (articoli le cui
+pagine saranno automaticamente create e gestite) all'interno della cartella
+**_posts**.
+
+La differenza principale tra una pagina e un post è che **una pagina** sarà
+esplicitamente creata all'esterno della cartella _posts e sarà servita come è
+stata creata, ovvero se crei una pagina chiamata /about.html allora il sito web
+all'indirizzo http://localhost:4000/about.html servità tale pagina.
+
+Una **pagina post** invece deve essere creata all'interno della cartella
+**_posts** col nome di file data-titolo, come ad esempio
+2014-06-29-welcome-to-jekyll.markdown e sarà servita come
+http://localhost:4000/categoria/sottocategoria/anno/mese/giorno/titolo/index.html.
+
+Nella visione di Jekyll le pagine dovrebbero essere usate come pagine generali
+informative come indici, informazioni, notizie legali oppure pagine di
+collegamenti. I post sono utili per gestitre contenuti web come in un blog,
+quando un nuovo elemento (post) è pubblicato una nuova pagina sarà aggiunta ai
+contenuti, in una struttura determinabile.
+
+Entrambe queste regole possono essere personalizzate utilizzando una direttiva
+chiamata permalink ma quello sopra citato è il comportamento predefinito per la
+creazione di nuove pagine o nuovi post.
