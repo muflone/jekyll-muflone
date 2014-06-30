@@ -11,7 +11,6 @@ defaults:
       path: ""
     values:
       layout: articles
-      language: english
   - scope:
       path: bluewho
     values:
