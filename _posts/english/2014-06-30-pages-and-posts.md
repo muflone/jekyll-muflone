@@ -1,5 +1,5 @@
 ---
-title: Pages and posts
+title: Pages and posts in Jekyll
 category: english
 tags:
   - jekyll
