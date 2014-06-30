@@ -5,6 +5,7 @@ tags:
   - jekyll
   - documentation
   - archlinux
+summary: Introduction to Jekyll, a static blog aware site generator.
 ---
 
 Since its creation this website was built using [**Jekyll**](http://jekyllrb.com),

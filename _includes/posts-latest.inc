@@ -9,6 +9,7 @@
       {% endif %}
         <a href="{{ site.prefix }}{{ post.url }}">{{ post.title }}</a>
         ({{ post.date | date_to_string }})
+        <div class="entry">{{ post.summary }}</div>
       </li>
   {% endif %}
 {% endfor %}

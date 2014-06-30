@@ -5,6 +5,7 @@ tags:
   - jekyll
   - documentation
   - archlinux
+summary: Introduzione a Jekyll, un generatore di siti statici con funzionalit&agrave; di blog.
 ---
 
 Sin dalla sua creazione questo sito web &egrave; stato prodotto utilizzando
