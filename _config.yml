@@ -3,6 +3,7 @@ author: Muflone
 username_twitter: il_muflone
 username_disqus: muflone
 username_analytics: muflone.com
+url: http://www.muflone.com
 permalink: /articles/:categories/:year-:month/:title.html
 defaults:
   - scope:
