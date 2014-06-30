@@ -32,6 +32,9 @@
     <div id="content-wrapper">
       <div class="clearfix">
         <section id="main-content" class="article">
+{% if page.summary %}
+          <h2>{{ page.summary }}</h2>
+{% endif %}
 {{ content }}
 {% if page.id %}
   {% include google-plus.inc %}
