@@ -98,7 +98,7 @@ In the default website will be provided three snippets of page called footer,
 header and head.
 
 The **_layouts** folder will contain the layouts for the pages, like an empty
-schema for the others page. You can have a layout for home page, a different
+schema for other pages. You can have a layout for home page, a different
 layout for the other pages, a different layout for blog posts and so on.
 The layouts are the keys to design your website and they will host some
 placeholder tags that will be replaced by the main content to render a webpage.
