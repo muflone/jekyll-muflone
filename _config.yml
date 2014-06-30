@@ -2,6 +2,7 @@ analytics-id: UA-44039396-3
 author: Muflone
 username_twitter: il_muflone
 username_disqus: muflone
+username_analytics: muflone.com
 permalink: /articles/:categories/:year-:month/:title.html
 defaults:
   - scope:
