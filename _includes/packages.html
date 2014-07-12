@@ -7,17 +7,29 @@
             loro installazione.</p>
           <ul>
   {% for package in include.module.packages %}
-            <li><strong>Versione {{ package.version }}</strong>
-              <a href="/resources/{{ page.layout }}/archive/{{ package.version }}/{{ package.filename }}">
     {% case package.type %}
-    {%   when 'source'      %}        in formato tar.gz</a> con codice sorgente per installazione manuale<br />
-    {%   when 'archlinux'   %}        in formato pkg.tar.xz</a> per Arch Linux e derivate<br />
-    {%   when 'archlinux32' %}        in formato pkg.tar.xz</a> per Arch Linux i686 (32 bit) e derivate<br />
-    {%   when 'archlinux64' %}        in formato pkg.tar.xz</a> per Arch Linux x86_64 (64 bit) e derivate<br />
-    {%   when 'debian'      %}        in formato deb</a> per Debian, Ubuntu e derivate<br />
-    {%   when 'debian32'    %}        in formato deb</a> per Debian i386 (32 bit), Ubuntu e derivate<br />
-    {%   when 'debian64'    %}        in formato deb</a> per Debian amd64 (64 bit), Ubuntu e derivate<br />
-    {% endcase %}          MD5: {{ package.md5sum }}</li>
+      {% when 'source'      %}{% capture package_format %}<strong>tar.gz</strong> con codice sorgente per installazione manuale{% endcapture %}
+      {% when 'archlinux'   %}{% capture package_format %}<strong>pkg.tar.xz</strong> per Arch Linux e derivate{% endcapture %}
+      {% when 'archlinux32' %}{% capture package_format %}<strong>pkg.tar.xz</strong> per Arch Linux i686 (32 bit) e derivate{% endcapture %}
+      {% when 'archlinux64' %}{% capture package_format %}<strong>pkg.tar.xz</strong> per Arch Linux x86_64 (64 bit) e derivate{% endcapture %}
+      {% when 'debian'      %}{% capture package_format %}<strong>deb</strong> per Debian, Ubuntu e derivate{% endcapture %}
+      {% when 'debian32'    %}{% capture package_format %}<strong>deb</strong> per Debian i386 (32 bit), Ubuntu e derivate{% endcapture %}
+      {% when 'debian64'    %}{% capture package_format %}<strong>deb</strong> per Debian amd64 (64 bit), Ubuntu e derivate{% endcapture %}
+    {% endcase %}
+            <li><strong>Versione {{ package.version }}</strong> in formato {{ package_format }}<br />
+              MD5: {{ package.md5sum }}
+    {% if package.sources %}
+              <ul>
+      {% for source in package.sources %}
+        {% case source %}
+          {% when 'muflone.com' %}{% capture source_url %}/resources/{{ page.layout }}/archive/{{ package.version}}/{{ package.filename }}{% endcapture %}
+          {% when 'github.com'  %}{% capture source_url %}{{ include.module.gitrepo }}/releases/download/{{ package.version }}/{{ package.filename }}{% endcapture %}
+        {% endcase %}
+                <li>Scarica da <a href="{{ source_url }}">{{ source }}</a></li>
+      {% endfor %}
+              </ul>
+    {% endif %}
+            </li>
   {% endfor %}
           </ul>
 {% else %}
@@ -28,17 +40,28 @@
             about their installation.</p>
           <ul>
   {% for package in include.module.packages %}
-            <li><strong>Version {{ package.version }}</strong>
-              <a href="/resources/{{ page.layout }}/archive/{{ package.version }}/{{ package.filename }}">
     {% case package.type %}
-    {%   when 'source'      %}        in tar.gz format</a> with source code for manual installation<br />
-    {%   when 'archlinux'   %}        in pkg.tar.xz format</a> for Arch Linux and derivatives<br />
-    {%   when 'archlinux32' %}        in pkg.tar.xz format</a> for Arch Linux i686 (32 bits) and derivatives<br />
-    {%   when 'archlinux64' %}        in pkg.tar.xz format</a> for Arch Linux x86_64 (64 bits) and derivatives<br />
-    {%   when 'debian'      %}        in deb format</a> for Debian, Ubuntu and derivatives<br />
-    {%   when 'debian32'    %}        in deb format</a> for Debian i386 (32 bits), Ubuntu and derivatives<br />
-    {%   when 'debian64'    %}        in deb format</a> for Debian amd64 (64 bits), Ubuntu and derivatives<br />
-    {% endcase %}          MD5: {{ package.md5sum }}</li>
+      {% when 'source'      %}{% capture package_format %}<strong>tar.gz</strong> format with source code for manual installation{% endcapture %}
+      {% when 'archlinux'   %}{% capture package_format %}<strong>pkg.tar.xz</strong> format for Arch Linux and derivatives{% endcapture %}
+      {% when 'archlinux32' %}{% capture package_format %}<strong>pkg.tar.xz</strong> format for Arch Linux i686 (32 bits) and derivatives{% endcapture %}
+      {% when 'archlinux64' %}{% capture package_format %}<strong>pkg.tar.xz</strong> format for Arch Linux x86_64 (64 bits) and derivatives{% endcapture %}
+      {% when 'debian'      %}{% capture package_format %}<strong>deb</strong> format for Debian, Ubuntu and derivatives{% endcapture %}
+      {% when 'debian32'    %}{% capture package_format %}<strong>deb</strong> format for Debian i386 (32 bits), Ubuntu and derivatives{% endcapture %}
+      {% when 'debian64'    %}{% capture package_format %}<strong>deb</strong> format for Debian amd64 (64 bits), Ubuntu and derivatives{% endcapture %}
+    {% endcase %}
+            <li><strong>Versione {{ package.version }}</strong> in {{ package_format }}<br />
+              MD5: {{ package.md5sum }}
+    {% if package.sources %}
+              <ul>
+      {% for source in package.sources %}
+        {% case source %}
+          {% when 'muflone.com' %}{% capture source_url %}/resources/{{ page.layout }}/archive/{{ package.version}}/{{ package.filename }}{% endcapture %}
+          {% when 'github.com'  %}{% capture source_url %}{{ include.module.gitrepo }}/releases/download/{{ package.version }}/{{ package.filename }}{% endcapture %}
+        {% endcase %}
+                <li>Download from <a href="{{ source_url }}">{{ source }}</a></li>
+      {% endfor %}
+              </ul>
+    {% endif %}
   {% endfor %}
           </ul>
 {% endif %}

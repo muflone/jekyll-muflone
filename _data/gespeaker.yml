@@ -10,14 +10,23 @@ packages:
   filename: gespeaker_0.8.2-1_all.deb
   type: debian
   md5sum: FAA3BEE358D295B84480C8F5ADEAD1AE
+  sources:
+  - muflone.com
+  - github.com
 - version: 0.8.2
   filename: gespeaker-0.8.2-1-any.pkg.tar.xz
   type: archlinux
   md5sum: F24C87CE159946FBEFEFB0A2A854D88F
+  sources:
+  - muflone.com
+  - github.com
 - version: 0.8.2
   filename: gespeaker-0.8.2.tar.gz
   type: source
   md5sum: 12C74AB7858C818D0EA12CF0AD4A4FD8
+  sources:
+  - muflone.com
+  - github.com
 languages:
 - english
 - french
