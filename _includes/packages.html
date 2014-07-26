@@ -6,32 +6,6 @@
             <a href="install.html">Installazione</a> per informazioni sulla
             loro installazione.</p>
           <ul>
-  {% for package in include.module.packages %}
-    {% case package.type %}
-      {% when 'source'      %}{% capture package_format %}<strong>tar.gz</strong> con codice sorgente per installazione manuale{% endcapture %}
-      {% when 'archlinux'   %}{% capture package_format %}<strong>pkg.tar.xz</strong> per Arch Linux e derivate{% endcapture %}
-      {% when 'archlinux32' %}{% capture package_format %}<strong>pkg.tar.xz</strong> per Arch Linux i686 (32 bit) e derivate{% endcapture %}
-      {% when 'archlinux64' %}{% capture package_format %}<strong>pkg.tar.xz</strong> per Arch Linux x86_64 (64 bit) e derivate{% endcapture %}
-      {% when 'debian'      %}{% capture package_format %}<strong>deb</strong> per Debian, Ubuntu e derivate{% endcapture %}
-      {% when 'debian32'    %}{% capture package_format %}<strong>deb</strong> per Debian i386 (32 bit), Ubuntu e derivate{% endcapture %}
-      {% when 'debian64'    %}{% capture package_format %}<strong>deb</strong> per Debian amd64 (64 bit), Ubuntu e derivate{% endcapture %}
-    {% endcase %}
-            <li><strong>Versione {{ package.version }}</strong> in formato {{ package_format }}<br />
-              MD5: {{ package.md5sum }}
-    {% if package.sources %}
-              <ul>
-      {% for source in package.sources %}
-        {% case source %}
-          {% when 'muflone.com' %}{% capture source_url %}/resources/{{ page.layout }}/archive/{{ package.version}}/{{ package.filename }}{% endcapture %}
-          {% when 'github.com'  %}{% capture source_url %}{{ include.module.gitrepo }}/releases/download/{{ package.version }}/{{ package.filename }}{% endcapture %}
-        {% endcase %}
-                <li>Scarica da <a href="{{ source_url }}">{{ source }}</a></li>
-      {% endfor %}
-              </ul>
-    {% endif %}
-            </li>
-  {% endfor %}
-          </ul>
 {% else %}
           <h1><a name="packages" class="anchor"></a>Downloadable packages</h1>
           <p>The following are packages for different distributions.
@@ -39,29 +13,122 @@
             the page <a href="install.html">Installation</a> for information
             about their installation.</p>
           <ul>
-  {% for package in include.module.packages %}
-    {% case package.type %}
-      {% when 'source'      %}{% capture package_format %}<strong>tar.gz</strong> format with source code for manual installation{% endcapture %}
-      {% when 'archlinux'   %}{% capture package_format %}<strong>pkg.tar.xz</strong> format for Arch Linux and derivatives{% endcapture %}
-      {% when 'archlinux32' %}{% capture package_format %}<strong>pkg.tar.xz</strong> format for Arch Linux i686 (32 bits) and derivatives{% endcapture %}
-      {% when 'archlinux64' %}{% capture package_format %}<strong>pkg.tar.xz</strong> format for Arch Linux x86_64 (64 bits) and derivatives{% endcapture %}
-      {% when 'debian'      %}{% capture package_format %}<strong>deb</strong> format for Debian, Ubuntu and derivatives{% endcapture %}
-      {% when 'debian32'    %}{% capture package_format %}<strong>deb</strong> format for Debian i386 (32 bits), Ubuntu and derivatives{% endcapture %}
-      {% when 'debian64'    %}{% capture package_format %}<strong>deb</strong> format for Debian amd64 (64 bits), Ubuntu and derivatives{% endcapture %}
-    {% endcase %}
-            <li><strong>Versione {{ package.version }}</strong> in {{ package_format }}<br />
-              MD5: {{ package.md5sum }}
-    {% if package.sources %}
-              <ul>
-      {% for source in package.sources %}
-        {% case source %}
-          {% when 'muflone.com' %}{% capture source_url %}/resources/{{ page.layout }}/archive/{{ package.version}}/{{ package.filename }}{% endcapture %}
-          {% when 'github.com'  %}{% capture source_url %}{{ include.module.gitrepo }}/releases/download/{{ package.version }}/{{ package.filename }}{% endcapture %}
-        {% endcase %}
-                <li>Download from <a href="{{ source_url }}">{{ source }}</a></li>
-      {% endfor %}
-              </ul>
-    {% endif %}
+{% endif %}
+
+{% if page.require_iontabs %}
+<script>
+  $(document).ready(function(){
+    $.ionTabs("#tabs_packages");
+  });
+</script>
+<div class="ionTabs" id="tabs_packages" data-name="Tabs_Group_name">
+    <ul class="ionTabs__head">
+  {% for version in include.module.versions %}
+        <li class="ionTabs__tab" data-target="Tab_{{ version.normalized }}">{{ version.version }}</li>
   {% endfor %}
-          </ul>
+    </ul>
+    <div class="ionTabs__body">
+  {% for version in include.module.versions %}
+        <div class="ionTabs__item" data-name="Tab_{{ version.normalized }}">
+          <table id="packages">
+            <thead>
+              <th>{% if page.language == 'italian' %}Tipo di pacchetto{% else %}Package type{% endif %}</th>
+              <th>{% if page.language == 'italian' %}Dimensione{% else %}Size{% endif %}</th>
+              <th>MD5</th>
+              <th colspan="2">{% if page.language == 'italian' %}Scarica{% else %}Download{% endif %}</th>
+            </thead>
+    {% for package in version.packages %}
+        {% case package.type %}
+          {% when 'source' %}
+            {% capture package_format %}{% if page.language == 'italian' %}Codice sorgente{% else %}Source code{% endif %}{% endcapture %}
+            {% assign package_type = "source" %}
+          {% when 'aur' %}
+            {% capture package_format %}ArchLinux AUR{% endcapture %}
+            {% assign package_type = "archlinux" %}
+          {% when 'archlinux' %}
+            {% capture package_format %}ArchLinux{% endcapture %}
+            {% assign package_type = "archlinux" %}
+          {% when 'archlinux32' %}
+            {% capture package_format %}ArchLinux i686 (32 bit){% endcapture %}
+            {% assign package_type = "archlinux" %}
+          {% when 'archlinux64' %}
+            {% capture package_format %}ArchLinux x86_64 (64 bit){% endcapture %}
+            {% assign package_type = "archlinux" %}
+          {% when 'debian' %}
+            {% capture package_format %}Debian/Ubuntu{% endcapture %}
+            {% assign package_type = "debian" %}
+          {% when 'debian32' %}
+            {% capture package_format %}Debian/Ubuntu i386 (32 bit){% endcapture %}
+            {% assign package_type = "debian" %}
+          {% when 'debian64' %}
+            {% capture package_format %}Debian/Ubuntu amd64 (64 bit){% endcapture %}
+            {% assign package_type = "debian" %}
+        {% endcase %}
+            <tr>
+              <td class="type"><img src="/resources/{{ package_type }}-32.png"> {{ package_format }}</td>
+              <td class="size">{{ package.size }}</td>
+              <td class="md5sum">{{ package.md5sum }}</td>
+        {% if package.type != 'aur' %}
+              <td><a href="/resources/{{ page.layout }}/archive/{{ version.version}}/{{ package.filename }}"
+                title="{% if page.language == 'italian' %}Scarica da {% else %}Download from {% endif %}Muflone">
+                <img src="/resources/muflone-32.png"></a></td>
+              <td><a href="{{ include.module.gitrepo }}/releases/download/{{ version.version }}/{{ package.filename }}"
+                title="{% if page.language == 'italian' %}Scarica da {% else %}Download from {% endif %}GitHub">
+                <img src="/resources/github-32.png"></a></td>
+        {% else %}
+              <td colspan="2"><a href="https://aur.archlinux.org/packages/{{ package.filename }}/"
+                target="_blank">
+                <img src="/resources/archlinux-32.png"></a></td>
+        {% endif %}
+            </tr>
+    {% endfor %}
+          </table>
+        </div>
+  {% endfor %}
+        <div class="ionTabs__preloader"></div>
+    </div>
+</div>
+{% else %}
+  {% for version in include.module.versions %}
+    {% for package in version.packages %}
+      {% if page.language == 'italian' %}
+        {% case package.type %}
+          {% when 'source'      %}{% capture package_format %}<strong>tar.gz</strong> con codice sorgente per installazione manuale{% endcapture %}
+          {% when 'archlinux'   %}{% capture package_format %}<strong>pkg.tar.xz</strong> per ArchLinux e derivate{% endcapture %}
+          {% when 'archlinux32' %}{% capture package_format %}<strong>pkg.tar.xz</strong> per ArchLinux i686 (32 bit) e derivate{% endcapture %}
+          {% when 'archlinux64' %}{% capture package_format %}<strong>pkg.tar.xz</strong> per ArchLinux x86_64 (64 bit) e derivate{% endcapture %}
+          {% when 'debian'      %}{% capture package_format %}<strong>deb</strong> per Debian, Ubuntu e derivate{% endcapture %}
+          {% when 'debian32'    %}{% capture package_format %}<strong>deb</strong> per Debian i386 (32 bit), Ubuntu e derivate{% endcapture %}
+          {% when 'debian64'    %}{% capture package_format %}<strong>deb</strong> per Debian amd64 (64 bit), Ubuntu e derivate{% endcapture %}
+        {% endcase %}
+              <li><strong>Versione {{ version.version }}</strong> in formato {{ package_format }}<br />
+                MD5: {{ package.md5sum }}
+                <ul>
+                  <li>Scarica da <a href="{{ source_url }}"><img src="/resources/contacts/muflone-16.png" alt="{{ source }}" title="Muflone"></a> 
+                    <a href="/resources/{{ page.layout }}/archive/{{ version.version}}/{{ package.filename }}">Muflone</a></li>
+                  <li>Scarica da <a href="{{ source_url }}"><img src="/resources/contacts/github-16.png" alt="{{ source }}" title="GitHub"></a> 
+                    <a href="{{ include.module.gitrepo }}/releases/download/{{ version.version }}/{{ package.filename }}">GitHub</a></li>
+                </ul>
+      {% else %}
+        {% case package.type %}
+          {% when 'source'      %}{% capture package_format %}<strong>tar.gz</strong> format with source code for manual installation{% endcapture %}
+          {% when 'archlinux'   %}{% capture package_format %}<strong>pkg.tar.xz</strong> format for ArchLinux and derivatives{% endcapture %}
+          {% when 'archlinux32' %}{% capture package_format %}<strong>pkg.tar.xz</strong> format for ArchLinux i686 (32 bits) and derivatives{% endcapture %}
+          {% when 'archlinux64' %}{% capture package_format %}<strong>pkg.tar.xz</strong> format for ArchLinux x86_64 (64 bits) and derivatives{% endcapture %}
+          {% when 'debian'      %}{% capture package_format %}<strong>deb</strong> format for Debian, Ubuntu and derivatives{% endcapture %}
+          {% when 'debian32'    %}{% capture package_format %}<strong>deb</strong> format for Debian i386 (32 bits), Ubuntu and derivatives{% endcapture %}
+          {% when 'debian64'    %}{% capture package_format %}<strong>deb</strong> format for Debian amd64 (64 bits), Ubuntu and derivatives{% endcapture %}
+        {% endcase %}
+              <li><strong>Versione {{ version.version }}</strong> in {{ package_format }}<br />
+                MD5: {{ package.md5sum }}
+                <ul>
+                  <li>Download from <a href="{{ source_url }}"><img src="/resources/contacts/muflone-16.png" alt="{{ source }}" title="Muflone"></a> 
+                    <a href="/resources/{{ page.layout }}/archive/{{ version.version}}/{{ package.filename }}">Muflone</a></li>
+                  <li>Download from <a href="{{ source_url }}"><img src="/resources/contacts/github-16.png" alt="{{ source }}" title="GitHub"></a> 
+                    <a href="{{ include.module.gitrepo }}/releases/download/{{ version.version }}/{{ package.filename }}">GitHub</a></li>
+                </ul>
+      {% endif %}
+    {% endfor %}
+              </li>
+  {% endfor %}
 {% endif %}

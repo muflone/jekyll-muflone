@@ -5,46 +5,38 @@ description:
   english: A Remmina protocol plugin to open a file or document using its associated application.
 gitrepo: https://github.com/muflone/remmina-plugin-open
 translations_repo: 
-packages:
+versions:
 - version: 1.0.0.1
-  filename: remmina-plugin-open-1.0.0.1-2-i686.pkg.tar.xz
-  type: archlinux32
-  md5sum: 7438064971C899CB1B9E3D2AEF871841
-  sources:
-  - muflone.com
-  - github.com
-- version: 1.0.0.1
-  filename: remmina-plugin-open-1.0.0.1-2-x86_64.pkg.tar.xz
-  type: archlinux64
-  md5sum: 5EB9F2F18C6F073EBC6B7B617CC3849D
-  sources:
-  - muflone.com
-  - github.com
-- version: 1.0.0.1
-  filename: remmina-plugin-open_1.0.0.1-1_i386.deb
-  type: debian32
-  md5sum: 85A4A3B58BC9A77FDBD089BDD0289798
-  sources:
-  - muflone.com
-  - github.com
-- version: 1.0.0.1
-  filename: remmina-plugin-open_1.0.0.1-1_amd64.deb
-  type: debian64
-  md5sum: 85A4A3B58BC9A77FDBD089BDD0289798
-  sources:
-  - muflone.com
-  - github.com
-- version: 1.0.0.1
-  filename: remmina-plugin-open-1.0.0.1.tar.gz
-  type: source
-  md5sum: C6B1D16D057790552D19C2B23C4DA9BF
-  sources:
-  - muflone.com
-  - github.com
+  normalized: v1001
+  packages:
+  - type: source
+    filename: remmina-plugin-open-1.0.0.1.tar.gz
+    size: 11 kB
+    md5sum: C6B1D16D057790552D19C2B23C4DA9BF
+  - type: debian32
+    filename: remmina-plugin-open_1.0.0.1-1_i386.deb
+    size: 6 kB
+    md5sum: 85A4A3B58BC9A77FDBD089BDD0289798
+  - type: debian64
+    filename: remmina-plugin-open_1.0.0.1-1_amd64.deb
+    size: 6 kB
+    md5sum: 85A4A3B58BC9A77FDBD089BDD0289798
+  - type: archlinux32
+    filename: remmina-plugin-open-1.0.0.1-2-i686.pkg.tar.xz
+    size: 5 kB
+    md5sum: 7438064971C899CB1B9E3D2AEF871841
+  - type: archlinux64
+    filename: remmina-plugin-open-1.0.0.1-2-x86_64.pkg.tar.xz
+    size: 5 kB
+    md5sum: 5EB9F2F18C6F073EBC6B7B617CC3849D
+  - type: aur
+    filename: remmina-plugin-exec
+    size: '-'
+    md5sum: '-'
 - version: 1.0.0.0
-  filename: remmina-plugin-open-1.0.0.0.tar.gz
-  type: source
-  md5sum: 0259139B3DB94314FB765F4AE7FB920E
-  sources:
-  - muflone.com
-  - github.com
+  normalized: v1000
+  packages:
+  - type: source
+    filename: remmina-plugin-open-1.0.0.0.tar.gz
+    size: 10 kB
+    md5sum: 0259139B3DB94314FB765F4AE7FB920E

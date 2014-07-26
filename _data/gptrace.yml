@@ -4,18 +4,23 @@ description:
   italian: Traccia le attivita di un'applicazione esterna.
   english: Trace the activities of an external application.
 gitrepo: https://github.com/muflone/gptrace
-packages:
+versions:
 - version: 0.1.0
-  filename: gptrace-0.1.0-1-any.pkg.tar.xz
-  type: archlinux
-  md5sum: FCD4D301362F47B0EECD4A8FED7E3080
-  sources:
-  - muflone.com
-  - github.com
-- version: 0.1.0
-  filename: gptrace-0.1.0.tar.gz
-  type: source
-  md5sum: E58057D00E476E23847F875A730CFC98
-  sources:
-  - muflone.com
-  - github.com
+  normalized: v010
+  packages:
+  - type: source
+    filename: gptrace-0.1.0.tar.gz
+    size: 136 kB
+    md5sum: E58057D00E476E23847F875A730CFC98
+  - type: archlinux
+    filename: gptrace-0.1.0-1-any.pkg.tar.xz
+    size: 142 kB
+    md5sum: FCD4D301362F47B0EECD4A8FED7E3080
+  - type: aur
+    filename: gptrace
+    size: '-'
+    md5sum: '-'
+  - type: aur
+    filename: gptrace-git
+    size: '-'
+    md5sum: '-'

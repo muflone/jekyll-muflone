@@ -5,42 +5,41 @@ description:
   english: Find Bluetooth devices near you and receive notifications when a new device is detected.
 gitrepo: https://github.com/muflone/bluewho
 translations_repo: https://www.transifex.com/projects/p/bluewho/
-packages:
+versions:
 - version: 0.2
-  filename: bluewho-0.2.tar.gz
-  type: source
-  md5sum: 658C4431E652DE5B05296C5D42DB4525
-  sources:
-  - muflone.com
-  - github.com
-- version: 0.2
-  filename: bluewho-0.2-1-any.pkg.tar.xz
-  type: archlinux
-  md5sum: D1F9E42262E0E70C9E1457DBB5F03B64
-  sources:
-  - muflone.com
-  - github.com
+  normalized: v020
+  packages:
+  - type: source
+    filename: bluewho-0.2.tar.gz
+    size: 318 kB
+    md5sum: 658C4431E652DE5B05296C5D42DB4525
+  - type: archlinux
+    filename: bluewho-0.2-1-any.pkg.tar.xz
+    size: 314 kB
+    md5sum: D1F9E42262E0E70C9E1457DBB5F03B64
+  - type: aur
+    filename: bluewho
+    size: '-'
+    md5sum: '-'
+  - type: aur
+    filename: bluewho-git
+    size: '-'
+    md5sum: '-'
 - version: 0.1
-  filename: bluewho-0.1.tar.gz
-  type: source
-  md5sum: E263D2C77B704514FA5C1C97984CFD9D
-  sources:
-  - muflone.com
-  - github.com
-- version: 0.1
-  filename: bluewho-0.1-1-any.pkg.tar.xz
-  type: archlinux
-  md5sum: 3C01FE0ECA7D2EB6DD30F7AD1C1F4E3E
-  sources:
-  - muflone.com
-  - github.com
-- version: 0.1
-  filename: bluewho_0.1-1_all.deb
-  type: debian
-  md5sum: A6F61F7B6E689F583988A56BD02663C1
-  sources:
-  - muflone.com
-  - github.com
+  normalized: v010
+  packages:
+  - type: source
+    filename: bluewho-0.1.tar.gz
+    size: 187 kB
+    md5sum: E263D2C77B704514FA5C1C97984CFD9D
+  - type: debian
+    filename: bluewho_0.1-1_all.deb
+    size: 175 kB
+    md5sum: A6F61F7B6E689F583988A56BD02663C1
+  - type: archlinux
+    filename: bluewho-0.1-1-any.pkg.tar.xz
+    size: 164 kB
+    md5sum: 3C01FE0ECA7D2EB6DD30F7AD1C1F4E3E
 languages:
 - english
 - french

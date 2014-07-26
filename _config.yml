@@ -12,6 +12,7 @@ defaults:
       path: ""
     values:
       layout: articles
+      require_iontabs: False
   - scope:
       path: bluewho
     values:

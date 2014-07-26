@@ -5,32 +5,32 @@ description:
   english: A package to ease the development and the compilation of Remmina plugins.
 gitrepo: https://github.com/muflone/remmina-plugin-builder
 translations_repo: 
-packages:
+versions:
 - version: 1.0.0.3
-  filename: remmina-plugin-builder-1.0.0.3.tar.gz
-  type: source
-  md5sum: C74CA55AE6EF92F2706ACAD3A35511DE
-  sources:
-  - muflone.com
-  - github.com
+  normalized: v1003
+  packages:
+  - type: source
+    filename: remmina-plugin-builder-1.0.0.3.tar.gz
+    size: 5 kB
+    md5sum: C74CA55AE6EF92F2706ACAD3A35511DE
 - version: 1.0.0.2
-  filename: remmina-plugin-builder-1.0.0.2.tar.gz
-  type: source
-  md5sum: D74A95C501A38774F5422941ED5684E9
-  sources:
-  - muflone.com
-  - github.com
+  normalized: v1002
+  packages:
+  - type: source
+    filename: remmina-plugin-builder-1.0.0.2.tar.gz
+    size: 5 kB
+    md5sum: D74A95C501A38774F5422941ED5684E9
 - version: 1.0.0.1
-  filename: remmina-plugin-builder-1.0.0.1.tar.gz
-  type: source
-  md5sum: 738C8EF31B8D8534B3CEFD7B19ABDA9A
-  sources:
-  - muflone.com
-  - github.com
+  normalized: v1001
+  packages:
+  - type: source
+    filename: remmina-plugin-builder-1.0.0.1.tar.gz
+    size: 5 kB
+    md5sum: 738C8EF31B8D8534B3CEFD7B19ABDA9A
 - version: 1.0.0.0
-  filename: remmina-plugin-builder-1.0.0.0.tar.gz
-  type: source
-  md5sum: 985B59C80D59CA73567444871DC5D1F6
-  sources:
-  - muflone.com
-  - github.com
+  normalized: v1000
+  packages:
+  - type: source
+    filename: remmina-plugin-builder-1.0.0.0.tar.gz
+    size: 5 kB
+    md5sum: 985B59C80D59CA73567444871DC5D1F6

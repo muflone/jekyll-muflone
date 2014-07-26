@@ -4,32 +4,34 @@ description:
   italian: Esegui confronti tra numerosi modelli di CPU per trovare quelle di tuo interesse.
   english: Compare between a large number of CPU models to find those of your interest.
 gitrepo: https://github.com/muflone/cpucompare
-packages:
+versions:
 - version: 0.6
-  filename: cpucompare-0.6-1-any.pkg.tar.xz
-  type: archlinux
-  md5sum: 5803D45AD30EF75501680B939580864E
-  sources:
-  - muflone.com
-  - github.com
-- version: 0.6
-  filename: cpucompare-0.6.tar.gz
-  type: source
-  md5sum: 34F5BC355A7A604991A1D96AD23C38E5
-  sources:
-  - muflone.com
-  - github.com
+  normalized: v060
+  packages:
+  - type: source
+    filename: cpucompare-0.6.tar.gz
+    size: 75 kB
+    md5sum: 34F5BC355A7A604991A1D96AD23C38E5
+  - type: archlinux
+    filename: cpucompare-0.6-1-any.pkg.tar.xz
+    size: 66 kB
+    md5sum: 5803D45AD30EF75501680B939580864E
+  - type: aur
+    filename: cpucompare
+    size: '-'
+    md5sum: '-'
+  - type: aur
+    filename: cpucompare-git
+    size: '-'
+    md5sum: '-'
 - version: 0.5
-  filename: cpucompare-0.5-3-any.pkg.tar.xz
-  type: archlinux
-  md5sum: 75725661DF27EC13F1713FADE1C233E1
-  sources:
-  - muflone.com
-  - github.com
-- version: 0.5
-  filename: cpucompare-0.5.tar.gz
-  type: source
-  md5sum: AC11B06E51B55155435D5AE5BB474878
-  sources:
-  - muflone.com
-  - github.com
+  normalized: v050
+  packages:
+  - type: source
+    filename: cpucompare-0.5.tar.gz
+    size: 47 kB
+    md5sum: AC11B06E51B55155435D5AE5BB474878
+  - type: archlinux
+    filename: cpucompare-0.5-3-any.pkg.tar.xz
+    size: 38 kB
+    md5sum: 75725661DF27EC13F1713FADE1C233E1
