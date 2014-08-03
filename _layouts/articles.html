@@ -33,7 +33,8 @@
       <div class="clearfix">
         <section id="main-content" class="article">
 {% if page.summary %}
-          <h2>{{ page.summary }}</h2>
+          <div class="title">{{ page.summary }}</div>
+          <hr />
 {% endif %}
 {{ content }}
 {% if page.id %}
