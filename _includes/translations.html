@@ -1,6 +1,6 @@
 {% if page.language == 'italian' %}
           <h1><a name="translations" class="anchor"></a>Traduzioni</h1>
-          <p>{{ include.module.name }} &egrave; attualmente tradotto nelle 
+          <p><strong>{{ include.module.name }}</strong> &egrave; attualmente tradotto nelle 
             {% if include.languages_page %}<a href="languages.html">{% endif %}seguenti lingue{% if include.languages_page %}</a>{% endif %}:</p>
           <ul>
   {% for language in include.module.languages %}
@@ -21,6 +21,8 @@
       {% when 'slovak'     %}        <li>Slovacco</li>
       {% when 'slovenian'  %}        <li>Sloveno</li>
       {% when 'turkish'    %}        <li>Turco</li>
+      {% when 'bulgarian'  %}        <li>Bulgaro</li>
+      {% when 'faroese'    %}        <li>Faroese</li>
     {% endcase %}
   {% endfor %}
           </ul>
@@ -34,7 +36,7 @@
             <a href="{{ include.module.gitrepo }}/pulls">richiesta di pull su GitHub</a>.</p>
 {% else %}
           <h1><a name="translations" class="anchor"></a>Translations</h1>
-          <p>{{ include.module.name }} is actually translated in the
+          <p><strong>{{ include.module.name }}</strong> is actually translated in the
             {% if include.languages_page %}<a href="languages.html">{% endif %}following languages{% if include.languages_page %}</a>{% endif %}:</p>
           <ul>
   {% for language in include.module.languages %}
@@ -42,7 +44,7 @@
       {% when 'english'    %}        <li>English</li>
       {% when 'french'     %}        <li>French</li>
       {% when 'german'     %}        <li>German</li>
-      {% when 'hungarian ' %}        <li>Hungarian</li>
+      {% when 'hungarian'  %}        <li>Hungarian</li>
       {% when 'italian'    %}        <li>Italian</li>
       {% when 'russian'    %}        <li>Russian</li>
       {% when 'spanish'    %}        <li>Spanish</li>
@@ -55,6 +57,8 @@
       {% when 'slovak'     %}        <li>Slovak</li>
       {% when 'slovenian'  %}        <li>Slovenian</li>
       {% when 'turkish'    %}        <li>Turkish</li>
+      {% when 'bulgarian'  %}        <li>Bulgarian</li>
+      {% when 'faroese'    %}        <li>Faroese</li>
     {% endcase %}
   {% endfor %}
           </ul>

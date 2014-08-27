@@ -24,3 +24,6 @@ versions:
     filename: gptrace-git
     size: '-'
     md5sum: '-'
+languages:
+- english
+- italian
