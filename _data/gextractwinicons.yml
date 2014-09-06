@@ -6,6 +6,25 @@ description:
 gitrepo: https://github.com/muflone/gextractwinicons
 translations_repo: https://www.transifex.com/projects/p/gextractwinicons/
 versions:
+- version: 0.4.1
+  normalized: v041
+  packages:
+  - type: source
+    filename: gextractwinicons-0.4.1.tar.gz
+    size: 63 kB
+    md5sum: 52A3AD3CE477A9C6B9165D47510AF238
+  - type: archlinux
+    filename: gextractwinicons-0.4.1-1-any.pkg.tar.xz
+    size: 64 kB
+    md5sum: 176F717F23897A1F4BF6B3A09D120CB0
+  - type: aur
+    filename: gextractwinicons
+    size: '-'
+    md5sum: '-'
+  - type: aur
+    filename: gextractwinicons-git
+    size: '-'
+    md5sum: '-'
 - version: 0.4
   normalized: v040
   packages:
@@ -17,14 +36,6 @@ versions:
     filename: gextractwinicons-0.4-1-any.pkg.tar.xz
     size: 64 kB
     md5sum: 9654C8B8EF33F46F4C07EB5F0A88EB5A
-  - type: aur
-    filename: gextractwinicons
-    size: '-'
-    md5sum: '-'
-  - type: aur
-    filename: gextractwinicons-git
-    size: '-'
-    md5sum: '-'
 - version: 0.3.1
   normalized: v031
   packages:
@@ -41,10 +52,11 @@ versions:
     size: 17 kB
     md5sum: BC2243D00E9AD2A8141DBF1B5B126F62
 languages:
-- catalan
 - english
 - french
 - italian
 - hebrew
 - spanish
 - russian
+- catalan
+- bulgarian
