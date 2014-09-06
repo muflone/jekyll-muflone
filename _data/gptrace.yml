@@ -6,6 +6,25 @@ description:
 gitrepo: https://github.com/muflone/gptrace
 translations_repo: https://www.transifex.com/projects/p/gptrace/
 versions:
+- version: 0.4.1
+  normalized: v041
+  packages:
+  - type: source
+    filename: gptrace-0.4.1.tar.gz
+    size: 146 kB
+    md5sum: 9AEBAC0776C51F27DCF73D10CC5EE783
+  - type: archlinux
+    filename: gptrace-0.4.1-1-any.pkg.tar.xz
+    size: 155 kB
+    md5sum: 1A0AA0C53288D542010AF2B3A9B90384
+  - type: aur
+    filename: gptrace
+    size: '-'
+    md5sum: '-'
+  - type: aur
+    filename: gptrace-git
+    size: '-'
+    md5sum: '-'
 - version: 0.4.0
   normalized: v040
   packages:
@@ -17,14 +36,6 @@ versions:
     filename: gptrace-0.4.0-1-any.pkg.tar.xz
     size: 153 kB
     md5sum: 46BAA09B465ADC755F0AD7B0E1D894AC
-  - type: aur
-    filename: gptrace
-    size: '-'
-    md5sum: '-'
-  - type: aur
-    filename: gptrace-git
-    size: '-'
-    md5sum: '-'
 - version: 0.3.0
   normalized: v030
   packages:
