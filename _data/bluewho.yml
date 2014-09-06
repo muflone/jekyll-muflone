@@ -6,6 +6,25 @@ description:
 gitrepo: https://github.com/muflone/bluewho
 translations_repo: https://www.transifex.com/projects/p/bluewho/
 versions:
+- version: 0.2.1
+  normalized: v021
+  packages:
+  - type: source
+    filename: bluewho-0.2.1.tar.gz
+    size: 328 kB
+    md5sum: DF8AB67E21081BCDC3261596F56BC220
+  - type: archlinux
+    filename: bluewho-0.2.1-1-any.pkg.tar.xz
+    size: 320 kB
+    md5sum: 5A4547E00A975143D39F6C47A6FFB32E
+  - type: aur
+    filename: bluewho
+    size: '-'
+    md5sum: '-'
+  - type: aur
+    filename: bluewho-git
+    size: '-'
+    md5sum: '-'
 - version: 0.2
   normalized: v020
   packages:
@@ -17,14 +36,6 @@ versions:
     filename: bluewho-0.2-1-any.pkg.tar.xz
     size: 314 kB
     md5sum: D1F9E42262E0E70C9E1457DBB5F03B64
-  - type: aur
-    filename: bluewho
-    size: '-'
-    md5sum: '-'
-  - type: aur
-    filename: bluewho-git
-    size: '-'
-    md5sum: '-'
 - version: 0.1
   normalized: v010
   packages:
@@ -48,3 +59,9 @@ languages:
 - hungarian
 - russian
 - spanish
+- bulgarian
+- danish
+- colombian
+- hebrew
+- dutch
+- turkish
