@@ -14,6 +14,22 @@ defaults:
       layout: articles
       require_iontabs: False
   - scope:
+      path: "italian/updates"
+      type: "posts"
+    values:
+      permalink: /articles/italian/updates/:year-:month-:day.html
+      tags:
+        - archlinux
+        - updates
+  - scope:
+      path: "english/updates"
+      type: "posts"
+    values:
+      permalink: /articles/english/updates/:year-:month-:day.html
+      tags:
+        - archlinux
+        - updates
+  - scope:
       path: bluewho
     values:
       layout: bluewho
