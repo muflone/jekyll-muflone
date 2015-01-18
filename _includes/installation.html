@@ -33,6 +33,9 @@
           <div><code>cd build/{{ include.module.lowername }}-*</code></div>
           <div><code>python2 setup.py build</code></div>
           <div><code>sudo python2 setup.py install</code></div>
+          <div><code>sudo gtk-update-icon-cache -q /usr/share/icons/hicolor/</code></div>
+          <div><code>sudo xdg-icon-resource forceupdate</code></div>
+          <div><code>sudo xdg-desktop-menu forceupdate</code></div>
           <div><code>cd ..</code></div>
           <p>Al termine dell'installazione, se non sono stati riportati errori
             sar&agrave; possibile eliminare la cartella build da root oppure
@@ -68,6 +71,7 @@
           <div><code>cmake -DCMAKE_INSTALL_PREFIX=/usr .</code></div>
           <div><code>make</code></div>
           <div><code>sudo make install</code></div>
+          <div><code>sudo gtk-update-icon-cache -q /usr/share/icons/hicolor/</code></div>
           <div><code>cd ..</code></div>
           <p>Al termine dell'installazione, se non sono stati riportati errori
             sar&agrave; possibile eliminare la cartella build e il file sorgente
@@ -113,6 +117,9 @@
           <div><code>cd build/{{ include.module.lowername }}-*</code></div>
           <div><code>python2 setup.py build</code></div>
           <div><code>sudo python2 setup.py install</code></div>
+          <div><code>sudo gtk-update-icon-cache -q /usr/share/icons/hicolor/</code></div>
+          <div><code>sudo xdg-icon-resource forceupdate</code></div>
+          <div><code>sudo xdg-desktop-menu forceupdate</code></div>
           <div><code>cd ..</code></div>
           <p>After the installation, if no errors were reported the folder
             build can be removed from root or via <code>sudo rm -rf "build"</code>
@@ -145,6 +152,7 @@
           <div><code>cmake -DCMAKE_INSTALL_PREFIX=/usr .</code></div>
           <div><code>make</code></div>
           <div><code>sudo make install</code></div>
+          <div><code>sudo gtk-update-icon-cache -q /usr/share/icons/hicolor/</code></div>
           <div><code>cd ..</code></div>
           <p>After the installation, if no errors were reported the folder
             build can be removed and the same for the downloaded source package.</p>
