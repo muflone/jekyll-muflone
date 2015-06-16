@@ -1,0 +1,186 @@
+---
+title: Installare Arch Linux su Lenovo G50-70 (parte 5 - installazione del gestore di avvio)
+category: italian
+tags:
+  - arch linux
+  - documentation
+summary: Installare Arch Linux su Lenovo IdeaPad G50-70 con UEFI e Secure Boot
+keywords: arch, linux, lenovo, ideapad, g50-70, uefi, secure boot, efibootmgr, loader, refind, prebootloader
+---
+
+{: .center}
+![refind.png]
+
+Per poter avviare qualsiasi distribuzione GNU/Linux è necessario configurare un
+gestore di avvio. Per i computer dotati di UEFI la scelta più apprezzata resta
+**rEFInd**, un gestore di avvio grafico con numerose possibilità e che permette
+di avviare anche altri sistemi operativi come Windows, OS X e altre distribuzioni
+GNU/Linux.
+
+    sh-4.3# pacman -S refind-efi efibootmgr prebootloader
+    resolving dependencies...
+    looking for conflicting packages...
+
+    Packages (5) dosfstools-3.0.27-1  efivar-0.15-1  efibootmgr-0.11.0-1  prebootloader-20130206-2  refind-efi-0.8.7-1
+
+    Total Download Size:   2.45 MiB
+    Total Installed Size:  5.49 MiB
+
+    :: Proceed with installation? [Y/n] 
+    :: Retrieving packages ...
+     dosfstools-3.0.27-1-x86_64        73.4 KiB   239K/s 00:00 [####################################] 100%
+     efivar-0.15-1-x86_64              24.3 KiB   332K/s 00:00 [####################################] 100%
+     efibootmgr-0.11.0-1-x86_64        23.5 KiB   322K/s 00:00 [####################################] 100%
+     refind-efi-0.8.7-1-x86_64          2.3 MiB   228K/s 00:10 [####################################] 100%
+     prebootloader-20130206-2-any      63.5 KiB   251K/s 00:00 [####################################] 100%
+    (5/5) checking keys in keyring                             [####################################] 100%
+    (5/5) checking package integrity                           [####################################] 100%
+    (5/5) loading package files                                [####################################] 100%
+    (5/5) checking for file conflicts                          [####################################] 100%
+    (5/5) checking available disk space                        [####################################] 100%
+    (1/5) installing dosfstools                                [####################################] 100%
+    (2/5) installing efivar                                    [####################################] 100%
+    (3/5) installing efibootmgr                                [####################################] 100%
+    (4/5) installing refind-efi                                [####################################] 100%
+
+    rEFInd UEFI application has been installed at /usr/share/refind/refind_*.efi
+
+    Other UEFI applications have been installed at /usr/share/refind/tools_*/
+
+    UEFI drivers have been installed at /usr/share/refind/drivers_*/
+
+    Copy the efi application (according to your UEFI ARCH) 
+    and /usr/share/refind/refind.conf-sample to a sub-directory of <EFISYS>/EFI/
+    as refind.conf and add an entry to firmware boot menu using efibootmgr
+    or mactel-boot (for Macs)
+
+    rEFInd Icons have been installed at /usr/share/refind/icons/
+    rEFInd Fonts have been installed at /usr/share/refind/fonts/
+
+    HTML Documentation is available at /usr/share/refind/docs/html/
+
+    More info: https://wiki.archlinux.org/index.php/rEFInd 
+
+    Optional dependencies for refind-efi
+        mactel-boot: For bless command in Apple Mac systems
+        imagemagick: For refind-mkfont script
+    (5/5) installing prebootloader                             [####################################] 100%
+
+## Configurazione del gestore di avvio
+
+Il gestore di avvio rEFInd va innanzitutto installato nella partizione boot. Il
+comando refind-install si occuperà di copiare i suoi file nella partizione.
+
+    sh-4.3# refind-install 
+    ShimSource is none
+    Installing rEFInd on Linux....
+    ESP was found at /boot using vfat
+    Copied rEFInd binary files
+
+    Copying sample configuration file as refind.conf; edit this file to configure
+    rEFInd.
+
+    Installing it!
+    rEFInd has been set as the default boot manager.
+    Creating //boot/refind_linux.conf; edit it to adjust kernel options.
+
+    Installation has completed successfully.
+
+Poiché nel nostro sistema è attivo Secure Boot è necessario avviare un sistema
+firmato, come si è fatto durante la fase di
+[preparazione]({% post_url italian/2015-06-08-installare-arch-linux-su-lenovo-g50-70-1 %}).
+
+La Linux Foundation ha realizzato un file di avvio per UEFI (detto anche
+[PreLoader]{:target="_blank"}), firmato e quindi riconosciuto correttamente da
+ogni sistema con UEFI e Secure Boot attivato. PreLoader.efi a sua volta
+richiamerà un altro file EFI di nome loader.efi e lo avvierà. Con questa
+soluzione viene concessa libertà all'utente di avviare qualsiasi sistema
+operativo anche in assenza di firma per Secure Boot.
+
+L'operazione fondamentalmente consiste nel copiare i file di PreLoader e
+rinominare il file di avvio di rEFInd (**refind_x64.efi**) in **loader.efi**,
+in questo modo, dopo l'avvio di PreLoader sarà avviato rEFInd.
+
+    sh-4.3# cp /usr/lib/prebootloader/*.efi /boot/EFI/refind/
+
+    sh-4.3# mv /boot/EFI/refind/refind_x64.efi /boot/EFI/refind/loader.efi
+
+    sh-4.3# ls /boot/EFI/refind/
+    HashTool.efi  KeyTool.efi  PreLoader.efi  icons  keys  loader.efi  refind.conf
+
+Attraverso **efibootmgr** è possibile visualizzare e configurare le scelte e le
+voci di avvio UEFI, che avvieranno il sistema scelto.
+
+    sh-4.3# efibootmgr 
+    BootCurrent: 0001
+    Timeout: 0 seconds
+    BootOrder: 0005,0002,2001,2003,0000,2002
+    Boot0000* Lenovo Recovery System
+    Boot0001* EFI USB Device (Generic USB Storage)
+    Boot0002* Windows Boot Manager
+    Boot0003* EFI Network 0 for IPv4 (28-D2-44-CD-25-B7) 
+    Boot0004* EFI Network 0 for IPv6 (28-D2-44-CD-25-B7) 
+    Boot0005* rEFInd Boot Manager
+    Boot2001* EFI USB Device
+    Boot2002* EFI DVD/CDROM
+    Boot2003* EFI Network
+
+Dopo l'installazione di rEFInd sarà automaticamente aggiunta una voce di avvio
+su UEFI di nome **rEFInd Boot Manager**, nel caso sopra indicato si tratta
+della voce con numero identificativo **0005** (ovvero Boot0005).
+
+Poiché è stato modificato il file di avvio di rEFInd da refind_x64.efi a
+loader.efi, sarà prima necessario eliminare la voce di avvio creata automaticamente.
+
+    sh-4.3# efibootmgr --bootnum 0005 --delete-bootnum
+    BootCurrent: 0001
+    Timeout: 0 seconds
+    BootOrder: 0002,2001,2003,0000,2002
+    Boot0000* Lenovo Recovery System
+    Boot0001* EFI USB Device (Generic USB Storage)
+    Boot0002* Windows Boot Manager
+    Boot0003* EFI Network 0 for IPv4 (28-D2-44-CD-25-B7) 
+    Boot0004* EFI Network 0 for IPv6 (28-D2-44-CD-25-B7) 
+    Boot2001* EFI USB Device
+    Boot2002* EFI DVD/CDROM
+    Boot2003* EFI Network
+
+Dopo l'eliminazione sarà possibile aggiungere una nuova voce di avvio che
+eseguirà **PreLoader.efi**.
+
+    sh-4.3# efibootmgr --create --disk /dev/sda --part 2 --label "rEFInd Boot Manager" --loader '\EFI\refind\PreLoader.efi'
+    BootCurrent: 0001
+    Timeout: 0 seconds
+    BootOrder: 0005,0002,2001,2003,0000,2002
+    Boot0000* Lenovo Recovery System
+    Boot0001* EFI USB Device (Generic USB Storage)
+    Boot0002* Windows Boot Manager
+    Boot0003* EFI Network 0 for IPv4 (28-D2-44-CD-25-B7)
+    Boot0004* EFI Network 0 for IPv6 (28-D2-44-CD-25-B7)
+    Boot2001* EFI USB Device
+    Boot2002* EFI DVD/CDROM
+    Boot2003* EFI Network
+    Boot0005* rEFInd Boot Manager
+
+In questa maniera il gestore di avvio di UEFI mostrerà una nuova opzione di
+
+## Uscita dall'ambiente chroot
+
+    sh-4.3# exit
+    exit
+    arch-chroot /mnt  3.38s user 1.83s system 0% cpu 39:54.86 total
+    root@archiso ~ # umount /mnt/home 
+    root@archiso ~ # umount /mnt/boot 
+    root@archiso ~ # umount /mnt     
+    root@archiso ~ # reboot
+
+
+Al riavvio, scollegare il dispositivo USB usato per installare Arch Linux e sarà
+presentato il gestore di avvio rEFInd.
+
+{: .center}
+![refind.png]
+
+[refind.png]: /resources/articles/2015-06/refind.png
+
+[preloader]: http://www.linuxfoundation.org/news-media/blogs/browse/2012/10/linux-foundation-uefi-secure-boot-system-open-source

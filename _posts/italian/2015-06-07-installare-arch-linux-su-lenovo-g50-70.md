@@ -37,6 +37,8 @@ La procedura di installazione sarà spiegata in vari passaggi:
 {: .big}
 > [Installazione del sistema]({% post_url italian/2015-06-15-installare-arch-linux-su-lenovo-g50-70-4 %}).
 {: .big}
+> [Installazione del gestore di avvio]({% post_url italian/2015-06-16-installare-arch-linux-su-lenovo-g50-70-5 %}).
+{: .big}
 
 
 [lenovo-ideapad-g50-70.jpg]: /resources/articles/2015-06/lenovo-ideapad-g50-70.jpg
