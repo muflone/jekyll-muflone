@@ -31,6 +31,8 @@ La procedura di installazione sarà spiegata in vari passaggi:
 
 > [Preparazione del sistema]({% post_url italian/2015-06-08-installare-arch-linux-su-lenovo-g50-70-1 %}).
 {: .big}
+> [Configurazione della connessione Wi-Fi]({% post_url italian/2015-06-09-installare-arch-linux-su-lenovo-g50-70-2 %}).
+{: .big}
 
 
 [lenovo-ideapad-g50-70.jpg]: /resources/articles/2015-06/lenovo-ideapad-g50-70.jpg
