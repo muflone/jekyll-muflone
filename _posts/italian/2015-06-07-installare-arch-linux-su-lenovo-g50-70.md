@@ -27,6 +27,11 @@ operativo, mantenendo Secure Boot e UEFI attivi.
 Il ridimensionamento della partizione di Windows per far posto alle nuove
 partizioni per Arch Linux non viene trattato in questa guida.
 
+La procedura di installazione sarà spiegata in vari passaggi:
+
+> [Preparazione del sistema]({% post_url italian/2015-06-08-installare-arch-linux-su-lenovo-g50-70-1 %}).
+{: .big}
+
 
 [lenovo-ideapad-g50-70.jpg]: /resources/articles/2015-06/lenovo-ideapad-g50-70.jpg
 [lenovo-ideapad-g50-70-thumb.png]: /resources/articles/2015-06/lenovo-ideapad-g50-70-thumb.png
