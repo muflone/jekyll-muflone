@@ -47,10 +47,12 @@
           <hr />
 {% endif %}
 {{ content }}
-{% if page.id %}
-  {% include google-plus.inc %}
-  {% include twitter.inc %}
-  {% include disqus.inc %}
+{% if site.show_social %}
+  {% if page.id %}
+    {% include google-plus.inc %}
+    {% include twitter.inc %}
+    {% include disqus.inc %}
+  {% endif %}
 {% endif %}
         </section>
       </div>
