@@ -15,7 +15,9 @@ Il gestore di avvio rEFInd offre numerose possibilità e con molta semplicità
 permette l'avvio di sistemi operativi differenti.
 
 Il suo funzionamento è assai semplice e generalmente basta spostarsi con le
-freccette e confermare la scelta premendo Invio.
+freccette e confermare la scelta premendo Invio. E' anche possibile premere
+il tasto corrispondente al numero del sistema da avviare, 1 per la prima icona
+visualizzata, 2 per la seconda e così via.
 
 Nella finestra di rEFInd sono visibili varie icone.
 
