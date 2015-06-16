@@ -7,7 +7,9 @@
 {% if page.keywords %}
     <meta name="keywords" content="{{ page.keywords }}">
 {% endif %}
+{% if page.summary %}
     <meta name="description" content="{{ page.summary }}">
+{% endif %}
     <meta name="author" content="Fabio Castelli">
     <link rel="shortcut icon" href="/resources/{{ page.layout }}/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/resources/{{ page.layout }}/favicon.ico" type="image/x-icon">
