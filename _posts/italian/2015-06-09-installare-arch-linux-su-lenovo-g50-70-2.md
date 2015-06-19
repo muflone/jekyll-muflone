@@ -52,15 +52,15 @@ Utilizzando le freccette scegliere la connessione Wi-Fi desiderata e confermare
 premendo invio.
 
 {: .center}
+![wifi-menu-3.png]
+
+Indicare il nome col quale salvare il profilo di rete e confermare con invio.
+
+{: .center}
 ![wifi-menu-2.png]
 
 Quando richiesto, specificare la password (WEP o WPA) per la connessione scelta
 e confermare con invio.
-
-{: .center}
-![wifi-menu-3.png]
-
-Salvare il profilo di rete appena configurato confermando con invio.
 
 La connessione sarà automaticamente avviata e si riceverà l'indirizzo IP di
 rete attraverso DHCP.
