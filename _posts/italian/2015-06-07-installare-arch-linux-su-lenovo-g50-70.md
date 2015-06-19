@@ -45,6 +45,8 @@ La procedura di installazione sarà spiegata in vari passaggi:
 {: .big}
 > [Riconfigurazione della rete Wi-Fi]({% post_url italian/2015-06-17-installare-arch-linux-su-lenovo-g50-70-8 %}).
 {: .big}
+> [Aggiornamento del microcode]({% post_url italian/2015-06-19-installare-arch-linux-su-lenovo-g50-70-9 %}).
+{: .big}
 
 
 [lenovo-ideapad-g50-70.jpg]: /resources/articles/2015-06/lenovo-ideapad-g50-70.jpg
