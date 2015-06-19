@@ -143,6 +143,13 @@ modificare manualmente il file locale.gen.
       it_IT.UTF-8... done
     Generation complete.
 
+## Configurazione della tastiera italiana
+
+Affinché venga caricata la tastiera lingua italiana ad ogni riavvio è necessario
+indicare il layout di tastiera nel file **/etc/vconsole.conf**.
+
+    sh-4.3# echo KEYMAP=it > /etc/vconsole.conf
+
 ## Installazione dei pacchetti per la configurazione di rete
 
 L'immagine di installazione del sistema operativo contiene al suo interno gli
