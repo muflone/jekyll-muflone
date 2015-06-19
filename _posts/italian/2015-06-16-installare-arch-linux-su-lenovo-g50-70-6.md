@@ -21,7 +21,7 @@ visualizzata, 2 per la seconda e così via.
 
 Nella finestra di rEFInd sono visibili varie icone.
 
-##Icone dei sistemi avviabili
+## Icone dei sistemi avviabili
 
 La prima fila di icone rappresenta un sistema operativo avviabile.
 
@@ -43,7 +43,7 @@ riguardo l'avvio, come la modalità single.
 
 Premendo **ESC** in qualsiasi parte viene aggiornato l'elenco dei sistemi rilevati.
 
-##Icone aggiuntive dei sistemi avviabili
+## Icone aggiuntive dei sistemi avviabili
 
 Nell'angolo destro di ogni icona di un sistema avviabile è presente un'icona
 aggiuntiva che indica dove si trovi il sistema operativo da avviare.
@@ -55,7 +55,7 @@ aggiuntiva che indica dove si trovi il sistema operativo da avviare.
 |![vol_external.png]        |Indica un sistema avviato da un disco esterno    |
 |![vol_net.png]             |Indica un sistema avviato da rete                |
 
-##Icone delle utilità aggiuntive
+## Icone delle utilità aggiuntive
 
 La fila di icone in basso rappresenta una serie di utilità aggiuntive. Quelle
 non supportate o non disponibili non saranno mostrate.

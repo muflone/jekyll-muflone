@@ -22,7 +22,7 @@ Per ulteriori dettagli sul processo di installazione consultare la guida online
 
 -----
 
-#Partizionamento iniziale
+# Partizionamento iniziale
 
 Il ridimensionamento della partizione di Windows per far posto alle nuove
 partizioni per Arch Linux non viene trattato in questa guida e va eseguito prima
@@ -35,12 +35,12 @@ del disco sono più lente rispetto la parte iniziale dello stesso disco.
 Se non vi è necessità di spostare la partizione di Windows ma soltanto di
 ridurla è possibile utilizzare la gestione disco di Windows.
 
-##Partizionamento iniziale visto da Gestione disco
+## Partizionamento iniziale visto da Gestione disco
 
 {: .center}
 ![windows-gestione-disco.png]
 
-##Partizionamento iniziale visto da gdisk
+## Partizionamento iniziale visto da gdisk
 
     root@archiso ~ # gdisk -l /dev/sda
     GPT fdisk (gdisk) version 1.0.0
@@ -69,7 +69,7 @@ ridurla è possibile utilizzare la gestione disco di Windows.
        6      1840160768      1922080767   39.1 GiB    0700  Basic data partition
        7      1922080768      1953523711   15.0 GiB    2700  Basic data partition
 
-##Partizionamento iniziale visto da parted
+## Partizionamento iniziale visto da parted
 
     root@archiso ~ # parted -l /dev/sda
     Model: ATA WDC WD10JPCX-24U (scsi)
@@ -89,7 +89,7 @@ ridurla è possibile utilizzare la gestione disco di Windows.
 
 -----
 
-#Aggiunta delle partizioni necessarie
+# Aggiunta delle partizioni necessarie
 
 Per il partizionamento del disco sarà utilizzato il comando parted
 
@@ -99,7 +99,7 @@ Per il partizionamento del disco sarà utilizzato il comando parted
     Welcome to GNU Parted! Type 'help' to view a list of commands.
     (parted)
 
-##Creazione della partizione root
+## Creazione della partizione root
 
 La **partizione root** conterrà tutti i dati del sistema operativo, i programmi,
 kernel, librerie e i dati variabili come log, liste dei pacchetti e altro.
@@ -132,7 +132,7 @@ esigenze.
 
     (parted) name 8 "Arch Linux root"
 
-##Creazione della partizione home
+## Creazione della partizione home
 
 La **partizione home** conterrà tutti i dati personali dell'utente, i file
 scaricati, le preferenze e tutto quanto non provenga direttamente
@@ -167,7 +167,7 @@ dall'utilizzatore.
 
     (parted) name 9 "Home"
 
-##Creazione della partizione swap
+## Creazione della partizione swap
 
 La **partizione swap** fornisce un'area di memoria volatile aggiuntiva alla
 memoria RAM, per scaricare su disco parti di memoria inutilizzate e per offrire
@@ -205,7 +205,7 @@ l'operazione di sospensione (detta anche ibernazione).
 
     (parted) name 10 "Swap 6 GB"
 
-##Verifica del partizionamento con parted
+## Verifica del partizionamento con parted
 
 Al termine delle operazioni verificare il partizionamento ottenuto. Per ogni
 partizione creata eseguire il comando **align-check optimal** per verificare
@@ -246,7 +246,7 @@ prestazioni, soprattutto in fase di scrittura dei dati. Per ulteriori informazio
 
     (parted) quit
 
-##Verifica del partizionamento con gdisk
+## Verifica del partizionamento con gdisk
 
 Eseguire le stesse verifiche con gdisk confermerà che tutte le partizioni sono
 allineate correttamente.
@@ -292,11 +292,11 @@ allineate correttamente.
 
 -----
 
-#Formattazione delle nuove partizioni
+# Formattazione delle nuove partizioni
 
 Dopo il partizionamento è necessario formattare le nuove partizioni come segue:
 
-##Formattazione della partizione root
+## Formattazione della partizione root
 
 Per la partizione root sarà riservato l'1% dello spazio (**-m 1**) all'utente
 root, ciò per evitare che un uso errato di un log possa riempire completamente
@@ -314,7 +314,7 @@ la partizione.
     Writing inode tables: done
     Writing superblocks and filesystem accounting information: done
 
-##Formattazione della partizione home
+## Formattazione della partizione home
 
 Per la partizione home non sarà necessario riservare spazio all'utente root,
 pertanto verrà indicata la percentuale dello 0% (**-m 0**).
@@ -331,7 +331,7 @@ pertanto verrà indicata la percentuale dello 0% (**-m 0**).
     Writing inode tables: done
     Writing superblocks and filesystem accounting information: done
 
-##Formattazione della partizione swap
+## Formattazione della partizione swap
 
     root@archiso ~ # mkswap -L "Swap_6_GB" /dev/sda10
     Setting up swapspace version 1, size = 5.9 GiB (6275723264 bytes)
@@ -339,7 +339,7 @@ pertanto verrà indicata la percentuale dello 0% (**-m 0**).
 
 -----
 
-#Montaggio delle nuove partizioni
+# Montaggio delle nuove partizioni
 
 Prima di procedere al montaggio effettivo delle partizioni è necessario conoscere
 quale sia la partizione contenente i file di avvio di Windows, la cosiddetta

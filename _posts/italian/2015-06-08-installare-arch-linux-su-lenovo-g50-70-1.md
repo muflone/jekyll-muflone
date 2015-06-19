@@ -8,7 +8,7 @@ summary: Installare Arch Linux su Lenovo IdeaPad G50-70 con UEFI e Secure Boot
 keywords: arch, linux, lenovo, ideapad, g50-70, uefi, secure boot, hybrid, boot, hashtool
 ---
 
-#Disattivazione di Avvio rapido / Hybrid Boot
+# Disattivazione di Avvio rapido / Hybrid Boot
 
 Prima di procedere all'installazione di Arch Linux è importante che si disabiliti
 la funzione di avvio rapido (Hybrid Boot) di Windows 8.1 altrimenti i dati del
@@ -30,7 +30,7 @@ Se l'impostazione dovesse risultare bloccata cliccare il collemento in alto
 
 -----
 
-#Preparazione di Arch Linux su USB
+# Preparazione di Arch Linux su USB
 
 Per installare Arch Linux è necessario utilizzare un pendrive USB da almeno 1 GiB
 opportunamento preparato. **Attenzione** poiché tutti i dati nel dispositivo USB
@@ -58,7 +58,7 @@ attendere il completamento della scrittura.
 
 -----
 
-#Avviare il sistema tramite USB
+# Avviare il sistema tramite USB
 
 {: .center}
 ![lenovo-laptop-g50-70-sx.png]
@@ -75,7 +75,7 @@ USB Storage)** o una voce similare che parli di USB e confermare con invio.
 
 -----
 
-#Firmare i kernel con HashTool
+# Firmare i kernel con HashTool
 
 Poiché in questa configurazione è attivo il [Secure Boot]{:target="_blank"} è
 necessario firmare tutti i sistemi operativi che si desidera eseguire,

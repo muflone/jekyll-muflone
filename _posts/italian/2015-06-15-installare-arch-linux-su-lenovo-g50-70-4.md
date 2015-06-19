@@ -15,7 +15,7 @@ E' adesso possibile procedere all'installazione del sistema di base, nelle
 partizioni montate in precedenza su **/mnt** e configurare il computer per
 l'avvio dal nuovo sistema.
 
-##Installazione dei pacchetti del sistema di base
+## Installazione dei pacchetti del sistema di base
 
     root@archiso ~ # pacstrap /mnt base
     ==> Creating install root at /mnt
@@ -88,7 +88,7 @@ l'avvio dal nuovo sistema.
     (123/123) installing xfsprogs                              [####################################] 100%
     pacstrap /mnt base  21.48s user 1.69s system 80% cpu 28.886 total
 
-##Completare l'installazione di base
+## Completare l'installazione di base
 
 Per inizializzare il file **/etc/fstab** con i riferimenti alle nuove partizioni
 eseguire il comando **genfstab**.
@@ -100,7 +100,7 @@ Unique IDentifier).
 
     root@archiso ~ # genfstab -L -p /mnt >> /mnt/etc/fstab 
 
-##Accedere alla nuova root e configurare il sistema
+## Accedere alla nuova root e configurare il sistema
 
 Sarà adesso possibile accedere alla nuova installazione prima del riavvio per
 completare alcune messe a punto iniziali.
@@ -135,9 +135,9 @@ L'istruzione sottostante attiva direttamente la lingua italiana senza dover
 modificare manualmente il file locale.gen.
 
     sh-4.3# sed -i 's/^#it_IT.UTF-8/it_IT.UTF-8/' /etc/locale.gen
-
+    
     sh-4.3# echo LANG=it_IT.UTF-8 > /etc/locale.conf
-
+    
     sh-4.3# locale-gen 
     Generating locales...
       it_IT.UTF-8... done

@@ -17,7 +17,7 @@ non presenti nell'immagine di installazione del sistema operativo.
 
 -----
 
-#Attivazione del controller Wi-Fi
+# Attivazione del controller Wi-Fi
 
 Inizialmente il controller Wi-Fi risulterà essere disattivato come confermato
 dal comando **rfkill list wlan**
@@ -37,7 +37,7 @@ comando **rfkill unblock wlan**
 
 -----
 
-#Configurazione della connessione Wi-Fi
+# Configurazione della connessione Wi-Fi
 
 Sarà quindi possibile eseguire la configurazione della rete Wi-Fi attraverso
 il comando **wifi-menu**
