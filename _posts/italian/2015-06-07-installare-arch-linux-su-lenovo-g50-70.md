@@ -43,7 +43,7 @@ La procedura di installazione sarà spiegata in vari passaggi:
 {: .big}
 > [Primo avvio del sistema]({% post_url italian/2015-06-16-installare-arch-linux-su-lenovo-g50-70-7 %}).
 {: .big}
-> [Riconfigurazione della rete Wi-Fi]({% post_url italian/2015-06-17-installare-arch-linux-su-lenovo-g50-70-8 %}).
+> [Riconfigurazione della connessione Wi-Fi]({% post_url italian/2015-06-17-installare-arch-linux-su-lenovo-g50-70-8 %}).
 {: .big}
 > [Aggiornamento del microcode]({% post_url italian/2015-06-19-installare-arch-linux-su-lenovo-g50-70-9 %}).
 {: .big}

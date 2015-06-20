@@ -18,7 +18,7 @@ Accedere al proprio sistema utilizzando il nome utente **root** e la password
 impostata durante l'[installazione del sistema]({% post_url italian/2015-06-15-installare-arch-linux-su-lenovo-g50-70-4 %}#impostazione-della-password-di-root).
 
 La prima operazione da eseguire è la
-[riconfigurazione della rete Wi-Fi]({% post_url italian/2015-06-09-installare-arch-linux-su-lenovo-g50-70-2 %})
+[riconfigurazione della connessione Wi-Fi]({% post_url italian/2015-06-09-installare-arch-linux-su-lenovo-g50-70-2 %})
 come si è fatto durante la fase di installazione.
 
     [root@arch-lenovo ~]# rfkill list wlan
