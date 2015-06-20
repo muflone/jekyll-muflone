@@ -9,8 +9,8 @@ keywords: arch, linux, lenovo, ideapad, g50-70, microcode, intel
 ---
 
 Un'operazione preliminare da eseguire è l'installazione del software del
-**[Microcode]** del processore, una sorta di aggiornamento software del codice
-del firmware del processore.
+**[Microcode]**{:target="_blank"} del processore, una sorta di aggiornamento
+software del codice del firmware del processore.
 
 Il processo di aggiornamento è puramente software e non permanente, ovvero ad
 ogni riavvio verrà nuovamente applicato.
