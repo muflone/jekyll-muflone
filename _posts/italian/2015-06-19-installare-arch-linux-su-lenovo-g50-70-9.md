@@ -8,6 +8,8 @@ summary: Installare Arch Linux su Lenovo IdeaPad G50-70 con UEFI e Secure Boot (
 keywords: arch, linux, lenovo, ideapad, g50-70, microcode, intel
 ---
 
+{% include installare-arch-linux-su-lenovo-g50-70-index.inc %}
+
 Un'operazione preliminare da eseguire è l'installazione del software del
 **[Microcode]**{:target="_blank"} del processore, una sorta di aggiornamento
 software del codice del firmware del processore.

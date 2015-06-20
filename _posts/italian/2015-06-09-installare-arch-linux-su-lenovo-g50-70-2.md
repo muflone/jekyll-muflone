@@ -8,6 +8,8 @@ summary: Installare Arch Linux su Lenovo IdeaPad G50-70 con UEFI e Secure Boot (
 keywords: arch, linux, lenovo, ideapad, g50-70, rete, wifi, wlan, rfkill
 ---
 
+{% include installare-arch-linux-su-lenovo-g50-70-index.inc %}
+
 {: .center}
 ![arch-linux-prompt.png]
 
