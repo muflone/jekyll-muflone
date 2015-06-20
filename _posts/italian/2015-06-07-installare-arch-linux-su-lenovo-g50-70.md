@@ -27,28 +27,20 @@ operativo, mantenendo Secure Boot e UEFI attivi.
 Il ridimensionamento della partizione di Windows per far posto alle nuove
 partizioni per Arch Linux non viene trattato in questa guida.
 
-La procedura di installazione sarà spiegata in vari passaggi:
+La procedura di installazione sarà spiegata in vari parti:
 
-> [Preparazione del sistema]({% post_url italian/2015-06-08-installare-arch-linux-su-lenovo-g50-70-1 %}).
 {: .big}
-> [Configurazione della connessione Wi-Fi]({% post_url italian/2015-06-09-installare-arch-linux-su-lenovo-g50-70-2 %}).
-{: .big}
-> [Partizionamento del disco]({% post_url italian/2015-06-10-installare-arch-linux-su-lenovo-g50-70-3 %}).
-{: .big}
-> [Installazione del sistema]({% post_url italian/2015-06-15-installare-arch-linux-su-lenovo-g50-70-4 %}).
-{: .big}
-> [Installazione del gestore di avvio]({% post_url italian/2015-06-16-installare-arch-linux-su-lenovo-g50-70-5 %}).
-{: .big}
-> [Funzionamento di rEFInd]({% post_url italian/2015-06-16-installare-arch-linux-su-lenovo-g50-70-6 %}).
-{: .big}
-> [Primo avvio del sistema]({% post_url italian/2015-06-16-installare-arch-linux-su-lenovo-g50-70-7 %}).
-{: .big}
-> [Riconfigurazione della connessione Wi-Fi]({% post_url italian/2015-06-17-installare-arch-linux-su-lenovo-g50-70-8 %}).
-{: .big}
-> [Aggiornamento del microcode]({% post_url italian/2015-06-19-installare-arch-linux-su-lenovo-g50-70-9 %}).
-{: .big}
-> [Il gestore di pacchetti pacman]({% post_url italian/2015-06-19-installare-arch-linux-su-lenovo-g50-70-10 %}).
-{: .big}
+>
+* [Preparazione del sistema]({% post_url italian/2015-06-08-installare-arch-linux-su-lenovo-g50-70-1 %}).
+* [Configurazione della connessione Wi-Fi]({% post_url italian/2015-06-09-installare-arch-linux-su-lenovo-g50-70-2 %}).
+* [Partizionamento del disco]({% post_url italian/2015-06-10-installare-arch-linux-su-lenovo-g50-70-3 %}).
+* [Installazione del sistema]({% post_url italian/2015-06-15-installare-arch-linux-su-lenovo-g50-70-4 %}).
+* [Installazione del gestore di avvio]({% post_url italian/2015-06-16-installare-arch-linux-su-lenovo-g50-70-5 %}).
+* [Funzionamento di rEFInd]({% post_url italian/2015-06-16-installare-arch-linux-su-lenovo-g50-70-6 %}).
+* [Primo avvio del sistema]({% post_url italian/2015-06-16-installare-arch-linux-su-lenovo-g50-70-7 %}).
+* [Riconfigurazione della connessione Wi-Fi]({% post_url italian/2015-06-17-installare-arch-linux-su-lenovo-g50-70-8 %}).
+* [Aggiornamento del microcode]({% post_url italian/2015-06-19-installare-arch-linux-su-lenovo-g50-70-9 %}).
+* [Il gestore di pacchetti pacman]({% post_url italian/2015-06-19-installare-arch-linux-su-lenovo-g50-70-10 %}).
 
 
 [lenovo-ideapad-g50-70.jpg]: /resources/articles/2015-06/lenovo-ideapad-g50-70.jpg
