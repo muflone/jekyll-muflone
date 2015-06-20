@@ -47,6 +47,8 @@ La procedura di installazione sarà spiegata in vari passaggi:
 {: .big}
 > [Aggiornamento del microcode]({% post_url italian/2015-06-19-installare-arch-linux-su-lenovo-g50-70-9 %}).
 {: .big}
+> [Il gestore di pacchetti pacman]({% post_url italian/2015-06-19-installare-arch-linux-su-lenovo-g50-70-10 %}).
+{: .big}
 
 
 [lenovo-ideapad-g50-70.jpg]: /resources/articles/2015-06/lenovo-ideapad-g50-70.jpg

@@ -1,0 +1,433 @@
+---
+title: Installare Arch Linux su Lenovo G50-70 (parte 10 - pacman)
+category: italian
+tags:
+  - arch linux
+  - documentation
+summary: Installare Arch Linux su Lenovo IdeaPad G50-70 con UEFI e Secure Boot
+keywords: arch, linux, lenovo, ideapad, g50-70, gestore, pacchetti, pacman, installazione, packages, repository, pactree, cache, mirror
+---
+
+Durante il processo di installazione dei pacchetti mi sono limitato a indicare
+i comandi per l'installazione di pacchetti con **pacman -S nome**.
+E' tuttavia utile conoscere l'utilizzo di **[pacman]{:target="_blank"}**, il
+gestore pacchetti di Arch Linux, le cui funzionalità sono tante ma semplici.
+
+## I repository
+
+Pacman utilizza una serie di **[repository]{:target="_blank"}**, dei contenitori
+di pacchetti, suddivisi per tipologia. I repository standard sono:
+
+* **core**: contiene i software fondamentali per il sistema, utili generalmente
+al solo processo di avvio del sistema
+* **extra**: contiene il resto del software generico e non essenziale
+* **community**: contiene altro software generico ma a differenza del repository
+  extra del suo contenuto sono responsabili i **[Trusted Users]{:target="_blank"}**
+* **testing**: contiene versioni sperimentali di alcuni pacchetti dei repository
+  core o extra
+* **community-testing**: contiene versioni sperimentali di alcuni pacchetti del
+  repository community
+* **multilib**: contiene software per abilitare la **[multiarchitettura]{:target="_blank"}**
+  e per installare software a 32 bit su sistemi a 64 bit, ad esempio wine o skype
+* **multilib-testing**: contiene versioni sperimentali di alcuni pacchetti del
+  repository multilib
+
+Tutti questi repository sono configurabili attraverso il file /etc/pacman.conf e
+determinano quindi la disponibilità dei software installabili.
+
+Generalmente è necessario abilitare soltanto i repository core ed extra per 
+sistemi minimali, server o dove si desideri un elevato grado di sicurezza.
+
+Abilitando il repository community si avrà a disposizione un gran numero di
+pacchetti inviati da contributori ad Arch Linux, detti
+**[Trusted Users]{:target="_blank"}** (dei quali faccio parte).
+
+Se si utilizza un sistema a 64 bit (x86_64) e si ha la necessità di eseguire
+software a 32 bit (i686), il repository multilib è necessario.
+
+Se si desidera utilizzare il software molto recente, ancora da verificare e **si
+accetta il rischio** di utilizzare software non testato a fondo che **potrà
+anche causale errori o blocchi**, si possono abilitare i repository testing,
+community-testing (vale la regola di community) e multilib-testing (vale la
+regola di multilib).
+
+## Aggiornamento dei repository
+
+Prima di poter installare del software è necessario che l'elenco dei software
+nei repository sia aggiornato. Se l'elenco dei software non è aggiornato, pacman
+proverà a scaricare file non più esistenti o sostituiti e quindi riporterà errori.
+
+Naturalmente non è necessario aggiornare i repository ogni volta che si installa
+un pacchetto, ma ogni tanto, è un'operazione da eseguire.
+
+Per aggiornare l'elenco dei software nei repository utilizzare il comando:
+
+    [root@arch-lenovo ~]# pacman -Sy
+    :: Sincronizzazione dei database in corso...
+     core è aggiornato
+     extra è aggiornato
+     community                          2,7 MiB   183K/s 00:15 [####################################] 100%
+     multilib è aggiornato
+
+Il gestore pacchetti non scaricherà elenchi che siano già aggiornati, nell'esempio
+sopra soltanto il repository community ha avuto dei cambiamenti ed è stato
+scaricato l'elenco aggiornato.
+
+Per forzare lo scaricamento completo dell'elenco dei repository utilizzare:
+
+    [root@arch-lenovo ~]# pacman -Syy
+    :: Sincronizzazione dei database in corso...
+     core è aggiornato                122,3 KiB   192K/s 00:01 [####################################] 100%
+     extra è aggiornato              1738,6 KiB   188K/s 00:09 [####################################] 100%
+     community                          2,7 MiB   183K/s 00:15 [####################################] 100%
+     multilib è aggiornato            125,8 KiB   196K/s 00:01 [####################################] 100%
+
+## Configurare gli indirizzi dei mirror dei repository
+
+Ciascun repository ufficiale si trova duplicato in vari [siti mirror]{:target="_blank"}
+dislocati in tutto il mondo, ciascuno con la propria banda per il trasferimento o
+frequenza di aggiornamento (vedere anche la pagina **[Mirror status]{:target="_blank"}**.
+
+## Installazione (o reinstallazione) di pacchetti
+
+L'installazione di uno o più pacchetti è l'operazione più frequente e 
+fondamentalmente basta il comando
+
+    [root@arch-lenovo ~]# pacman -S pacchetto_1 pacchetto_2
+
+E' anche possibile combinare l'aggiornamento dei repository con l'installazione
+del pacchetto in un'unica operazione:
+
+    [root@arch-lenovo ~]# pacman -Sy pacchetto_1 pacchetto_2
+
+Se sono stati abilitati repository aggiuntivi, con versioni multiple (ad esempio
+testing contiene software presenti anche in core o extra, ma più aggiornato) è
+possibile indicare esplicitamente il nome del repository come ad esempio.
+
+    [root@arch-lenovo ~]# pacman -S core/pacchetto_1 testing/pacchetto_2
+
+I pacchetti di Arch Linux hanno generalmente un nome composto da
+**nome_pacchetto-versione-revisione-architettura.pkg.tar.xz**.
+
+E' possibile scaricare in locale un pacchetto per Arch Linux (anche da altri
+siti, non necessariamente repository) ed installarlo con:
+
+    [root@arch-lenovo ~]# pacman -U /percorso/nome_file.pkg.tar.xz
+
+E' anche possibile scaricare direttamente un pacchetto mediante pacman senza
+che vi sia il repository configurato e attivato oppure fuori da repository
+semplicemente indicando il suo indirizzo internet da cui scaricarlo.
+
+    [root@arch-lenovo ~]# pacman -U http://www.sitoweb.it/nome_file.pkg.tar.xz
+
+## Installazione (o reinstallazione) di gruppi di pacchetti
+
+Sono disponibili anche dei **[gruppi di pacchetti]{:target="_blank"}** che
+raggruppano vari pacchetti sotto un unico nome. Ad esempio durante
+l'[installazione del sistema di base]({% post_url italian/2015-06-15-installare-arch-linux-su-lenovo-g50-70-4 %}#installazione-dei-pacchetti-del-sistema-di-base)
+è stato richiesta l'installazione del gruppo **base** che contiene tutti i
+pacchetti di base all'avvio di un sistema minimale.
+
+Per installare un gruppo di pacchetti basterà semplicemente indicare il suo nome:
+
+    [root@arch-lenovo ~]# pacman -S base-devel
+    :: Ci sono 50 membri nel gruppo base:
+    
+    :: Repository testing
+       1) cryptsetup  2) device-mapper  3) file  4) inetutils  5) logrotate  6) lvm2  7) netctl  8) perl
+       9) s-nail  10) systemd-sysvcompat
+    :: Repository core
+       11) bash  12) bzip2  13) coreutils  14) dhcpcd  15) diffutils  16) e2fsprogs  17) filesystem
+       18) findutils  19) gawk  20) gcc-libs  21) gettext  22) glibc  23) grep  24) gzip  25) iproute2
+       26) iputils  27) jfsutils  28) less  29) licenses  30) linux  31) man-db  32) man-pages  33) mdadm
+       34) nano  35) pacman  36) pciutils  37) pcmciautils  38) procps-ng  39) psmisc  40) reiserfsprogs
+       41) sed  42) shadow  43) sysfsutils  44) tar  45) texinfo  46) usbutils  47) util-linux  48) vi
+       49) which  50) xfsprogs
+    
+    Digita una selezione (default=tutto): 
+
+Confermando con invio verranno automaticamente installati tutti i pacchetti
+elencati del gruppo, altrimenti sarà possibile indicare i numeri dei singoli
+pacchetti (34 per nano, 44 per tar).
+
+In alternativa è possibile escludere alcuni pacchetti del gruppo utilizzando la
+forma ^X per escludere il pacchetto con indice X oppure ^X-Y per escludere tutti
+i pacchetti il cui numero va da X a Y.
+
+## Disinstallazione di pacchetti
+
+Per disinstallare uno o più pacchetti precedentemente installati è possibile
+utilizzare il comando:
+
+    [root@arch-lenovo ~]# pacman -R pacchetto_1 pacchetto_2
+
+Se durante l'installazione di pacchetto_1 e pacchetto_2 erano stati installati
+anche altri pacchetti necessari come dipendenze, tali pacchetti non saranno
+automaticamente disinstallati e resteranno quindi installati.
+
+Per rimuovere anche i pacchetti dipendenti in una sola operazione è possibile
+utilizzare:
+
+    [root@arch-lenovo ~]# pacman -Rs pacchetto_1 pacchetto_2
+
+In questo modo, tutti i pacchetti che erano stati installati durante l'installazione
+di pacchetto_1 e pacchetto_2, saranno automaticamente rimossi assieme ai due
+pacchetti richiesti.
+
+## Aggiornamento dei pacchetti
+
+I software nei repository vengono costantemente aggiornati ed è raccomandato
+che anche il software installato venga periodicamente aggiornato. Per aggiornare
+tutti i pacchetti già installati è possibile utilizzare il comando:
+
+    [root@arch-lenovo ~]# pacman -Su
+
+Oppure combinare in un'unica operazione l'aggiornamento dell'elenco del software
+nei repository con l'aggiornamento dei pacchetti:
+
+    [root@arch-lenovo ~]# pacman -Syu
+
+Tutti i pacchetti già installati verranno aggiornati all'ultima versione
+presente nei repository.
+
+## Ricerca di pacchetti
+
+Se non si conosce il nome di un pacchetto da installare (o rimuovere) è possibile
+utilizzare la ricerca:
+
+    [root@arch-lenovo ~]# pacman -Ss filesystem utilities
+    testing/dosfstools 3.0.28-1 [installato]
+        DOS filesystem utilities
+    core/btrfs-progs 4.0.1-1
+        Btrfs filesystem utilities
+    core/dosfstools 3.0.27-1 [installato: 3.0.28-1]
+        DOS filesystem utilities
+    core/e2fsprogs 1.42.12-2 (base) [installato]
+        Ext2/3/4 filesystem utilities
+    core/jfsutils 1.1.15-4 (base) [installato]
+        JFS filesystem utilities
+    core/xfsprogs 3.2.2-1 (base) [installato]
+        XFS filesystem utilities
+    extra/ntfs-3g 2015.3.14-1 [installato]
+        NTFS filesystem driver and utilities
+
+
+Con la ricerca di *filesystem* e *utilities* saranno mostrati tutti i pacchetti
+nei repository la cui descrizione contiene entrambe le parole ricercate.
+
+E' anche possibile limitare la ricerca ai soli pacchetti già installati:
+
+    [root@arch-lenovo ~]# pacman -Qs filesystem utilities
+    local/dosfstools 3.0.28-1
+        DOS filesystem utilities
+    local/e2fsprogs 1.42.12-2 (base)
+        Ext2/3/4 filesystem utilities
+    local/jfsutils 1.1.15-4 (base)
+        JFS filesystem utilities
+    local/ntfs-3g 2015.3.14-1
+        NTFS filesystem driver and utilities
+    local/xfsprogs 3.2.2-1 (base)
+        XFS filesystem utilities
+
+## Leggere informazioni sui pacchetti
+
+E' possibile recuperare informazioni sui pacchetti già installati con:
+
+    [root@arch-lenovo ~]# pacman -Si e2fsprogs
+    Repository     : core
+    Nome           : e2fsprogs
+    Versione       : 1.42.12-2
+    Descrizione    : Ext2/3/4 filesystem utilities
+    Architettura   : x86_64
+    URL            : http://e2fsprogs.sourceforge.net
+    Licenze        : GPL  LGPL  MIT
+    Gruppi         : base
+    Fornisce       : Nessuno
+    Dipende da     : sh  libutil-linux
+    Dip. opzionali : Nessuno
+    Conflitti con  : Nessuno
+    Sostituisce    : Nessuno
+    Dimensione     : 757,05 KiB
+    KiB richiesti  : 3327,00 KiB
+    Autore         : Ronald van Haren <ronald@archlinux.org>
+    Creato il      : lun 02 mar 2015 16:15:54 CET
+    Convalidato da : Somma MD5  Somma SHA256  Firma
+
+In maniera analoga si possono recuperare informazioni sui pacchetti già
+installati con:
+
+    [root@arch-lenovo ~]# pacman -Qi e2fsprogs
+    Nome           : e2fsprogs
+    Versione       : 1.42.12-2
+    Descrizione    : Ext2/3/4 filesystem utilities
+    Architettura   : x86_64
+    URL            : http://e2fsprogs.sourceforge.net
+    Licenze        : GPL  LGPL  MIT
+    Gruppi         : base
+    Fornisce       : Nessuno
+    Dipende da     : sh  libutil-linux
+    Dip. opzionali : Nessuno
+    Richiesto da   : bind-tools  krb5  lib32-e2fsprogs  libldap  libvirt  progsreiserfs
+    Opzionale per  : Nessuno
+    Conflitti con  : Nessuno
+    Sostituisce    : Nessuno
+    KiB richiesti  : 3,25 MiB
+    Autore         : Ronald van Haren <ronald@archlinux.org>
+    Creato il      : lun 02 mar 2015 16:15:54 CET
+    Installato il  : mer 04 mar 2015 16:56:21 CET
+    Motivo         : Installato esplicitamente
+    Script install : Sì
+    Convalidato da : Firma
+
+La ricerca locale sui pacchetti già installati mostrerà dettagli aggiuntivi come
+la riga **Richiesto da** che indica che tale pacchetto costituisce una dipendenza
+di altri pacchetti installati e pertanto per disinstallarlo sarà necessario
+rimuovere anche tali pacchetti.
+
+Dato invece un file di pacchetto .pkg.tar.xz già scaricato è possibile eseguire
+la stessa operazione con:
+
+    [root@arch-lenovo ~]# pacman -Qpi /var/cache/pacman/pkg/e2fsprogs-1.42.12-2-x86_64.pkg.tar.xz
+
+## Elencare i pacchetti presenti in un repository
+
+Per conoscere l'elenco dei pacchetti presenti in un determinato repository
+è possibile utilizzare:
+
+    [root@arch-lenovo ~]# pacman -Sl core
+    core acl 2.2.52-2 [installato]
+    core archlinux-keyring 20150605-1 [installato]
+    core attr 2.4.47-1 [installato]
+    core autoconf 2.69-2 [installato]
+    core automake 1.15-1 [installato]
+    core b43-fwcutter 019-1
+    core bash 4.3.039-1 [installato]
+    ...
+
+## Elencare i file contenuti in un pacchetto
+
+E' possibile conoscere l'elenco dei file contenuti in un pacchetto con:
+
+    [root@arch-lenovo ~]# pacman -Ql which
+    which /usr/
+    which /usr/bin/
+    which /usr/bin/which
+    which /usr/share/
+    which /usr/share/info/
+    which /usr/share/info/which.info.gz
+    which /usr/share/man/
+    which /usr/share/man/man1/
+    which /usr/share/man/man1/which.1.gz
+
+Dato invece un file di pacchetto .pkg.tar.xz già scaricato è possibile eseguire
+la stessa operazione con:
+
+    [root@arch-lenovo ~]# pacman -Qpl /var/cache/pacman/pkg/which-2.21-1-x86_64.pkg.tar.xz 
+    which /usr/
+    which /usr/bin/
+    which /usr/bin/which
+    which /usr/share/
+    which /usr/share/info/
+    which /usr/share/info/which.info.gz
+    which /usr/share/man/
+    which /usr/share/man/man1/
+    which /usr/share/man/man1/which.1.gz
+
+## Conoscere la provenienza di un file
+
+Se si conosce il nome di un file è possibile conoscere quale pacchetti sia
+responsabile e l'abbia installato, utilizzando:
+
+    [root@arch-lenovo ~]# pacman -Qo /usr/bin/which
+    /usr/bin/which è contenuto in which 2.21-1
+
+## Visualizzare l'elenco completo delle dipendenze di un pacchetto
+
+Se si vogliono conoscere tutti i pacchetti necessari ad un determinato pacchetto
+in modo da avere un elenco completo delle dipendenze del pacchetto è possibile
+utilizzare:
+
+    [root@arch-lenovo ~]# pactree which
+    which
+    ├─glibc
+    │ ├─linux-api-headers
+    │ ├─tzdata
+    │ └─filesystem
+    │   └─iana-etc
+    └─bash
+      ├─readline
+      │ ├─glibc
+      │ └─ncurses
+      │   ├─glibc
+      │   ├─gcc-libs
+      │   │ └─glibc
+      │   └─bash provides sh
+      └─glibc
+
+In alternativa è possibile avere l'elenco di tutti i pacchetti senza elementi
+grafici in questa maniera:
+
+    [root@arch-lenovo ~]# pactree -l -u which
+    which
+    glibc
+    linux-api-headers
+    tzdata
+    filesystem
+    iana-etc
+    bash
+    readline
+    ncurses
+    gcc-libs
+
+# Pulire la cache dei pacchetti
+
+Tutti i pacchetti scaricati da pacman vengono salvati all'interno di una cache
+locale solitamente posta in **/var/cache/pacman/pkg**.
+
+E' possibile eliminare dalla cache **tutti** i pacchetti scaricati mediante:
+
+    [root@arch-lenovo ~]# pacman -Scc
+    
+    Directory della cache: /var/cache/pacman/pkg/
+    :: Vuoi rimuovere TUTTI i file dalla cache? [s/N] s
+    rimozione di tutti i file dalla cache in corso...
+
+    Directory del database: /var/lib/pacman/
+    :: Vuoi rimuovere i repository inutilizzati? [S/n] 
+    rimozione dei repository inutilizzati in corso...
+
+In alternativa è possibile escludere dalla cancellazione i pacchetti attualmente
+installati, quindi rimuovere dalla cache soltanto i pacchetti non installati,
+utilizzando:
+
+    [root@arch-lenovo ~]# pacman -Sc
+    Pacchetti da mantenere:
+      Tutti i pacchetti installati localmente
+    
+    Directory della cache: /var/cache/pacman/pkg/
+    :: Vuoi rimuovere tutti gli altri pacchetti dalla cache? [S/n] 
+    rimozione dei vecchi pacchetti dalla cache in corso...
+    
+    Directory del database: /var/lib/pacman/
+    :: Vuoi rimuovere i repository inutilizzati? [S/n] 
+    rimozione dei repository inutilizzati in corso...
+
+## File di configurazione
+
+Pacman utilizza vari file di configurazione, ciascuno con la propria funzionalità:
+
+* **/etc/pacman.conf** è il file di configurazione principale che contiene anche
+l'elenco dei repository configurati
+* **/etc/pacman.d/mirrorlist** contiene l'elenco dei [siti mirror] dai quali
+recuperare i repository ufficiali
+* **/etc/pacman.d/gnupg/** contiene tutti i file necessari all'autenticazione dei
+pacchetti e delle chiavi valide per la verifica dell'integrità dei pacchetti
+
+
+[pacman]: https://wiki.archlinux.org/index.php/Pacman
+[repository]: https://wiki.archlinux.org/index.php/Official_repositories
+[Trusted Users]: https://wiki.archlinux.org/index.php/Trusted_Users
+[multiarchitettura]: https://wiki.archlinux.org/index.php/Multilib
+[gruppi di pacchetti]: https://www.archlinux.org/groups/
+[siti mirror]: https://wiki.archlinux.org/index.php/Mirrors
+[Mirror status]: https://www.archlinux.org/mirrors/status/
