@@ -4,7 +4,7 @@ category: italian
 tags:
   - arch linux
   - documentation
-summary: Installare Arch Linux su Lenovo IdeaPad G50-70 con UEFI e Secure Boot
+summary: Installare Arch Linux su Lenovo IdeaPad G50-70 con UEFI e Secure Boot (parte 3 - Partizionamento del disco)
 keywords: arch, linux, lenovo, ideapad, g50-70, partizionamento, disco, swap, ext4, file system, formattazione, parted, gdisk
 ---
 

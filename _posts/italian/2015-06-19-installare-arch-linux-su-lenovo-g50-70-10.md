@@ -4,7 +4,7 @@ category: italian
 tags:
   - arch linux
   - documentation
-summary: Installare Arch Linux su Lenovo IdeaPad G50-70 con UEFI e Secure Boot
+summary: Installare Arch Linux su Lenovo IdeaPad G50-70 con UEFI e Secure Boot (parte 10 - Il gestore di pacchetti pacman)
 keywords: arch, linux, lenovo, ideapad, g50-70, gestore, pacchetti, pacman, installazione, packages, repository, pactree, cache, mirror
 ---
 
