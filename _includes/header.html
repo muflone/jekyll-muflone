@@ -26,10 +26,8 @@
 {% if page.require_jquery %}
   {% include jquery.inc %}
 {% endif %}
-{% if page.require_iontabs %}
-    <script language="javascript" src="/resources/ion-tabs/js/ion-tabs/ion.tabs.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="/resources/ion-tabs/css/ion.tabs.css">
-    <link rel="stylesheet" type="text/css" href="/resources/ion-tabs/css/ion.tabs.skinBorderedCustom.css">
+{% if page.require_jquery_iontabs %}
+  {% include jquery_iontabs.inc %}
 {% endif %}
     <title>{{ include.module.name }} - {{ page.title }}</title>
   </head>

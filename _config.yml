@@ -14,7 +14,7 @@ defaults:
     values:
       layout: articles
       require_jquery: False
-      require_iontabs: False
+      require_jquery_iontabs: False
   - scope:
       path: "italian/updates"
       type: "posts"
