@@ -1,8 +1,8 @@
 {% include set-language.inc %}
 {% if language == 'italian' %}
-{%   assign iubenda_policy=174297 %}
+{%   assign iubenda_policy=site.iubenda_policy_it %}
 {%  else %}
-{%   assign iubenda_policy=161072 %}
+{%   assign iubenda_policy=site.iubenda_policy_en %}
 {% endif %}
 <a href="//www.iubenda.com/privacy-policy/{{ iubenda_policy }}" target="_blank" class="iubenda-white iubenda-embed" title="Privacy Policy">Privacy Policy</a>
 {% if false %}
