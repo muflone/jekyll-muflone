@@ -1,12 +1,12 @@
 {: .center}
-[Indice]({% post_url italian/2015-06-07-installare-arch-linux-su-lenovo-g50-70 %} "Indice") |
-[Parte 1]({% post_url italian/2015-06-08-installare-arch-linux-su-lenovo-g50-70-1 %} "Preparazione del sistema") |
-[Parte 2]({% post_url italian/2015-06-09-installare-arch-linux-su-lenovo-g50-70-2 %} "Configurazione della connessione Wi-Fi") |
-[Parte 3]({% post_url italian/2015-06-10-installare-arch-linux-su-lenovo-g50-70-3 %} "Partizionamento del disco") |
-[Parte 4]({% post_url italian/2015-06-15-installare-arch-linux-su-lenovo-g50-70-4 %} "Installazione del sistema") |
-[Parte 5]({% post_url italian/2015-06-16-installare-arch-linux-su-lenovo-g50-70-5 %} "Installazione del gestore di avvio") |
-[Parte 6]({% post_url italian/2015-06-16-installare-arch-linux-su-lenovo-g50-70-6 %} "Funzionamento di rEFInd") |
-[Parte 7]({% post_url italian/2015-06-16-installare-arch-linux-su-lenovo-g50-70-7 %} "Primo avvio del sistema") |
-[Parte 8]({% post_url italian/2015-06-17-installare-arch-linux-su-lenovo-g50-70-8 %} "Riconfigurazione della connessione Wi-Fi") |
-[Parte 9]({% post_url italian/2015-06-19-installare-arch-linux-su-lenovo-g50-70-9 %} "Aggiornamento del microcode") |
-[Parte 10]({% post_url italian/2015-06-19-installare-arch-linux-su-lenovo-g50-70-10 %} "Il gestore di pacchetti pacman")
+[Indice]({% post_url italian/2015-06-07-installare-arch-linux-su-lenovo-g50-70 %} "Indice")
+| [Parte 1]({% post_url italian/2015-06-08-installare-arch-linux-su-lenovo-g50-70-1 %} "Preparazione del sistema")
+| [Parte 2]({% post_url italian/2015-06-09-installare-arch-linux-su-lenovo-g50-70-2 %} "Configurazione della connessione Wi-Fi")
+| [Parte 3]({% post_url italian/2015-06-10-installare-arch-linux-su-lenovo-g50-70-3 %} "Partizionamento del disco")
+| [Parte 4]({% post_url italian/2015-06-15-installare-arch-linux-su-lenovo-g50-70-4 %} "Installazione del sistema")
+| [Parte 5]({% post_url italian/2015-06-16-installare-arch-linux-su-lenovo-g50-70-5 %} "Installazione del gestore di avvio")
+| [Parte 6]({% post_url italian/2015-06-16-installare-arch-linux-su-lenovo-g50-70-6 %} "Funzionamento di rEFInd")
+| [Parte 7]({% post_url italian/2015-06-16-installare-arch-linux-su-lenovo-g50-70-7 %} "Primo avvio del sistema")
+| [Parte 8]({% post_url italian/2015-06-17-installare-arch-linux-su-lenovo-g50-70-8 %} "Riconfigurazione della connessione Wi-Fi")
+| [Parte 9]({% post_url italian/2015-06-19-installare-arch-linux-su-lenovo-g50-70-9 %} "Aggiornamento del microcode")
+| [Parte 10]({% post_url italian/2015-06-19-installare-arch-linux-su-lenovo-g50-70-10 %} "Il gestore di pacchetti pacman")
