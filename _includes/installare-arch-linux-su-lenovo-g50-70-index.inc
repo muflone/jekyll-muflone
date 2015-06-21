@@ -9,4 +9,4 @@
 | [Parte 7]({% post_url italian/2015-06-16-installare-arch-linux-su-lenovo-g50-70-7 %} "Primo avvio del sistema")
 | [Parte 8]({% post_url italian/2015-06-17-installare-arch-linux-su-lenovo-g50-70-8 %} "Riconfigurazione della connessione Wi-Fi")
 | [Parte 9]({% post_url italian/2015-06-19-installare-arch-linux-su-lenovo-g50-70-9 %} "Aggiornamento del microcode")
-| [Parte 10]({% post_url italian/2015-06-19-installare-arch-linux-su-lenovo-g50-70-10 %} "Il gestore di pacchetti pacman")
+| [Parte 10]({% post_url italian/2015-06-20-installare-arch-linux-su-lenovo-g50-70-10 %} "Il gestore di pacchetti pacman")
