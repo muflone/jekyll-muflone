@@ -14,7 +14,8 @@
       <a href="/">Home</a> | 
       <a href="/english.html"><img src="/resources/index/16-english.png"> English</a> |
       <a href="/italian.html"><img src="/resources/index/16-italian.png"> Italian</a> |
-      <a href="/contacts/{{ language }}/">{% if language == 'italian' %}Contatti{% else %}Contacts{% endif %}</a>
+      <a href="/contacts/{{ language }}/">{% if language == 'italian' %}Contatti{% else %}Contacts{% endif %}</a> |
+{% include iubenda-privacy-policy.inc %}
     </div>
   </body>
 </html>
