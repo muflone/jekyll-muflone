@@ -29,7 +29,7 @@
   {% include jquery.inc %}
 {% endif %}
 {% if page.require_jquery_collapse %}
-    <script language="javascript" src="/resources/jquery-collapse/jquery.collapse.js"></script>
+  {% include jquery_collapse.inc %}
 {% endif %}
     <title>{{ page.title }}</title>
   </head>
