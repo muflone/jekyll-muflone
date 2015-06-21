@@ -33,4 +33,5 @@
 {% if page.require_jquery_collapse %}
   {% include jquery_collapse.inc %}
 {% endif %}
+{% include cookie-consent.inc %}
     <title>{% if include.title_prefix %}{{ include.title_prefix }} - {% endif %}{{ page.title }}</title>
