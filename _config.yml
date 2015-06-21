@@ -13,6 +13,7 @@ defaults:
       path: ""
     values:
       layout: articles
+      require_jquery: False
       require_iontabs: False
   - scope:
       path: "italian/updates"
