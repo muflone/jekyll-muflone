@@ -238,7 +238,7 @@ Per riavviare immediatamente il sistema operativo utilizzare:
 
 Per spegnere immediatamente il sistema:
 
-    [root@arch-lenovo ~]# systemctl shutdown
+    [root@arch-lenovo ~]# systemctl poweroff
 
 ## Mandare il sistema in sospensione (stand-by)
 
