@@ -138,9 +138,9 @@ Arch Linux, consultare la guida [Beginner's guide]{:target="_blank"} per
 ulteriori informazioni sul processo di installazione.
 
 Sin dal primo avvio dell'installazione di Arch Linux sarà automaticamente
-utilizzata la tastiera in lingua americana (\<Maiusc\>+2 rappresenterà la @ anziché
-le virgolette "). Se si desidera impostare sin da subito la tastiera italiana
-eseguire il comando **loadkeys it** .
+utilizzata la tastiera in lingua americana (<kbd>Maiusc</kbd>+<kbd>2</kbd>
+rappresenterà la @ anziché le virgolette "). Se si desidera impostare sin da
+subito la tastiera italiana eseguire il comando **loadkeys it** .
 
     root@archiso ~ # loadkeys it
 

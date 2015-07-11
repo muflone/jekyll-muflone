@@ -56,8 +56,8 @@ termine **initrd=intel-ucode.img initrd=initramfs-linux.img** come segue:
     "Boot to single-user mode"    "ro root=UUID=xxx   single"
     "Boot with minimal options"   "ro root=UUID=xxx"
 
-Salvare il file premendo **\<Control\>+O**, confermare con invio e **\<Control>+X**
-per uscire dall'editor di testo.
+Salvare il file premendo <kbd>Control</kbd>+<kbd>O</kbd>, confermare con invio
+e <kbd>Control</kbd>+<kbd>X</kbd> per uscire dall'editor di testo.
 
 ## Verifica del Microcode in uso
 
