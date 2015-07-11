@@ -12,3 +12,4 @@
 | [Parte 10]({% post_url italian/2015-06-20-installare-arch-linux-su-lenovo-g50-70-10 %} "Il gestore di pacchetti pacman")
 | [Parte 11]({% post_url italian/2015-06-24-installare-arch-linux-su-lenovo-g50-70-11 %} "Il sistema di avvio systemd")
 | [Parte 12]({% post_url italian/2015-07-10-installare-arch-linux-su-lenovo-g50-70-12 %} "Accesso tramite SSH")
+| [Parte 13]({% post_url italian/2015-07-11-installare-arch-linux-su-lenovo-g50-70-13 %} "Abilitare lo scorrimento del testo nella console")
