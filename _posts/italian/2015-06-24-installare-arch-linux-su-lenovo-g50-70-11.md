@@ -29,6 +29,7 @@ Per una spiegazione più approfondita consultare le seguenti pagine:
 * <https://wiki.freedesktop.org/www/Software/systemd/>{:target="_blank"}
 * <http://0pointer.net/blog/archives.html>{:target="_blank"}
 * <https://wiki.archlinux.org/index.php/Systemd>{:target="_blank"}
+* <https://n0where.net/understanding-systemd/>{:target="_blank"}
 
 -----
 
