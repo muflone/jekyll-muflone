@@ -1,0 +1,286 @@
+---
+title: Installare Arch Linux su Lenovo G50-70 (parte 14 - installare l'ambiente grafico)
+category: italian
+tags:
+  - arch linux
+  - documentation
+summary: Installare Arch Linux su Lenovo IdeaPad G50-70 con UEFI e Secure Boot (parte 14 - Installare l'ambiente grafico)
+keywords: arch, linux, lenovo, ideapad, g50-70, xorg, x11, ambiente, grafico, server, intel, video, driver, twm, xclock, xterm, synaptics, touchpad
+---
+
+{% include installare-arch-linux-su-lenovo-g50-70-index.inc %}
+
+Fino ad ora ci siamo limitati all'uso del nuovo sistema operativo soltanto da
+riga di comando e comandi di terminale. E' il momento di iniziare ad installare
+un sistema grafico di base, composto unicamente del server grafico
+**Xorg X Server**, dei driver video per la scheda integrata Intel, dei driver
+per il touchpad Synaptics e delle applicazioni di base.
+
+## Installazione del server grafico
+
+Il primo dei pacchetti da installare è il server grafico [Xorg]{:target="_blank"}
+contenuto in **xserver-xorg**.
+
+    [root@arch-lenovo ~]# pacman -S xorg-server
+    risoluzione delle dipendenze in corso...
+    :: Ci sono 4 provider disponibili per libgl:
+    :: Repository extra
+       1) mesa-libgl  2) nvidia-304xx-libgl  3) nvidia-340xx-libgl  4) nvidia-libgl
+
+    Digita un numero (default=1): 
+    ricerca dei pacchetti in conflitto in corso...
+    attenzione: è stato individuato un ciclo di dipendenza:
+    attenzione: harfbuzz sarà installato prima della sua dipendenza freetype2
+
+    Pacchetti (53) damageproto-1.2.1-3  elfutils-0.163-1  fixesproto-5.0-3  fontconfig-2.11.1-1  fontsproto-2.1.3-1
+                   freetype2-2.6-1  graphite-1:1.2.4-1  harfbuzz-0.9.41-1  kbproto-1.0.7-1  libdrm-2.4.62-1
+                   libepoxy-1.2-2  libevdev-1.4.3-1  libfontenc-1.1.3-1  libomxil-bellagio-0.9.3-1
+                   libpciaccess-0.13.4-1  libpng-1.6.16-1  libtxc_dxtn-1.0.1-6  libunwind-1.1-2  libx11-1.6.3-1
+                   libxau-1.0.8-2  libxcb-1.11-1  libxdamage-1.1.4-2  libxdmcp-1.1.2-1  libxext-1.3.3-1
+                   libxfixes-5.0.1-1  libxfont-1.5.1-1  libxkbfile-1.0.9-1  libxshmfence-1.2-1  libxxf86vm-1.1.4-1
+                   llvm-libs-3.6.2-1  mesa-10.6.2-1  mesa-libgl-10.6.2-1  mtdev-1.1.5-1  pixman-0.32.6-1
+                   wayland-1.8.1-1  xcb-proto-1.11-1  xextproto-7.3.0-1  xf86-input-evdev-2.9.2-1
+                   xf86vidmodeproto-2.3.1-3  xkeyboard-config-2.15-1  xorg-bdftopcf-1.0.5-1  xorg-font-util-1.3.1-1
+                   xorg-font-utils-7.6-4  xorg-fonts-alias-1.0.3-1  xorg-fonts-encodings-1.0.4-4
+                   xorg-fonts-misc-1.0.3-4  xorg-mkfontdir-1.0.7-2  xorg-mkfontscale-1.1.2-1
+                   xorg-server-common-1.17.2-4  xorg-setxkbmap-1.3.1-1  xorg-xkbcomp-1.3.0-1  xproto-7.0.28-1
+                   xorg-server-1.17.2-4
+
+    Dimensione totale dei pacchetti da scaricare:    30,85 MiB
+    Dimensione totale dei pacchetti da installare:  121,21 MiB
+
+    :: Vuoi procedere con l'installazione? [S/n] 
+    :: Download dei pacchetti in corso...
+     libepoxy-1.2-2-x86_64              237,0 KiB   210K/s 00:01 [####################################] 100%
+     xproto-7.0.28-1-any                142,3 KiB   240K/s 00:01 [####################################] 100%
+      ...
+    (53/53) verifica delle chiavi presenti nel portachiavi       [####################################] 100%
+    (53/53) verifica dell'integrità dei pacchetti                [####################################] 100%
+    (53/53) caricamento dei file dei pacchetti                   [####################################] 100%
+    (53/53) controllo dei conflitti in corso                     [####################################] 100%
+    (53/53) controllo dello spazio disponibile sul disco         [####################################] 100%
+    ( 1/53) installazione in corso di libepoxy                   [####################################] 100%
+    ( 2/53) installazione in corso di xproto                     [####################################] 100%
+      ...
+    (53/53) installazione in corso di xorg-server                [####################################] 100%
+    >>> xorg-server has now the ability to run without root rights with
+        the help of systemd-logind. xserver will fail to run if not launched
+        from the same virtual terminal as was used to log in.
+        Without root rights, log files will be in ~/.local/share/xorg/ directory.
+
+        Old behavior can be restored through Xorg.wrap config file.
+        See Xorg.wrap man page (man xorg.wrap).
+
+## Installazione dei driver video Intel
+
+Installato il server grafico di base sarà necessario installare i
+[driver Intel]{:target="_blank"} per la scheda video integrata, contenuti nel
+pacchetto **xf86-video-intel**
+
+    [root@arch-lenovo ~]# pacman -S xf86-video-intel
+    risoluzione delle dipendenze in corso...
+    ricerca dei pacchetti in conflitto in corso...
+
+    Pacchetti (5) libxv-1.0.10-1  libxvmc-1.0.9-1  videoproto-2.3.2-1  xcb-util-0.4.0-1
+    xf86-video-intel-1:2.99.917+364+gb24e758-1
+
+    Dimensione totale dei pacchetti da scaricare:   0,71 MiB
+    Dimensione totale dei pacchetti da installare:  2,42 MiB
+
+    :: Vuoi procedere con l'installazione? [S/n] 
+    :: Download dei pacchetti in corso...
+     videoproto-2.3.2-1-any              12,6 KiB  2,05M/s 00:00 [####################################] 100%
+     libxv-1.0.10-1-x86_64               33,5 KiB   266K/s 00:00 [####################################] 100%
+     libxvmc-1.0.9-1-x86_64              20,2 KiB   288K/s 00:00 [####################################] 100%
+     xcb-util-0.4.0-1-x86_64             10,3 KiB   258K/s 00:00 [####################################] 100%
+     xf86-video-intel-1:2.99...-x86_64  654,7 KiB   238K/s 00:03 [####################################] 100%
+    (5/5) verifica delle chiavi presenti nel portachiavi         [####################################] 100%
+    (5/5) verifica dell'integrità dei pacchetti                  [####################################] 100%
+    (5/5) caricamento dei file dei pacchetti                     [####################################] 100%
+    (5/5) controllo dei conflitti in corso                       [####################################] 100%
+    (5/5) controllo dello spazio disponibile sul disco           [####################################] 100%
+    (1/5) installazione in corso di videoproto                   [####################################] 100%
+    (2/5) installazione in corso di libxv                        [####################################] 100%
+    (3/5) installazione in corso di libxvmc                      [####################################] 100%
+    (4/5) installazione in corso di xcb-util                     [####################################] 100%
+    (5/5) installazione in corso di xf86-video-intel             [####################################] 100%
+    >>> This driver uses SNA as the default acceleration method. You can try
+        falling back to UXA if you run into trouble. To do so, save a file with
+        the following content as /etc/X11/xorg.conf.d/20-intel.conf :
+          Section "Device"
+            Identifier  "Intel Graphics"
+            Driver      "intel"
+            Option      "AccelMethod"  "uxa"
+            #Option      "AccelMethod"  "sna"
+          EndSection
+    Dipendenze opzionali di xf86-video-intel
+        libxrandr: for intel-virtual-output
+        libxinerama: for intel-virtual-output
+        libxcursor: for intel-virtual-output
+        libxtst: for intel-virtual-output
+
+## Installazione dei driver per il touchpad
+
+Se si utilizza il touchpad [Synaptics]{:target="_blank"} integrato nel portatile
+è necessario installare i driver per comandarlo, contenuti nel pacchetto
+**xf86-input-synaptics**
+
+    [root@arch-lenovo ~]# pacman -S xf86-input-synaptics
+    risoluzione delle dipendenze in corso...
+    ricerca dei pacchetti in conflitto in corso...
+
+    Pacchetti (5) inputproto-2.3.1-1  libxi-1.7.4-1  libxtst-1.2.2-1  recordproto-1.14.2-2
+                  xf86-input-synaptics-1.8.2-2
+
+    Dimensione totale dei pacchetti da scaricare:   0,31 MiB
+    Dimensione totale dei pacchetti da installare:  1,41 MiB
+
+    :: Vuoi procedere con l'installazione? [S/n] 
+    :: Download dei pacchetti in corso...
+     inputproto-2.3.1-1-any              76,9 KiB   245K/s 00:00 [####################################] 100%
+     libxi-1.7.4-1-x86_64               143,5 KiB   214K/s 00:01 [####################################] 100%
+     recordproto-1.14.2-2-any            14,6 KiB  1461K/s 00:00 [####################################] 100%
+     libxtst-1.2.2-1-x86_64              26,8 KiB   363K/s 00:00 [####################################] 100%
+     xf86-input-synaptics-1.8.2-2-x86_64 52,4 KiB   257K/s 00:00 [####################################] 100%
+    (5/5) verifica delle chiavi presenti nel portachiavi         [####################################] 100%
+    (5/5) verifica dell'integrità dei pacchetti                  [####################################] 100%
+    (5/5) caricamento dei file dei pacchetti                     [####################################] 100%
+    (5/5) controllo dei conflitti in corso                       [####################################] 100%
+    (5/5) controllo dello spazio disponibile sul disco           [####################################] 100%
+    (1/5) installazione in corso di inputproto                   [####################################] 100%
+    (2/5) installazione in corso di libxi                        [####################################] 100%
+    (3/5) installazione in corso di recordproto                  [####################################] 100%
+    (4/5) installazione in corso di libxtst                      [####################################] 100%
+    (5/5) installazione in corso di xf86-input-synaptics         [####################################] 100%
+
+## Installazione dei programmi di base dell'ambiente grafico
+
+Per poter avviare l'ambiente grafico minimale è necessario installare qualche
+programma grafico che permetta l'avvio e qualcosa da mostrare al suo interno,
+pertanto installeremo il pacchetto **xorg-xinit** che contiene il comando
+**startx** per avviare manualmente l'ambiente grafico e il pacchetto **xterm**
+che contiene un emulatore di terminale molto basilare.
+
+    [root@arch-lenovo ~]# pacman -S xorg-xinit xterm 
+    risoluzione delle dipendenze in corso...
+    ricerca dei pacchetti in conflitto in corso...
+
+    Pacchetti (15) libice-1.0.9-1  libsm-1.2.2-2  libutempter-1.1.6-2  libxaw-1.0.13-1  libxft-2.3.2-1  libxmu-1.1.2-1
+                   libxpm-3.5.11-1  libxrender-0.9.9-1  libxt-1.1.5-1  renderproto-0.11.1-3  xbitmaps-1.1.1-3
+                   xorg-luit-1.1.1-2  xorg-xauth-1.0.9-1  xorg-xinit-1.3.4-2  xterm-318-1
+
+    Dimensione totale dei pacchetti da scaricare:   0,99 MiB
+    Dimensione totale dei pacchetti da installare:  6,62 MiB
+
+    :: Vuoi procedere con l'installazione? [S/n] 
+    :: Download dei pacchetti in corso...
+     libice-1.0.9-1-x86_64               73,5 KiB   230K/s 00:00 [####################################] 100%
+     libsm-1.2.2-2-x86_64                42,0 KiB   307K/s 00:00 [####################################] 100%
+     libxmu-1.1.2-1-x86_64               70,9 KiB   213K/s 00:00 [####################################] 100%
+     xorg-xauth-1.0.9-1-x86_64           20,5 KiB   199K/s 00:00 [####################################] 100%
+     xorg-xinit-1.3.4-2-x86_64           15,7 KiB   249K/s 00:00 [####################################] 100%
+     renderproto-0.11.1-3-any            15,8 KiB   236K/s 00:00 [####################################] 100%
+     libxrender-0.9.9-1-x86_64           22,7 KiB   212K/s 00:00 [####################################] 100%
+     libxft-2.3.2-1-x86_64               44,2 KiB  87,2K/s 00:01 [####################################] 100%
+     libxpm-3.5.11-1-x86_64              48,6 KiB   270K/s 00:00 [####################################] 100%
+     libxaw-1.0.13-1-x86_64             332,5 KiB   216K/s 00:02 [####################################] 100%
+     xorg-luit-1.1.1-2-x86_64            19,1 KiB   289K/s 00:00 [####################################] 100%
+     xbitmaps-1.1.1-3-any                24,2 KiB   327K/s 00:00 [####################################] 100%
+     libutempter-1.1.6-2-x86_64           7,3 KiB   171K/s 00:00 [####################################] 100%
+     xterm-318-1-x86_64                 276,9 KiB   210K/s 00:01 [####################################] 100%
+    (15/15) verifica delle chiavi presenti nel portachiavi       [####################################] 100%
+    (15/15) verifica dell'integrità dei pacchetti                [####################################] 100%
+    (15/15) caricamento dei file dei pacchetti                   [####################################] 100%
+    (15/15) controllo dei conflitti in corso                     [####################################] 100%
+    (15/15) controllo dello spazio disponibile sul disco         [####################################] 100%
+    ( 1/15) installazione in corso di libice                     [####################################] 100%
+    ( 2/15) installazione in corso di libsm                      [####################################] 100%
+    ( 3/15) installazione in corso di libxt                      [####################################] 100%
+    ( 4/15) installazione in corso di libxmu                     [####################################] 100%
+    ( 5/15) installazione in corso di xorg-xauth                 [####################################] 100%
+    ( 6/15) installazione in corso di xorg-xinit                 [####################################] 100%
+    Dipendenze opzionali di xorg-xinit
+        xorg-twm
+        xterm[in attesa]
+    ( 7/15) installazione in corso di renderproto                [####################################] 100%
+    ( 8/15) installazione in corso di libxrender                 [####################################] 100%
+    ( 9/15) installazione in corso di libxft                     [####################################] 100%
+    (10/15) installazione in corso di libxpm                     [####################################] 100%
+    (11/15) installazione in corso di libxaw                     [####################################] 100%
+    (12/15) installazione in corso di xorg-luit                  [####################################] 100%
+    (13/15) installazione in corso di xbitmaps                   [####################################] 100%
+    (14/15) installazione in corso di libutempter                [####################################] 100%
+    (15/15) installazione in corso di xterm                      [####################################] 100%
+
+## Avvio del server grafico minimale
+
+Sarà adesso possibile avviare il server grafico in maniera minimale semplicemente
+eseguendo il comando **startx**
+
+{: .center}
+![xorg-minimal.png]
+
+Sarà mostrato uno schermo nero con tre finestre di terminale. In questo ambiente
+minimale è possibile provare il touchpad e la tastiera ed eseguire comandi
+nelle tre finestre di terminale.
+
+Per chiudere questo ambiente grafico minimale basterà chiudere il terminale
+a sinistra eseguendo il comando **exit**.
+
+## Installazione di qualche programma grafico aggiuntivo
+
+Alla chiusura dell'ambiente grafico si potranno vedere tra i tanti messaggi i
+due seguenti:
+
+    /etc/X11/xinit/xinitrc: riga 51: twm: comando non trovato
+    /etc/X11/xinit/xinitrc: riga 52: xclock: comando non trovato
+
+Lo script di avvio (xinitrc) ha provato a richiamare due comandi non ancora
+installati: **twm** (contenuto nel pacchetto xorg-twm) e **xclock** (contenuto
+nel pacchetto xorg-xclock). Si tratta fondamentalmente di un gestore di finestre
+che permetterà di spostare le finestre di terminale e un orologio.
+
+Installiamo i due pacchetti sopra descritti con:
+
+    [root@arch-lenovo ~]# pacman -S xorg-twm xorg-xclock
+    risoluzione delle dipendenze in corso...
+    ricerca dei pacchetti in conflitto in corso...
+
+    Pacchetti (2) xorg-twm-1.0.9-1  xorg-xclock-1.0.7-1
+
+    Dimensione totale dei pacchetti da scaricare:   0,11 MiB
+    Dimensione totale dei pacchetti da installare:  0,32 MiB
+
+    :: Vuoi procedere con l'installazione? [S/n] 
+    :: Download dei pacchetti in corso...
+     xorg-twm-1.0.9-1-x86_64             92,0 KiB   208K/s 00:00 [####################################] 100%
+     xorg-xclock-1.0.7-1-x86_64          25,0 KiB   374K/s 00:00 [####################################] 100%
+    (2/2) verifica delle chiavi presenti nel portachiavi         [####################################] 100%
+    (2/2) verifica dell'integrità dei pacchetti                  [####################################] 100%
+    (2/2) caricamento dei file dei pacchetti                     [####################################] 100%
+    (2/2) controllo dei conflitti in corso                       [####################################] 100%
+    (2/2) controllo dello spazio disponibile sul disco           [####################################] 100%
+    (1/2) installazione in corso di xorg-twm                     [####################################] 100%
+    (2/2) installazione in corso di xorg-xclock                  [####################################] 100%
+
+Riavviando il server grafico con **startx** si potrà mostrare una situazione
+leggermente diversa dalla precedente.
+
+{: .center}
+![xorg-minimal-2.png]
+
+Sarà mostrato nell'angolo in alto a destra un minuscolo orologio e sopra ogni
+finestra sarà presente la decorazione che permette di trascinare e ridimensionare
+ogni finestra. Cliccando col tasto sinistro del mouse su un'area libera saranno
+mostrate anche alcune opzioni proprie del gestore finestre [Twm]{:target="_blank"},
+sicuramente scarno e brutto a vedersi ma è uno dei numerosi
+[Window manager]{:target="_blank"} presenti su Arch Linux e che possono essere
+installati per controllare le finestre nell'ambiente grafico.
+
+[Xorg]: https://wiki.archlinux.org/index.php/Xorg
+[driver Intel]: https://wiki.archlinux.org/index.php/Intel_graphics
+[Synaptics]: https://wiki.archlinux.org/index.php/Touchpad_Synaptics
+[xorg-minimal.png]: /resources/articles/2015-07/xorg-minimal.png
+[xorg-minimal-2.png]: /resources/articles/2015-07/xorg-minimal-2.png
+[Twm]: https://wiki.archlinux.org/index.php/Twm
+[Window manager]: https://wiki.archlinux.org/index.php/Window_manager
