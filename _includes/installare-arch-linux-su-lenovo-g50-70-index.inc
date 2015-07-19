@@ -14,3 +14,4 @@
 | [Parte 12]({% post_url italian/2015-07-10-installare-arch-linux-su-lenovo-g50-70-12 %} "Accesso tramite SSH")
 | [Parte 13]({% post_url italian/2015-07-11-installare-arch-linux-su-lenovo-g50-70-13 %} "Abilitare lo scorrimento del testo nella console")
 | [Parte 14]({% post_url italian/2015-07-18-installare-arch-linux-su-lenovo-g50-70-14 %} "Installare l'ambiente grafico")
+| [Parte 15]({% post_url italian/2015-07-19-installare-arch-linux-su-lenovo-g50-70-15 %} "Installazione di GNOME")

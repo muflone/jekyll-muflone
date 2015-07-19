@@ -47,6 +47,7 @@ La procedura di installazione sarà spiegata in vari parti:
 * [Accesso tramite SSH]({% post_url italian/2015-07-10-installare-arch-linux-su-lenovo-g50-70-12 %}).
 * [Abilitare lo scorrimento del testo nella console]({% post_url italian/2015-07-11-installare-arch-linux-su-lenovo-g50-70-13 %}).
 * [Installare l'ambiente grafico]({% post_url italian/2015-07-18-installare-arch-linux-su-lenovo-g50-70-14 %}).
+* [Installazione di GNOME]({% post_url italian/2015-07-19-installare-arch-linux-su-lenovo-g50-70-15 %}).
 
 
 [lenovo-ideapad-g50-70.jpg]: /resources/articles/2015-06/lenovo-ideapad-g50-70.jpg
