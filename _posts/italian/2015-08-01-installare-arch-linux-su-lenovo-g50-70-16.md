@@ -80,6 +80,8 @@ L'utente muflone sarà automaticamente membro del gruppo **users** e dei gruppi
 aggiuntivi **rfkill** (per l'uso del comando rfkill) e **systemd-journal** (per
 la lettura del log di sistema col comando journalctl).
 
+## Aggiungere un utente ad un gruppo di utenti
+
 E' anche possibile aggiungere in un secondo momento un utente ad un gruppo
 utilizzando il comando **gpasswd \-\-add UTENTE GRUPPO**.
 
