@@ -1,0 +1,320 @@
+---
+title: Installare Arch Linux su Lenovo G50-70 (parte 17 - accesso amministrativo con su e sudo)
+category: italian
+tags:
+  - arch linux
+  - documentation
+summary: Installare Arch Linux su Lenovo IdeaPad G50-70 con UEFI e Secure Boot (parte 17 - Accesso amministrativo con su e sudo)
+keywords: arch, linux, lenovo, ideapad, g50-70, user, utente, root, sudoers, sudo, visudo
+---
+
+{% include installare-arch-linux-su-lenovo-g50-70-index.inc %}
+
+Con l'utilizzo di
+[un utente con privilegi limitati]({% post_url italian/2015-08-01-installare-arch-linux-su-lenovo-g50-70-16 %})
+prima o poi si avrà la necessità di eseguire dei comandi amministrativi con
+l'utente root.
+
+Ci sono due maniere per eseguire un cambio di utente dal proprio utente a root:
+
+ * Con l'uso del comando **su** (switch user) che richiederà l'inserimento della
+   password dell'utente che verrà impersonato (root di default)
+ * Con l'uso del comando **sudo** (switch user and do) che richiederà
+   l'inserimento della password dell'utente corrente
+
+La differenza tra i due comandi è quindi il tipo di password richiesta.
+
+## Utilizzo di su
+
+Chi preferisse continuare ad utilizzare la password di root come fatto finora
+può semplicemente ignorare la configurazione di sudo e continuare ad utilizzare
+su come segue:
+
+    [muflone@arch-lenovo ~]$ su
+    Password: 
+
+Dopo l'esecuzione del comando su verrà richiesto l'inserimento della password
+dell'utente root e se l'autenticazione avverrà correttamente si passerà all'uso
+dell'utente root.
+
+    [root@arch-lenovo muflone]# id
+    uid=0(root) gid=0(root) gruppi=0(root),1(bin),2(daemon),3(sys),4(adm),6(disk),10(wheel),19(log)
+
+Al termine dell'uso dell'utente root si potrà tornare al proprio utente
+chiudendo la sessione col comando **exit**.
+
+    [root@arch-lenovo muflone]# exit
+    exit
+
+Per eseguire un comando con l'utente desiderato senza bisogno di dover uscire
+dall'ambiente del nuovo utente è possibile aggiungere l'argomento **-c** seguito
+dalla riga di comando da eseguire.
+
+    [muflone@arch-lenovo ~]$ su -c "id"
+    Password: 
+    uid=0(root) gid=0(root) gruppi=0(root),1(bin),2(daemon),3(sys),4(adm),6(disk),10(wheel),19(log)
+
+
+Mediante l'uso del comando su è anche possibile utilizzare altri utenti oltre
+root, semplicemente indicando l'argomento **\-\-login** (o anche **-l** oppure
+anche **-** da solo) e il nome utente dopo il comando su.
+
+    [muflone@arch-lenovo ~]$ su -l prova
+    Password: 
+
+Quando richiesto inserire la password dell'utente prova.
+
+    [prova@arch-lenovo ~]$ id
+    uid=1001(prova) gid=100(users) gruppi=100(users)
+    [prova@arch-lenovo ~]$ exit
+    logout
+    [muflone@arch-lenovo ~]$ 
+
+Ovviamente è anche possibile combinare l'argomento **-l** con l'argomento **-c**
+per eseguire un'operazione con un altro utente ed immediatamente ritornare
+all'utente iniziale.
+
+    [muflone@arch-lenovo ~]$ su -l -c "id" prova
+    Password: 
+    uid=1001(prova) gid=100(users) gruppi=100(users)
+
+## Utilizzo di sudo
+
+L'uso di **su** consente ad ogni utente di diventare temporaneamente root ed
+eseguire le operazioni amministrative all'occorrenza.
+
+Lo strumento **sudo** opera in maniera leggermente diversa, consente a certi
+utenti di poter eseguire alcuni comandi attraverso un file di configurazione
+di nome **sudoers**.
+
+### Installazione di sudo
+
+Prima di poter utilizzare sudo è necessario installare il relativo pacchetto:
+
+    [root@arch-lenovo ~]# pacman -S sudo
+    risoluzione delle dipendenze in corso...
+    ricerca dei pacchetti in conflitto in corso...
+    
+    Pacchetti (1) sudo-1.8.14.p3-2
+    
+    Dimensione totale dei pacchetti da scaricare:   0,84 MiB
+    Dimensione totale dei pacchetti da installare:  3,46 MiB
+    
+    :: Vuoi procedere con l'installazione? [S/n] 
+    :: Download dei pacchetti in corso...
+     sudo-1.8.14.p3-2-x86_64          863,5 KiB  5,37M/s 00:00 [####################################] 100%
+    (1/1) verifica delle chiavi presenti nel portachiavi       [####################################] 100%
+    (1/1) verifica dell'integrità dei pacchetti                [####################################] 100%
+    (1/1) caricamento dei file dei pacchetti                   [####################################] 100%
+    (1/1) controllo dei conflitti in corso                     [####################################] 100%
+    (1/1) controllo dello spazio disponibile sul disco         [####################################] 100%
+    (1/1) installazione in corso di sudo                       [####################################] 100%
+
+Il comando sudo legge il contenuto del file */etc/sudoers* e da ciò determina
+quali utenti possano eseguire quali comandi.
+
+Per impostazione predefinita soltanto l'utente root può utilizzare il comando
+sudo per eseguire un'azione attraverso un altro utente.
+
+### Modifica del file sudoers
+
+Per modificare il file /etc/sudoers è **fortemente raccomandato** l'uso del
+comando visudo che avvia l'editor di testo col file di configurazione, ne
+controlla la correttezza e soltanto se non dovesse rilevare errori salverà il
+file modificato.
+
+Se si dovesse decidere di modificare manualmente il file sudoers con un editor
+di testo qualsiasi, se si commettesse qualche errore il comando sudo smetterebbe
+di funzionare fino a quando questi errori non vengano risolti.
+
+Per modificare il file sudoers quindi eseguire il comando visudo che avvierà
+l'editor di testo vi. Chi preferisse utilizzare un editor di testo differente
+come ad esempio nano potrà utilizzare il comando:
+
+    [root@arch-lenovo ~]# EDITOR=nano visudo
+
+All'interno di questo file tutte le righe che iniziano con # sono descrittive.
+
+Scorrendo il file si possono notare le seguenti righe:
+
+    ##
+    ## User privilege specification
+    ##
+    root ALL=(ALL) ALL
+
+Queste righe appunto definiscono la possibilità dell'utente root di utilizzare
+qualsiasi comando.
+
+### Aggiunta di un utente all'uso di sudo
+
+Per concedere all'utente *muflone* il permesso di utilizzare sudo è possibile
+aggiungere sotto quelle righe:
+
+    muflone ALL=(ALL) ALL
+
+Salvare il file, uscire dall'editor di testo e passare all'utente muflone.
+
+Eseguendo il comando:
+
+    [muflone@arch-lenovo ~]$ sudo id
+    
+    Questa lezione dovrebbe essere stata impartita dall'amministratore
+    di sistema locale. Solitamente equivale a:
+    
+        #1) Rispettare la privacy degli altri
+        #2) Pensare prima di digitare
+        #3) Da grandi poteri derivano grandi responsabilità
+    
+    [sudo] password di muflone: 
+    uid=0(root) gid=0(root) gruppi=0(root),1(bin),2(daemon),3(sys),4(adm),6(disk),10(wheel),19(log)
+
+L'avviso iniziale sarà mostrato soltanto la prima volta, quindi verrà chiesta
+la password dell'utente corrente e se fornita, sarà eseguito il comando id con
+l'utente root.
+
+### Aggiunta di un gruppo all'uso di sudo
+
+In maniera analoga all'aggiunta di un utente all'uso di sudo, è possibile
+aggiungere un
+[gruppo di utenti]({% post_url italian/2015-08-01-installare-arch-linux-su-lenovo-g50-70-16 %}#gruppi-di-utenti)
+tutti autorizzati all'uso del comando sudo.
+
+Per convenzione si usa il gruppo wheel per identificare gli utenti autorizzati
+ad operazioni amministrative.
+
+Per configurare sudo all'uso del gruppo wheel basterà aggiungere nel file
+sudoers la riga:
+
+    %wheel ALL=(ALL) ALL
+
+Quindi [aggiungere tutti gli utenti interessati al gruppo]({% post_url italian/2015-08-01-installare-arch-linux-su-lenovo-g50-70-16 %}#aggiungere-un-utente-ad-un-gruppo-di-utenti)
+wheel anziché doverli elencare uno per uno nel file sudoers con:
+
+    [root@arch-lenovo ~]# gpasswd -a muflone wheel
+    Aggiunta dell'utente muflone al gruppo wheel
+
+In questo modo l'utente muflone potrà eseguire qualsiasi comando attraverso sudo.
+
+### Autorizzare soltanto alcuni comandi
+
+E' possibile configurare sudo per permettere agli utenti autorizzati soltanto
+l'uso di alcuni comandi anziché avere l'accesso completo a tutti i permessi
+dell'utente root.
+
+Per configurare i comandi permessi dall'uso di sudo basterà indicarli nel file
+sudoers al posto dell'ultimo ALL. Ad esempio le righe seguenti:
+
+    %wheel ALL=(ALL) /usr/bin/who
+    %wheel ALL=(ALL) /usr/bin/whoami
+
+Permetteranno a tutti i membri del gruppo wheel di eseguire i comandi who e
+whoami mentre l'uso di sudo sarà proibito per tutti gli altri comandi.
+
+In maniera analoga è possibile anche aggiungere argomenti ai richiami permessi,
+in modo che sia permessa all'utente l'esecuzione del comando soltanto con quegli
+argomenti forniti.
+
+Aggiungendo nel file sudoers la riga seguente:
+
+    %wheel ALL=(ALL) /usr/bin/who -b
+
+Sarà permesso ai membri del gruppo wheel l'uso del comando:
+
+    [muflone@arch-lenovo ~]$ sudo who -b
+    [sudo] password di muflone: 
+             avvio di sistema 2015-08-02 15:45
+
+Se lo stesso utente eseguisse il comando sudo who riceverebbe un errore:
+
+    [muflone@arch-lenovo ~]$ sudo who 
+    [sudo] password di muflone: 
+    All'utente muflone non è consentito eseguire "/usr/bin/who" come root su arch-lenovo.
+
+### Richiesta della password di sudo
+
+Dopo l'esecuzione di un comando sudo, la richiesta successiva se formulata entro
+5 minuti, **non** sarà chiesta la password dell'utente poiché sudo tiene conto
+del tempo dall'ultima esecuzione del comando sudo e per 5 minuti non ripete la
+richiesta di password a meno che non sia stato chiuso il terminale o la sessione.
+
+Per configurare il numero di minuti prima della scadenza della password di sudo
+è possibile aggiungere la riga **Defaults timestamp_timeout=MINUTI**, ad esempio:
+
+    Defaults timestamp_timeout=1
+
+Lascerà valida la sessione di sudo per 1 minuto dopo l'esecuzione dell'ultimo
+comando attraverso sudo. In altre parole si avranno 60 secondi di tempo tra un
+comando e l'altro senza che sudo richieda nuovamente la password.
+
+    Defaults timestamp_timeout=0
+
+Configurando un timeout di 0 la password scadrà immediatamente e quindi ad ogni
+uso di sudo verrà nuovamente richiesta la password.
+
+Configurando un timeout di -1 la password invece non scadrà mai fino a quando
+non venga esplicitamente eseguito il comando sudo -k.
+
+### Omettere la richiesta della password
+
+Tramite la configurazione di sudo è anche possibile permettere ad un utente di
+omettere la password quando qualche comando autorizzato viene eseguito.
+
+Aggiungendo al file sudoers, nella specifica dei comandi da eseguire NOPASSWD:
+per tali comandi non verrà chiesta alcuna password.
+
+Si consideri il seguente esempio, nel file sudoers:
+
+    %wheel ALL=(ALL) NOPASSWD: /usr/bin/who -b
+    %wheel ALL=(ALL) /usr/bin/whoami
+
+Agli utenti del gruppo wheel sarà permessa l'esecuzione del comando who -b senza
+alcuna richiesta della password e l'esecuzione del comando who che richiederà
+l'immissione della password.
+
+    [muflone@arch-lenovo ~]$ sudo -k
+    [muflone@arch-lenovo ~]$ sudo who -b
+             avvio di sistema 2015-08-02 15:45
+    [muflone@arch-lenovo ~]$ sudo whoami
+    [sudo] password di muflone: 
+    root
+
+La prima riga annulla ogni eventuale password in memoria per sudo, la seconda
+esegue il comando who -b senza nessuna richiesta di password, mentre il terzo
+comando esegue whoami per il quale sarà richiesta la password.
+
+Naturalmente se al posto del comando, dopo NOPASSWD: si aggiungesse ALL,
+l'utente verrebbe autorizzato all'uso di qualsiasi comando senza alcuna richiesta
+di password.
+
+### Configurare sudo su file separati
+
+Anziché modificare direttamente il file sudoers è possibile aggiungere dei
+file di configurazione separati, ciascuno con le proprie informazioni.
+
+Questa configurazione permette di mantenere le configurazioni separate dal file
+principale e quindi di tenerle facilmente ben visibili rispetto il file generale.
+
+L'approccio generale è quello di creare dei file tramite visudo all'interno
+della directory /etc/sudoers.d. La sintassi per creare questi file di configurazione
+separati è **visudo -f /etc/sudoers.d/FILE**.
+
+    [root@arch-lenovo ~]# EDITOR=nano visudo -f /etc/sudoers.d/10-groups 
+
+Quindi aggiungere all'interno del file i gruppi da autorizzare, ad esempio:
+
+    %wheel ALL=(ALL) ALL
+
+Nota bene: i file di configurazione separati non devono contenere né punti né
+terminare col carattere ~ altrimenti verranno scartati.
+
+## Conclusioni
+
+Le numerose possibilità di configurazione di sudo, per utente, per comando,
+per opzioni, con o senza richiesta di password, offrono molta più flessibilità
+del comando su e soprattutto non richiedono che l'utente debba conoscere la
+password dell'utente root ma gli basterà digitare la propria password.
+
+Ulteriori informazioni sulla configurazione del comando sudo si possono trovare
+nella pagina [sudo del wiki]{:target="_blank"} di Arch Linux.
+
+[sudo del wiki]: https://wiki.archlinux.org/index.php/Sudo

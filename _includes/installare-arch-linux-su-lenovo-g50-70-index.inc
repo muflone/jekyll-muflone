@@ -16,3 +16,4 @@
 | [Parte 14]({% post_url italian/2015-07-18-installare-arch-linux-su-lenovo-g50-70-14 %} "Installare l'ambiente grafico")
 | [Parte 15]({% post_url italian/2015-07-19-installare-arch-linux-su-lenovo-g50-70-15 %} "Installazione di GNOME")
 | [Parte 16]({% post_url italian/2015-08-01-installare-arch-linux-su-lenovo-g50-70-16 %} "Utenti e gruppi di utenti")
+| [Parte 17]({% post_url italian/2015-08-02-installare-arch-linux-su-lenovo-g50-70-17 %} "Accesso amministrativo con su e sudo")
