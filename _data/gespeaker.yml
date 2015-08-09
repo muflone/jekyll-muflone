@@ -6,6 +6,25 @@ description:
 gitrepo: https://github.com/muflone/gespeaker
 translations_repo: https://www.transifex.com/projects/p/gespeaker/
 versions:
+- version: 0.8.6
+  normalized: v086
+  packages:
+  - type: source
+    filename: gespeaker-0.8.6.tar.gz
+    size: 149 kB
+    md5sum: DCCFED9A29393692E3FAB334541BC996
+  - type: debian
+    filename: gespeaker_0.8.6-1_all.deb
+    size: 123 kB
+    md5sum: 429787EC6621F6836B5287583F5E6029
+  - type: archlinux
+    filename: gespeaker-0.8.6-1-any.pkg.tar.xz
+    size: 124 kB
+    md5sum: 4B18FBD1178B151AE18D4FFA42893354
+  - type: aur
+    filename: gespeaker-git
+    size: '-'
+    md5sum: '-'
 - version: 0.8.5
   normalized: v085
   packages:
@@ -21,10 +40,6 @@ versions:
     filename: gespeaker-0.8.5-1-any.pkg.tar.xz
     size: 122 kB
     md5sum: 960C0FBE1E596A122635C4744F4BBB0E
-  - type: aur
-    filename: gespeaker-git
-    size: '-'
-    md5sum: '-'
 - version: 0.8.4
   normalized: v084
   packages:
