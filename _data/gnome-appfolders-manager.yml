@@ -1,0 +1,48 @@
+name: GNOME AppFolders Manager
+lowername: gnome-appfolders-manager
+description:
+  italian: Creare e modificare le cartelle delle applicazioni (AppFolders) su GNOME Shell.
+  english: Create and edit applications folders (AppFolders) for GNOME Shell.
+gitrepo: https://github.com/muflone/gnome-appfolders-manager
+translations_repo: https://www.transifex.com/projects/p/gnome-appfolders-manager/
+versions:
+- version: 0.2.2
+  normalized: v022
+  packages:
+  - type: source
+    filename: gnome-appfolders-manager-0.2.2.tar.gz
+    size: 110 kB
+    md5sum: B9D8FE110CDA51F8FCDF45C23996F099
+  - type: archlinux
+    filename: gnome-appfolders-manager-0.2.2-1-any.pkg.tar.xz
+    size: 119 kB
+    md5sum: B164C47FFFDD3BE8FB67131C96379F24
+  - type: aur
+    filename: gnome-appfolders-manager
+    size: '-'
+    md5sum: '-'
+- version: 0.2.1
+  normalized: v021
+  packages:
+  - type: source
+    filename: gnome-appfolders-manager-0.2.1.tar.gz
+    size: 109 kB
+    md5sum: E759657E7D30DBE3DCA2EC3C2C3B9BD5
+  - type: archlinux
+    filename: gnome-appfolders-manager-0.2.1-1-any.pkg.tar.xz
+    size: 118 kB
+    md5sum: 43DF8D4DD8386DD18E97750AD8A194A2
+- version: 0.2.0
+  normalized: v020
+  packages:
+  - type: source
+    filename: gnome-appfolders-manager-0.2.0.tar.gz
+    size: 107 kB
+    md5sum: 5D400E119D8D56C9CCAC4501269CEE81
+  - type: archlinux
+    filename: gnome-appfolders-manager-0.2.0-1-any.pkg.tar.xz
+    size: 116 kB
+    md5sum: D0989C7F654FEE7D9F908C7EC628D449
+languages:
+- english
+- italian

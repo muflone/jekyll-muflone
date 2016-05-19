@@ -89,6 +89,15 @@ defaults:
     values:
       language: italian
   - scope:
+      path: gnome-appfolders-manager
+    values:
+      layout: gnome-appfolders-manager
+      language: english
+  - scope:
+      path: gnome-appfolders-manager/italian
+    values:
+      language: italian
+  - scope:
       path: gwakeonlan
     values:
       layout: gwakeonlan

@@ -10,6 +10,7 @@ sections:
 - module: bluewho
 - module: cpucompare
 - module: gptrace
+- module: gnome-appfolders-manager
 - module: remmina-plugin-builder
 - module: remmina-plugin-exec
 - module: remmina-plugin-folder
