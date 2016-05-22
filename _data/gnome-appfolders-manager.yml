@@ -21,6 +21,10 @@ versions:
     filename: gnome-appfolders-manager
     size: '-'
     md5sum: '-'
+  - type: aur
+    filename: gnome-appfolders-manager-git
+    size: '-'
+    md5sum: '-'
 - version: 0.2.3
   normalized: v023
   packages:
