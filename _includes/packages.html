@@ -67,7 +67,7 @@
             <tr>
               <td class="type"><img src="/resources/{{ package_type }}-32.png"> {{ package_format }}</td>
               <td class="size">{{ package.size }}</td>
-              <td class="md5sum">{{ package.md5sum }}</td>
+              <td class="md5sum">{{ package.md5sum | upcase }}</td>
         {% if package.type != 'aur' %}
               <td><a href="/resources/{{ page.layout }}/archive/{{ version.version}}/{{ package.filename }}"
                 title="{% if page.language == 'italian' %}Scarica da {% else %}Download from {% endif %}Muflone">
