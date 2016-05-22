@@ -6,54 +6,68 @@ description:
 gitrepo: https://github.com/muflone/gnome-appfolders-manager
 translations_repo: https://www.transifex.com/projects/p/gnome-appfolders-manager/
 versions:
+- version: 0.2.4
+  normalized: v024
+  packages:
+  - type: source
+    filename: gnome-appfolders-manager-0.2.4.tar.gz
+    size: 111 kB
+    md5sum: b347db8cd7f683b9dba16bb2df74ae9e
+  - type: archlinux
+    filename: gnome-appfolders-manager-0.2.4-1-any.pkg.tar.xz
+    size: 121 kB
+    md5sum: b2d34e0c57d115111ab8f39efeebf520
+  - type: aur
+    filename: gnome-appfolders-manager
+    size: '-'
+    md5sum: '-'
 - version: 0.2.3
   normalized: v023
   packages:
   - type: source
     filename: gnome-appfolders-manager-0.2.3.tar.gz
     size: 110 kB
-    md5sum: 772D5A3DA68C5BED019EA4587E4EF9AF
+    md5sum: 772d5a3da68c5bed019ea4587e4ef9af
   - type: archlinux
     filename: gnome-appfolders-manager-0.2.3-1-any.pkg.tar.xz
     size: 120 kB
-    md5sum: 327F324C5DA6C42246F827A4329A2465
-  - type: aur
-    filename: gnome-appfolders-manager
-    size: '-'
-    md5sum: '-'
+    md5sum: 327f324c5da6c42246f827a4329a2465
 - version: 0.2.2
   normalized: v022
   packages:
   - type: source
     filename: gnome-appfolders-manager-0.2.2.tar.gz
     size: 110 kB
-    md5sum: B9D8FE110CDA51F8FCDF45C23996F099
+    md5sum: b9d8fe110cda51f8fcdf45c23996f099
   - type: archlinux
     filename: gnome-appfolders-manager-0.2.2-1-any.pkg.tar.xz
     size: 119 kB
-    md5sum: B164C47FFFDD3BE8FB67131C96379F24
+    md5sum: b164c47fffdd3be8fb67131c96379f24
 - version: 0.2.1
   normalized: v021
   packages:
   - type: source
     filename: gnome-appfolders-manager-0.2.1.tar.gz
     size: 109 kB
-    md5sum: E759657E7D30DBE3DCA2EC3C2C3B9BD5
+    md5sum: e759657e7d30dbe3dca2ec3c2c3b9bd5
   - type: archlinux
     filename: gnome-appfolders-manager-0.2.1-1-any.pkg.tar.xz
     size: 118 kB
-    md5sum: 43DF8D4DD8386DD18E97750AD8A194A2
+    md5sum: 43df8d4dd8386dd18e97750ad8a194a2
 - version: 0.2.0
   normalized: v020
   packages:
   - type: source
     filename: gnome-appfolders-manager-0.2.0.tar.gz
     size: 107 kB
-    md5sum: 5D400E119D8D56C9CCAC4501269CEE81
+    md5sum: 5d400e119d8d56c9ccac4501269cee81
   - type: archlinux
     filename: gnome-appfolders-manager-0.2.0-1-any.pkg.tar.xz
     size: 116 kB
-    md5sum: D0989C7F654FEE7D9F908C7EC628D449
+    md5sum: d0989c7f654fee7d9f908c7ec628d449
 languages:
 - english
 - italian
+- french
+- chinese
+- swedish
