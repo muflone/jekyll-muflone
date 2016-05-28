@@ -6,6 +6,25 @@ description:
 gitrepo: https://github.com/muflone/gnome-appfolders-manager
 translations_repo: https://www.transifex.com/projects/p/gnome-appfolders-manager/
 versions:
+- version: 0.3.0
+  normalized: v030
+  packages:
+  - type: source
+    filename: gnome-appfolders-manager-0.3.0.tar.gz
+    size: 114 kB
+    md5sum: 78d28319a16d5b0d3947b011166cf3da
+  - type: archlinux
+    filename: gnome-appfolders-manager-0.3.0-1-any.pkg.tar.xz
+    size: 124 kB
+    md5sum: a5af1e6ac821d72e722cb8917b8e5dd4
+  - type: aur
+    filename: gnome-appfolders-manager
+    size: '-'
+    md5sum: '-'
+  - type: aur
+    filename: gnome-appfolders-manager-git
+    size: '-'
+    md5sum: '-'
 - version: 0.2.4
   normalized: v024
   packages:
@@ -17,14 +36,6 @@ versions:
     filename: gnome-appfolders-manager-0.2.4-1-any.pkg.tar.xz
     size: 121 kB
     md5sum: b2d34e0c57d115111ab8f39efeebf520
-  - type: aur
-    filename: gnome-appfolders-manager
-    size: '-'
-    md5sum: '-'
-  - type: aur
-    filename: gnome-appfolders-manager-git
-    size: '-'
-    md5sum: '-'
 - version: 0.2.3
   normalized: v023
   packages:
@@ -73,5 +84,7 @@ languages:
 - english
 - italian
 - french
+- german
 - chinese
 - swedish
+- ukrainian
