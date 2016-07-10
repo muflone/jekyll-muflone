@@ -37,17 +37,17 @@
   {% case include.type %}
     {% when 'footer' %}
             <a href="/{{ module.lowername }}/{{ language }}/">
-              <img src="/resources/{{ module.lowername }}/archive/latest/icon32.png" title="{{ module.name }}
+              <img src="/resources/{{ module.lowername }}/icons/favicon-32x32.png" title="{{ module.name }}
 {% if language == 'italian' %}{{ module.description.italian }}{% else %}{{ module.description.english }}{% endif %}">
             </a>
     {% when 'sidebar' %}
             <div><a href="/{{ module.lowername }}/{{ language }}/">
-              <img src="/resources/{{ module.lowername }}/archive/latest/icon32.png" title="{{ module.name }}
+              <img src="/resources/{{ module.lowername }}/icons/favicon-32x32.png" title="{{ module.name }}
 {% if language == 'italian' %}{{ module.description.italian }}{% else %}{{ module.description.english }}{% endif %}">
               {{ module.name }}</a></div>
     {% when 'main' %}
               <div class="product product-column"><div><a href="{{ module.lowername }}/{{ language }}/">
-                <img src="/resources/{{ module.lowername }}/archive/latest/icon128.png">
+                <img src="/resources/{{ module.lowername }}/icons/android-icon-144x144.png">
                 <div class="product-name">{{ module.name }}</div></a>
                 <div>{% if language == 'italian' %}{{ module.description.italian }}{% else %}{{ module.description.english }}{% endif %}</div>
               </div></div>

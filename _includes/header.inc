@@ -11,8 +11,7 @@
     <meta name="description" content="{{ page.summary }}">
 {% endif %}
     <meta name="author" content="Fabio Castelli">
-    <link rel="shortcut icon" href="/resources/{{ include.section }}/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/resources/{{ include.section }}/favicon.ico" type="image/x-icon">
+{% include favicons.inc %}
     <link rel="author" href="https://plus.google.com/+FabioCastelli"/>
     <link rel="stylesheet" type="text/css" href="/theme/architects-fonts.css" >
     <link rel="stylesheet" type="text/css" href="/theme/stylesheet.css" media="screen" />
