@@ -51,7 +51,7 @@ versions:
     filename: bluewho-0.1-1-any.pkg.tar.xz
     size: 164 kB
     md5sum: 3C01FE0ECA7D2EB6DD30F7AD1C1F4E3E
-languages:
+translations:
 - english
 - french
 - italian

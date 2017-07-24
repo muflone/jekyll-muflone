@@ -80,7 +80,7 @@ versions:
     filename: gnome-appfolders-manager-0.2.0-1-any.pkg.tar.xz
     size: 116 kB
     md5sum: d0989c7f654fee7d9f908c7ec628d449
-languages:
+translations:
 - english
 - italian
 - french

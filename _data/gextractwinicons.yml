@@ -51,7 +51,7 @@ versions:
     filename: gextractwinicons-0.3.1-1-any.pkg.tar.xz
     size: 17 kB
     md5sum: BC2243D00E9AD2A8141DBF1B5B126F62
-languages:
+translations:
 - english
 - french
 - italian

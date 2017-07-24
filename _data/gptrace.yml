@@ -124,7 +124,7 @@ versions:
     filename: gptrace-0.1.0-1-any.pkg.tar.xz
     size: 142 kB
     md5sum: FCD4D301362F47B0EECD4A8FED7E3080
-languages:
+translations:
 - english
 - italian
 - bulgarian

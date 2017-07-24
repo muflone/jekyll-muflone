@@ -85,7 +85,7 @@ versions:
     filename: gespeaker-0.8.2-1-any.pkg.tar.xz
     size: 116 kB
     md5sum: F24C87CE159946FBEFEFB0A2A854D88F
-languages:
+translations:
 - english
 - french
 - italian
