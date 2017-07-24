@@ -8,8 +8,6 @@ username_analytics: muflone.com
 url: http://www.muflone.com
 permalink: /articles/:categories/:year-:month-:day/:title.html
 show_social: true
-iubenda_policy_it: 939201
-iubenda_policy_en: 721463
 collections:
   bluewho:
     output: true

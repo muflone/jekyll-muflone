@@ -1,0 +1,25 @@
+english:
+  copyright: Copyright &copy; 2013-2017
+  theme_info: This page uses the Architect theme by <a href="https://twitter.com/jasonlong" target="_blank">Jason Long</a>.
+  sections:
+    contacts: Contacts
+  github:
+    view_project: View project on
+    developed_by: is developed by
+    name: GitHub
+  privacy:
+    iubenda: 721463
+    policy: Privacy Policy
+
+italian:
+  copyright: Copyright &copy; 2013-2017
+  theme_info: Questa pagina usa il tema Architect di <a href="https://twitter.com/jasonlong" target="_blank">Jason Long</a>.
+  sections:
+    contacts: Contatti
+  github:
+    view_project: Guarda il progetto su
+    developed_by: è sviluppato da
+    name: GitHub
+  privacy:
+    iubenda: 939201
+    policy: Politica Privacy
