@@ -1,0 +1,22 @@
+name: gTransMemory
+lowername: gtransmemory
+description:
+  italian: Memoria di apprendimento per traduttori.
+  english: Learn memory for translators.
+gitrepo: https://github.com/muflone/gtransmemory
+translations_repo: https://www.transifex.com/projects/p/gtransmemory/
+versions:
+- version: 0.1.0
+  normalized: v010
+  packages:
+  - type: source
+    filename: gnome-appfolders-manager-0.2.0.tar.gz
+    size: 107 kB
+    md5sum: 5d400e119d8d56c9ccac4501269cee81
+  - type: archlinux
+    filename: gnome-appfolders-manager-0.2.0-1-any.pkg.tar.xz
+    size: 116 kB
+    md5sum: d0989c7f654fee7d9f908c7ec628d449
+languages:
+- english
+- italian

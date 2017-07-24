@@ -11,6 +11,7 @@ sections:
 - module: cpucompare
 - module: gptrace
 - module: gnome-appfolders-manager
+- module: gtransmemory
 - module: remmina-plugin-builder
 - module: remmina-plugin-exec
 - module: remmina-plugin-folder

@@ -191,3 +191,12 @@ defaults:
       path: remmina-plugin-webkit/italian
     values:
       language: italian
+  - scope:
+      path: gtransmemory
+    values:
+      layout: gtransmemory
+      language: english
+  - scope:
+      path: gtransmemory/italian
+    values:
+      language: italian
