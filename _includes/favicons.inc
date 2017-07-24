@@ -1,4 +1,4 @@
-{% capture icon_path %}/resources/{{ include.section }}/icons{% endcapture %}
+{% assign icon_path = '/resources/' | append: module.lowername | append: '/icons' %}
     <link rel="apple-touch-icon"      sizes="57x57"   href="{{ icon_path }}/apple-icon-57x57.png">
     <link rel="apple-touch-icon"      sizes="60x60"   href="{{ icon_path }}/apple-icon-60x60.png">
     <link rel="apple-touch-icon"      sizes="72x72"   href="{{ icon_path }}/apple-icon-72x72.png">
