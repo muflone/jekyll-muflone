@@ -38,6 +38,100 @@ english:
   privacy:
     iubenda: 721463
     policy: Privacy Policy
+  installation:
+    index:
+      title: Installation
+      text1: >
+          The stable versions released with source code and prebuilt packages
+          are linked in the <a href="download">Download page</a>.
+          For information about installation from packages or source code
+          please refer to the <a href="install">Installation page</a>.
+      text2: >
+        The $(NAME) development version source code is
+        <a href="$(GITHUB)" target="_blank">available on GitHub</a>.
+    debian:
+      title: Installation on Debian, Ubuntu and derivatives
+      text1: >
+        It's possible to download the <strong>deb</strong> package from the
+        <a href="download">Download page</a> and install it using:
+      commands1: |
+        cd "~/folder with the downloaded file"
+        sudo dpkg -i "file name.deb"
+    archlinux:
+      title: Installation on Arch Linux and derivatives
+      text1: >
+        It's possible to download the <strong>tar.xz</strong> package from the
+        <a href="download">Download page</a> and install it using:
+      commands1: |
+        cd "~/folder with the downloaded file"
+        sudo pacman -U "$(PACKAGE)-version.tar.xz"
+      package: >
+        In the official <strong>community repository</strong> you can find the
+        latest available version, it can be installed using the command:
+        <code>pacman -S $(PACKAGE)</code>.
+      aur: >
+        In the AUR you can find the latest available version, it can be
+        downloaded and built using yaourt (or a similar AUR helper) using
+        <code>yaourt -S $(PACKAGE)</code> and then following the AUR helper
+        instructions.
+      development: >
+        The development version is also available in the AUR and can be
+        installed using yaourt (or a similar AUR helper) with
+        <code>yaourt -S $(PACKAGE)</code>.
+    source:
+      title: Installation from source code
+      text1: >
+        If the prebuilt package will not be available for your distribution you
+        can use the source code package to install $(NAME) using:
+      commands1: |
+        cd "~/folder with the downloaded file"
+        mkdir build
+        tar xzf "file name.pkg.tar.gz" -C build
+        cd build/$(PACKAGE)-*
+        python2 setup.py build
+        sudo python2 setup.py install
+        sudo gtk-update-icon-cache -q /usr/share/icons/hicolor/
+        sudo xdg-icon-resource forceupdate
+        sudo xdg-desktop-menu forceupdate
+        cd ..
+      text2: >
+        After the installation, if no errors were reported the folder build can
+        be removed from root or via <code>sudo rm -rf "build"</code> and the
+        same for the downloaded source package.
+      text3: >
+        After executing the manual installation from source code an automatic
+        software uninstall will not be possibile but you will have to manually
+        delete all the installed files that were reported during the last
+        installation step.
+    remmina_plugin_builder:
+      title: Installation from source code
+      text1: >
+        To build $(NAME) from the source code you will need also
+        <strong>Remmina Plugin Builder</strong>, a minimal development
+        environment to build plugins for Remmina.
+      text2: >
+        Download Remmina Plugin Builder from the
+        <a href="../../remmina-plugin-builder/index">Project page</a> and refer to
+        the <a href="../../remmina-plugin-builder/$(LANGUAGE)/install">Installation page</a>.
+      text3: >
+        The building process simply needs the extraction of both Remmina Plugin
+        Builder and $(NAME) source code using:
+      commands3: |
+        cd "~/folder with the downloaded files"
+        tar xzf remmina-plugin-builder-*.tar.gz
+        tar xzf $(PACKAGE)-*.tar.gz
+      text4: >
+        Next you will need to compile the plugin using:
+      commands4: |
+        mkdir build
+        cp -r remmina-plugin-builder-*/* build
+        cp -r $(PACKAGE)-*/* build/remmina-plugin-to-build
+        cd build
+        cmake -DCMAKE_INSTALL_PREFIX=/usr .
+        make
+        sudo make install
+        sudo gtk-update-icon-cache -q /usr/share/icons/hicolor/
+        cd ..
   translations:
     title: Translations
     text1: >
@@ -103,6 +197,103 @@ italian:
   privacy:
     iubenda: 939201
     policy: Politica Privacy
+  installation:
+    index:
+      title: Installazione
+      text1: >
+        I rilasci delle versioni stabili con codice sorgente e pacchetti
+        precompilati sono presenti nella <a href="download">pagina Scarica</a>.
+        Per informazioni sull'installazione da pacchetti o con codice sorgente
+        fare riferimento alla <a href="install">pagina Installazione</a>.
+      text2: >
+        Il codice sorgente di $(NAME) è
+        <a href="$(GITHUB)" target="_blank">disponibile su GitHub</a> con la
+        versione attualmente in sviluppo.
+    debian:
+      title: Installazione su Debian, Ubuntu e derivate
+      text1: >
+        E' possibile scaricare il pacchetto <strong>deb</strong> dalla
+        <a href="download">pagina Scarica</a> e installarlo utilizzando:
+      commands1: |
+        cd "~/cartella con il file scaricato"
+        sudo dpkg -i "nome del file.deb"
+    archlinux:
+      title: Installazione su Arch Linux e derivate
+      text1: >
+        E' anche possibile scaricare il pacchetto <strong>tar.xz</strong> dalla
+        <a href="download">pagina Scarica</a> e installarlo utilizzando:
+      commands1: |
+        cd "~/cartella con il file scaricato"
+        sudo pacman -U "$(PACKAGE)-versione.tar.xz"
+      package: >
+        Nel repository ufficiale <strong>community</strong> è possibile trovare
+        l'ultima versione disponibile, e può essere installata usando il comando
+        <code>pacman -S $(PACKAGE)</code>.
+      aur: >
+        In AUR è presente l'ultima versione disponibile, è possibile scaricarla
+        e compilarla utilizzando yaourt (o un analogo gestore per AUR) con
+        <code>yaourt -S $(PACKAGE)</code> e seguire le istruzioni del gestore di AUR.
+      development: >
+        E' anche disponibile la versione di sviluppo in AUR e può essere
+        installata utilizzando yaourt (o un analogo gestore per AUR) con
+        <code>yaourt -S $(PACKAGE)</code>.
+    source:
+      title: Installazione dal codice sorgente
+      text1: >
+        Se non fosse disponibile il pacchetto preassemblato per la propria
+        distribuzione è possibile utilizzare il pacchetto col codice sorgente
+        per installare $(NAME) utilizzando:
+      commands1: |
+        cd "~/cartella con il file scaricato"
+        mkdir build
+        tar xzf "nome del file.pkg.tar.gz" -C build
+        cd build/$(PACKAGE)-*
+        python2 setup.py build
+        sudo python2 setup.py install
+        sudo gtk-update-icon-cache -q /usr/share/icons/hicolor/
+        sudo xdg-icon-resource forceupdate
+        sudo xdg-desktop-menu forceupdate
+        cd ..
+      text2: >
+        Al termine dell'installazione, se non sono stati riportati errori sarà
+        possibile eliminare la cartella build da root oppure tramite
+        <code>sudo rm -rf "build"</code> e il file sorgente scaricato.
+      text3: >
+        Dopo aver eseguito la procedura di installazione manuale da codice
+        sorgente non sarà possibile disinstallare automaticamente il software
+        ma sarà necessario eliminare manualmente tutti i files installati che
+        sono indicati durante l'ultimo passaggio del processo di installazione.
+    remmina_plugin_builder:
+      title: Installazione dal codice sorgente
+      text1: >
+        Per compilare $(NAME) dal codice sorgente è necessario avere anche
+        <strong>Remmina Plugin Builder</strong>, un ambiente di sviluppo
+        minimale per la compilazione di plugin per Remmina.
+      text2: >
+        Scaricare Remmina Plugin Builder dalla
+        <a href="../../remmina-plugin-builder/index">pagina del progetto</a>
+        e fare riferimento alla
+        <a href=../../remmina-plugin-builder/$(LANGUAGE)/install>pagina Installazione</a>.
+      text3: >
+        Il processo di compilazione richiede semplicemente l'estrazione del
+        codice sorgente sia di Remmina Plugin Builder sia di $(NAME)
+        utilizzando:
+      commands3: |
+        cd "~/cartella con il file scaricato"
+        tar xzf remmina-plugin-builder-*.tar.gz
+        tar xzf $(PACKAGE)-*.tar.gz
+      text4: >
+        Quindi sarà necessario compilare il plugin con:
+      commands4: |
+        mkdir build
+        cp -r remmina-plugin-builder-*/* build
+        cp -r $(PACKAGE)-*/* build/remmina-plugin-to-build
+        cd build
+        cmake -DCMAKE_INSTALL_PREFIX=/usr .
+        make
+        sudo make install
+        sudo gtk-update-icon-cache -q /usr/share/icons/hicolor/
+        cd ..
   translations:
     title: Traduzioni
     text1: >
