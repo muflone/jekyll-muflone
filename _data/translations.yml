@@ -156,6 +156,16 @@ english:
     text2: >
       The software is supplied as is and it doesn't offer any warranty.
       Anyone can fork the project, modify and distribute it under the same GNU GPL-2+ license.
+  distributions:
+    title: Versions in the distributions
+    text1: >
+      Some Linux distributions like Ubuntu and Debian could offer $(NAME) in
+      their repositories but very often is an old version.
+      The release process for a software to reach the official repositories
+      in the distributions is difficult and requires a lot of time.
+    text2: >
+      The Latest available version is that one indicated in the
+      <a href="$(GITHUB)/releases">releases page on GitHub</a>.
 
 italian:
   copyright: Copyright &copy; 2013-2017
@@ -318,3 +328,13 @@ italian:
     text2: >
       Il software viene fornito così com'è e non è offerto alcun tipo di garanzia.
       Chiunque può derivare il progetto, modificarlo e distribuirlo purchè il nuovo progetto derivato sia rilasciato sotto la stessa licenza GNU GPL-2+.
+  distributions:
+    title: Versioni nelle distribuzioni
+    text1: >
+      Alcune distribuzioni Linux come Ubuntu e Debian possono fornire $(NAME)
+      nei loro repository ma si tratta quasi sempre di versioni arretrate.
+      Il processo di rilascio di un software nei repository ufficiali delle
+      distribuzioni è laborioso e richiede tanto tempo di aggiornamento.
+    text2: >
+      L'ultima versione disponibile è quella presente nella 
+      <a href="$(GITHUB)/releases">pagina rilasci su GitHub</a>.
