@@ -1,0 +1,16 @@
+---
+layout: product_default
+---
+{% unless page.content_after %}
+  <!-- Begin of page content section -->
+  {{ content }}
+  <!-- End of page content section -->
+{% endunless %}
+
+{% include translations.html %}
+
+{% if page.content_after %}
+  <!-- Begin of page content section -->
+  {{ content }}
+  <!-- End of page content section -->
+{% endif %}
