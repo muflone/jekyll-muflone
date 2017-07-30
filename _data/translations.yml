@@ -31,6 +31,7 @@ english:
     ukrainian:  Ukrainian
   sections:
     contacts: Contacts
+    description: Description
   github:
     view_project: View project on
     developed_by: is developed by
@@ -279,6 +280,7 @@ italian:
     ukrainian:  Ucraino
   sections:
     contacts: Contatti
+    description: Descrizione
   github:
     view_project: Guarda il progetto su
     developed_by: è sviluppato da
