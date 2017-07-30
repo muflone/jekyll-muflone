@@ -1,0 +1,33 @@
+---
+layout: product_default
+---
+{% unless page.content_after %}
+  <!-- Begin of page content section -->
+  {{ content }}
+  <!-- End of page content section -->
+{% endunless %}
+
+        <h1><a name="description" class="anchor"></a>{{ page.title }}</h1>
+        <table class="flags" border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+            <tr>
+              <td>
+                <a href="english" title="{{ site.data.translations['english'].languages.english }}">
+                  <img alt="{{ site.data.translations['english'].languages.english }}" src="/theme/images/flag-en-128.png"><br>
+                  {{ site.data.translations['english'].languages.english }}
+                </a>
+              </td>
+              <td>
+                <a href="italian" title="{{ site.data.translations['italian'].languages.italian }}">
+                  <img alt="{{ site.data.translations['italian'].languages.italian }}" src="/theme/images/flag-it-128.png"><br>
+                  {{ site.data.translations['italian'].languages.italian }}
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+{% if page.content_after %}
+  <!-- Begin of page content section -->
+  {{ content }}
+  <!-- End of page content section -->
+{% endif %}
