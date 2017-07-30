@@ -172,7 +172,8 @@ english:
       text1: >
         The following are packages for different distributions.
         Choose that more suitable for the distribution in use and refer to the
-        page [Installation](install) for information about their installation.
+        <a href="install">Installation page</a> for information about their
+        installation.
     distributions:
       title: Versions in the distributions
       text1: >
@@ -422,8 +423,8 @@ italian:
       text1: >
         Quelli qui riportati sono pacchetti per differenti distribuzioni.
         Scegliere quello pi&ugrave; idoneo alla distribuzione che si utilizza e
-        fare riferimento alla pagina [Installazione](install) per informazioni
-        sulla loro installazione.
+        fare riferimento alla <a href="install">pagina Installazione</a> per
+        informazioni sulla loro installazione.
     distributions:
       title: Versioni nelle distribuzioni
       text1: >
