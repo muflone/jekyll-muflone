@@ -35,12 +35,12 @@ defaults:
         - archlinux
         - updates
   - scope:
-      path: bluewho
+      path: _bluewho
     values:
-      layout: bluewho
+      product: bluewho
       language: english
   - scope:
-      path: bluewho/italian
+      path: _bluewho/italian
     values:
       language: italian
   - scope:
