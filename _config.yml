@@ -7,6 +7,7 @@ username_analytics: muflone.com
 url: http://www.muflone.com
 permalink: /articles/:categories/:year-:month-:day/:title.html
 show_social: true
+icon_footer: android-icon-48x48.png
 collections:
   bluewho:
     output: true

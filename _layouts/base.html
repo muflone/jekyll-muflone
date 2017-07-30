@@ -1,0 +1,118 @@
+{% assign module = site.data[page.product] %}
+<!DOCTYPE html>
+<html lang="{{ page.language }}">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="author" href="https://plus.google.com/+FabioCastelli"/>
+    <title>{{ module.name }} | {{ page.title }}</title>
+    {% include favicons.inc %}
+    <link rel="stylesheet" type="text/css" href="/theme/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/theme/css/font-architects.css">
+    <link rel="stylesheet" type="text/css" href="/theme/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/theme/css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="/theme/css/layout-item.css">
+    <link rel="stylesheet" type="text/css" href="/theme/css/layout-sidebar.css">
+    <link rel="stylesheet" type="text/css" href="/theme/css/layout-footer.css">
+    <link rel="stylesheet" type="text/css" href="/theme/css/blockquotes.css">
+    <link rel="stylesheet" type="text/css" href="/theme/css/blockquotes-{{ page.language }}.css">
+{% if page.layout == 'product_flags' %}
+    <link rel="stylesheet" type="text/css" href="/theme/css/layout-flags.css">
+{% endif %}
+{% if page.require_jquery or layout.require_jquery %}
+    <script src="/theme/js/jquery-1.10.2.min.js" type="text/javascript" ></script>
+{% endif %}
+{% if page.require_jquery_iontabs or layout.require_jquery_iontabs %}
+    <script src="/theme/js/ion.tabs.min.js" type="text/javascript" ></script>
+    <link rel="stylesheet" type="text/css" href="/theme/css/layout-download.css">
+    <link rel="stylesheet" type="text/css" href="/theme/css/ion.tabs.css">
+    <link rel="stylesheet" type="text/css" href="/theme/css/ion.tabs.skinBorderedCustom.css">
+{% endif %}
+  </head>
+  <body>
+    <header>
+      <div class="inner">
+        <a href="/{{ module.lowername }}"><img src="/resources/{{ module.lowername }}/icons/ms-icon-144x144.png" style="padding-right: 20px;" align="left"></a>
+        <h1>{{ module.name }}</h1>
+        <h2>{{ page.title }}</h2>
+        <a href="{{ module.gitrepo }}" target="_blank" class="button">
+          <small>{{ site.data.translations[page.language].github.view_project }}</small>
+          {{ site.data.translations[page.language].github.name }}
+        </a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+{{ content }}
+        </section>
+        <aside id="sidebar">
+{% comment %}Skip the sidebar pages list when this page has order 0{% endcomment %}
+{% if page.order > 0 %}
+  {% assign collection = site.collections | where: 'label', page.product | first %}
+  {% assign docs = collection.docs | where: 'language', page.language %}
+  {% comment %}Find the maximum order{% endcomment %}
+  {% assign max_order = -1 %}
+  {% for doc in docs %}
+    {% if doc.order > max_order %}
+      {% assign max_order = doc.order %}
+    {% endif %}
+  {% endfor %}
+          <!-- Build sidebar pages list -->
+          <ul class="menu1">
+  {% comment %}Cycle each page (until Jekyll has a better way to cycle collections){% endcomment %}
+  {% for order in (1..max_order) %}
+    {% for doc in docs %}
+      {% if doc.order == order %}
+            <li class="menu1"><a href="{{ doc.url }}">{{ doc.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+          </ul>
+          <!-- End of sidebar pages list -->
+{% endif %}
+          <div class="repo-owner">
+            <div>
+              <a href="{{ module.gitrepo }}" target="_blank">{{ module.name }}</a>
+              {{ site.data.translations[page.language].github.developed_by }} 
+              <a href="{{ site.data.common.gitrepo }}" target="_blank">{{ site.data.common.name }}</a>.
+            </div>
+            <div>{{ site.data.translations[page.language].theme_info }}</div>
+          </div>
+        </aside>
+      </div>
+    </div>
+
+{% include google-analytics.html %}
+    <div class="footer">
+      <div id="icons">
+        <a href="/" title="Home">
+          <img src="/resources/home/icons/{{ site.icon_footer }}">
+        </a>
+{% for section in site.data.common.sections %}
+        <a href="{{ section.module }}" title="{{ site.data[section.module].name }}">
+          <img src="/resources/{{ section.module }}/icons/{{ site.icon_footer }}">
+        </a>
+{% endfor %}
+      </div>
+      <div>{{ site.data.translations[page.language].copyright }}
+        <a href="https://plus.google.com/+FabioCastelli?rel=author">Fabio Castelli</a> |
+        <a href="/" title="Home">Home</a> | 
+        <a href="/english" title="{{ site.data.translations[page.language].languages.english }}">
+          <img src="/theme/images/flag-en-16.png">
+          {{ site.data.translations[page.language].languages.english }}
+        </a> |
+        <a href="/italian" title="{{ site.data.translations[page.language].languages.italian }}">
+          <img src="/theme/images/flag-it-16.png">
+          {{ site.data.translations[page.language].languages.italian }}
+        </a> |
+        <a href="/contacts" title="{{ site.data.translations[page.language].sections.contacts }}">
+          {{ site.data.translations[page.language].sections.contacts }}
+        </a> |
+        <a href="//www.iubenda.com/privacy-policy/{{ site.data.translations[page.language].privacy.iubenda }}"
+          target="_blank" class="iubenda-white iubenda-embed" title="Privacy Policy">Privacy Policy</a>
+      </div>
+    </div>
+  </body>
+</html>
