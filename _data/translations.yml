@@ -156,16 +156,94 @@ english:
     text2: >
       The software is supplied as is and it doesn't offer any warranty.
       Anyone can fork the project, modify and distribute it under the same GNU GPL-2+ license.
-  distributions:
-    title: Versions in the distributions
-    text1: >
-      Some Linux distributions like Ubuntu and Debian could offer $(NAME) in
-      their repositories but very often is an old version.
-      The release process for a software to reach the official repositories
-      in the distributions is difficult and requires a lot of time.
-    text2: >
-      The Latest available version is that one indicated in the
-      <a href="$(GITHUB)/releases">releases page on GitHub</a>.
+  downloads:
+    title: Downloads
+    from:
+      muflone: Download from Muflone
+      github: Download from GitHub
+      aur: Download from AUR
+    packages:
+      title: Downloadable packages
+      type: Package type
+      name: Package name
+      size: Size
+      md5: MD5
+      action: Download
+      text1: >
+        The following are packages for different distributions.
+        Choose that more suitable for the distribution in use and refer to the
+        page [Installation](install) for information about their installation.
+    distributions:
+      title: Versions in the distributions
+      text1: >
+        Some Linux distributions like Ubuntu and Debian could offer $(NAME) in
+        their repositories but very often is an old version.
+        The release process for a software to reach the official repositories
+        in the distributions is difficult and requires a lot of time.
+      text2: >
+        The Latest available version is that one indicated in the
+        <a href="$(GITHUB)/releases">releases page on GitHub</a>.
+    types:
+      source:
+        title: Source code
+        icon: source-32.png
+      aur:
+        title: Arch Linux AUR
+        icon: archlinux-32.png
+      archlinux:
+        title: Arch Linux
+        icon: archlinux-32.png
+      archlinux32:
+        title: Arch Linux i686 (32 bit)
+        icon: archlinux-32.png
+      archlinux64:
+        title: Arch Linux x86_64 (64 bit)
+        icon: archlinux-32.png
+      debianubuntu:
+        title: Debian and Ubuntu
+        icon: debianubuntu-32.png
+      debianubuntu32:
+        title: Debian and Ubuntu i386 (32 bit)
+        icon: debianubuntu-32.png
+      debianubuntu64:
+        title: Debian and Ubuntu amd64 (64 bit)
+        icon: debianubuntu-32.png
+      debian:
+        title: Debian
+        icon: debian-32.png
+      debian32:
+        title: Debian i386 (32 bit)
+        icon: debian-32.png
+      debian64:
+        title: Debian amd64 (64 bit)
+        icon: debian-32.png
+      ubuntu:
+        title: Ubuntu
+        icon: ubuntu-32.png
+      ubuntu32:
+        title: Ubuntu i386 (32 bit)
+        icon: ubuntu-32.png
+      ubuntu64:
+        title: Ubuntu amd64 (64 bit)
+        icon: ubuntu-32.png
+      fedora:
+        title: Fedora
+        icon: fedora-32.png
+      fedora32:
+        title: Fedora x86 (32 bit)
+        icon: fedora-32.png
+      fedora64:
+        title: Fedora x86_64 (64 bit)
+        icon: fedora-32.png
+      opensuse:
+        title: OpenSUSE
+        icon: opensuse-32.png
+      opensuse32:
+        title: OpenSUSE x86 (32 bit)
+        icon: opensuse-32.png
+      opensuse64:
+        title: OpenSUSE x86_64 (64 bit)
+        icon: opensuse-32.png
 
 italian:
   copyright: Copyright &copy; 2013-2017
@@ -328,13 +406,92 @@ italian:
     text2: >
       Il software viene fornito così com'è e non è offerto alcun tipo di garanzia.
       Chiunque può derivare il progetto, modificarlo e distribuirlo purchè il nuovo progetto derivato sia rilasciato sotto la stessa licenza GNU GPL-2+.
-  distributions:
-    title: Versioni nelle distribuzioni
-    text1: >
-      Alcune distribuzioni Linux come Ubuntu e Debian possono fornire $(NAME)
-      nei loro repository ma si tratta quasi sempre di versioni arretrate.
-      Il processo di rilascio di un software nei repository ufficiali delle
-      distribuzioni è laborioso e richiede tanto tempo di aggiornamento.
-    text2: >
-      L'ultima versione disponibile è quella presente nella 
-      <a href="$(GITHUB)/releases">pagina rilasci su GitHub</a>.
+  downloads:
+    title: Scarica
+    from:
+      muflone: Scarica da Muflone
+      github: Scarica da GitHub
+      aur: Scarica da AUR
+    packages:
+      title: Pacchetti da scaricare
+      type: Tipo di pacchetto
+      name: Nome del pacchetto
+      size: Dimensione
+      md5: MD5
+      action: Scarica
+      text1: >
+        Quelli qui riportati sono pacchetti per differenti distribuzioni.
+        Scegliere quello pi&ugrave; idoneo alla distribuzione che si utilizza e
+        fare riferimento alla pagina [Installazione](install) per informazioni
+        sulla loro installazione.
+    distributions:
+      title: Versioni nelle distribuzioni
+      text1: >
+        Alcune distribuzioni Linux come Ubuntu e Debian possono fornire $(NAME)
+        nei loro repository ma si tratta quasi sempre di versioni arretrate.
+        Il processo di rilascio di un software nei repository ufficiali delle
+        distribuzioni è laborioso e richiede tanto tempo di aggiornamento.
+      text2: >
+        L'ultima versione disponibile è quella presente nella 
+        <a href="$(GITHUB)/releases">pagina rilasci su GitHub</a>.
+    types:
+      source:
+        title: Codice sorgente
+        icon: source-32.png
+      aur:
+        title: Arch Linux AUR
+        icon: archlinux-32.png
+      archlinux:
+        title: Arch Linux
+        icon: archlinux-32.png
+      archlinux32:
+        title: Arch Linux i686 (32 bit)
+        icon: archlinux-32.png
+      archlinux64:
+        title: Arch Linux x86_64 (64 bit)
+        icon: archlinux-32.png
+      debianubuntu:
+        title: Debian e Ubuntu
+        icon: debianubuntu-32.png
+      debianubuntu32:
+        title: Debian e Ubuntu i386 (32 bit)
+        icon: debianubuntu-32.png
+      debianubuntu64:
+        title: Debian e Ubuntu amd64 (64 bit)
+        icon: debianubuntu-32.png
+      debian:
+        title: Debian
+        icon: debian-32.png
+      debian32:
+        title: Debian i386 (32 bit)
+        icon: debian-32.png
+      debian64:
+        title: Debian amd64 (64 bit)
+        icon: debian-32.png
+      ubuntu:
+        title: Ubuntu
+        icon: ubuntu-32.png
+      ubuntu32:
+        title: Ubuntu i386 (32 bit)
+        icon: ubuntu-32.png
+      ubuntu64:
+        title: Ubuntu amd64 (64 bit)
+        icon: ubuntu-32.png
+      fedora:
+        title: Fedora
+        icon: fedora-32.png
+      fedora32:
+        title: Fedora x86 (32 bit)
+        icon: fedora-32.png
+      fedora64:
+        title: Fedora x86_64 (64 bit)
+        icon: fedora-32.png
+      opensuse:
+        title: OpenSUSE
+        icon: opensuse-32.png
+      opensuse32:
+        title: OpenSUSE x86 (32 bit)
+        icon: opensuse-32.png
+      opensuse64:
+        title: OpenSUSE x86_64 (64 bit)
+        icon: opensuse-32.png
