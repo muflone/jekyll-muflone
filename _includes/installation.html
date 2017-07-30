@@ -1,0 +1,69 @@
+{% case include.type %}
+
+  {% when 'debian' %}
+  <!-- Installation type for Debian and Ubuntu -->
+<h1>{{ site.data.translations[page.language].installation.debian.title }}</h1>
+<p>{{ site.data.translations[page.language].installation.debian.text1 }}</p>
+<pre class="highlight"><code>{{ site.data.translations[page.language].installation.debian.commands1 | replace: '$(PACKAGE)', site.data[page.product].lowername }}</code></pre>
+
+  {% when 'archlinux' %}
+<!-- Installation type for Arch Linux -->
+<h1>{{ site.data.translations[page.language].installation.archlinux.title }}</h1>
+    {% if include.package %}
+<!-- Installation type for repository package -->
+<p>{{ site.data.translations[page.language].installation.archlinux.package | replace: '$(PACKAGE)', include.package }}</p>
+    {% endif %}
+
+    {% if include.aur %}
+<!-- Installation type for AUR package -->
+<p>{{ site.data.translations[page.language].installation.archlinux.aur | replace: '$(PACKAGE)', include.aur }}</p>
+    {% endif %}
+
+    {% if include.development %}
+<!-- Installation type for development AUR package -->
+<p>{{ site.data.translations[page.language].installation.archlinux.development | replace: '$(PACKAGE)', include.development }}</p>
+    {% endif %}
+
+    {% if include.download %}
+<!-- Installation type for downloadable .tar.xz -->
+<p>{{ site.data.translations[page.language].installation.archlinux.text1 }}</p>
+<pre class="highlight"><code>{{ site.data.translations[page.language].installation.archlinux.commands1 | replace: '$(PACKAGE)', include.download }}</code></pre>
+    {% endif %}
+
+  {% when 'source' %}
+  <!-- Installation type for source code -->
+<h1>{{ site.data.translations[page.language].installation.source.title }}</h1>
+<p>{{ site.data.translations[page.language].installation.source.text1 | replace: '$(NAME)', site.data[page.product].name }}</p>
+<pre class="highlight"><code>{{ site.data.translations[page.language].installation.source.commands1 | replace: '$(PACKAGE)', site.data[page.product].lowername }}</code></pre>
+
+<p>{{ site.data.translations[page.language].installation.source.text2 }}</p>
+<blockquote><blockquote><blockquote><p>
+  {{ site.data.translations[page.language].installation.source.text3 }}
+  </p></blockquote></blockquote></blockquote>
+
+  {% when 'remmina-plugin-builder' %}
+<!-- Installation type for source code using Remmina Plugin Builder -->
+<h1>{{ site.data.translations[page.language].installation.remmina_plugin_builder.title }}</h1>
+<p>{{ site.data.translations[page.language].installation.remmina_plugin_builder.text1 | replace: '$(NAME)', site.data[page.product].name }}</p>
+<p>{{ site.data.translations[page.language].installation.remmina_plugin_builder.text2 | replace: '$(NAME)', site.data[page.product].name | replace: '$(LANGUAGE)', page.language }}</p>
+<p>{{ site.data.translations[page.language].installation.remmina_plugin_builder.text3 | replace: '$(NAME)', site.data[page.product].name }}</p>
+<pre class="highlight"><code>{{ site.data.translations[page.language].installation.remmina_plugin_builder.commands3 | replace: '$(PACKAGE)', site.data[page.product].lowername }}</code></pre>
+
+<p>{{ site.data.translations[page.language].installation.remmina_plugin_builder.text4 | replace: '$(NAME)', site.data[page.product].name }}</p>
+<pre class="highlight"><code>{{ site.data.translations[page.language].installation.remmina_plugin_builder.commands4 | replace: '$(PACKAGE)', site.data[page.product].lowername }}</code></pre>
+<p>{{ site.data.translations[page.language].installation.source.text2 }}</p>
+<blockquote><blockquote><blockquote><p>
+  {{ site.data.translations[page.language].installation.source.text3 }}
+  </p></blockquote></blockquote></blockquote>
+
+
+  {% when 'index' %}
+  <!-- Installation for index page -->
+# {{ site.data.translations[page.language].installation.index.title }}
+{{ site.data.translations[page.language].installation.index.text1 }}
+
+{{ site.data.translations[page.language].installation.index.text2 | replace: '$(NAME)', site.data[page.product].name | replace: '$(GITHUB)', site.data[page.product].gitrepo }}
+  {% else %}
+<!-- Unexpected installation type -->
+<h1>Unexpected type {{ type }}</h1>
+{% endcase %}
