@@ -73,11 +73,13 @@
           <!-- End of sidebar pages list -->
 {% endif %}
           <div class="repo-owner">
+{% unless page.layout == 'product_flags' %}
             <div>
               <a href="{{ module.gitrepo }}" target="_blank">{{ module.name }}</a>
               {{ site.data.translations[page.language].github.developed_by }} 
               <a href="{{ site.data.common.gitrepo }}" target="_blank">{{ site.data.common.name }}</a>.
             </div>
+{% endunless %}
             <div>{{ site.data.translations[page.language].theme_info }}</div>
           </div>
         </aside>
