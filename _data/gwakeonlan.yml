@@ -54,7 +54,7 @@ versions:
     filename: gwakeonlan-0.5.1.tar.gz
     size: 30 kB
     md5sum: 68BDE5820DB9C122EDF9E221797049FA
-  - type: debian
+  - type: debianubuntu
     filename: gwakeonlan_0.5.1-1_all.deb
     size: 25 kB
     md5sum: D267F4148769D66E5AF3D2CA93EEF8E2

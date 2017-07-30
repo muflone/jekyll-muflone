@@ -13,11 +13,11 @@ versions:
     filename: remmina-plugin-teamviewer-1.0.0.2.tar.gz
     size: 11 kB
     md5sum: 1B3110F4860E18EBF4F3926DA0691001
-  - type: debian32
+  - type: debianubuntu32
     filename: remmina-plugin-teamviewer_1.0.0.2-1_i386.deb
     size: 7 kB
     md5sum: 1C6F95AA1E7C31C36FC1728E40248E30
-  - type: debian64
+  - type: debianubuntu64
     filename: remmina-plugin-teamviewer_1.0.0.2-1_amd64.deb
     size: 7 kB
     md5sum: 80738C5CF4F67ADEF385D170A18852AD

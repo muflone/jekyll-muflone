@@ -43,7 +43,7 @@ versions:
     filename: bluewho-0.1.tar.gz
     size: 187 kB
     md5sum: E263D2C77B704514FA5C1C97984CFD9D
-  - type: debian
+  - type: debianubuntu
     filename: bluewho_0.1-1_all.deb
     size: 175 kB
     md5sum: A6F61F7B6E689F583988A56BD02663C1

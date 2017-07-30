@@ -13,11 +13,11 @@ versions:
     filename: remmina-plugin-webkit-1.0.0.3.tar.gz
     size: 23 kB
     md5sum: 9D362DDB5A2F379B6B4F5E52A6F223D3
-  - type: debian32
+  - type: debianubuntu32
     filename: remmina-plugin-webkit_1.0.0.3-1_i386.deb
     size: 13 kB
     md5sum: CA27192D65289F5C87FAD5DF6EAB2EC5
-  - type: debian64
+  - type: debianubuntu64
     filename: remmina-plugin-webkit_1.0.0.3-1_amd64.deb
     size: 13 kB
     md5sum: DA09CA64251DF5D5385DD89D26579D0E

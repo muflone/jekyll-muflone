@@ -13,11 +13,11 @@ versions:
     filename: remmina-plugin-rdesktop-1.0.0.3.tar.gz
     size: 13 kB
     md5sum: 6B882C27235750BB49A5B2B1BEDD0596
-  - type: debian32
+  - type: debianubuntu32
     filename: remmina-plugin-rdesktop_1.0.0.3-1_i386.deb
     size: 10 kB
     md5sum: 82E02BE7F940ABF851CE03B75AF66CD2
-  - type: debian64
+  - type: debianubuntu64
     filename: remmina-plugin-rdesktop_1.0.0.3-1_amd64.deb
     size: 11 kB
     md5sum: 23BFC80C5E8CDF5A8BEBFDA50D5BB207

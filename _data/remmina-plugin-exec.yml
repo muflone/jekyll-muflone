@@ -13,11 +13,11 @@ versions:
     filename: remmina-plugin-exec-1.0.0.2.tar.gz
     size: 11 kB
     md5sum: 80512750D5DC729C679C21B722B1800B
-  - type: debian32
+  - type: debianubuntu32
     filename: remmina-plugin-exec_1.0.0.2-1_i386.deb
     size: 7 kB
     md5sum: 589B75C8DBF1C50EFE6DE9CF758B11ED
-  - type: debian64
+  - type: debianubuntu64
     filename: remmina-plugin-exec_1.0.0.2-1_amd64.deb
     size: 7 kB
     md5sum: 533245CF770065421F4D7669B6470FD1
