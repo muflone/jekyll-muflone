@@ -1,4 +1,6 @@
 ---
+layout: product_default
+order: 4
 title: Installazione
 ---
 {% include installation.html type='debian' %}
