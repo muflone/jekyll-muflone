@@ -1,0 +1,13 @@
+          <!-- Begin of License section -->
+{% case include.type %}
+  {% when 'index' %}
+          <h1>{{ site.data.translations[page.language].license.title }}</h1>
+          <p>{{ site.data.translations[page.language].license.text1 | replace: '$(NAME)', site.data[page.product].name | replace: '$(GITHUB)', site.data[page.product].gitrepo }}
+            {{ site.data.translations[page.language].license.text2 }}</p>
+
+  {% when 'download' %}
+          <h1>{{ site.data.translations[page.language].downloads.title }}</h1>
+          <p>{{ site.data.translations[page.language].license.text1 | replace: '$(NAME)', site.data[page.product].name | replace: '$(GITHUB)', site.data[page.product].gitrepo }}</p>
+
+{% endcase %}
+          <!-- End of License section -->
