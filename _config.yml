@@ -11,6 +11,8 @@ icon_footer: android-icon-48x48.png
 collections:
   bluewho:
     output: true
+  cpucompare:
+    output: true
 defaults:
   - scope:
       path: ""
@@ -54,12 +56,12 @@ defaults:
       layout: contacts
       language: italian
   - scope:
-      path: cpucompare
+      path: _cpucompare
     values:
-      layout: cpucompare
+      product: cpucompare
       language: english
   - scope:
-      path: cpucompare/italian
+      path: _cpucompare/italian
     values:
       language: italian
   - scope:
