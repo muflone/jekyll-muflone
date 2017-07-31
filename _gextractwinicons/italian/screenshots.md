@@ -8,7 +8,7 @@ title: Schermate
 {:.center}
 ![Finestra principale](/resources/gextractwinicons/archive/latest/italian/main.png)
 
-# Finestra informazioni
+# Finestra delle informazioni
 
 {:.center}
-![About dialog](/resources/gextractwinicons/archive/latest/italian/about.png)
+![Finestra delle informazioni](/resources/gextractwinicons/archive/latest/italian/about.png)

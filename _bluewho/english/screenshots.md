@@ -23,7 +23,7 @@ title: Screenshots
 {:.center}
 ![Notification window](/resources/bluewho/archive/latest/english/notification.png)
 
-# About window
+# About dialog
 
 {:.center}
 ![About dialog](/resources/bluewho/archive/latest/english/about.png)

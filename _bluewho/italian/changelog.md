@@ -37,5 +37,5 @@ title: Cambiamenti
 
 * Rilascio iniziale
 
-{:.center }
+{:.center}
 ![Finestra principale di BlueWho 0.1](/resources/bluewho/archive/0.1/italian/main.png)

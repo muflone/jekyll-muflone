@@ -37,5 +37,5 @@ title: Changelog
 
 * Initial release
 
-{:.center }
+{:.center}
 ![Main window for BlueWho 0.1](/resources/bluewho/archive/0.1/english/main.png)

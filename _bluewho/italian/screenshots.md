@@ -23,7 +23,7 @@ title: Schermate
 {:.center}
 ![Finestra notifica](/resources/bluewho/archive/latest/italian/notification.png)
 
-# Finestra informazioni
+# Finestra delle informazioni
 
 {:.center}
-![Finestra informazioni](/resources/bluewho/archive/latest/italian/about.png)
+![Finestra delle informazioni](/resources/bluewho/archive/latest/italian/about.png)

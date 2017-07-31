@@ -8,7 +8,7 @@ title: Schermate
 {:.center}
 ![Finestra principale](/resources/cpucompare/archive/latest/italian/main.png)
 
-# Finestra informazioni
+# Finestra delle informazioni
 
 {:.center}
-![Finestra informazioni](/resources/cpucompare/archive/latest/italian/about.png)
+![Finestra delle informazioni](/resources/cpucompare/archive/latest/italian/about.png)
