@@ -13,6 +13,8 @@ collections:
     output: true
   cpucompare:
     output: true
+  gextractwinicons:
+    output: true
 defaults:
   - scope:
       path: ""
@@ -74,12 +76,12 @@ defaults:
     values:
       language: italian
   - scope:
-      path: gextractwinicons
+      path: _gextractwinicons
     values:
-      layout: gextractwinicons
+      product: gextractwinicons
       language: english
   - scope:
-      path: gextractwinicons/italian
+      path: _gextractwinicons/italian
     values:
       language: italian
   - scope:
