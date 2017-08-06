@@ -1,4 +1,4 @@
-name: gWakeOnLan
+name: gWakeOnLAN
 lowername: gwakeonlan
 description:
   italian: Accende le tue macchine in rete locale oppure attraverso Internet usando il sistema Wake On LAN.

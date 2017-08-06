@@ -19,6 +19,8 @@ collections:
     output: true
   gptrace:
     output: true
+  gwakeonlan:
+    output: true
 defaults:
   - scope:
       path: ""
@@ -108,12 +110,12 @@ defaults:
     values:
       language: italian
   - scope:
-      path: gwakeonlan
+      path: _gwakeonlan
     values:
-      layout: gwakeonlan
+      product: gwakeonlan
       language: english
   - scope:
-      path: gwakeonlan/italian
+      path: _gwakeonlan/italian
     values:
       language: italian
   - scope:
