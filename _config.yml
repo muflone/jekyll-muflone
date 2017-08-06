@@ -17,6 +17,8 @@ collections:
     output: true
   gnome-appfolders-manager:
     output: true
+  gptrace:
+    output: true
 defaults:
   - scope:
       path: ""
@@ -87,12 +89,12 @@ defaults:
     values:
       language: italian
   - scope:
-      path: gptrace
+      path: _gptrace
     values:
-      layout: gptrace
+      product: gptrace
       language: english
   - scope:
-      path: gptrace/italian
+      path: _gptrace/italian
     values:
       language: italian
   - scope:
