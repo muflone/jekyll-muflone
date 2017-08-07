@@ -25,6 +25,8 @@ collections:
     output: true
   remmina-plugin-builder:
     output: true
+  remmina-plugin-exec:
+    output: true
 defaults:
   - scope:
       path: ""
@@ -143,12 +145,12 @@ defaults:
       language: italian
 
   - scope:
-      path: remmina-plugin-exec
+      path: _remmina-plugin-exec
     values:
-      layout: remmina-plugin-exec
+      product: remmina-plugin-exec
       language: english
   - scope:
-      path: remmina-plugin-exec/italian
+      path: _remmina-plugin-exec/italian
     values:
       language: italian
 
