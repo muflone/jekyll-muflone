@@ -46,6 +46,7 @@ defaults:
       tags:
         - archlinux
         - updates
+
   - scope:
       path: _bluewho
     values:
@@ -55,6 +56,7 @@ defaults:
       path: _bluewho/italian
     values:
       language: italian
+
   - scope:
       path: contacts/english
     values:
@@ -65,6 +67,7 @@ defaults:
     values:
       layout: contacts
       language: italian
+
   - scope:
       path: _cpucompare
     values:
@@ -74,6 +77,7 @@ defaults:
       path: _cpucompare/italian
     values:
       language: italian
+
   - scope:
       path: gespeaker
     values:
@@ -83,6 +87,7 @@ defaults:
       path: gespeaker/italian
     values:
       language: italian
+
   - scope:
       path: _gextractwinicons
     values:
@@ -92,6 +97,7 @@ defaults:
       path: _gextractwinicons/italian
     values:
       language: italian
+
   - scope:
       path: _gptrace
     values:
@@ -101,6 +107,7 @@ defaults:
       path: _gptrace/italian
     values:
       language: italian
+
   - scope:
       path: _gnome-appfolders-manager
     values:
@@ -110,6 +117,7 @@ defaults:
       path: _gnome-appfolders-manager/italian
     values:
       language: italian
+
   - scope:
       path: _gwakeonlan
     values:
@@ -119,6 +127,7 @@ defaults:
       path: _gwakeonlan/italian
     values:
       language: italian
+
   - scope:
       path: remmina-plugin-builder
     values:
@@ -128,6 +137,7 @@ defaults:
       path: remmina-plugin-builder/italian
     values:
       language: italian
+
   - scope:
       path: remmina-plugin-exec
     values:
@@ -137,6 +147,7 @@ defaults:
       path: remmina-plugin-exec/italian
     values:
       language: italian
+
   - scope:
       path: remmina-plugin-folder
     values:
@@ -146,6 +157,7 @@ defaults:
       path: remmina-plugin-folder/italian
     values:
       language: italian
+
   - scope:
       path: remmina-plugin-open
     values:
@@ -155,6 +167,7 @@ defaults:
       path: remmina-plugin-open/italian
     values:
       language: italian
+
   - scope:
       path: remmina-plugin-rdesktop
     values:
@@ -164,6 +177,7 @@ defaults:
       path: remmina-plugin-rdesktop/italian
     values:
       language: italian
+
   - scope:
       path: remmina-plugin-teamviewer
     values:
@@ -173,6 +187,7 @@ defaults:
       path: remmina-plugin-teamviewer/italian
     values:
       language: italian
+
   - scope:
       path: remmina-plugin-ultravnc
     values:
@@ -182,6 +197,7 @@ defaults:
       path: remmina-plugin-ultravnc/italian
     values:
       language: italian
+
   - scope:
       path: remmina-plugin-url
     values:
@@ -191,6 +207,7 @@ defaults:
       path: remmina-plugin-url/italian
     values:
       language: italian
+
   - scope:
       path: remmina-plugin-webkit
     values:
@@ -200,6 +217,7 @@ defaults:
       path: remmina-plugin-webkit/italian
     values:
       language: italian
+
   - scope:
       path: gtransmemory
     values:
