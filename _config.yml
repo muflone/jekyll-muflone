@@ -29,6 +29,8 @@ collections:
     output: true
   remmina-plugin-folder:
     output: true
+  remmina-plugin-open:
+    output: true
 defaults:
   - scope:
       path: ""
@@ -167,12 +169,12 @@ defaults:
       language: italian
 
   - scope:
-      path: remmina-plugin-open
+      path: _remmina-plugin-open
     values:
-      layout: remmina-plugin-open
+      product: remmina-plugin-open
       language: english
   - scope:
-      path: remmina-plugin-open/italian
+      path: _remmina-plugin-open/italian
     values:
       language: italian
 
