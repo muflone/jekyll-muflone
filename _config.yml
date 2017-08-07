@@ -23,6 +23,8 @@ collections:
     output: true
   gespeaker:
     output: true
+  remmina-plugin-builder:
+    output: true
 defaults:
   - scope:
       path: ""
@@ -131,12 +133,12 @@ defaults:
       language: italian
 
   - scope:
-      path: remmina-plugin-builder
+      path: _remmina-plugin-builder
     values:
-      layout: remmina-plugin-builder
+      product: remmina-plugin-builder
       language: english
   - scope:
-      path: remmina-plugin-builder/italian
+      path: _remmina-plugin-builder/italian
     values:
       language: italian
 
