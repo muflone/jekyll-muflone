@@ -21,6 +21,8 @@ collections:
     output: true
   gwakeonlan:
     output: true
+  gespeaker:
+    output: true
 defaults:
   - scope:
       path: ""
@@ -79,12 +81,12 @@ defaults:
       language: italian
 
   - scope:
-      path: gespeaker
+      path: _gespeaker
     values:
-      layout: gespeaker
+      product: gespeaker
       language: english
   - scope:
-      path: gespeaker/italian
+      path: _gespeaker/italian
     values:
       language: italian
 
