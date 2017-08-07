@@ -42,6 +42,10 @@ code {
   outline: solid 1px #cccccc;
 }
 
+em {
+  font-style: italic;
+}
+
 dl dd {
   font-style: italic;
   font-weight: 100;
