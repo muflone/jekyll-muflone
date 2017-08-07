@@ -1,0 +1,15 @@
+---
+layout: product_default
+---
+          <h1>{{ site.data.translations[page.language].mbrola.title | replace: '$(DISTRIBUTION)', page.distribution }} </h1>
+          <table id="mbrola_voices">
+            <thead>
+              <tr>
+                <th class="name">{{ site.data.translations[page.language].mbrola.voice }}</th>
+                <th class="language">{{ site.data.translations[page.language].mbrola.language }}</th>
+                <th class="availability">{{ site.data.translations[page.language].mbrola.availability }}</th>
+                <th class="package">{{ site.data.translations[page.language].mbrola.package }}</th>
+              </tr>
+            </thead>
+            {{ content }}
+          </table>

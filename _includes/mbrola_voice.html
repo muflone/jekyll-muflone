@@ -1,0 +1,13 @@
+              <tr>
+                <td>{{ include.name }}</td>
+                <td>{{ site.data.translations[page.language].mbrola.languages[include.name] }}</td>
+{%- if include.package == '-' -%}
+  {%- assign status_icon = 'status-no.png' -%}
+  {%- assign status_msg = site.data.translations[page.language].mbrola.status['unavailable'] -%}
+{%- else -%}
+  {%- assign status_icon = 'status-ok.png' -%}
+  {%- assign status_msg = site.data.translations[page.language].mbrola.status['available'] -%}
+{%- endif -%}
+                <td class="availability"><img src="/theme/images/{{ status_icon }}"> {{ status_msg }}</td>
+                <td>{{ include.package }}</td>
+              </tr>

@@ -246,6 +246,54 @@ english:
       opensuse64:
         title: OpenSUSE x86_64 (64 bit)
         icon: opensuse-32.png
+  mbrola:
+    title: Supported MBROLA voices on $(DISTRIBUTION)
+    voice: Voice
+    language: Language
+    availability: Availability
+    package: Package name
+    status:
+      available: Available
+      unavailable: Unavailable
+    languages:
+      af1: Afrikaans male
+      br1: Brazilian Portoguese male
+      br3: Brazilian Portoguese male
+      br4: Brazilian Portoguese female
+      cr1: Croatian male
+      cz2: Czech male
+      de2: German male
+      de4: German male
+      de5: German female
+      de6: German male
+      de7: German female
+      ee1: Estonian male
+      en1: British English male
+      es1: Spanish male
+      es2: Spanish male
+      fr1: French male
+      fr4: French female
+      gr2: Greek male
+      hu1: Hungarian female
+      ic1: Icelandic male
+      id1: Indonesian male
+      it3: Italian male
+      it4: Italian female
+      la1: Classical Latin male
+      mx1: Spanish Mexican male
+      mx2: Spanish Mexican male
+      nl2: Dutch male
+      pl1: Polish female
+      pt1: European Portoguese female
+      ro1: Romanian male
+      sw1: Swedish male
+      sw2: Swedish female
+      tr1: Turkish male
+      tr2: Turkish female
+      us1: American English female
+      us2: American English male
+      us3: American English male
+      vz1: Venezuelan Spanish male
 
 italian:
   copyright: Copyright &copy; 2013-2017
@@ -498,3 +546,51 @@ italian:
       opensuse64:
         title: OpenSUSE x86_64 (64 bit)
         icon: opensuse-32.png
+  mbrola:
+    title: Voci MBROLA supportate su $(DISTRIBUTION)
+    voice: Voce
+    language: Lingua
+    availability: Disponibilità
+    package: Nome del pacchetto
+    status:
+      available: Disponibile
+      unavailable: Non disponibile
+    languages:
+      af1: Africano maschile
+      br1: Brasiliano portoghese maschile
+      br3: Brasiliano portoghese maschile
+      br4: Brasiliano portoghese femminile
+      cr1: Croato maschile
+      cz2: Cecoslovacco maschile
+      de2: Tedesco maschile
+      de4: Tedesco maschile
+      de5: Tedesco femminile
+      de6: Tedesco maschile
+      de7: Tedesco femminile
+      ee1: Estone maschile
+      en1: Inglese britannico maschile
+      es1: Spagnolo maschile
+      es2: Spagnolo maschile
+      fr1: Francese maschile
+      fr4: Francese femminile
+      gr2: Greco maschile
+      hu1: Ungherese femminile
+      ic1: Islandese maschile
+      id1: Indonesiano maschile
+      it3: Italiano maschile
+      it4: Italiano femminile
+      la1: Latino classico maschile
+      mx1: Messicano spagnolo maschile
+      mx2: Messicano spagnolo maschile
+      nl2: Olandese maschile
+      pl1: Polacco femminile
+      pt1: Portoghese europeo femminile
+      ro1: Rumeno maschile
+      sw1: Svedese maschile
+      sw2: Svedese femminile
+      tr1: Turco maschile
+      tr2: Turco femminile
+      us1: Inglese americano femminile
+      us2: Inglese americano maschile
+      us3: Inglese americano maschile
+      vz1: Venezuelano spagnolo maschile
