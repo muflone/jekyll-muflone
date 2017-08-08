@@ -35,6 +35,8 @@ collections:
     output: true
   remmina-plugin-teamviewer:
     output: true
+  remmina-plugin-ultravnc:
+    output: true
 defaults:
   - scope:
       path: ""
@@ -203,12 +205,12 @@ defaults:
       language: italian
 
   - scope:
-      path: remmina-plugin-ultravnc
+      path: _remmina-plugin-ultravnc
     values:
-      layout: remmina-plugin-ultravnc
+      product: remmina-plugin-ultravnc
       language: english
   - scope:
-      path: remmina-plugin-ultravnc/italian
+      path: _remmina-plugin-ultravnc/italian
     values:
       language: italian
 
