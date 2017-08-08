@@ -33,6 +33,8 @@ collections:
     output: true
   remmina-plugin-rdesktop:
     output: true
+  remmina-plugin-teamviewer:
+    output: true
 defaults:
   - scope:
       path: ""
@@ -191,12 +193,12 @@ defaults:
       language: italian
 
   - scope:
-      path: remmina-plugin-teamviewer
+      path: _remmina-plugin-teamviewer
     values:
-      layout: remmina-plugin-teamviewer
+      product: remmina-plugin-teamviewer
       language: english
   - scope:
-      path: remmina-plugin-teamviewer/italian
+      path: _remmina-plugin-teamviewer/italian
     values:
       language: italian
 
