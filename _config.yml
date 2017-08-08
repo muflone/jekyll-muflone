@@ -31,6 +31,8 @@ collections:
     output: true
   remmina-plugin-open:
     output: true
+  remmina-plugin-rdesktop:
+    output: true
 defaults:
   - scope:
       path: ""
@@ -179,12 +181,12 @@ defaults:
       language: italian
 
   - scope:
-      path: remmina-plugin-rdesktop
+      path: _remmina-plugin-rdesktop
     values:
-      layout: remmina-plugin-rdesktop
+      product: remmina-plugin-rdesktop
       language: english
   - scope:
-      path: remmina-plugin-rdesktop/italian
+      path: _remmina-plugin-rdesktop/italian
     values:
       language: italian
 
