@@ -37,6 +37,8 @@ collections:
     output: true
   remmina-plugin-ultravnc:
     output: true
+  remmina-plugin-url:
+    output: true
 defaults:
   - scope:
       path: ""
@@ -215,12 +217,12 @@ defaults:
       language: italian
 
   - scope:
-      path: remmina-plugin-url
+      path: _remmina-plugin-url
     values:
-      layout: remmina-plugin-url
+      product: remmina-plugin-url
       language: english
   - scope:
-      path: remmina-plugin-url/italian
+      path: _remmina-plugin-url/italian
     values:
       language: italian
 
