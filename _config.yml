@@ -39,6 +39,8 @@ collections:
     output: true
   remmina-plugin-url:
     output: true
+  remmina-plugin-webkit:
+    output: true
 defaults:
   - scope:
       path: ""
@@ -227,12 +229,12 @@ defaults:
       language: italian
 
   - scope:
-      path: remmina-plugin-webkit
+      path: _remmina-plugin-webkit
     values:
-      layout: remmina-plugin-webkit
+      product: remmina-plugin-webkit
       language: english
   - scope:
-      path: remmina-plugin-webkit/italian
+      path: _remmina-plugin-webkit/italian
     values:
       language: italian
 
