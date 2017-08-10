@@ -42,7 +42,8 @@
   <body>
     <header>
       <div class="inner">
-        <a href="/{{ module.lowername }}"><img src="/resources/{{ module.lowername }}/icons/ms-icon-144x144.png" style="padding-right: 20px;" align="left"></a>
+        <a href="{% unless page.layout == 'sections' %}/{{ module.lowername }}{% endunless %}/{{ page.language }}">
+          <img src="/resources/{{ module.lowername }}/icons/ms-icon-144x144.png" style="padding-right: 20px;" align="left"></a>
         <h1>{{ module.name }}</h1>
         <h2>{{ page.title }}</h2>
         <a href="{{ module.gitrepo }}" target="_blank" class="button">
