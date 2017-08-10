@@ -8,6 +8,27 @@ url: http://www.muflone.com
 permalink: /articles/:categories/:year-:month-:day/:title.html
 show_social: true
 icon_footer: android-icon-48x48.png
+sections:
+- module: contacts
+- module: news
+- module: articles
+- module: gespeaker
+- module: gwakeonlan
+- module: gextractwinicons
+- module: bluewho
+- module: cpucompare
+- module: gptrace
+- module: gnome-appfolders-manager
+- module: gtransmemory
+- module: remmina-plugin-builder
+- module: remmina-plugin-exec
+- module: remmina-plugin-folder
+- module: remmina-plugin-open
+- module: remmina-plugin-rdesktop
+- module: remmina-plugin-teamviewer
+- module: remmina-plugin-ultravnc
+- module: remmina-plugin-url
+- module: remmina-plugin-webkit
 collections:
   contacts:
     output: true

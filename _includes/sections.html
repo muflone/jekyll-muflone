@@ -12,7 +12,7 @@
             <div class="products-table">
 {% endcase %}
 
-{% for section in site.data.common.sections %}
+{% for section in site.sections %}
   {% case section.module %}
     {% when 'muflone'                   %}{% assign module=site.data.contacts %}
     {% when 'articles'                  %}{% assign module=site.data.articles %}

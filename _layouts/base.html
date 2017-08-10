@@ -65,7 +65,7 @@
         <a href="/" title="Home">
           <img src="/resources/home/icons/{{ site.icon_footer }}">
         </a>
-{% for section in site.data.common.sections %}
+{% for section in site.sections %}
         <a href="/{{ section.module }}" title="{{ site.data[section.module].name }}">
           <img src="/resources/{{ section.module }}/icons/{{ site.icon_footer }}">
         </a>
