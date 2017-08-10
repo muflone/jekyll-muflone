@@ -23,6 +23,8 @@ collections:
     output: true
   gespeaker:
     output: true
+  gtransmemory:
+    output: true
   remmina-plugin-builder:
     output: true
   remmina-plugin-exec:
@@ -149,6 +151,16 @@ defaults:
       language: italian
 
   - scope:
+      path: _gtransmemory
+    values:
+      product: gtransmemory
+      language: english
+  - scope:
+      path: _gtransmemory/italian
+    values:
+      language: italian
+
+  - scope:
       path: _remmina-plugin-builder
     values:
       product: remmina-plugin-builder
@@ -235,15 +247,5 @@ defaults:
       language: english
   - scope:
       path: _remmina-plugin-webkit/italian
-    values:
-      language: italian
-
-  - scope:
-      path: gtransmemory
-    values:
-      layout: gtransmemory
-      language: english
-  - scope:
-      path: gtransmemory/italian
     values:
       language: italian
