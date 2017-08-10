@@ -307,6 +307,11 @@ ul li {
   background: #2e7bcf url('../images/skin-header.jpg') 0 0 repeat-x;
 }
 
+.footer div#icons {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
 .title {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
   font-size: 46px;
