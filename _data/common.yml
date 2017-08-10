@@ -2,7 +2,7 @@ name: Muflone
 lowername: muflone
 gitrepo: https://github.com/muflone
 sections:
-- module: muflone
+- module: contacts
 - module: articles
 - module: gespeaker
 - module: gwakeonlan

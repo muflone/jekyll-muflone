@@ -9,6 +9,8 @@ permalink: /articles/:categories/:year-:month-:day/:title.html
 show_social: true
 icon_footer: android-icon-48x48.png
 collections:
+  contacts:
+    output: true
   bluewho:
     output: true
   cpucompare:
@@ -70,6 +72,16 @@ defaults:
         - updates
 
   - scope:
+      path: _contacts
+    values:
+      product: contacts
+      language: english
+  - scope:
+      path: _contacts/italian
+    values:
+      language: italian
+
+  - scope:
       path: _bluewho
     values:
       product: bluewho
@@ -77,17 +89,6 @@ defaults:
   - scope:
       path: _bluewho/italian
     values:
-      language: italian
-
-  - scope:
-      path: contacts/english
-    values:
-      layout: contacts
-      language: english
-  - scope:
-      path: contacts/italian
-    values:
-      layout: contacts
       language: italian
 
   - scope:

@@ -294,6 +294,10 @@ english:
       us2: American English male
       us3: American English male
       vz1: Venezuelan Spanish male
+  contacts:
+    title1: My contacts
+    title2: Developers corner
+    title3: My blogs
 
 italian:
   copyright: Copyright &copy; 2013-2017
@@ -594,3 +598,7 @@ italian:
       us2: Inglese americano maschile
       us3: Inglese americano maschile
       vz1: Venezuelano spagnolo maschile
+  contacts:
+    title1: I miei contatti
+    title2: Angolo sviluppatori
+    title3: I miei blog
