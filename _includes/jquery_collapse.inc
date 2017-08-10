@@ -1,1 +1,0 @@
-    <script language="javascript" src="/resources/jquery-collapse/jquery.collapse.js"></script>
