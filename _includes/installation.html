@@ -56,13 +56,6 @@
   {{ site.data.translations[page.language].installation.source.text3 }}
   </p></blockquote></blockquote></blockquote>
 
-
-  {% when 'index' %}
-  <!-- Installation for index page -->
-# {{ site.data.translations[page.language].installation.index.title }}
-{{ site.data.translations[page.language].installation.index.text1 }}
-
-{{ site.data.translations[page.language].installation.index.text2 | replace: '$(NAME)', site.data[page.product].name | replace: '$(GITHUB)', site.data[page.product].gitrepo }}
   {% else %}
 <!-- Unexpected installation type -->
 <h1>Unexpected type {{ type }}</h1>
