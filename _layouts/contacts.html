@@ -1,47 +1,78 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="it-IT">
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Me, well known as Muflone</title>
-    <link rel="stylesheet" href="/resources/{{ page.layout }}/style.css" type="text/css" media="screen">
-    <link rel="shortcut icon" href="/resources/contacts/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/resources/contacts/favicon.ico" type="image/x-icon">
-    <link rel="author" href="https://plus.google.com/+FabioCastelli"/>
-{% include jquery.inc %}
-    <!--[if lt IE 7]>
-    <script type="text/javascript" src="/resources/{{ page.layout }}/pngfix.js"></script>
-    <![endif]-->
-{% include cookie-consent.inc %}
-  </head>
-  <body promptdialogcheckdone="1">
+---
+layout: base
+---
+        <section id="main-content">
+          <p class="center"><img src="/theme/images/muflone-full.png" alt="Muflone"></p>
 
-  <div id="top"></div>
-  <div id="page">
-    <div class="page-in">
-      <span id="navi">
-        <ul class="navigation">
-          <li><a href="#contacts">{% if page.language == 'italian' %}Contatti{% else %}Contacts{% endif %}</a></li>
-          <li><a href="#developers">{% if page.language == 'italian' %}Angolo sviluppatori{% else %}Developers corner{% endif %}</a></li>
-          <li><a href="#blogs">{% if page.language == 'italian' %}I miei blog{% else %}Blogs{% endif %}</a></li>
-        </ul>
-      </span>
-      <div class="wrapper">
-        <div class="clearfix title">
-          <p>{% if page.language == 'italian' %}Contatti di{% else %}Contacts by{% endif %}<a class="author" href="https://plus.google.com/+FabioCastelli?rel=author">Fabio Castelli</a></p>
-          <p>{% if page.language == 'italian' %}Meglio conosciuto come{% else %}Well known as{% endif %} Muflone</p>
-          <a href="/"><img src="/resources/{{ page.layout }}/picture.png" alt="Me" align="left"></a>
-        </div>
-{{ content }}
-        </div>
-      </div>
-    </div>
-  </div>
+{% unless page.content_after %}
+          <!-- Begin of page content section -->
+            {{ content }}
+          <!-- End of page content section -->
+{% endunless %}
 
-  <div id="footer"><p>{% if page.language == 'italian' %}Basato su{% else %}Based on{% endif %} <a href="http://john.do/the-digital-business-card-wordpress-theme/" target="_blank">The DBC Theme</a></p></div>
-  <script type="text/javascript" language="javascript" src="/resources/{{ page.layout }}/animate.js"></script>
+          <hr />
+          <p>{{ site.data.translations[page.language].contacts.title1 }}</p>
 
-{% include google-analytics.html %}
+          <hr />
+          <ul>
+            <li><a href="mailto:webreg@vbsimple.net"><img src="/theme/images/link-email.png">
+              <strong>E-mail</strong> webreg@vbsimple.net</a></li>
+            <li><a href="skype:fibiafbi"><img src="/theme/images/link-skype.png">
+              <strong>Skype</strong> fibiafbi</a></li>
+            <li><a href="http://url.muflone.com/twitter"><img src="/theme/images/link-twitter.png">
+              <strong>Twitter</strong> https://www.twitter.com/il_muflone</a></li>
+            <li><a href="http://url.muflone.com/googleplus"><img src="/theme/images/link-google-plus.png">
+              <strong>Google+</strong> https://plus.google.com/+FabioCastelli</a></li>
+            <li><a href="http://url.muflone.com/youtube"><img src="/theme/images/link-youtube.png">
+              <strong>YouTube+</strong> https://www.youtube.com/user/fibiafbi</a></li>
+            <li><a href="http://url.muflone.com/ubuntuitforum"><img src="/theme/images/link-ubuntu-it.png">
+              <strong>Forum Ubuntu-it+</strong> http://forum.ubuntu-it.org/…73229</a></li>
+          </ul>
 
-  </body>
-</html>
+          <hr />
+          <p>{{ site.data.translations[page.language].contacts.title2 }}</p>
+
+          <hr />
+          <ul>
+            <li><a href="http://url.muflone.com/github"><img src="/theme/images/link-github.png">
+              <strong>GitHub</strong> https://github.com/muflone/</a></li>
+            <li><a href="http://url.muflone.com/aur"><img src="/theme/images/link-archlinux.png">
+              <strong>Arch Linux AUR packages</strong> https://aur.archlinux.org/packages/?SeB=m&amp;K=muflone</a></li>
+            <li><a href="http://url.muflone.com/archwiki"><img src="/theme/images/link-archlinux.png">
+              <strong>Arch Linux Wiki</strong> https://wiki.archlinux.org/index.php/User:Muflone</a></li>
+            <li><a href="http://url.muflone.com/ohloh"><img src="/theme/images/link-ohloh.png">
+              <strong>Ohloh</strong> fibiafbi</a></li>
+            <li><a href="http://url.muflone.com/debian"><img src="/theme/images/link-debian.png">
+              <strong>Debian packages</strong> https://qa.debian.org/developer.php</a></li>
+            <li><a href="http://url.muflone.com/papt"><img src="/theme/images/link-debian.png">
+              <strong>Python Application Packaging Team</strong> https://alioth.debian.org/projects/python-apps/</a></li>
+            <li><a href="http://url.muflone.com/launchpad"><img src="/theme/images/link-launchpad.png">
+              <strong>Launchpad</strong> https://launchpad.net/~il-muflone</a></li>
+            <li><a href="http://url.muflone.com/sourceforge"><img src="/theme/images/link-sourceforge.png">
+              <strong>Sourceforge</strong> http://sourceforge.net/users/muflone/</a></li>
+          </ul>
+
+          <hr />
+          <p>{{ site.data.translations[page.language].contacts.title3 }}</p>
+
+          <hr />
+          <ul>
+            <li><a href="http://url.muflone.com/blog"><img src="/theme/images/link-wordpress.png">
+              <strong>Un caprone che fa bau</strong> https://muflone.wordpress.com/</a></li>
+            <li><a href="http://url.muflone.com/ubuntutrucchi"><img src="/theme/images/link-wordpress.png">
+              <strong>Ubuntu Trucchi</strong> https://ubuntrucchi.wordpress.com/</a></li>
+            <li><a href="http://url.muflone.com/pygtk"><img src="/theme/images/link-wordpress.png">
+              <strong>Appunti sparsi su PyGTK</strong> https://pygtk.wordpress.com/</a></li>
+            <li><a href="http://url.muflone.com/gnomeshell"><img src="/theme/images/link-wordpress.png">
+              <strong>The GNOME Shell</strong> https://pygtk.wordpress.com/</a></li>
+          </ul>
+
+          <hr />
+{% if page.content_after %}
+          <!-- Begin of page content section -->
+          <div>
+            {{ content }}
+          </div>
+          <!-- End of page content section -->
+{% endif %}
+        </section>
