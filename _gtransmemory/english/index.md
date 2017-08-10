@@ -1,5 +1,5 @@
 ---
-layout: product_index
+layout: index
 order: 1
 title: Introduction
 ---
