@@ -54,69 +54,7 @@
 
     <div id="content-wrapper">
       <div class="inner clearfix">
-        <section id="main-content">
 {{ content }}
-        </section>
-{%- comment -%}No sidebar for the contacts layout{%- endcomment -%}
-{%- unless page.layout == 'product_contacts' -%}
-        <aside id="sidebar">
-  {%- comment -%}Skip the sidebar pages list when this page has order 0{%- endcomment -%}
-  {%- if page.order > 0 -%}
-    {%- assign collection = site.collections | where: 'label', page.product | first -%}
-    {%- assign docs = collection.docs | where: 'language', page.language -%}
-    {%- comment -%}Find the maximum order{%- endcomment -%}
-    {%- assign max_order = -1 -%}
-    {%- for doc in docs -%}
-      {%- if doc.order > max_order -%}
-        {%- assign max_order = doc.order -%}
-      {%- endif -%}
-    {% endfor %}
-          <!-- Build sidebar depth 1 -->
-          <ul class="menu1">
-    {%- comment -%}Cycle each page (until Jekyll has a better way to cycle collections){%- endcomment -%}
-    {%- assign previous_depth = 1 -%}
-    {%- assign with_depth2 = false -%}
-    {%- for order in (1..max_order) -%}
-      {%- for doc in docs -%}
-        {%- if doc.order == order -%}
-          {%- if doc.depth == 1 -%}
-            {%- if with_depth2 -%}
-              {% assign with_depth2 = false %}
-            </ul>
-            <!-- End of sidebar depth 2 -->
-            {% endif %}
-            <li class="menu1"><a href="{{ doc.url }}">{{ doc.title }}</a></li>
-          {%- else -%}
-            {% unless with_depth2 %}
-              {% assign with_depth2 = true %}
-            <!-- Begin of sidebar depth 2 -->
-            <ul class="menu2">
-            {% endunless %}
-              <li class="menu2"><a href="{{ doc.url }}">{{ doc.title }}</a></li>
-          {%- endif -%}
-        {%- endif -%}
-        {%- assign last_depth = doc.depth -%}
-      {%- endfor -%}
-    {%- endfor -%}
-    {% if with_depth2 %}
-            </ul>
-            <!-- End of sidebar depth 2 -->
-    {% endif %}
-          </ul>
-          <!-- End of sidebar depth 1 -->
-  {% endif %}
-          <div class="repo-owner">
-  {% unless page.layout == 'product_flags' %}
-            <div>
-              <a href="{{ module.gitrepo }}" target="_blank">{{ module.name }}</a>
-              {{ site.data.translations[page.language].github.developed_by }} 
-              <a href="{{ site.data.common.gitrepo }}" target="_blank">{{ site.data.common.name }}</a>.
-            </div>
-  {% endunless %}
-            <div>{{ site.data.translations[page.language].theme_info }}</div>
-          </div>
-        </aside>
-{% endunless %}
       </div>
     </div>
 
