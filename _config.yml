@@ -8,6 +8,7 @@ url: http://www.muflone.com
 permalink: /articles/:categories/:year-:month-:day/:title.html
 show_social: true
 icon_footer: android-icon-48x48.png
+icon_home: android-icon-144x144.png
 sections:
 - module: contacts
 - module: news

@@ -1,19 +1,25 @@
-{% include header.inc section='contacts' %}
-    <link rel="stylesheet" type="text/css" href="/theme/products.css" media="screen" />
-  </head>
-
-  <body>
-    <header>
-      <div class="inner">
-        <h1>{{ site.home.name }}</h1>
-        <h2>{{ page.title }}</h2>
-      </div>
-    </header>
-    <div id="content-wrapper">
-      <div class="clearfix">
-        <section id="main-content" class="full">
-{{ content }}
+---
+layout: base
+---
+        <section class="full-width">
+          <div class="full-width product">
+            <div class="products-table">
+  {% for section in site.sections %}
+              <div class="product product-column">
+                <div><a href="{{ section.module }}/{{ page.language }}">
+                  <img src="/resources/{{ section.module }}/icons/{{ site.icon_home }}">
+                  <div class="product-name">{{ site.data[section.module].name }}</div></a>
+                  <div>
+    {%- if page.language == 'italian' -%}
+                    {{ site.data[section.module].description.italian }}
+    {%- else -%}
+                    {{ site.data[section.module].description.english }}
+    {%- endif -%}
+                  </div>
+                </div>
+              </div>
+  {% endfor %}
+            </div>
+          </div>
+  {{ page.content }}
         </section>
-      </div>
-    </div>
-{% include section_footer.inc %}
