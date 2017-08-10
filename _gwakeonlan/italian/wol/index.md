@@ -1,5 +1,5 @@
 ---
-layout: product_default
+layout: default
 order: 6
 depth: 1
 title: Wake On LAN

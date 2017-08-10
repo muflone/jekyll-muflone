@@ -1,5 +1,5 @@
 ---
-layout: product_default
+layout: default
 order: 4
 title: Installazione
 ---

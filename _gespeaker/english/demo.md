@@ -1,5 +1,5 @@
 ---
-layout: product_default
+layout: default
 order: 60
 title: Demo voices
 require_jquery: True

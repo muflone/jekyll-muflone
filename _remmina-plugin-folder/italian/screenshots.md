@@ -1,5 +1,5 @@
 ---
-layout: product_default
+layout: default
 order: 5
 title: Screenshots
 ---

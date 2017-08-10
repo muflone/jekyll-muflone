@@ -1,5 +1,5 @@
 ---
-layout: product_default
+layout: default
 order: 2
 title: Domande frequenti
 ---

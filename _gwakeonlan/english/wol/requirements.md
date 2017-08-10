@@ -1,5 +1,5 @@
 ---
-layout: product_default
+layout: default
 order: 7
 depth: 2
 title: Requirements

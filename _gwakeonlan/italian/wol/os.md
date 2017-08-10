@@ -1,5 +1,5 @@
 ---
-layout: product_default
+layout: default
 order: 9
 depth: 2
 title: Nel sistema operativo

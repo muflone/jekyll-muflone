@@ -1,5 +1,5 @@
 ---
-layout: product_default
+layout: default
 order: 8
 depth: 2
 title: Nel BIOS
