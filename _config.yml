@@ -9,10 +9,9 @@ permalink: /articles/:categories/:year-:month-:day/:title.html
 show_social: true
 icon_footer: android-icon-48x48.png
 icon_home: android-icon-144x144.png
+exclude: ['_posts', 'articles', 'news', 'resources/articles', 'resources/news']
 sections:
   - contacts
-  - news
-  - articles
   - gespeaker
   - gwakeonlan
   - gextractwinicons
