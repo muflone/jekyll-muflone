@@ -3,7 +3,7 @@ layout: index
 order: 1
 title: Introduction
 ---
-**gExtractWinIcons** is a free application to extract cursors, icons and png
+**gExtractWinIcons** is a free GTK+ application to extract cursors, icons and png
 images from Microsoft Windows resource files (like .exe, .dll, .ocx, .cpl).
 
 {:.center}

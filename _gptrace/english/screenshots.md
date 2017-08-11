@@ -8,10 +8,25 @@ title: Screenshots
 {:.center}
 ![Main window](/resources/gptrace/archive/latest/english/main.png)
 
-# Main window with expanded list
+# Syscalls choice
 
 {:.center}
-![Main window with expanded list](/resources/gptrace/archive/latest/english/expanded.png)
+![Syscalls choice](/resources/gptrace/archive/latest/english/expanded.png)
+
+# Counts section
+
+{:.center}
+![Counts section](/resources/gptrace/archive/latest/english/counts.png)
+
+# Files section
+
+{:.center}
+![Files section](/resources/gptrace/archive/latest/english/files.png)
+
+# Processes section
+
+{:.center}
+![Processes section](/resources/gptrace/archive/latest/english/processes.png)
 
 # About dialog
 

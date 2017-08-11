@@ -46,10 +46,6 @@ title: Cambiamenti
 {:.center}
 ![Finestra principale di CPUCompare 0.3](/resources/cpucompare/archive/0.3/italian/main.png)
 
-{:.center}
-![Finestra delle informazioni di CPUCompare 0.3](/resources/cpucompare/archive/0.3/italian/main.png)
-
-
 # Versione 0.2 (10 Settembre 2013)
 
 * Automaticamente viene scelto l'ultimo elemento dopo l'inserimento

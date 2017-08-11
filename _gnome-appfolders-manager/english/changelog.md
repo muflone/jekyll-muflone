@@ -7,7 +7,7 @@ title: Changelog
 * Handled readonly settings directory avoiding the folder creation
 
 {:.center}
-![About window for GNOME AppFolders Manager 0.3.1](/resources/gnome-appfolders-manager/archive/0.3.1/english/about.png)
+![About dialog for GNOME AppFolders Manager 0.3.1](/resources/gnome-appfolders-manager/archive/0.3.1/english/about.png)
 
 # Version 0.3.0 (May 29, 2016)
 

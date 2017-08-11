@@ -28,7 +28,7 @@ title: Screenshots
 {:.center}
 ![Shortcuts window](/resources/gtransmemory/archive/latest/english/shortcuts.png)
 
-# About window
+# About dialog
 
 {:.center}
-![About window](/resources/gtransmemory/archive/latest/english/about.png)
+![About dialog](/resources/gtransmemory/archive/latest/english/about.png)

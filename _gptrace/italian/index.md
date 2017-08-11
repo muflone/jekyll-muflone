@@ -18,3 +18,21 @@ limitare i risultati.
 
 {:.center}
 ![Finestra principale con elenco espanso](/resources/gptrace/archive/latest/italian/expanded.png)
+
+Per ciascuna syscall intercettata si potrà vedere quante chiamate sono state
+effettuate.
+
+{:.center}
+![Scheda Conteggi](/resources/gptrace/archive/latest/italian/counts.png)
+
+Sarà anche possibile vedere un elenco di tutti i file richiesti
+dall'applicazione, indipendentemente dalla loro esistenza.
+
+{:.center}
+![Scheda Files](/resources/gptrace/archive/latest/italian/files.png)
+
+Se l'applicazione richiesta fa uso di processi multipli esterni sarà possibile
+vedere l'elenco dei processi, incluse alcune informazioni basilari.
+
+{:.center}
+![Scheda Processi](/resources/gptrace/archive/latest/italian/processes.png)

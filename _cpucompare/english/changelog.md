@@ -44,9 +44,6 @@ title: Changelog
 {:.center}
 ![Main window for CPUCompare 0.3](/resources/cpucompare/archive/0.3/english/main.png)
 
-{:.center}
-![About window for CPUCompare 0.3](/resources/cpucompare/archive/0.3/english/about.png)
-
 # Version 0.2 (Sep 10, 2013)
 
 * Automatically selected the last item after the insertion

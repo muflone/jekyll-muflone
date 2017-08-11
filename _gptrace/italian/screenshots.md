@@ -8,10 +8,25 @@ title: Schermate
 {:.center}
 ![Finestra principale](/resources/gptrace/archive/latest/italian/main.png)
 
-# Finestra principale con elenco espanso
+# Scelta delle syscall
 
 {:.center}
-![Finestra principale con elenco espanso](/resources/gptrace/archive/latest/italian/expanded.png)
+![Scelta delle syscall](/resources/gptrace/archive/latest/italian/expanded.png)
+
+# Sezione dei conteggi
+
+{:.center}
+![Sezione conteggi](/resources/gptrace/archive/latest/italian/counts.png)
+
+# Sezione dei file
+
+{:.center}
+![Sezione file](/resources/gptrace/archive/latest/italian/files.png)
+
+# Sezione dei processi
+
+{:.center}
+![Sezione processi](/resources/gptrace/archive/latest/italian/processes.png)
 
 # Finestra delle informazioni
 

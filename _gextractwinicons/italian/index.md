@@ -3,7 +3,7 @@ layout: index
 order: 1
 title: Introduzione
 ---
-**gExtractWinIcons** è un'applicazione libera per estrarre cursori, icone e
+**gExtractWinIcons** è un'applicazione GTK+ libera per estrarre cursori, icone e
 immagini PNG da file di risorse per Microsoft Windows (come .exe, .dll, .ocx e
 .cpl).
 
