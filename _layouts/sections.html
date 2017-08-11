@@ -6,14 +6,14 @@ layout: base
             <div class="products-table">
   {% for section in site.sections %}
               <div class="product product-column">
-                <div><a href="{{ section.module }}/{{ page.language }}">
-                  <img src="/resources/{{ section.module }}/icons/{{ site.icon_home }}">
-                  <div class="product-name">{{ site.data[section.module].name }}</div></a>
+                <div><a href="{{ section }}/{{ page.language }}">
+                  <img src="/resources/{{ section }}/icons/{{ site.icon_home }}">
+                  <div class="product-name">{{ site.data[section].name }}</div></a>
                   <div>
     {%- if page.language == 'italian' -%}
-                    {{ site.data[section.module].description.italian }}
+                    {{ site.data[section].description.italian }}
     {%- else -%}
-                    {{ site.data[section.module].description.english }}
+                    {{ site.data[section].description.english }}
     {%- endif -%}
                   </div>
                 </div>
