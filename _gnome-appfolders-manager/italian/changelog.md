@@ -7,7 +7,7 @@ title: Cambiamenti
 * Gestita la condizione di impostazioni in sola lettura evitando la creazione della cartella
 
 {:.center}
-![Finestra informazioni di GNOME AppFolders Manager 0.3.1](/resources/gnome-appfolders-manager/archive/0.3.1/italian/about.png)
+![Finestra informazioni di GNOME AppFolders Manager 0.3.1](/resources/gnome-appfolders-manager/archive/v0.3.1/italian/about.png)
 
 # Versione 0.3.0 (29 Maggio 2016)
 
@@ -20,7 +20,7 @@ title: Cambiamenti
 * Nuova traduzione tedesco da Vincent Bermel
 
 {:.center}
-![Finestra principale di GNOME AppFolders Manager 0.3.0](/resources/gnome-appfolders-manager/archive/0.3.0/italian/main.png)
+![Finestra principale di GNOME AppFolders Manager 0.3.0](/resources/gnome-appfolders-manager/archive/v0.3.0/italian/main.png)
 
 # Versione 0.2.4 (22 Maggio 2016)
 
@@ -38,7 +38,7 @@ title: Cambiamenti
 * Impostata sensibilit&agrave; delle azioni alla selezione delle cartelle
 
 {:.center}
-![Finestra principale di GNOME AppFolders Manager 0.2.3](/resources/gnome-appfolders-manager/archive/0.2.3/italian/main.png)
+![Finestra principale di GNOME AppFolders Manager 0.2.3](/resources/gnome-appfolders-manager/archive/v0.2.3/italian/main.png)
 
 # Versione 0.2.2 (20 Maggio 2016)
 
@@ -47,7 +47,7 @@ title: Cambiamenti
 * Aggiornamento traduzioni
 
 {:.center}
-![Finestra delle scorciatoie di GNOME AppFolders Manager 0.2.2](/resources/gnome-appfolders-manager/archive/0.2.2/italian/shortcuts.png)
+![Finestra delle scorciatoie di GNOME AppFolders Manager 0.2.2](/resources/gnome-appfolders-manager/archive/v0.2.2/italian/shortcuts.png)
 
 # Versione 0.2.1 (15 Maggio 2016)
 
@@ -59,4 +59,4 @@ title: Cambiamenti
 * Rilascio iniziale
 
 {:.center}
-![Finestra principale di GNOME AppFolders Manager 0.2.0](/resources/gnome-appfolders-manager/archive/0.2.0/italian/main.png)
+![Finestra principale di GNOME AppFolders Manager 0.2.0](/resources/gnome-appfolders-manager/archive/v0.2.0/italian/main.png)

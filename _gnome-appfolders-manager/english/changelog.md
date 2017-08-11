@@ -7,7 +7,7 @@ title: Changelog
 * Handled readonly settings directory avoiding the folder creation
 
 {:.center}
-![About dialog for GNOME AppFolders Manager 0.3.1](/resources/gnome-appfolders-manager/archive/0.3.1/english/about.png)
+![About dialog for GNOME AppFolders Manager 0.3.1](/resources/gnome-appfolders-manager/archive/v0.3.1/english/about.png)
 
 # Version 0.3.0 (May 29, 2016)
 
@@ -20,7 +20,7 @@ title: Changelog
 * Added German translation by Vincent Bermel
 
 {:.center}
-![Main window for GNOME AppFolders Manager 0.3.0](/resources/gnome-appfolders-manager/archive/0.3.0/english/main.png)
+![Main window for GNOME AppFolders Manager 0.3.0](/resources/gnome-appfolders-manager/archive/v0.3.0/english/main.png)
 
 # Version 0.2.4 (May 22, 2016)
 
@@ -38,7 +38,7 @@ title: Changelog
 * Set actions sensitiveness on folders selection
 
 {:.center}
-![Main window for GNOME AppFolders Manager 0.2.3](/resources/gnome-appfolders-manager/archive/0.2.3/english/main.png)
+![Main window for GNOME AppFolders Manager 0.2.3](/resources/gnome-appfolders-manager/archive/v0.2.3/english/main.png)
 
 # Version 0.2.2 (May 20, 2016)
 
@@ -47,7 +47,7 @@ title: Changelog
 * Updated translations
 
 {:.center}
-![Shortcuts window for GNOME AppFolders Manager 0.2.2](/resources/gnome-appfolders-manager/archive/0.2.2/english/shortcuts.png)
+![Shortcuts window for GNOME AppFolders Manager 0.2.2](/resources/gnome-appfolders-manager/archive/v0.2.2/english/shortcuts.png)
 
 # Version 0.2.1 (May 15, 2016)
 
@@ -59,4 +59,4 @@ title: Changelog
 * Initial release
 
 {:.center}
-![Main window for GNOME AppFolders Manager 0.2.0](/resources/gnome-appfolders-manager/archive/0.2.0/english/main.png)
+![Main window for GNOME AppFolders Manager 0.2.0](/resources/gnome-appfolders-manager/archive/v0.2.0/english/main.png)

@@ -56,7 +56,7 @@ title: Changelog
 * Fixed minimum words gap from 5 to 0 in main UI
 
 {:.center}
-![About dialog for Gespeaker 0.8](/resources/gespeaker/archive/0.8/english/about.png)
+![About dialog for Gespeaker 0.8](/resources/gespeaker/archive/v0.8/english/about.png)
 
 # Version 0.7 (Dic 13, 2009)
 
@@ -65,7 +65,7 @@ title: Changelog
 * New packaging following the Debian policy.
 
 {:.center}
-![About dialog for Gespeaker 0.7](/resources/gespeaker/archive/0.7/english/about.png)
+![About dialog for Gespeaker 0.7](/resources/gespeaker/archive/v0.7/english/about.png)
 
 # Version 0.6 (Jul 18, 2009)
 
@@ -84,10 +84,10 @@ title: Changelog
   .wav filename.
 
 {:.center}
-![Main window for Gespeaker 0.6](/resources/gespeaker/archive/0.6/english/main.jpg)
+![Main window for Gespeaker 0.6](/resources/gespeaker/archive/v0.6/english/main.jpg)
 
 {:.center}
-![Preferences window for MBROLA for Gespeaker 0.6](/resources/gespeaker/archive/0.6/english/mbrola.jpg)
+![Preferences window for MBROLA for Gespeaker 0.6](/resources/gespeaker/archive/v0.6/english/mbrola.jpg)
 
 # Version 0.5 (Jun 30, 2009)
 
@@ -106,10 +106,10 @@ title: Changelog
 * Fixed stock icon for ```DialogFileOpenSave```.
 
 {:.center}
-![Main window for Gespeaker 0.5](/resources/gespeaker/archive/0.5/english/main.png)
+![Main window for Gespeaker 0.5](/resources/gespeaker/archive/v0.5/english/main.png)
 
 {:.center}
-![Preferences window for Gespeaker 0.5](/resources/gespeaker/archive/0.5/english/preferences.png)
+![Preferences window for Gespeaker 0.5](/resources/gespeaker/archive/v0.5/english/preferences.png)
 
 # Version 0.4 (Jun 20, 2009)
 
@@ -128,7 +128,7 @@ title: Changelog
 * New french translation provided by Emmanuel.
 
 {:.center}
-![Main window for Gespeaker 0.4](/resources/gespeaker/archive/0.4/english/main.png)
+![Main window for Gespeaker 0.4](/resources/gespeaker/archive/v0.4/english/main.png)
 
 # Version 0.3 (Jun 18, 2009)
 
@@ -150,13 +150,13 @@ title: Changelog
 * Symlinked copyright file to ```/usr/share/doc/gespeaker/copyright```
 
 {:.center}
-![Main window for Gespeaker 0.2](/resources/gespeaker/archive/0.2/english/main.png)
+![Main window for Gespeaker 0.2](/resources/gespeaker/archive/v0.2/english/main.png)
 
 # Version 0.1 (Jun 13, 2009)
 
 * Initial release.
 
 {:.center}
-![Main window for Gespeaker 0.1](/resources/gespeaker/archive/0.1/english/main.jpg)
+![Main window for Gespeaker 0.1](/resources/gespeaker/archive/v0.1/english/main.jpg)
 
 [GNOME HIG specifications]: https://developer.gnome.org/hig-book/2.32/design-window.html.en

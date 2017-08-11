@@ -10,7 +10,7 @@ title: Changelog
 * New Bulgarian translation by sahwar
 
 {:.center}
-![About dialog for gExtractWinIcons 0.4.1](/resources/gextractwinicons/archive/0.4.1/english/about.png)
+![About dialog for gExtractWinIcons 0.4.1](/resources/gextractwinicons/archive/v0.4.1/english/about.png)
 
 # Version 0.4 (Oct 27, 2013)
 
@@ -19,7 +19,7 @@ title: Changelog
 * Added GMenu
 
 {:.center}
-![Main window for gExtractWinIcons 0.4](/resources/gextractwinicons/archive/0.4/english/main.png)
+![Main window for gExtractWinIcons 0.4](/resources/gextractwinicons/archive/v0.4/english/main.png)
 
 # Version 0.3.1 (Oct 24, 2010)
 
@@ -28,7 +28,7 @@ title: Changelog
 * Fixed defect on cursors extraction (Debian bug #600015)
 
 {:.center}
-![About dialog for gExtractWinIcons 0.3.1](/resources/gextractwinicons/archive/0.3.1/english/about.png)
+![About dialog for gExtractWinIcons 0.3.1](/resources/gextractwinicons/archive/v0.3.1/english/about.png)
 
 # Version 0.3 (Jan 03, 2010)
 
@@ -38,7 +38,7 @@ title: Changelog
 * Minor code modifications
 
 {:.center}
-![About dialog for gExtractWinIcons 0.3](/resources/gextractwinicons/archive/0.3/english/about.png)
+![About dialog for gExtractWinIcons 0.3](/resources/gextractwinicons/archive/v0.3/english/about.png)
 
 # Version 0.2 (Aug 29, 2009)
 
@@ -47,11 +47,11 @@ title: Changelog
 * Auto-refresh on file opening
 
 {:.center}
-![About dialog for gExtractWinIcons 0.2](/resources/gextractwinicons/archive/0.2/english/about.png)
+![About dialog for gExtractWinIcons 0.2](/resources/gextractwinicons/archive/v0.2/english/about.png)
 
 # Version 0.1 (Aug 28, 2009)
 
 * Initial release
 
 {:.center}
-![Main window for gExtractWinIcons 0.1](/resources/gextractwinicons/archive/0.1/english/main.png)
+![Main window for gExtractWinIcons 0.1](/resources/gextractwinicons/archive/v0.1/english/main.png)

@@ -14,7 +14,7 @@ title: Changelog
 * New Turkish translation by Necdet Yücel
 
 {:.center}
-![About dialog for BlueWho 0.2.1](/resources/bluewho/archive/0.2.1/english/about.png)
+![About dialog for BlueWho 0.2.1](/resources/bluewho/archive/v0.2.1/english/about.png)
 
 # Version 0.2 (Nov 11, 2013)
 
@@ -24,7 +24,7 @@ title: Changelog
 * Added GMenu
 
 {:.center}
-![Main window for BlueWho 0.2](/resources/bluewho/archive/0.2/english/main.png)
+![Main window for BlueWho 0.2](/resources/bluewho/archive/v0.2/english/main.png)
 
 # Version 0.1.1 (Jul 6, 2010)
 
@@ -38,4 +38,4 @@ title: Changelog
 * Initial release
 
 {:.center}
-![Main window for BlueWho 0.1](/resources/bluewho/archive/0.1/english/main.png)
+![Main window for BlueWho 0.1](/resources/bluewho/archive/v0.1/english/main.png)

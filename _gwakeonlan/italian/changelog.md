@@ -9,7 +9,7 @@ title: Cambiamenti
 * Nuova traduzione in bulgaro da sahwar
 
 {:.center}
-![Finestra delle informazioni di gWakeOnLAN 0.6.2](/resources/gwakeonlan/archive/0.6.2/italian/about.png)
+![Finestra delle informazioni di gWakeOnLAN 0.6.2](/resources/gwakeonlan/archive/v0.6.2/italian/about.png)
 
 # Versione 0.6.1 (8 Dicembre 2013)
 
@@ -18,7 +18,7 @@ title: Cambiamenti
 * Rettificata la versione minima della GTK+ a to 3.0
 
 {:.center}
-![Finestra delle informazioni di gWakeOnLAN 0.6.1](/resources/gwakeonlan/archive/0.6.1/italian/about.png)
+![Finestra delle informazioni di gWakeOnLAN 0.6.1](/resources/gwakeonlan/archive/v0.6.1/italian/about.png)
 
 # Versione 0.6 (20 Ottobre 2013)
 
@@ -28,7 +28,7 @@ title: Cambiamenti
 * Aggiunto il GMenu
 
 {:.center}
-![Finestra di dialogo per la scelta dalla cache ARP di gWakeOnLAN 0.6](/resources/gwakeonlan/archive/0.6/italian/arpcache.png)
+![Finestra di dialogo per la scelta dalla cache ARP di gWakeOnLAN 0.6](/resources/gwakeonlan/archive/v0.6/italian/arpcache.png)
 
 # Versione 0.5.1 (17 Ottobre 2010)
 
@@ -38,7 +38,7 @@ title: Cambiamenti
 * Corretta la traduzione spagnola da Luca Della Ghezza
 
 {:.center}
-![Finestra delle informazioni di gWakeOnLAN 0.5.1](/resources/gwakeonlan/archive/0.5.1/italian/about.png)
+![Finestra delle informazioni di gWakeOnLAN 0.5.1](/resources/gwakeonlan/archive/v0.5.1/italian/about.png)
 
 # Versione 0.5 (20 Febbraio 2010)
 
@@ -61,10 +61,10 @@ title: Cambiamenti
 * Varie pulizie di codice
 
 {:.center}
-![Finestra principale di gWakeOnLAN 0.5](/resources/gwakeonlan/archive/0.5/italian/main.png)
+![Finestra principale di gWakeOnLAN 0.5](/resources/gwakeonlan/archive/v0.5/italian/main.png)
 
 {:.center}
-![Finestra di dettaglio di gWakeOnLAN 0.5](/resources/gwakeonlan/archive/0.5/italian/detail.png)
+![Finestra di dettaglio di gWakeOnLAN 0.5](/resources/gwakeonlan/archive/v0.5/italian/detail.png)
 
 # Versione 0.4 (16 Gennaio 2010)
 
@@ -75,7 +75,7 @@ title: Cambiamenti
   informazioni su difetti e notizie di copyright
 
 {:.center}
-![Finestra delle informazioni di gWakeOnLAN 0.4](/resources/gwakeonlan/archive/0.4/italian/about.png)
+![Finestra delle informazioni di gWakeOnLAN 0.4](/resources/gwakeonlan/archive/v0.4/italian/about.png)
 
 # Versione 0.3 (13 Dicembre 2009)
 
@@ -84,18 +84,18 @@ title: Cambiamenti
 * Aggiunto script di installazione setup.py di Distutils
 
 {:.center}
-![Finestra delle informazioni di gWakeOnLAN 0.3](/resources/gwakeonlan/archive/0.3/italian/about.png)
+![Finestra delle informazioni di gWakeOnLAN 0.3](/resources/gwakeonlan/archive/v0.3/italian/about.png)
 
 # Versione 0.2 (12 Settembre 2009)
 
 * Correzioni nel codice di creazione del Magic Packet
 
 {:.center}
-![Finestra delle informazioni di gWakeOnLAN 0.2](/resources/gwakeonlan/archive/0.2/italian/about.png)
+![Finestra delle informazioni di gWakeOnLAN 0.2](/resources/gwakeonlan/archive/v0.2/italian/about.png)
 
 # Versione 0.1 (6 Settembre 2009)
 
 * Rilascio iniziale.
 
 {:.center}
-![Finestra principale di gWakeOnLAN 0.1](/resources/gwakeonlan/archive/0.1/italian/main.png)
+![Finestra principale di gWakeOnLAN 0.1](/resources/gwakeonlan/archive/v0.1/italian/main.png)

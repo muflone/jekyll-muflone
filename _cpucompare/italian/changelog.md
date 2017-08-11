@@ -13,7 +13,7 @@ title: Cambiamenti
 * Aggiunto il file desktop
 
 {:.center}
-![Finestra principale di CPUCompare 0.6](/resources/cpucompare/archive/0.6/italian/main.png)
+![Finestra principale di CPUCompare 0.6](/resources/cpucompare/archive/v0.6/italian/main.png)
 
 # Versione 0.5 (13 Settembre 2013)
 
@@ -25,7 +25,7 @@ title: Cambiamenti
   accedere a tutti i campi dei risultati tramite nome invece che indice numerico
 
 {:.center}
-![Finestra principale di CPUCompare 0.5](/resources/cpucompare/archive/0.5/italian/main.png)
+![Finestra principale di CPUCompare 0.5](/resources/cpucompare/archive/v0.5/italian/main.png)
 
 # Versione 0.4 (12 Settembre 2013)
 
@@ -33,7 +33,7 @@ title: Cambiamenti
   specializzate
 
 {:.center}
-![Finestra principale di CPUCompare 0.4](/resources/cpucompare/archive/0.4/italian/main.png)
+![Finestra principale di CPUCompare 0.4](/resources/cpucompare/archive/v0.4/italian/main.png)
 
 # Versione 0.3 (11 Settembre 2013)
 
@@ -44,7 +44,7 @@ title: Cambiamenti
 * Aggiunta la versione del database nella finestra delle informazioni
 
 {:.center}
-![Finestra principale di CPUCompare 0.3](/resources/cpucompare/archive/0.3/italian/main.png)
+![Finestra principale di CPUCompare 0.3](/resources/cpucompare/archive/v0.3/italian/main.png)
 
 # Versione 0.2 (10 Settembre 2013)
 
@@ -52,11 +52,11 @@ title: Cambiamenti
 * Aggiunto il pulsante Rimuovi.
 
 {:.center}
-![Finestra principale di CPUCompare 0.2](/resources/cpucompare/archive/0.2/italian/main.png)
+![Finestra principale di CPUCompare 0.2](/resources/cpucompare/archive/v0.2/italian/main.png)
 
 # Versione 0.1 (10 Settembre 2013)
 
 * Rilascio iniziale.
 
 {:.center}
-![Finestra principale di CPUCompare 0.1](/resources/cpucompare/archive/0.1/italian/main.png)
+![Finestra principale di CPUCompare 0.1](/resources/cpucompare/archive/v0.1/italian/main.png)

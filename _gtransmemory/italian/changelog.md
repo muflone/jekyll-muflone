@@ -8,7 +8,7 @@ title: Cambiamenti
 * Aggiunta finestra delle scorciatoie per GTK+ 3.20+
 
 {:.center}
-![Finestra scorciatoie di gTransMemory 0.3.0](/resources/gtransmemory/archive/0.3.0/italian/shortcuts.png)
+![Finestra scorciatoie di gTransMemory 0.3.0](/resources/gtransmemory/archive/v0.3.0/italian/shortcuts.png)
 
 # Version 0.2.0 (10 Luglio 2016)
 
@@ -16,7 +16,7 @@ title: Cambiamenti
 * Aggiungi acceleratori mancanti
 
 {:.center}
-![Casella di ricerca di gTransMemory 0.2.0](/resources/gtransmemory/archive/0.2.0/italian/search.png)
+![Casella di ricerca di gTransMemory 0.2.0](/resources/gtransmemory/archive/v0.2.0/italian/search.png)
 
 # Version 0.1.0 (10 Luglio 2016)
 
@@ -34,4 +34,4 @@ title: Cambiamenti
 * Rilascio iniziale
 
 {:.center}
-![Main window di gTransMemory 0.0.1](/resources/gtransmemory/archive/0.0.1/italian/main.png)
+![Main window di gTransMemory 0.0.1](/resources/gtransmemory/archive/v0.0.1/italian/main.png)

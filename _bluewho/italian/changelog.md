@@ -14,7 +14,7 @@ title: Cambiamenti
 * Nuova traduzione in turco da Necdet Yücel
 
 {:.center}
-![Finestra informazioni di BlueWho 0.2.1](/resources/bluewho/archive/0.2.1/italian/about.png)
+![Finestra informazioni di BlueWho 0.2.1](/resources/bluewho/archive/v0.2.1/italian/about.png)
 
 # Versione 0.2 (11 Novembre 2013)
 
@@ -24,7 +24,7 @@ title: Cambiamenti
 * Aggiunto il GMenu
 
 {:.center}
-![Finestra principale di BlueWho 0.2](/resources/bluewho/archive/0.2/italian/main.png)
+![Finestra principale di BlueWho 0.2](/resources/bluewho/archive/v0.2/italian/main.png)
 
 # Versione 0.1.1 (6 Luglio 2010)
 
@@ -38,4 +38,4 @@ title: Cambiamenti
 * Rilascio iniziale
 
 {:.center}
-![Finestra principale di BlueWho 0.1](/resources/bluewho/archive/0.1/italian/main.png)
+![Finestra principale di BlueWho 0.1](/resources/bluewho/archive/v0.1/italian/main.png)

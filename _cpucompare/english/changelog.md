@@ -12,7 +12,7 @@ title: Changelog
 * Added the desktop file
 
 {:.center}
-![Main window for CPUCompare 0.6](/resources/cpucompare/archive/0.6/english/main.png)
+![Main window for CPUCompare 0.6](/resources/cpucompare/archive/v0.6/english/main.png)
 
 # Version 0.5 (Sep 13, 2013)
 
@@ -24,14 +24,14 @@ title: Changelog
   access all the resulting fields by their name instead of their numeric index
 
 {:.center}
-![Main window for CPUCompare 0.5](/resources/cpucompare/archive/0.5/english/main.png)
+![Main window for CPUCompare 0.5](/resources/cpucompare/archive/v0.5/english/main.png)
 
 # Version 0.4 (Sep 12, 2013)
 
 * Various changes to move the models logic in specialized classes
 
 {:.center}
-![Main window for CPUCompare 0.4](/resources/cpucompare/archive/0.2/english/main.png)
+![Main window for CPUCompare 0.4](/resources/cpucompare/archive/v0.2/english/main.png)
 
 # Version 0.3 (Sep 11, 2013)
 
@@ -42,7 +42,7 @@ title: Changelog
 * Added database version in the about dialog
 
 {:.center}
-![Main window for CPUCompare 0.3](/resources/cpucompare/archive/0.3/english/main.png)
+![Main window for CPUCompare 0.3](/resources/cpucompare/archive/v0.3/english/main.png)
 
 # Version 0.2 (Sep 10, 2013)
 
@@ -50,11 +50,11 @@ title: Changelog
 * Added a Delete button
 
 {:.center}
-![Main window for CPUCompare 0.2](/resources/cpucompare/archive/0.2/english/main.png)
+![Main window for CPUCompare 0.2](/resources/cpucompare/archive/v0.2/english/main.png)
 
 # Version 0.1 (Sep 10, 2013)
 
 * Initial release.
 
 {:.center}
-![Main window for CPUCompare 0.1](/resources/cpucompare/archive/0.1/english/main.png)
+![Main window for CPUCompare 0.1](/resources/cpucompare/archive/v0.1/english/main.png)
