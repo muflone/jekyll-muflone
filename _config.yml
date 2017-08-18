@@ -9,8 +9,9 @@ permalink: /articles/:categories/:year-:month-:day/:title.html
 show_social: true
 icon_footer: android-icon-48x48.png
 icon_home: android-icon-144x144.png
-exclude: ['_posts', 'articles', 'news', 'resources/articles', 'resources/news']
+exclude: ['_posts', 'news', 'resources/news']
 sections:
+  - articles
   - contacts
   - gespeaker
   - gwakeonlan
@@ -31,6 +32,8 @@ sections:
   - remmina-plugin-webkit
 collections:
   contacts:
+    output: true
+  articles:
     output: true
   bluewho:
     output: true
@@ -91,6 +94,16 @@ defaults:
       tags:
         - archlinux
         - updates
+
+  - scope:
+      path: _articles
+    values:
+      product: articles
+      language: english
+  - scope:
+      path: _articles/italian
+    values:
+      language: italian
 
   - scope:
       path: _contacts
