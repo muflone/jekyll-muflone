@@ -10,32 +10,56 @@ layout: base
 
 {%- assign posts = site.articles | where: 'language', page.language | where_exp: 'item', 'item.order > 0' | sort: 'order' -%}
 
+{%- comment -%}Determine the section from current page{%- endcomment -%}
+{%- assign base_section = '/articles/' | append: page.language | append: '/' %}
+{%- assign section = page.url | replace: base_section, '' | replace: '/index', '' -%}
+{%- if section == 'index' %}
+  {%- assign section = '' -%}
+{%- endif -%}
+
 {%- comment -%}Check if there are posts{%- endcomment -%}
 {%- if posts -%}
-  {%- comment -%}No section, list all posts{%- endcomment -%}
-  {%- assign has_children = false -%}
-  {%- for post in posts -%}
-    {% if post.url contains '/index' %}
-      {%- comment -%}Index page found{%- endcomment -%}
-      {%- if has_children -%}
-        {% assign has_children = false %}
+  {%- if section == '' %}
+    {%- comment -%}No section, list all posts{%- endcomment -%}
+    {%- assign has_children = false -%}
+    {%- for post in posts -%}
+      {% if post.url contains '/index' %}
+        {%- comment -%}Index page found{%- endcomment -%}
+        {%- if has_children -%}
+          {% assign has_children = false %}
           </ul>
-      {% endif %}
+        {% endif %}
           <h2><img src="{{ site.data.translations[post.language].icons.flag_mini }}">
             <a href="{{ post.url }}">{{ post.title}}</a></h2>
-    {%- else -%}
-      {% unless has_children %}
+      {%- else -%}
+        {% unless has_children %}
           <ul>
-      {%- endunless -%}
-      {%- comment -%}Content page found{%- endcomment -%}
-      {% assign has_children = true %}
+        {%- endunless -%}
+        {%- comment -%}Content page found{%- endcomment -%}
+        {% assign has_children = true %}
             <li><img src="{{ site.data.translations[post.language].icons.flag_mini }}">
               <a href="{{ post.url }}">{{ post.title}}</a> ({{ post.date | date_to_string}})</li>
-    {%- endif -%}
-  {%- endfor -%}
-  {% if has_children %}
+      {%- endif -%}
+    {%- endfor -%}
+    {% if has_children %}
           </ul>
-  {% endif %}
+    {% endif %}
+  {%- else -%}
+    {% comment %}Show only posts for the page section{% endcomment %}
+          <blockquote class="big">
+            <ul>
+    {%- for post in posts -%}
+      {%- unless post.url == page.url -%}
+        {%- comment -%}Check if the post url is of the same section{%- endcomment -%}
+        {%- assign post_section = post.url | replace: base_section, '' | replace: '/index', '' | split: '/' -%}
+        {% if post_section[0] == section %}
+              <li><a href="{{ post.url }}">{{ post.title}}</a></li>
+        {%- endif -%}
+      {%- endunless -%}
+    {% endfor %}
+            </ul>
+          </blockquote>
+  {%- endif -%}
 {%- endif -%}
 
 {% if page.content_after %}
