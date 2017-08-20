@@ -6,9 +6,8 @@ title: Motore MBROLA
 # Introduzione
 
 Gespeaker supporta due differenti motori di sintetizzazione vocale: **espeak**
-è quello predefinito e nativo e 
-**[MBROLA]{:target="_blank"}**,
-un motore aggiuntivo che offre delle voci più realistiche.
+è quello predefinito e nativo e **[MBROLA]**, un motore aggiuntivo che offre
+delle voci più realistiche.
 
 E' possibile consultare la pagina 
 [Voci dimostrative]({% link _gespeaker/english/demo.md %}).
@@ -38,4 +37,5 @@ Il percorso predefinito delle voci MBROLA è ```/usr/share/mbrola```.
 Dopo aver installato le voci MBROLA oppure dopo aver cambiato il percorso delle
 voci sarà necessario riavviare Gespeaker per poter vedere le nuove voci.
 
+{:target="_blank"}
 [MBROLA]: http://tcts.fpms.ac.be/synthesis/

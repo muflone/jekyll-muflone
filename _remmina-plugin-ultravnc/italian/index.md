@@ -4,9 +4,9 @@ order: 1
 title: Introduzione
 ---
 **Remmina Plugin UltraVNC** è un plugin di protocollo libero per stabilire
-connessioni usando [UltraVNC]{:target="_blank"}, un'applicazione open source di
-controllo remoto VNC con numerose funzionalità sviluppata per MS Windows ed
-eseguibile in GNU/Linux attraverso Wine.
+connessioni usando [UltraVNC], un'applicazione open source di controllo remoto
+VNC con numerose funzionalità sviluppata per MS Windows ed eseguibile in
+GNU/Linux attraverso [Wine].
 
 {:.center}
 ![Impostazioni generali](/resources/remmina-plugin-ultravnc/archive/latest/italian/general.png)
@@ -18,4 +18,8 @@ E' richiesta l'installazione di UltraVNC affinchè questo plugin funzioni.
 Le impostazioni del plugin Remmina Plugin UltraVNC sono documentate nella
 [pagina Impostazioni]({% link _remmina-plugin-ultravnc/english/settings.md %}).
 
+{:target="_blank"}
 [UltraVNC]: http://www.uvnc.com/
+
+{:target="_blank"}
+[Wine]: https://www.winehq.org/

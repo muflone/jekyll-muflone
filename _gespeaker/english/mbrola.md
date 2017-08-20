@@ -6,9 +6,7 @@ title: MBROLA engine
 # Introduction
 
 Gespeaker supports two different speech engines: **espeak**, the default native
-and 
-**[MBROLA]{:target="_blank"}**,
-an extra engine that offers more realistic voices.
+and **[MBROLA]**, an extra engine that offers more realistic voices.
 
 It's possible to read the page
 [Demo voices]({% link _gespeaker/english/demo.md %})
@@ -36,4 +34,5 @@ The default path for the MBROLA voices is ```/usr/share/mbrola```.
 After installing the MBROLA voices or after changing the voices path a restart
 of Gespeaker is needed to see the new voices.
 
+{:target="_blank"}
 [MBROLA]: http://tcts.fpms.ac.be/synthesis/

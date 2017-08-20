@@ -13,7 +13,7 @@ Each machine to turn on must:
 * have an integrated (or PCI/PCIE) Ethernet network card.
 * have the network cable plugged all the time.
 * have the power cable plugged all the time.
-* support the Wake On LAN with the [Magic Packet]{:target="_blank"}.
+* support the Wake On LAN with the [Magic Packet].
 * have the Wake On LAN
   [enabled in the BIOS]({% link _gwakeonlan/english/wol/bios.md %}).
 * have the Wake On LAN by Magic Packet
@@ -61,7 +61,7 @@ the above requirements the receiving router may not to be able to remember on
 what MAC address to forward the data.
 
 The success key to accomplish this is called
-[static ARP cache][ARP Cache]{:target="_blank"}
+[static ARP cache][ARP Cache]
 which statically assigns a MAC address to the IP address to forward.
 
 Plese refer to your router documentation to know how to setup your router.
@@ -70,5 +70,8 @@ If this requirement cannot be met because if your router doesn't support a
 static ARP cache as an alternative you can setup an always-on computer to act
 as a gateway and configure the ARP cache in its operating system.
 
+{:target="_blank"}
 [Magic Packet]: https://en.wikipedia.org/wiki/Wake-on-LAN#Magic_packet
+
+{:target="_blank"}
 [ARP Cache]: https://en.wikipedia.org/wiki/Address_Resolution_Protocol

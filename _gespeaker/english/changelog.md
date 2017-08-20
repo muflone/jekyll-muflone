@@ -144,7 +144,7 @@ title: Changelog
 # Version 0.2 (Jun 14, 2009)
 
 * Changed UI layout according to
-  [GNOME 2.32 HIG specifications][GNOME HIG specifications]{:target="_blank"}
+  [GNOME 2.32 HIG specifications][GNOME HIG specifications]
 * Fixed ```DialogAbout.set_icon_from_file``` icon usage, which was wrongly
   hardcoded.
 * Symlinked copyright file to ```/usr/share/doc/gespeaker/copyright```
@@ -159,4 +159,5 @@ title: Changelog
 {:.center}
 ![Main window for Gespeaker 0.1](/resources/gespeaker/archive/v0.1/english/main.jpg)
 
+{:target="_blank"}
 [GNOME HIG specifications]: https://developer.gnome.org/hig-book/2.32/design-window.html.en

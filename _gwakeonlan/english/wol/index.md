@@ -6,15 +6,12 @@ title: Wake On LAN
 ---
 # Wake On LAN
 
-gWakeOnLAN uses the 
-[Wake On LAN]{:target="_blank"}
-system to turn on a machine in both local network or through Internet.
+gWakeOnLAN uses the [Wake On LAN] system to turn on a machine in both local
+network or through Internet.
 
-The Wake On LAN type used by gWakeOnLAN is called
-[Magic Packet]{:target="_blank"}
-and is accomplishedby sending to the target machine a special crafted
-[UDP Packet][UDP]{:target="_blank"}
-containing some data.
+The Wake On LAN type used by gWakeOnLAN is called [Magic Packet] and is
+accomplished by sending to the target machine a special crafted
+[UDP Packet][UDP] containing some data.
 The sleeping machine must be configured to receive the packets even in turned
 off state so that when the special Magic Packet is received the machine will
 automatically turned on.
@@ -47,6 +44,11 @@ The destination host is not meant to be the machine to turn on but a reachable
 network peer that could receive the UDP packet and forward it to the machine to
 turn on using the Wake On LAN.
 
+{:target="_blank"}
 [Wake On LAN]: https://en.wikipedia.org/wiki/Wake_on_LAN
+
+{:target="_blank"}
 [Magic Packet]: https://en.wikipedia.org/wiki/Wake-on-LAN#Magic_packet
+
+{:target="_blank"}
 [UDP]: https://en.wikipedia.org/wiki/User_Datagram_Protocol

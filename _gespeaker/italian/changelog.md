@@ -153,7 +153,7 @@ title: Cambiamenti
 # Versione 0.2 (14 Giugno 2009)
 
 * Cambiata l'interfaccia utente secondo le
-  [specifiche HIG di GNOME 2.32][GNOME HIG specifications]{:target="_blank"}
+  [specifiche HIG di GNOME 2.32][GNOME HIG specifications]
 * Corretto l'utilizzo dell'icona su ```DialogAbout.set_icon_from_file```, che
   era stata erroneamente scritta nel codice.
 * Aggiunto collegamento simbolico del file di copyright a 
@@ -169,4 +169,5 @@ title: Cambiamenti
 {:.center}
 ![Finestra principale di Gespeaker 0.1](/resources/gespeaker/archive/v0.1/italian/main.jpg)
 
+{:target="_blank"}
 [GNOME HIG specifications]: https://developer.gnome.org/hig-book/2.32/design-window.html.en

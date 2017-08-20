@@ -14,7 +14,7 @@ Ogni macchina da accendere deve:
 * avere una scheda di rete Ethernet integrata (oppure PCI/PCIE).
 * avere il cavo di rete sempre connesso.
 * avere il cavo di alimentazione sempre connesso.
-* supportare il Wake On LAN con [Magic Packet]{:target="_blank"}.
+* supportare il Wake On LAN con [Magic Packet].
 * avere il Wake On LAN 
   [abilitato nel BIOS]({% link _gwakeonlan/italian/wol/bios.md %}).
 * avere il Wake On LAN con Magic Packet 
@@ -63,7 +63,7 @@ spenta con tutti i precedenti requisiti il router ricevente potrebbe non
 ricordare a quale indirizzo MAC inoltrare i dati.
 
 La chiave di successo per ottenere questo è chiamata
-[cache ARP statica][ARP Cache]{:target="_blank"}
+[cache ARP statica][ARP Cache]
 che staticamente assegna un indirizzo MAC all'indirizzo IP da inoltrare.
 
 Consulta la documentazione del router per sapere come configurarlo.
@@ -73,5 +73,8 @@ una cache ARP statica in alternativa è possibile configurare un computer sempre
 acceso che agisca come gateway e configurare la cache ARP nel suo sistema
 operativo.
 
+{:target="_blank"}
 [Magic Packet]: https://en.wikipedia.org/wiki/Wake-on-LAN#Magic_packet
+
+{:target="_blank"}
 [ARP Cache]: https://en.wikipedia.org/wiki/Address_Resolution_Protocol
