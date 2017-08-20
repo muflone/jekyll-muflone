@@ -44,11 +44,11 @@ The destination host is not meant to be the machine to turn on but a reachable
 network peer that could receive the UDP packet and forward it to the machine to
 turn on using the Wake On LAN.
 
-{:target="_blank"}
+{: target="_blank" }
 [Wake On LAN]: https://en.wikipedia.org/wiki/Wake_on_LAN
 
-{:target="_blank"}
+{: target="_blank" }
 [Magic Packet]: https://en.wikipedia.org/wiki/Wake-on-LAN#Magic_packet
 
-{:target="_blank"}
+{: target="_blank" }
 [UDP]: https://en.wikipedia.org/wiki/User_Datagram_Protocol

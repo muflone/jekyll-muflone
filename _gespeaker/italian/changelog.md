@@ -169,5 +169,5 @@ title: Cambiamenti
 {:.center}
 ![Finestra principale di Gespeaker 0.1](/resources/gespeaker/archive/v0.1/italian/main.jpg)
 
-{:target="_blank"}
+{: target="_blank" }
 [GNOME HIG specifications]: https://developer.gnome.org/hig-book/2.32/design-window.html.en

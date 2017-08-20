@@ -70,8 +70,8 @@ If this requirement cannot be met because if your router doesn't support a
 static ARP cache as an alternative you can setup an always-on computer to act
 as a gateway and configure the ARP cache in its operating system.
 
-{:target="_blank"}
+{: target="_blank" }
 [Magic Packet]: https://en.wikipedia.org/wiki/Wake-on-LAN#Magic_packet
 
-{:target="_blank"}
+{: target="_blank" }
 [ARP Cache]: https://en.wikipedia.org/wiki/Address_Resolution_Protocol

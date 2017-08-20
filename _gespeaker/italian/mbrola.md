@@ -37,5 +37,5 @@ Il percorso predefinito delle voci MBROLA è ```/usr/share/mbrola```.
 Dopo aver installato le voci MBROLA oppure dopo aver cambiato il percorso delle
 voci sarà necessario riavviare Gespeaker per poter vedere le nuove voci.
 
-{:target="_blank"}
+{: target="_blank" }
 [MBROLA]: http://tcts.fpms.ac.be/synthesis/

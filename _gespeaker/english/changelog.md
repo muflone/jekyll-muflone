@@ -159,5 +159,5 @@ title: Changelog
 {:.center}
 ![Main window for Gespeaker 0.1](/resources/gespeaker/archive/v0.1/english/main.jpg)
 
-{:target="_blank"}
+{: target="_blank" }
 [GNOME HIG specifications]: https://developer.gnome.org/hig-book/2.32/design-window.html.en
