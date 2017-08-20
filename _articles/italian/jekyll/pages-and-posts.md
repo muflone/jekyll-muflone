@@ -1,17 +1,19 @@
 ---
+layout: article
 title: Pagine e post su Jekyll
 category: italian
 tags:
   - jekyll
   - documentation
 summary: Cosa sono le pagine e i post per Jekyll? Le differenze tra queste due entit&agrave;.
+order: 102
+date: 2014-06-30T00:00:00Z
 ---
 
-Questa è la seconda parte di una serie di articoli su 
-[**Jekyll**](http://jekyllrb.com/), un generatore di siti web statici con
-funzionalità di blog.
-Durante la [prima parte]({% post_url italian/2014-06-30-benvenuto-jekyll %}) ho
-presentato l'avvio rapido per create un sito web autogenerato minimale
+Questa è la seconda parte di una serie di articoli su [Jekyll], un generatore di
+siti web statici con funzionalità di blog.
+Durante la [prima parte]({% link _articles/italian/jekyll/welcome-jekyll.md %})
+ho presentato l'avvio rapido per create un sito web autogenerato minimale
 utilizzando Jekyll.
 
 All'interno della cartella **_layouts** di un sito automaticamente generato da
@@ -40,3 +42,6 @@ contenuti, in una struttura determinabile.
 Entrambe queste regole possono essere personalizzate utilizzando una direttiva
 chiamata permalink ma quello sopra citato è il comportamento predefinito per la
 creazione di nuove pagine o nuovi post.
+
+{: target="_blank" .external }
+[Jekyll]: http://jekyllrb.com/
