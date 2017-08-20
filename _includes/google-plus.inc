@@ -1,11 +1,10 @@
-<!-- Google + -->
-<g:plusone size="medium"></g:plusone>
- 
-<!-- Add this just before the closing body tag of your web page -->	
-<script type="text/javascript">
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/plusone.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
+        <!-- Begin of Google+ block -->
+          <g:plusone size="medium"></g:plusone>
+          <script type="text/javascript">
+            (function() {
+              var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+              po.src = 'https://apis.google.com/js/plusone.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+            })();
+          </script>
+          <!-- End of Google+ block -->
