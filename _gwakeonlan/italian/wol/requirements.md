@@ -73,8 +73,8 @@ una cache ARP statica in alternativa è possibile configurare un computer sempre
 acceso che agisca come gateway e configurare la cache ARP nel suo sistema
 operativo.
 
-{: target="_blank" }
+{: target="_blank" .external }
 [Magic Packet]: https://en.wikipedia.org/wiki/Wake-on-LAN#Magic_packet
 
-{: target="_blank" }
+{: target="_blank" .external }
 [ARP Cache]: https://en.wikipedia.org/wiki/Address_Resolution_Protocol

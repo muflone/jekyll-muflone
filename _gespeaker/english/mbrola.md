@@ -34,5 +34,5 @@ The default path for the MBROLA voices is ```/usr/share/mbrola```.
 After installing the MBROLA voices or after changing the voices path a restart
 of Gespeaker is needed to see the new voices.
 
-{: target="_blank" }
+{: target="_blank" .external }
 [MBROLA]: http://tcts.fpms.ac.be/synthesis/

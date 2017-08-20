@@ -44,11 +44,11 @@ Il sistema di destinazione non è inteso come la macchina da accendere ma un
 punto di rete raggiungibile che sia in grado di ricevere il pacchetto UDP e
 inoltrarlo alla macchina da accendere utilizzando il Wake On LAN.
 
-{: target="_blank" }
+{: target="_blank" .external }
 [Wake On LAN]: https://en.wikipedia.org/wiki/Wake_on_LAN
 
-{: target="_blank" }
+{: target="_blank" .external }
 [Magic Packet]: https://en.wikipedia.org/wiki/Wake-on-LAN#Magic_packet
 
-{: target="_blank" }
+{: target="_blank" .external }
 [UDP]: https://en.wikipedia.org/wiki/User_Datagram_Protocol

@@ -17,8 +17,8 @@ UltraVNC installation is required in order to let this plugin to work properly.
 The Remmina Plugin UltraVNC plugin settings are documented in the
 [Settings page]({% link _remmina-plugin-ultravnc/english/settings.md %}).
 
-{: target="_blank" }
+{: target="_blank" .external }
 [UltraVNC]: http://www.uvnc.com/
 
-{: target="_blank" }
+{: target="_blank" .external }
 [Wine]: https://www.winehq.org/
