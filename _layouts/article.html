@@ -6,6 +6,40 @@ layout: base
           <div class="title">{{ page.summary }}</div>
           <hr />
 {% endif %}
+
+{%- assign posts = site.articles | where: 'language', page.language | where_exp: 'item', 'item.order > 0' | sort: 'order' -%}
+{%- unless include.show_index -%}
+  {%- assign posts = posts | where_exp: 'item', 'item.layout == page.layout' -%}
+{%- endunless -%}
+
+{%- comment -%}Determine the section from current page{%- endcomment -%}
+{%- assign base_section = '/articles/' | append: page.language | append: '/' %}
+{%- assign section = page.url | replace: base_section, '' | split: '/' -%}
+
+{% if posts %}
+          <div class="articles_pages">
+  {%- assign counter = 1 -%}
+  {%- for post in posts -%}
+    {%- comment -%}Check if the post url is of the same section{%- endcomment -%}
+    {%- assign post_section = post.url | replace: base_section, '' | replace: '/index', '' | split: '/' -%}
+    {%- if post_section[0] == section[0] -%}
+      {% if page.show_index and post.layout == 'articles' %}
+            <a href="{{ post.url }}" title="{{ post.title }}">{{ site.data.translations[page.language].articles.index }}</a> | 
+      {% else %}
+        {%- if counter > 1 %} | {% endif -%}
+        {% if post.url == page.url %}
+            {{ site.data.translations[page.language].articles.part }} {{ counter }}
+        {%- else %}
+            <a href="{{ post.url }}" title="{{ post.title }}">{{ site.data.translations[page.language].articles.part }} {{ counter }}</a>
+        {%- endif -%}
+        {%- assign counter = counter | plus: 1 -%}
+      {%- endif -%}
+    {%- endif -%}
+  {% endfor %}
+          </div>
+          <hr />
+{% endif %}
+
           {{ content }}
 {% if site.show_social and page.id %}
           <hr />

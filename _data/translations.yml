@@ -301,7 +301,9 @@ english:
     title1: My contacts
     title2: Developers corner
     title3: My blogs
-
+  articles:
+    index: Index
+    part: Part
 italian:
   copyright: Copyright &copy; 2013-2017
   theme_info: Questa pagina usa il tema Architect di <a href="https://twitter.com/jasonlong" target="_blank">Jason Long</a>.
@@ -608,3 +610,6 @@ italian:
     title1: I miei contatti
     title2: Angolo sviluppatori
     title3: I miei blog
+  articles:
+    index: Indice
+    part: Parte
