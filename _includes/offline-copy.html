@@ -1,0 +1,2 @@
+{%- assign filetype = include.url | split: '.' -%}
+(<a href="{{ include.url }}" class="offline-copy offline-copy-{{ filetype[-1] }}">{{ site.data.translations[page.language].offline_copy }}</a>)
