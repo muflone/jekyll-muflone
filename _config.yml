@@ -79,23 +79,6 @@ defaults:
       require_jquery_jplayer: False
       require_jquery_iontabs: False
   - scope:
-      path: "italian/updates"
-      type: "posts"
-    values:
-      permalink: /articles/italian/updates/:year-:month-:day.html
-      tags:
-        - archlinux
-        - updates
-  - scope:
-      path: "english/updates"
-      type: "posts"
-    values:
-      permalink: /articles/english/updates/:year-:month-:day.html
-      tags:
-        - archlinux
-        - updates
-
-  - scope:
       path: _articles
     values:
       product: articles
