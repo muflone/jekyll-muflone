@@ -83,11 +83,19 @@ defaults:
     values:
       product: articles
       language: english
+      permalink: /:collection/:categories/:slug
+  - scope:
+      path: _articles/english
+    values:
+      language: english
+      categories:
+      - english
   - scope:
       path: _articles/italian
     values:
       language: italian
-
+      categories:
+      - italian
   - scope:
       path: _contacts
     values:
