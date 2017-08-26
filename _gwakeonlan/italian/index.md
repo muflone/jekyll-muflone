@@ -8,8 +8,6 @@ sistema
 [Wake On LAN]({% link _gwakeonlan/italian/wol/index.md %})
 indipendentemente dal sistema operativo in esse installato.
 
-{{ page.permalink }}
-
 {:.center}
 ![Finestra principale](/resources/gwakeonlan/archive/latest/italian/main.png)
 
