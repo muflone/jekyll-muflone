@@ -109,6 +109,13 @@ defaults:
       - italian
       - jekyll
   - scope:
+      path: _articles/italian/arch-g50-70
+    values:
+      categories:
+      - italian
+      - installare-arch-linux-su-lenovo-g50-70
+
+  - scope:
       path: _contacts
     values:
       product: contacts
