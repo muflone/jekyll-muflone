@@ -91,11 +91,23 @@ defaults:
       categories:
       - english
   - scope:
+      path: _articles/english/jekyll
+    values:
+      categories:
+      - english
+      - jekyll
+  - scope:
       path: _articles/italian
     values:
       language: italian
       categories:
       - italian
+  - scope:
+      path: _articles/italian/jekyll
+    values:
+      categories:
+      - italian
+      - jekyll
   - scope:
       path: _contacts
     values:
