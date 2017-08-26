@@ -42,6 +42,9 @@ english:
   privacy:
     iubenda: 721463
     policy: Privacy Policy
+    message: This website uses cookies to make your browsing experience more convenient and personal. Cookies store useful information on your computer to help us improve the efficiency and relevance of our site for you. In some cases, they are essential to making the site work properly. By accessing this site, you consent to the use of cookies.
+    dismiss: Hide
+    learn_more: More info
   installation:
     index:
       title: Installation
@@ -349,6 +352,9 @@ italian:
   privacy:
     iubenda: 939201
     policy: Politica Privacy
+    message: Questo sito web utilizza i cookie per semplificare e personalizzare l\'esperienza di navigazione. I cookie memorizzano informazioni utili sul computer per aiutarci a migliorare l\'efficienza e la rilevanza del nostro sito. In alcuni casi sono essenziali per il corretto funzionamento del sito. L\'accesso a questo sito implica il consenso all\'utilizzo dei cookie.
+    dismiss: Nascondi
+    learn_more: Leggi l\'informativa completa
   installation:
     index:
       title: Installazione
