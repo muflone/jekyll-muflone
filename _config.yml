@@ -98,6 +98,13 @@ defaults:
       - english
       - jekyll
   - scope:
+      path: _articles/english/arch-linux
+    values:
+      categories:
+      - english
+      - arch-linux
+      show_index: false
+  - scope:
       path: _articles/italian
     values:
       language: italian
@@ -115,6 +122,13 @@ defaults:
       categories:
       - italian
       - installare-arch-linux-su-lenovo-g50-70
+  - scope:
+      path: _articles/italian/arch-linux
+    values:
+      categories:
+      - italian
+      - arch-linux
+      show_index: false
 
   - scope:
       path: _contacts
