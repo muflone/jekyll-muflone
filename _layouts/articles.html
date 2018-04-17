@@ -50,19 +50,19 @@ layout: base
     {% endif %}
   {%- else -%}
     {% comment %}Show only posts for the page section{% endcomment %}
-          <blockquote class="big">
-            <ul>
     {%- for post in posts -%}
       {%- unless post.url == page.url -%}
         {%- comment -%}Check if the post url is of the same section{%- endcomment -%}
         {%- assign post_section = post.url | replace: base_section, '' | replace: '/index', '' | split: '/' -%}
         {% if post_section[0] == section %}
-              <li><a href="{{ post.url }}">{{ post.title}}</a></li>
+          <h2><img src="{{ site.data.translations[post.language].icons.flag_mini }}">
+            <a href="{{ post.url }}">{{ post.title}}</a></h2>
+          {%- if post.description %}
+          <div class="article_description">{{ post.description }}</div>
+          {%- endif %}
         {%- endif -%}
       {%- endunless -%}
     {% endfor %}
-            </ul>
-          </blockquote>
   {%- endif -%}
 {%- endif -%}
 
