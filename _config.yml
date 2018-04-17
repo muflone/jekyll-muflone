@@ -83,6 +83,7 @@ defaults:
     values:
       product: articles
       language: english
+      show_index: true
       permalink: /:collection/:categories/:slug
   - scope:
       path: _articles/english

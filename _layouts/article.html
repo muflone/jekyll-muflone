@@ -1,6 +1,5 @@
 ---
 layout: base
-show_index: true
 ---
         <section id="main-content" class="article">
 {%- if page.summary -%}
@@ -8,10 +7,10 @@ show_index: true
           <hr />
 {% endif %}
 
-{%- assign posts = site.articles | where: 'language', page.language | where_exp: 'item', 'item.order > 0' | sort: 'order' -%}
-{%- unless layout.show_index -%}
-  {%- assign posts = posts | where_exp: 'item', 'item.layout == page.layout' -%}
-{%- endunless -%}
+{%- comment -%}Show posts list when show_index is set{%- endcomment -%}
+{%- if page.show_index -%}
+  {%- assign posts = site.articles | where: 'language', page.language | where_exp: 'item', 'item.order > 0' | sort: 'order' -%}
+{%- endif -%}
 
 {%- comment -%}Determine the section from current page{%- endcomment -%}
 {%- assign base_section = '/articles/' | append: page.language | append: '/' %}
@@ -24,7 +23,7 @@ show_index: true
     {%- comment -%}Check if the post url is of the same section{%- endcomment -%}
     {%- assign post_section = post.url | replace: base_section, '' | replace: '/index', '' | split: '/' -%}
     {%- if post_section[0] == section[0] -%}
-      {% if layout.show_index and post.layout == 'articles' %}
+      {% if page.show_index and post.layout == 'articles' %}
             <a href="{{ post.url }}" title="{{ post.title }}">{{ site.data.translations[page.language].articles.index }}</a> | 
       {% else %}
         {%- if counter > 1 %} | {% endif -%}
