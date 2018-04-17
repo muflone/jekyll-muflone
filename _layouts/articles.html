@@ -33,7 +33,7 @@ layout: base
             <a href="{{ post.url }}">{{ post.title}}</a></h2>
       {%- else -%}
         {% unless has_children %}
-          <ul>
+          <ul id="articles">
         {%- endunless -%}
         {%- comment -%}Content page found{%- endcomment -%}
         {% assign has_children = true %}
