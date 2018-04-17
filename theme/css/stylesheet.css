@@ -306,6 +306,12 @@ ul li {
   text-align: center; 
 }
 
+#main-content div.article_description {
+  padding-left: 22px;
+  padding-bottom: 10px;
+  font-size: 13pt;
+}
+
 .footer, .footer a {
   font-family: 'Architects Daughter', 'Helvetica Neue', 'Helvetica', 'Arial', 'serif'; 
   font-weight: bold;

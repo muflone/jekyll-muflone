@@ -38,7 +38,11 @@ layout: base
         {%- comment -%}Content page found{%- endcomment -%}
         {% assign has_children = true %}
             <li><img src="{{ site.data.translations[post.language].icons.flag_mini }}">
-              <a href="{{ post.url }}">{{ post.title}}</a> ({{ post.date | date_to_string}})</li>
+              <a href="{{ post.url }}">{{ post.title}}</a> ({{ post.date | date_to_string}})
+        {%- if post.description %}
+              <div class="article_description">{{ post.description }}</div>
+        {%- endif %}
+            </li>
       {%- endif -%}
     {%- endfor -%}
     {% if has_children %}
