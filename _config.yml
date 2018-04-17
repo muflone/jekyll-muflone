@@ -105,6 +105,12 @@ defaults:
       - arch-linux
       show_index: false
   - scope:
+      path: _articles/english/zabbix
+    values:
+      categories:
+      - english
+      - zabbix
+  - scope:
       path: _articles/italian
     values:
       language: italian
@@ -129,6 +135,12 @@ defaults:
       - italian
       - arch-linux
       show_index: false
+  - scope:
+      path: _articles/italian/zabbix
+    values:
+      categories:
+      - italian
+      - zabbix
 
   - scope:
       path: _contacts
