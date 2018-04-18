@@ -91,6 +91,7 @@ Terminare la procedura guidata cliccando su **Finish**.
 Successivamente sarà automaticamente mostrata la finestra di accesso a
 Zabbix Frontend Web.
 
->>>>>> I dati di accesso predefiniti a Zabbix Frontend Web sono i seguenti:  
-**Utente**: Admin  
-**Password**: zabbix
+La configurazione iniziale è terminata ed è il momento di
+[passare ad utilizzare il nostro Zabbix][Frontend first view].
+
+[Frontend first view]: frontend-first-view

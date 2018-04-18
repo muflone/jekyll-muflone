@@ -112,10 +112,10 @@ e puntare alla pagina http://INDIRIZZO_SERVER/zabbix
 {:.center}
 ![Zabbix login](/resources/articles/zabbix/login.png)
 
->>>>>> I dati di accesso predefiniti a Zabbix Frontend Web sono i seguenti:  
-**Utente**: Admin  
-**Password**: zabbix
-
+La configurazione iniziale è terminata ed è il momento di
+[passare ad utilizzare il nostro Zabbix][Frontend first view].
 
 {: target="_blank" .external }
 [Download appliance]: https://www.zabbix.com/download_appliance
+
+[Frontend first view]: frontend-first-view
