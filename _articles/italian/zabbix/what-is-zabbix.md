@@ -13,7 +13,7 @@ date: 2018-04-17T00:00:00Z
 ---
 
 {:.center}
-![Metrics](/resources/articles/zabbix/logo.png)
+![Zabbix logo](/resources/articles/zabbix/logo.png)
 
 # Cosa è Zabbix?
 

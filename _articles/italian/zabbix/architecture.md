@@ -12,7 +12,7 @@ date: 2018-04-17T00:00:00Z
 ---
 
 {:.center}
-![Metrics](/resources/articles/zabbix/logo.png)
+![Zabbix logo](/resources/articles/zabbix/logo.png)
 
 **Zabbix** si compone di tante parti, ognuna delle quali con uno scopo preciso e
 necessario ad ottenere l'analisi dei valori dei sistemi controllati.
