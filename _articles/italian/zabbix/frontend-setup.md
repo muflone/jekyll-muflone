@@ -16,7 +16,7 @@ date: 2018-04-18T00:00:00Z
 {:.center}
 ![Zabbix logo](/resources/articles/zabbix/logo.png)
 
->>>>>>> Nel caso di utilizzo della Zabbix Appliance questa procedura non è
+>>>>>> Nel caso di utilizzo della Zabbix Appliance questa procedura non è
 necessaria in quanto Zabbix Frontend Web risulta già configurato automaticamente
 con i dati del database incluso nell'appliance stessa.
 
