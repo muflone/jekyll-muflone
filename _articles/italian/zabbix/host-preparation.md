@@ -108,35 +108,26 @@ tutto ciò esula da Zabbix che non svolge queste operazioni.
 ----
 # Configurazione di un gruppo host
 
-I [gruppi di host][host group] su Zabbix consentono non solo di aggregare più
-host sutto un unica voce al fine di vedere più host contemporaneamente ma i
-gruppi consentono anche di associare a più host raggruppati una serie di modelli
-di regole che effettueranno il controllo.
-
-Ad esempio ad un gruppo chiamato *Printers* possono associarsi i modelli di
-regole che si occupano del monitoraggio delle stampanti. In questo modo ogni
-volta che una stampante verrà aggiunta al gruppo, automaticamente saranno
-applicati i controlli che sono legati al gruppo stesso.
-
-Ogni sistema controllato può appartenere a più host contemporaneamente, in questo
-modo possono essere eseguiti controlli aggiuntivi legati ai singoli gruppi. Ad
-esempio una stampante oltre al gruppo *Printers* può appartenere anche al gruppo
-*Network piano terra* e quindi avere sia i controlli legati al gruppo Printers,
-sia i controlli legati al gruppo Network piano terra.
+I [gruppi di host][host group] su Zabbix consentono di aggregare più host sotto
+un'unica voce. Ogni sistema controllato può appartenere a più gruppi di host
+contemporaneamente. Ad esempio una stampante oltre al gruppo *Printers* può
+appartenere anche al gruppo *Network piano terra*.
 
 ----
 # Configurazione di un host
 
-La configurazione del gruppo di host definisce le regole generali applicate a
-tutti gli host in esso contenuti ma in aggiunta la configurazione dell'host
-deve fornitore quei parametri univoci, quali l'indirizzo di rete del sistema da
-controllare, il tipo di protocollo da utilizzare, gli eventuali dati di accesso
-e in aggiunta, eventuali regole di controllo non incluse nei gruppi.
+La configurazione dell'host definisce il nome, l'indirizzo del sistema,
+l'interfaccia (ovvero l'indirizzo e la porta) utilizzata per effettuare le
+analisi secondo i protocolli di monitoraggio indicati sopra.
 
-Ad esempio se il gruppo Printers effettua il controllo dei consumi e dei livelli
-di inchiostro, se una sola stampante ha un'interfaccia non standard è possibile
-aggiungere dei controlli aggiuntivi specifici per questa stampante, che non
-saranno applicati alle altre stampanti dello stesso gruppo.
+Oltre questi dati di configurazione dell'host è possibile associare uno o più
+[modelli (Template)][template] di regole di controllo. Saranno questi modelli
+a determinare i controlli che saranno effettuati sul sistema configurato.
+
+>>>>> Non è possibile associare modelli (template) a gruppi di host.
+La configurazione dei gruppi host permette soltanto di posizionare i modelli
+all'interno del gruppo di host ma non saranno efficaci e non svolgeranno alcuna
+funzione rispetto gli host nel gruppo.
 
 
 [How Zabbix works]: what-is-zabbix#come-funziona-zabbix
@@ -150,3 +141,5 @@ saranno applicati alle altre stampanti dello stesso gruppo.
 
 {: target="_blank" .external }
 [IPMI protocol]: https://en.wikipedia.org/wiki/Intelligent_Platform_Management_Interface
+
+[template]: definitions#template
