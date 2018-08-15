@@ -111,6 +111,12 @@ defaults:
       - english
       - zabbix
   - scope:
+      path: _articles/english/bareos
+    values:
+      categories:
+      - english
+      - bareos
+  - scope:
       path: _articles/italian
     values:
       language: italian
@@ -141,6 +147,12 @@ defaults:
       categories:
       - italian
       - zabbix
+  - scope:
+      path: _articles/italian/bareos
+    values:
+      categories:
+      - italian
+      - bareos
 
   - scope:
       path: _contacts
