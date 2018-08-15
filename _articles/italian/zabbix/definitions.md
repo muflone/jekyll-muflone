@@ -29,14 +29,16 @@ un altro apparato di rete.
 # Host group
 
 Un gruppo di host è un raggruppamento logico di uno o più host, la loro
-organizzazione consente di assegnare regole e permessi comuni a tutti i membri
-all'interno di un gruppo, ad esempio tutti i firewall condivideranno le stesse
-regole di monitoraggio.
+organizzazione consente di tenere sotto controllo più host in un unico gruppo.
 
 Un singolo host può appartenere contemporaneamente a più host, ad esempio il
 firewall della sede 1 può appartenere contemporaneamente al gruppo Firewall e
 al gruppo Sede 1, in modo da legare gli avvisi ai responsabili della sicurezza
 e il controllo allo staff della sede 1.
+
+>>> Ad oggi non è possibile associare effettivamente template a gruppi di host,
+la loro funzione è meramente descrittiva e **non applica** automaticamente il
+modello a tutti gli host all'interno del gruppo.
 
 # Item
 
@@ -117,8 +119,7 @@ i sistemi operativi GNU/Linux contiene:
 * Collegamenti ad altri template
 
 I template consentono di definire le regole di analisi in maniera raggruppata,
-da applicare ad un singolo host o gruppi di host. In questo modo si semplifica
-l'assegnazione delle informazioni agli host.
+da applicare ad un singolo host.
 
 # Web scenario
 

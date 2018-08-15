@@ -114,9 +114,8 @@ L'area della configurazione contiene le informazioni di configurazione di tutto
 il sistema Zabbix, gli host i gruppi, le regole e tutto il resto che fa funzionare
 Zabbix Server per monitorare i sistemi.
 
-1. **Host groups**: definisce i gruppi di host, al fine di raggruppare gli
-   avvisi, gli allarmi, i controlli, anziché ridefinirli per ogni sistema
-   controllato
+1. **Host groups**: definisce i gruppi di host, al fine di raggrupparli e
+   visionare tutti gli host in raggruppamenti omogenei
 1. **Templates**: definisce i modelli che contengono al loro interno i valori
    da controllare, gli allarmi, gli eventi da far scattare, raggruppati in
    maniera logica
