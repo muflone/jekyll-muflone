@@ -68,5 +68,12 @@ Subito dopo l'installazione è possibile avviare il servizio con:
 
     NET START "Zabbix Agent"
 
+{:.center}
+![Windows firewall](/resources/articles/zabbix/agent-installation/windows-firewall.png)
+
+Nel caso che il firewall di Windows risultasse attivo, potrebbe essere necessario
+sbloccare l'accesso all'agente aggiungendo **zabbix_agentd.exe** alla lista
+delle eccezioni.
+
 {: target="_blank" .external }
 [Download and install Precompiled Zabbix Agents]: https://www.zabbix.com/download_agents
