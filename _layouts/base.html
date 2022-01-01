@@ -69,7 +69,7 @@
   <body>
     <header>
       <div class="inner">
-        <a href="{% unless page.layout == 'sections' %}/{{ product.lowername }}{% endunless %}/{{ page.language }}">
+        <a href="{% unless page.layout == 'sections' %}/{{ product.lowername }}{% endunless %}/{{ page.language }}/">
           <img src="/resources/{{ product.lowername }}/icons/ms-icon-144x144.png" style="padding-right: 20px;" align="left"></a>
         <h1>{{ product.name }}</h1>
         <h2>{{ page.title }}</h2>
@@ -93,7 +93,7 @@
           <img src="/resources/home/icons/{{ site.icon_footer }}">
         </a>
 {% for section in site.sections %}
-        <a href="/{{ section }}" title="{{ site.data[section].name }}">
+        <a href="/{{ section }}/" title="{{ site.data[section].name }}">
           <img src="/resources/{{ section }}/icons/{{ site.icon_footer }}">
         </a>
 {% endfor %}
@@ -101,15 +101,15 @@
       <div>{{ site.data.translations[page.language].copyright }}
         <a href="https://plus.google.com/+FabioCastelli?rel=author">Fabio Castelli</a> |
         <a href="/" title="Home">Home</a> | 
-        <a href="/english" title="{{ site.data.translations[page.language].languages.english }}">
+        <a href="/english/" title="{{ site.data.translations[page.language].languages.english }}">
           <img src="/theme/images/flag-en-16.png">
           {{ site.data.translations[page.language].languages.english }}
         </a> |
-        <a href="/italian" title="{{ site.data.translations[page.language].languages.italian }}">
+        <a href="/italian/" title="{{ site.data.translations[page.language].languages.italian }}">
           <img src="/theme/images/flag-it-16.png">
           {{ site.data.translations[page.language].languages.italian }}
         </a> |
-        <a href="/contacts" title="{{ site.data.translations[page.language].sections.contacts }}">
+        <a href="/contacts/" title="{{ site.data.translations[page.language].sections.contacts }}">
           {{ site.data.translations[page.language].sections.contacts }}
         </a> |
         <a href="//www.iubenda.com/privacy-policy/{{ site.data.translations[page.language].privacy.iubenda }}"
