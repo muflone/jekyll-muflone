@@ -84,7 +84,7 @@ defaults:
       product: articles
       language: english
       show_index: true
-      permalink: /:collection/:categories/:slug
+      permalink: /:collection/:categories/:slug.html
   - scope:
       path: _articles/english
     values:

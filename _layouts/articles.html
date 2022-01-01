@@ -12,8 +12,8 @@ layout: base
 
 {%- comment -%}Determine the section from current page{%- endcomment -%}
 {%- assign base_section = '/articles/' | append: page.language | append: '/' %}
-{%- assign section = page.url | replace: base_section, '' | replace: '/index', '' -%}
-{%- if section == 'index' %}
+{%- assign section = page.url | replace: base_section, '' | replace: '/index.html', '' -%}
+{%- if section == 'index.html' %}
   {%- assign section = '' -%}
 {%- endif -%}
 
