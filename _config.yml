@@ -105,12 +105,6 @@ defaults:
       - arch-linux
       show_index: false
   - scope:
-      path: _articles/english/zabbix
-    values:
-      categories:
-      - english
-      - zabbix
-  - scope:
       path: _articles/italian
     values:
       language: italian
