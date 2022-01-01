@@ -77,6 +77,7 @@ defaults:
       require_jquery: False
       require_jquery_jplayer: False
       require_jquery_iontabs: False
+
   - scope:
       path: _articles
     values:
