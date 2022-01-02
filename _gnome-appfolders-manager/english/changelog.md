@@ -3,6 +3,16 @@ layout: default
 order: 6
 title: Changelog
 ---
+# Version 0.3.2 (Apr 22, 2017)
+* Updated Swedish translation by Anders Jonsson
+* Updated German translation by Vincent Bermel
+* New Portoguese translation by Guilherme TW
+* New Polish translation by Piotr Komur
+* Search icon in the current theme from the file name
+
+{:.center}
+![About dialog for GNOME AppFolders Manager 0.3.2](/resources/gnome-appfolders-manager/archive/v0.3.2/english/about.png)
+
 # Version 0.3.1 (May 31, 2016)
 * Handled readonly settings directory avoiding the folder creation
 

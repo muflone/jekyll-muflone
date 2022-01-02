@@ -3,6 +3,16 @@ layout: default
 order: 6
 title: Cambiamenti
 ---
+# Versione 0.3.2 (22 Aprile 2017)
+* Aggiornata la traduzione svedese da Anders Jonsson
+* Aggiornata la traduzione tedesca da Vincent Bermel
+* Nuova traduzione portoghese da Guilherme TW
+* Nuova traduzione polacca da Piotr Komur
+* Cerca l'icona nel tema corrente dal nome del file
+
+{:.center}
+![Finestra informazioni di GNOME AppFolders Manager 0.3.2](/resources/gnome-appfolders-manager/archive/v0.3.2/italian/about.png)
+
 # Versione 0.3.1 (31 Maggio 2016)
 * Gestita la condizione di impostazioni in sola lettura evitando la creazione della cartella
 
