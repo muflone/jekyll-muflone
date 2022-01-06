@@ -6,7 +6,7 @@ username_disqus: muflone
 username_analytics: muflone.com
 url: http://www.muflone.com
 permalink: /articles/:categories/:year-:month-:day/:title.html
-show_social: true
+show_social: false
 icon_footer: android-icon-48x48.png
 icon_home: android-icon-144x144.png
 sections:
