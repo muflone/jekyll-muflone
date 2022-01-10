@@ -3,6 +3,19 @@ layout: default
 order: 6
 title: Cambiamenti
 ---
+# Versione 0.4.0 (10 Gennaio 2022)
+* Migrazione da Python 2 a Python 3
+* Sistemati i percorsi per l'utente locale
+* Nuova traduzione ungherese da Balazs Mesko
+* Nuova traduzione spagnola da CJ DM
+* Nuova traduzione russa da Aleksey Aleksey
+* Aggiornata la traduzione francese
+* Migrazione da distutils a setuptools
+* Resa la descrizione dell'applicazione traducibile
+
+{:.center}
+![Finestra principale di GNOME AppFolders Manager 0.4.0](/resources/gnome-appfolders-manager/archive/v0.4.0/italian/main.png)
+
 # Versione 0.3.2 (22 Aprile 2017)
 * Aggiornata la traduzione svedese da Anders Jonsson
 * Aggiornata la traduzione tedesca da Vincent Bermel
