@@ -3,6 +3,12 @@ layout: default
 order: 6
 title: Cambiamenti
 ---
+# Versione 0.4.1 (10 Gennaio 2022)
+* Nuova traduzione olandese da Heimen Stoffels
+
+{:.center}
+![Finestra informazioni di GNOME AppFolders Manager 0.4.1](/resources/gnome-appfolders-manager/archive/v0.4.1/italian/about.png)
+
 # Versione 0.4.0 (10 Gennaio 2022)
 * Migrazione da Python 2 a Python 3
 * Sistemati i percorsi per l'utente locale

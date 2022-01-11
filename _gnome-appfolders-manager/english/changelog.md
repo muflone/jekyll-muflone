@@ -3,6 +3,12 @@ layout: default
 order: 6
 title: Changelog
 ---
+# Version 0.4.1 (Jan 10, 2022)
+* New Dutch translation by Heimen Stoffels
+
+{:.center}
+![About dialog for GNOME AppFolders Manager 0.4.1](/resources/gnome-appfolders-manager/archive/v0.4.1/english/about.png)
+
 # Version 0.4.0 (Jan 10, 2022)
 * Migrated from Python 2 to Python 3
 * Fixed paths for local user
