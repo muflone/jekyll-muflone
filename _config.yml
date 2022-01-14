@@ -5,7 +5,6 @@ username_twitter: il_muflone
 username_disqus: muflone
 username_analytics: muflone.com
 url: http://www.muflone.com
-permalink: /articles/:categories/:year-:month-:day/:title.html
 show_social: false
 icon_footer: android-icon-48x48.png
 icon_home: android-icon-144x144.png
@@ -32,42 +31,61 @@ sections:
 collections:
   contacts:
     output: true
+    permalink: /:collection/:path:output_ext
   articles:
     output: true
+    permalink: /:collection/:path:output_ext
   bluewho:
     output: true
+    permalink: /:collection/:path:output_ext
   cpucompare:
     output: true
+    permalink: /:collection/:path:output_ext
   gextractwinicons:
     output: true
+    permalink: /:collection/:path:output_ext
   gnome-appfolders-manager:
     output: true
+    permalink: /:collection/:path:output_ext
   gptrace:
     output: true
+    permalink: /:collection/:path:output_ext
   gwakeonlan:
     output: true
+    permalink: /:collection/:path:output_ext
   gespeaker:
     output: true
+    permalink: /:collection/:path:output_ext
   gtransmemory:
     output: true
+    permalink: /:collection/:path:output_ext
   remmina-plugin-builder:
     output: true
+    permalink: /:collection/:path:output_ext
   remmina-plugin-exec:
     output: true
+    permalink: /:collection/:path:output_ext
   remmina-plugin-folder:
     output: true
+    permalink: /:collection/:path:output_ext
   remmina-plugin-open:
     output: true
+    permalink: /:collection/:path:output_ext
   remmina-plugin-rdesktop:
     output: true
+    permalink: /:collection/:path:output_ext
   remmina-plugin-teamviewer:
     output: true
+    permalink: /:collection/:path:output_ext
   remmina-plugin-ultravnc:
     output: true
+    permalink: /:collection/:path:output_ext
   remmina-plugin-url:
     output: true
+    permalink: /:collection/:path:output_ext
   remmina-plugin-webkit:
     output: true
+    permalink: /:collection/:path:output_ext
 defaults:
   - scope:
       path: ""
@@ -84,7 +102,7 @@ defaults:
       product: articles
       language: english
       show_index: true
-      permalink: /:collection/:categories/:slug.html
+      permalink: /:collection/:categories/:slug:output_ext
   - scope:
       path: _articles/english
     values:

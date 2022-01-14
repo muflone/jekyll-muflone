@@ -117,8 +117,8 @@ english:
         environment to build plugins for Remmina.
       text2: >
         Download Remmina Plugin Builder from the
-        <a href="../../remmina-plugin-builder/index">Project page</a> and refer to
-        the <a href="../../remmina-plugin-builder/$(LANGUAGE)/install">Installation page</a>.
+        <a href="../../remmina-plugin-builder/index.html">Project page</a> and refer to
+        the <a href="../../remmina-plugin-builder/$(LANGUAGE)/install.html">Installation page</a>.
       text3: >
         The building process simply needs the extraction of both Remmina Plugin
         Builder and $(NAME) source code using:
@@ -427,9 +427,9 @@ italian:
         minimale per la compilazione di plugin per Remmina.
       text2: >
         Scaricare Remmina Plugin Builder dalla
-        <a href="../../remmina-plugin-builder/index">pagina del progetto</a>
+        <a href="../../remmina-plugin-builder/index.html">pagina del progetto</a>
         e fare riferimento alla
-        <a href=../../remmina-plugin-builder/$(LANGUAGE)/install>pagina Installazione</a>.
+        <a href=../../remmina-plugin-builder/$(LANGUAGE)/install.html>pagina Installazione</a>.
       text3: >
         Il processo di compilazione richiede semplicemente l'estrazione del
         codice sorgente sia di Remmina Plugin Builder sia di $(NAME)
