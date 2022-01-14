@@ -3,6 +3,14 @@ layout: default
 order: 6
 title: Cambiamenti
 ---
+# Versione 0.4.2 (14 Gennaio 2022)
+* Corretta la traduzione in spagnolo
+* Corretta la traduzione in russo
+* Corretta la traduzione in francese
+
+{:.center}
+![Finestra informazioni di GNOME AppFolders Manager 0.4.2](/resources/gnome-appfolders-manager/archive/v0.4.2/italian/about.png)
+
 # Versione 0.4.1 (10 Gennaio 2022)
 * Nuova traduzione olandese da Heimen Stoffels
 

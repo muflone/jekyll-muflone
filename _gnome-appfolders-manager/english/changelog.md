@@ -3,6 +3,14 @@ layout: default
 order: 6
 title: Changelog
 ---
+# Version 0.4.2 (Jan 14, 2022)
+* Fixed Spanish translation
+* Fixed Russian translation
+* Fixed French translation
+
+{:.center}
+![About dialog for GNOME AppFolders Manager 0.4.2](/resources/gnome-appfolders-manager/archive/v0.4.2/english/about.png)
+
 # Version 0.4.1 (Jan 10, 2022)
 * New Dutch translation by Heimen Stoffels
 
