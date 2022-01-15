@@ -118,4 +118,4 @@ La configurazione iniziale è terminata ed è il momento di
 {: target="_blank" .external }
 [Download appliance]: https://www.zabbix.com/download_appliance
 
-[Frontend first view]: frontend-first-view
+[Frontend first view]: frontend-first-view.html

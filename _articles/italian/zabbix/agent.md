@@ -110,4 +110,4 @@ del server Zabbix, quindi le richieste sono rifiutate.
 Se venisse risposto con **1** allora l'agente è in esecuzione e pronto a
 ricevere comandi.
 
-[Zabbix Agent installation]: agent-installation
+[Zabbix Agent installation]: agent-installation.html

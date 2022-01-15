@@ -94,4 +94,5 @@ Zabbix Frontend Web.
 La configurazione iniziale è terminata ed è il momento di
 [passare ad utilizzare il nostro Zabbix][Frontend first view].
 
-[Frontend first view]: frontend-first-view
+[Frontend first view]: frontend-first-view.html
+

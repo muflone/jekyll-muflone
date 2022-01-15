@@ -46,8 +46,8 @@ installazione per alcune distribuzioni GNU/Linux.
 {: target="_blank" .external }
 [Install Zabbix from package]: https://www.zabbix.com/download
 
-[Install from ISO]: install-from-iso
+[Install from ISO]: install-from-iso.html
 
-[Install to Arch Linux]: install-to-arch-linux
+[Install to Arch Linux]: install-to-arch-linux.html
 
-[Install to VM]: install-to-vm
+[Install to VM]: install-to-vm.html

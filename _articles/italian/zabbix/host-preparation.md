@@ -130,11 +130,11 @@ all'interno del gruppo di host ma non saranno efficaci e non svolgeranno alcuna
 funzione rispetto gli host nel gruppo.
 
 
-[How Zabbix works]: what-is-zabbix#come-funziona-zabbix
+[How Zabbix works]: what-is-zabbix.html#come-funziona-zabbix
 
-[host group]: definitions#host-group
+[host group]: definitions.html#host-group
 
-[Zabbix Agent]: agent
+[Zabbix Agent]: agent.html
 
 {: target="_blank" .external }
 [SNMP protocol]: https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol
@@ -142,4 +142,4 @@ funzione rispetto gli host nel gruppo.
 {: target="_blank" .external }
 [IPMI protocol]: https://en.wikipedia.org/wiki/Intelligent_Platform_Management_Interface
 
-[template]: definitions#template
+[template]: definitions.html#template

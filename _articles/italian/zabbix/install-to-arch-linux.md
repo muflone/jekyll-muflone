@@ -147,4 +147,4 @@ Per la configurazione del frontend web è possibile consultare la pagina
 {: target="_blank" .external }
 [Wiki di Arch Linux]: https://wiki.archlinux.org/index.php/Zabbix
 
-[Frontend setup]: frontend-setup
+[Frontend setup]: frontend-setup.html
