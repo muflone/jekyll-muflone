@@ -5,6 +5,7 @@ description:
   english: Learn memory for translators.
 gitrepo: https://github.com/muflone/gtransmemory
 translations_repo: https://www.transifex.com/projects/p/gtransmemory/
+license: gpl2
 versions:
 - version: 0.3.0
   normalized: v030

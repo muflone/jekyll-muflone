@@ -5,6 +5,7 @@ description:
   english: Create and edit applications folders (AppFolders) for GNOME Shell.
 gitrepo: https://github.com/muflone/gnome-appfolders-manager
 translations_repo: https://www.transifex.com/projects/p/gnome-appfolders-manager/
+license: gpl3
 versions:
 - version: 0.4.2
   normalized: v042

@@ -4,7 +4,8 @@ description:
   italian: Un plugin di protocollo per Remmina per aprire un file o un documento utilizzando l'applicazione associata.
   english: A Remmina protocol plugin to open a file or document using its associated application.
 gitrepo: https://github.com/muflone/remmina-plugin-open
-translations_repo: 
+translations_repo:
+license: gpl2
 versions:
 - version: 1.0.0.1
   normalized: v1001

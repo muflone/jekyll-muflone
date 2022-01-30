@@ -4,7 +4,8 @@ description:
   italian: Un plugin di protocollo per Remmina per stabilire connessioni tramite UltraVNC.
   english: A Remmina protocol plugin to establish connections through UltraVNC.
 gitrepo: https://github.com/muflone/remmina-plugin-ultravnc
-translations_repo: 
+translations_repo:
+license: gpl2
 versions:
 - version: 1.0.0.1
   normalized: v1001

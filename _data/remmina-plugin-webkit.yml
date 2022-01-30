@@ -4,7 +4,8 @@ description:
   italian: Un plugin di protocollo per Remmina per aprire pagine web tramite un browser web WebKit integrato.
   english: A Remmina protocol plugin to open web pages through an integrated WebKit web browser.
 gitrepo: https://github.com/muflone/remmina-plugin-webkit
-translations_repo: 
+translations_repo:
+license: gpl2
 versions:
 - version: 1.0.0.3
   normalized: v1003

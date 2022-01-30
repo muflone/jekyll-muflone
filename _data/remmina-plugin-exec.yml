@@ -4,7 +4,8 @@ description:
   italian: Un plugin di protocollo per Remmina per eseguire un processo esterno.
   english: A Remmina protocol plugin to execute an external process.
 gitrepo: https://github.com/muflone/remmina-plugin-exec
-translations_repo: 
+translations_repo:
+license: gpl2
 versions:
 - version: 1.0.0.2
   normalized: v1002

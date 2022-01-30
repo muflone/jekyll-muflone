@@ -4,7 +4,8 @@ description:
   italian: Un pacchetto per semplificare lo sviluppo e la compilazione di plugin per Remmina.
   english: A package to ease the development and the compilation of Remmina plugins.
 gitrepo: https://github.com/muflone/remmina-plugin-builder
-translations_repo: 
+translations_repo:
+license: gpl2
 versions:
 - version: 1.0.0.3
   normalized: v1003

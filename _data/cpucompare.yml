@@ -4,6 +4,7 @@ description:
   italian: Esegui confronti tra numerosi modelli di CPU per trovare quelle di tuo interesse.
   english: Compare between a large number of CPU models to find those of your interest.
 gitrepo: https://github.com/muflone/cpucompare
+license: gpl2
 versions:
 - version: 0.6
   normalized: v060

@@ -4,7 +4,8 @@ description:
   italian: Un plugin di protocollo per Remmina per stabilire connessioni RDP tramite RDesktop.
   english: A Remmina protocol plugin to establish RDP connection through RDesktop.
 gitrepo: https://github.com/muflone/remmina-plugin-rdesktop
-translations_repo: 
+translations_repo:
+license: gpl2
 versions:
 - version: 1.0.0.3
   normalized: v1003

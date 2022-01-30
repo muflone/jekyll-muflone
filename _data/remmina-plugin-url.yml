@@ -4,7 +4,8 @@ description:
   italian: Un plugin di protocollo per Remmina per aprire pagine web tramite un browser web esterno.
   english: A Remmina protocol plugin to open web pages through an external web browser.
 gitrepo: https://github.com/muflone/remmina-plugin-url
-translations_repo: 
+translations_repo:
+license: gpl2
 versions:
 - version: 1.0.0.1
   normalized: v1001

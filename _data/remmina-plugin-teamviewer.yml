@@ -4,7 +4,8 @@ description:
   italian: Un plugin di protocollo per Remmina per stabilire connessioni tramite TeamViewer.
   english: A Remmina protocol plugin to establish connections through TeamViewer.
 gitrepo: https://github.com/muflone/remmina-plugin-teamviewer
-translations_repo: 
+translations_repo:
+license: gpl2
 versions:
 - version: 1.0.0.2
   normalized: v1002
