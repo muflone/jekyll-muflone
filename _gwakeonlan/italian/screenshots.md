@@ -1,24 +1,13 @@
 ---
-layout: default
+layout: screenshots
 order: 4
 title: Schermate
 ---
-# Finestra principale
-
-{:.center}
-![Finestra principale](/resources/gwakeonlan/archive/latest/italian/main.png)
-
-# Finestra dettaglio della macchina
-
-{:.center}
-![Finestra dettaglio della macchina](/resources/gwakeonlan/archive/latest/italian/detail.png)
-
-# Finestra per la scelta da cache ARP
-
-{:.center}
-![Finestra per la scelta da cache ARP](/resources/gwakeonlan/archive/latest/italian/arpcache.png)
-
-# Finestra delle informazioni
-
-{:.center}
-![Finestra delle informazioni](/resources/gwakeonlan/archive/latest/italian/about.png)
+  <a href="/resources/gwakeonlan/archive/latest/italian/main.png"
+    data-caption="Finestra principale"></a>
+  <a href="/resources/gwakeonlan/archive/latest/italian/detail.png"
+    data-caption="Finestra dettaglio della macchina"></a>
+  <a href="/resources/gwakeonlan/archive/latest/italian/arpcache.png"
+    data-caption="Finestra per la scelta da cache ARP"></a>
+  <a href="/resources/gwakeonlan/archive/latest/italian/about.png"
+    data-caption="Finestra delle informazioni"></a>

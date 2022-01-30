@@ -1,34 +1,17 @@
 ---
-layout: default
+layout: screenshots
 order: 4
 title: Schermate
 ---
-# Finestra principale
-
-{:.center}
-![Finestra principale](/resources/gtransmemory/archive/latest/italian/main.png)
-
-# Elenco delle memorie
-
-{:.center}
-![Elenco delle memorie](/resources/gtransmemory/archive/latest/italian/memories.png)
-
-# Dettaglio del messaggio
-
-{:.center}
-![Dettaglio del messaggio](/resources/gtransmemory/archive/latest/italian/detail.png)
-
-# Importazione dei messaggi
-
-{:.center}
-![Importazione dei messaggi](/resources/gtransmemory/archive/latest/italian/import.png)
-
-# Finestra scorciatoie
-
-{:.center}
-![Finestra scorciatoie](/resources/gtransmemory/archive/latest/italian/shortcuts.png)
-
-# Finestra informazioni
-
-{:.center}
-![Finestra informazioni](/resources/gtransmemory/archive/latest/italian/about.png)
+  <a href="/resources/gtransmemory/archive/latest/italian/main.png"
+    data-caption="Finestra principale"></a>
+  <a href="/resources/gtransmemory/archive/latest/italian/memories.png"
+    data-caption="Elenco delle memorie"></a>
+  <a href="/resources/gtransmemory/archive/latest/italian/detail.png"
+    data-caption="Dettaglio del messaggio"></a>
+  <a href="/resources/gtransmemory/archive/latest/italian/import.png"
+    data-caption="Importazione dei messaggi"></a>
+  <a href="/resources/gtransmemory/archive/latest/italian/shortcuts.png"
+    data-caption="Finestra scorciatoie"></a>
+  <a href="/resources/gtransmemory/archive/latest/italian/about.png"
+    data-caption="Finestra informazioni"></a>

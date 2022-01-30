@@ -1,34 +1,17 @@
 ---
-layout: default
+layout: screenshots
 order: 4
 title: Schermate
 ---
-# Finestra principale
-
-{:.center}
-![Finestra principale](/resources/gptrace/archive/latest/italian/main.png)
-
-# Scelta delle syscall
-
-{:.center}
-![Scelta delle syscall](/resources/gptrace/archive/latest/italian/expanded.png)
-
-# Sezione dei conteggi
-
-{:.center}
-![Sezione conteggi](/resources/gptrace/archive/latest/italian/counts.png)
-
-# Sezione dei file
-
-{:.center}
-![Sezione file](/resources/gptrace/archive/latest/italian/files.png)
-
-# Sezione dei processi
-
-{:.center}
-![Sezione processi](/resources/gptrace/archive/latest/italian/processes.png)
-
-# Finestra delle informazioni
-
-{:.center}
-![Finestra delle informazioni](/resources/gptrace/archive/latest/italian/about.png)
+  <a href="/resources/gptrace/archive/latest/italian/main.png"
+    data-caption="Finestra principale"></a>
+  <a href="/resources/gptrace/archive/latest/italian/expanded.png"
+    data-caption="Scelta delle syscall"></a>
+  <a href="/resources/gptrace/archive/latest/italian/counts.png"
+    data-caption="Sezione dei conteggi"></a>
+  <a href="/resources/gptrace/archive/latest/italian/files.png"
+    data-caption="Sezione dei file"></a>
+  <a href="/resources/gptrace/archive/latest/italian/processes.png"
+    data-caption="Sezione dei processi"></a>
+  <a href="/resources/gptrace/archive/latest/italian/about.png"
+    data-caption="Finestra delle informazioni"></a>

@@ -1,34 +1,17 @@
 ---
-layout: default
+layout: screenshots
 order: 4
 title: Screenshots
 ---
-# Main window
-
-{:.center}
-![Main window](/resources/gtransmemory/archive/latest/english/main.png)
-
-# Memories list
-
-{:.center}
-![Memories list](/resources/gtransmemory/archive/latest/english/memories.png)
-
-# Message detail
-
-{:.center}
-![Message detail](/resources/gtransmemory/archive/latest/english/detail.png)
-
-# Messages import
-
-{:.center}
-![Messages import](/resources/gtransmemory/archive/latest/english/import.png)
-
-# Shortcuts window
-
-{:.center}
-![Shortcuts window](/resources/gtransmemory/archive/latest/english/shortcuts.png)
-
-# About dialog
-
-{:.center}
-![About dialog](/resources/gtransmemory/archive/latest/english/about.png)
+  <a href="/resources/gtransmemory/archive/latest/english/main.png"
+    data-caption="Main window"></a>
+  <a href="/resources/gtransmemory/archive/latest/english/memories.png"
+    data-caption="Memories list"></a>
+  <a href="/resources/gtransmemory/archive/latest/english/detail.png"
+    data-caption="Message detail"></a>
+  <a href="/resources/gtransmemory/archive/latest/english/import.png"
+    data-caption="Messages import"></a>
+  <a href="/resources/gtransmemory/archive/latest/english/shortcuts.png"
+    data-caption="Shortcuts window"></a>
+  <a href="/resources/gtransmemory/archive/latest/english/about.png"
+    data-caption="About dialog"></a>

@@ -1,24 +1,13 @@
 ---
-layout: default
+layout: screenshots
 order: 5
 title: Screenshots
 ---
-# Basic settings
-
-{:.center}
-![Basic settings](/resources/remmina-plugin-webkit/archive/latest/english/general.png)
-
-# Advanced settings
-
-{:.center}
-![Advanced settings](/resources/remmina-plugin-webkit/archive/latest/english/advanced.png)
-
-# Integrated browser
-
-{:.center}
-![Integrated browser](/resources/remmina-plugin-webkit/archive/latest/english/integrated.png)
-
-# Detached browser window
-
-{:.center}
-![Detached browser window](/resources/remmina-plugin-webkit/archive/latest/english/detached.png)
+  <a href="/resources/remmina-plugin-webkit/archive/latest/english/general.png"
+    data-caption="Basic settings"></a>
+  <a href="/resources/remmina-plugin-webkit/archive/latest/english/advanced.png"
+    data-caption="Advanced settings"></a>
+  <a href="/resources/remmina-plugin-webkit/archive/latest/english/integrated.png"
+    data-caption="Integrated browser"></a>
+  <a href="/resources/remmina-plugin-webkit/archive/latest/english/detached.png"
+    data-caption="Detached browser window"></a>

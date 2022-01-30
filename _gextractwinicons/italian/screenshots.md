@@ -1,14 +1,9 @@
 ---
-layout: default
+layout: screenshots
 order: 4
 title: Schermate
 ---
-# Finestra principale
-
-{:.center}
-![Finestra principale](/resources/gextractwinicons/archive/latest/italian/main.png)
-
-# Finestra delle informazioni
-
-{:.center}
-![Finestra delle informazioni](/resources/gextractwinicons/archive/latest/italian/about.png)
+  <a href="/resources/gextractwinicons/archive/latest/italian/main.png"
+    data-caption="Finestra principale"></a>
+  <a href="/resources/gextractwinicons/archive/latest/italian/about.png"
+    data-caption="Finestra delle informazioni"></a>

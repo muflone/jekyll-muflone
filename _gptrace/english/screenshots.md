@@ -1,34 +1,17 @@
 ---
-layout: default
+layout: screenshots
 order: 4
 title: Screenshots
 ---
-# Main window
-
-{:.center}
-![Main window](/resources/gptrace/archive/latest/english/main.png)
-
-# Syscalls choice
-
-{:.center}
-![Syscalls choice](/resources/gptrace/archive/latest/english/expanded.png)
-
-# Counts section
-
-{:.center}
-![Counts section](/resources/gptrace/archive/latest/english/counts.png)
-
-# Files section
-
-{:.center}
-![Files section](/resources/gptrace/archive/latest/english/files.png)
-
-# Processes section
-
-{:.center}
-![Processes section](/resources/gptrace/archive/latest/english/processes.png)
-
-# About dialog
-
-{:.center}
-![About dialog](/resources/gptrace/archive/latest/english/about.png)
+  <a href="/resources/gptrace/archive/latest/english/main.png"
+    data-caption="Main window"></a>
+  <a href="/resources/gptrace/archive/latest/english/expanded.png"
+    data-caption="Syscalls choice"></a>
+  <a href="/resources/gptrace/archive/latest/english/counts.png"
+    data-caption="Counts section"></a>
+  <a href="/resources/gptrace/archive/latest/english/files.png"
+    data-caption="Files section"></a>
+  <a href="/resources/gptrace/archive/latest/english/processes.png"
+    data-caption="Processes section"></a>
+  <a href="/resources/gptrace/archive/latest/english/about.png"
+    data-caption="About dialog"></a>

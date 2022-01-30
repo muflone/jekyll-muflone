@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: screenshots
 order: 5
 title: Screenshots
 ---
-# Basic settings
-
-{:.center}
-![Basic settings](/resources/remmina-plugin-folder/archive/latest/english/general.png)
+  <a href="/resources/remmina-plugin-folder/archive/latest/english/general.png"
+    data-caption="Basic settings"></a>

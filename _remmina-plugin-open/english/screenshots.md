@@ -1,14 +1,9 @@
 ---
-layout: default
+layout: screenshots
 order: 5
 title: Screenshots
 ---
-# Basic settings
-
-{:.center}
-![Basic settings](/resources/remmina-plugin-open/archive/latest/english/general.png)
-
-# KeePassX launched window
-
-{:.center}
-![KeePassX launched window](/resources/remmina-plugin-open/archive/latest/english/keepassx.png)
+  <a href="/resources/remmina-plugin-open/archive/latest/english/general.png"
+    data-caption="Basic settings"></a>
+  <a href="/resources/remmina-plugin-open/archive/latest/english/keepassx.png"
+    data-caption="KeePassX launched window"></a>

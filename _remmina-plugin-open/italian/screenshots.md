@@ -1,14 +1,9 @@
 ---
-layout: default
+layout: screenshots
 order: 5
-title: Screenshots
+title: Schermate
 ---
-# Impostazioni generali
-
-{:.center}
-![Impostazioni generali](/resources/remmina-plugin-open/archive/latest/italian/general.png)
-
-# Finestra di KeePassX avviata
-
-{:.center}
-![Finestra di KeePassX avviata](/resources/remmina-plugin-open/archive/latest/italian/keepassx.png)
+  <a href="/resources/remmina-plugin-open/archive/latest/italian/general.png"
+    data-caption="Impostazioni generali"></a>
+  <a href="/resources/remmina-plugin-open/archive/latest/italian/keepassx.png"
+    data-caption="Finestra di KeePassX avviata"></a>

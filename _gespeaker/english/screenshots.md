@@ -1,34 +1,17 @@
 ---
-layout: default
+layout: screenshots
 order: 4
 title: Screenshots
 ---
-# Main window with full size
-
-{:.center}
-![Main window with full size](/resources/gespeaker/archive/latest/english/main.png)
-
-# Main window with reduced size
-
-{:.center}
-![Main window with reduced size](/resources/gespeaker/archive/latest/english/reduced.png)
-
-# Preferences window
-
-{:.center}
-![Preferences window](/resources/gespeaker/archive/latest/english/preferences.png)
-
-# Preferences window for MBROLA
-
-{:.center}
-![Preferences window for MBROLA](/resources/gespeaker/archive/latest/english/mbrola.png)
-
-# Preferences window for plugins
-
-{:.center}
-![Preferences window for plugins](/resources/gespeaker/archive/latest/english/plugins.png)
-
-# About dialog
-
-{:.center}
-![About dialog](/resources/gespeaker/archive/latest/english/about.png)
+  <a href="/resources/gespeaker/archive/latest/english/main.png"
+    data-caption="Main window with full size"></a>
+  <a href="/resources/gespeaker/archive/latest/english/reduced.png"
+    data-caption="Main window with reduced size"></a>
+  <a href="/resources/gespeaker/archive/latest/english/preferences.png"
+    data-caption="Preferences window"></a>
+  <a href="/resources/gespeaker/archive/latest/english/mbrola.png"
+    data-caption="Preferences window for MBROLA"></a>
+  <a href="/resources/gespeaker/archive/latest/english/plugins.png"
+    data-caption="Preferences window for plugins"></a>
+  <a href="/resources/gespeaker/archive/latest/english/about.png"
+    data-caption="About dialog"></a>

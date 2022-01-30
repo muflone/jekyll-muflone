@@ -1,0 +1,15 @@
+---
+layout: default
+require_jquery: true
+require_jquery_fotorama: true
+---
+<div class="fotorama"
+     data-width="100%" data-height="100%"
+     data-fit="none"
+     data-nav="none"
+     data-arrows="true"
+     data-click="true"
+     data-swipe="true"
+     data-loop="true">
+    {{ content | remove: '<p>' | remove: '</p>' }}
+</div>

@@ -1,24 +1,13 @@
 ---
-layout: default
+layout: screenshots
 order: 4
 title: Screenshots
 ---
-# Main window
-
-{:.center}
-![Main window](/resources/gwakeonlan/archive/latest/english/main.png)
-
-# Machine detail window
-
-{:.center}
-![Main window](/resources/gwakeonlan/archive/latest/english/detail.png)
-
-# ARP cache picker dialog
-
-{:.center}
-![Main window](/resources/gwakeonlan/archive/latest/english/arpcache.png)
-
-# About dialog
-
-{:.center}
-![About dialog](/resources/gwakeonlan/archive/latest/english/about.png)
+  <a href="/resources/gwakeonlan/archive/latest/english/main.png"
+    data-caption="Main window"></a>
+  <a href="/resources/gwakeonlan/archive/latest/english/detail.png"
+    data-caption="Machine detail window"></a>
+  <a href="/resources/gwakeonlan/archive/latest/english/arpcache.png"
+    data-caption="ARP cache picker dialog"></a>
+  <a href="/resources/gwakeonlan/archive/latest/english/about.png"
+    data-caption="About dialog"></a>
