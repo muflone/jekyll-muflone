@@ -9,10 +9,7 @@ require_jquery_iontabs: True
   <!-- End of page content section -->
 {% endunless %}
 
-<!-- Begin of license section -->
-<h1>{{ site.data.translations[page.language].downloads.title }}</h1>
-<p>{{ site.data.translations[page.language].license.text1 | replace: '$(NAME)', site.data[page.product].name | replace: '$(GITHUB)', site.data[page.product].gitrepo }}</p>
-<!-- End of license section -->
+{% include license.html type='download' %}
 
 <!-- Begin of downloads section -->
 <h1>{{ site.data.translations[page.language].downloads.distributions.title }}</h1>

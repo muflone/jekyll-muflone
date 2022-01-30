@@ -152,7 +152,7 @@ english:
       or file an issue in
       <a href="$(GITHUB)/issues" target="_blank">GitHub bugtracker</a>
       or <a href="$(GITHUB)/pulls" target="_blank">pull a request on GitHub</a>.
-  license:
+  license_gpl2:
     title: License
     text1: >
       <strong>$(NAME)</strong> is distributed as open source code
@@ -463,7 +463,7 @@ italian:
       <a href="$(GITHUB)/issues" target="_blank">segnalazioni di GitHub</a>
       oppure apri una
       <a href="$(GITHUB)/pulls" target="_blank">richiesta di pull su GitHub</a>.
-  license:
+  license_gpl2:
     title: Licenza
     text1: >
       <strong>$(NAME)</strong> viene distribuito sotto forma di codice
