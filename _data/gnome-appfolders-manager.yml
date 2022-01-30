@@ -44,6 +44,10 @@ versions:
     filename: gnome-appfolders-manager-0.4.0-1-any.pkg.tar.zst
     size: 132 kB
     md5sum: 452552596229772257ddf617282c0d60
+  - type: debianubuntu
+    filename: gnome-appfolders-manager_0.4.0-1_all.deb
+    size: 99 kB
+    md5sum: 73a2e438643779dfcc409dd3e7d06c57
 - version: 0.3.2
   normalized: v032
   packages:
