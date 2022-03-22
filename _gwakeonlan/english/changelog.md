@@ -3,6 +3,18 @@ layout: default
 order: 10
 title: Changelog
 ---
+# Version 0.7.0 (Oct 18, 2020)
+
+* Python 3 port
+* PEP 8 compliance
+* Replaced http links to https
+* Changed license to GPL-3+
+* Import hosts from ethers file
+* New and updated translations
+
+{:.center}
+![Main window for gWakeOnLAN 0.7.0](/resources/gwakeonlan/archive/v0.7.0/english/main.png)
+
 # Version 0.6.3 (Oct 27, 2018)
 
 * Updated German translation by Ettore Atalan

@@ -7,6 +7,21 @@ gitrepo: https://github.com/muflone/gwakeonlan
 translations_repo: https://www.transifex.com/projects/p/gwakeonlan/
 license: gpl3
 versions:
+- version: 0.7.0
+  normalized: v070
+  packages:
+  - type: source
+    filename: gwakeonlan-0.7.0.tar.gz
+    size: 131 kB
+    md5sum: 7C0DCBD2CCB0387504C7AEE4EB92E1D5
+  - type: archlinux
+    filename: gwakeonlan-0.7.0-1-any.pkg.tar.zst
+    size: 141 kB
+    md5sum: 67C10EB7700FD9DABBD2B6412F7719EF
+  - type: aur
+    filename: gwakeonlan-git
+    size: '-'
+    md5sum: '-'
 - version: 0.6.3
   normalized: v063
   packages:
@@ -18,10 +33,6 @@ versions:
     filename: gwakeonlan-0.6.3-1-any.pkg.tar.xz
     size: 92 kB
     md5sum: 76C76160276278035B854CDE7A30A153
-  - type: aur
-    filename: gwakeonlan-git
-    size: '-'
-    md5sum: '-'
 - version: 0.6.2
   normalized: v062
   packages:
@@ -86,3 +97,7 @@ translations:
 - slovenian
 - turkish
 - bulgarian
+- chinese
+- catalan
+- korean
+- lithuanian

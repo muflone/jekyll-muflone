@@ -3,6 +3,18 @@ layout: default
 order: 10
 title: Cambiamenti
 ---
+# Versione 0.7.0 (18 Ottobre 2020)
+
+* Migrazione a Python 3
+* Corrispondenza a PEP 8
+* Sostituiti i collegamenti http con https
+* Cambiata la licenza in GPL-3+
+* Importa sistemi da file ethers
+* Nuove ed aggiornate traduzione
+
+{:.center}
+![Finestra principale di gWakeOnLAN 0.7.0](/resources/gwakeonlan/archive/v0.7.0/italian/main.png)
+
 # Versione 0.6.3 (27 Ottobre 2018)
 
 * Aggiornata traduzione in tedesco da Ettore Atalan
