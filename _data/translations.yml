@@ -31,6 +31,8 @@ english:
     colombian:  Colombian
     swedish:    Swedish
     ukrainian:  Ukrainian
+    korean:     Korean
+    lithuanian: Lituanian
   sections:
     contacts: Contacts
     description: Description
@@ -350,6 +352,8 @@ italian:
     colombian:  Colombiano
     swedish:    Svedese
     ukrainian:  Ucraino
+    korean:     Coreano
+    lithuanian: Lituano
   sections:
     contacts: Contatti
     description: Descrizione
