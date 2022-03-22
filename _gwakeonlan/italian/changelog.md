@@ -3,6 +3,10 @@ layout: default
 order: 10
 title: Cambiamenti
 ---
+# Versione 0.6.3 (27 Ottobre 2018)
+
+* Aggiornata traduzione in tedesco da Ettore Atalan
+
 # Versione 0.6.2 (6 Settembre 2014)
 
 * Cambiato l'indirizzo del progetto in http://www.muflone.com/gwakeonlan

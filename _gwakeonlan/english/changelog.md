@@ -3,6 +3,10 @@ layout: default
 order: 10
 title: Changelog
 ---
+# Version 0.6.3 (Oct 27, 2018)
+
+* Updated German translation by Ettore Atalan
+
 # Version 0.6.2 (Sep 6, 2014)
 
 * Changed project URL to http://www.muflone.com/gwakeonlan
