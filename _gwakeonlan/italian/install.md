@@ -5,4 +5,4 @@ title: Installazione
 ---
 {% include installation.html type='debian' %}
 {% include installation.html type='archlinux' package='gwakeonlan' development='gwakeonlan-git' download='gwakeonlan' %}
-{% include installation.html type='python2' %}
+{% include installation.html type='python3' %}

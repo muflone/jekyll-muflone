@@ -41,6 +41,17 @@
   {{ site.data.translations[page.language].installation.python2.text3 }}
   </p></blockquote></blockquote></blockquote>
 
+  {% when 'python3' %}
+  <!-- Installation type for source code with Python 3 -->
+<h1>{{ site.data.translations[page.language].installation.python3.title }}</h1>
+<p>{{ site.data.translations[page.language].installation.python3.text1 | replace: '$(NAME)', site.data[page.product].name }}</p>
+<pre class="highlight"><code>{{ site.data.translations[page.language].installation.python3.commands1 | replace: '$(PACKAGE)', site.data[page.product].lowername }}</code></pre>
+
+<p>{{ site.data.translations[page.language].installation.python3.text2 }}</p>
+<blockquote><blockquote><blockquote><p>
+  {{ site.data.translations[page.language].installation.python3.text3 }}
+  </p></blockquote></blockquote></blockquote>
+
   {% when 'remmina-plugin-builder' %}
 <!-- Installation type for source code using Remmina Plugin Builder -->
 <h1>{{ site.data.translations[page.language].installation.remmina_plugin_builder.title }}</h1>

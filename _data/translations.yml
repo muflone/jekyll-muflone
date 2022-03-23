@@ -111,6 +111,31 @@ english:
         software uninstall will not be possibile but you will have to manually
         delete all the installed files that were reported during the last
         installation step.
+    python3:
+      title: Installation from source code with Python 3
+      text1: >
+        If the prebuilt package will not be available for your distribution you
+        can use the source code package to install $(NAME) using:
+      commands1: |
+        cd "~/folder with the downloaded file"
+        mkdir build
+        tar xzf "file name.pkg.tar.gz" -C build
+        cd build/$(PACKAGE)-*
+        python3 setup.py build
+        sudo python3 setup.py install
+        sudo gtk-update-icon-cache -q /usr/share/icons/hicolor/
+        sudo xdg-icon-resource forceupdate
+        sudo xdg-desktop-menu forceupdate
+        cd ..
+      text2: >
+        After the installation, if no errors were reported the folder build can
+        be removed from root or via <code>sudo rm -rf "build"</code> and the
+        same for the downloaded source package.
+      text3: >
+        After executing the manual installation from source code an automatic
+        software uninstall will not be possibile but you will have to manually
+        delete all the installed files that were reported during the last
+        installation step.
     remmina_plugin_builder:
       title: Installation from source code
       text1: >
@@ -420,6 +445,32 @@ italian:
         cd build/$(PACKAGE)-*
         python2 setup.py build
         sudo python2 setup.py install
+        sudo gtk-update-icon-cache -q /usr/share/icons/hicolor/
+        sudo xdg-icon-resource forceupdate
+        sudo xdg-desktop-menu forceupdate
+        cd ..
+      text2: >
+        Al termine dell'installazione, se non sono stati riportati errori sarà
+        possibile eliminare la cartella build da root oppure tramite
+        <code>sudo rm -rf "build"</code> e il file sorgente scaricato.
+      text3: >
+        Dopo aver eseguito la procedura di installazione manuale da codice
+        sorgente non sarà possibile disinstallare automaticamente il software
+        ma sarà necessario eliminare manualmente tutti i files installati che
+        sono indicati durante l'ultimo passaggio del processo di installazione.
+    python3:
+      title: Installazione dal codice sorgente con Python 3
+      text1: >
+        Se non fosse disponibile il pacchetto preassemblato per la propria
+        distribuzione è possibile utilizzare il pacchetto col codice sorgente
+        per installare $(NAME) utilizzando:
+      commands1: |
+        cd "~/cartella con il file scaricato"
+        mkdir build
+        tar xzf "nome del file.pkg.tar.gz" -C build
+        cd build/$(PACKAGE)-*
+        python3 setup.py build
+        sudo python3 setup.py install
         sudo gtk-update-icon-cache -q /usr/share/icons/hicolor/
         sudo xdg-icon-resource forceupdate
         sudo xdg-desktop-menu forceupdate
