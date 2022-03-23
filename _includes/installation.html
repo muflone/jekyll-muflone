@@ -30,15 +30,15 @@
 <pre class="highlight"><code>{{ site.data.translations[page.language].installation.archlinux.commands1 | replace: '$(PACKAGE)', include.download }}</code></pre>
     {% endif %}
 
-  {% when 'source' %}
-  <!-- Installation type for source code -->
-<h1>{{ site.data.translations[page.language].installation.source.title }}</h1>
-<p>{{ site.data.translations[page.language].installation.source.text1 | replace: '$(NAME)', site.data[page.product].name }}</p>
-<pre class="highlight"><code>{{ site.data.translations[page.language].installation.source.commands1 | replace: '$(PACKAGE)', site.data[page.product].lowername }}</code></pre>
+  {% when 'python2' %}
+  <!-- Installation type for source code with Python 2 -->
+<h1>{{ site.data.translations[page.language].installation.python2.title }}</h1>
+<p>{{ site.data.translations[page.language].installation.python2.text1 | replace: '$(NAME)', site.data[page.product].name }}</p>
+<pre class="highlight"><code>{{ site.data.translations[page.language].installation.python2.commands1 | replace: '$(PACKAGE)', site.data[page.product].lowername }}</code></pre>
 
-<p>{{ site.data.translations[page.language].installation.source.text2 }}</p>
+<p>{{ site.data.translations[page.language].installation.python2.text2 }}</p>
 <blockquote><blockquote><blockquote><p>
-  {{ site.data.translations[page.language].installation.source.text3 }}
+  {{ site.data.translations[page.language].installation.python2.text3 }}
   </p></blockquote></blockquote></blockquote>
 
   {% when 'remmina-plugin-builder' %}

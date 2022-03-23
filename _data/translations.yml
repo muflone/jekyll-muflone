@@ -86,8 +86,8 @@ english:
         The development version is also available in the AUR and can be
         installed using yaourt (or a similar AUR helper) with
         <code>yaourt -S $(PACKAGE)</code>.
-    source:
-      title: Installation from source code
+    python2:
+      title: Installation from source code with Python 2
       text1: >
         If the prebuilt package will not be available for your distribution you
         can use the source code package to install $(NAME) using:
@@ -407,8 +407,8 @@ italian:
         E' anche disponibile la versione di sviluppo in AUR e può essere
         installata utilizzando yaourt (o un analogo gestore per AUR) con
         <code>yaourt -S $(PACKAGE)</code>.
-    source:
-      title: Installazione dal codice sorgente
+    python2:
+      title: Installazione dal codice sorgente con Python 2
       text1: >
         Se non fosse disponibile il pacchetto preassemblato per la propria
         distribuzione è possibile utilizzare il pacchetto col codice sorgente
