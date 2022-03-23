@@ -243,6 +243,15 @@ english:
       archlinux64:
         title: Arch Linux x86_64 (64 bit)
         icon: archlinux-32.png
+      appimage:
+        title: AppImage
+        icon: appimage-32.png
+      appimage32:
+        title: AppImage i686 (32 bit)
+        icon: appimage-32.png
+      appimage64:
+        title: AppImage x86_64 (64 bit)
+        icon: appimage-32.png
       debianubuntu:
         title: Debian and Ubuntu
         icon: debianubuntu-32.png
@@ -594,6 +603,15 @@ italian:
       archlinux64:
         title: Arch Linux x86_64 (64 bit)
         icon: archlinux-32.png
+      appimage:
+        title: AppImage
+        icon: appimage-32.png
+      appimage32:
+        title: AppImage i686 (32 bit)
+        icon: appimage-32.png
+      appimage64:
+        title: AppImage x86_64 (64 bit)
+        icon: appimage-32.png
       debianubuntu:
         title: Debian e Ubuntu
         icon: debianubuntu-32.png

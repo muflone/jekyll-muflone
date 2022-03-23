@@ -14,6 +14,10 @@ versions:
     filename: gwakeonlan-0.7.0.tar.gz
     size: 131 kB
     md5sum: 7C0DCBD2CCB0387504C7AEE4EB92E1D5
+  - type: appimage64
+    filename: gwakeonlan-0.7.0-x86_64.AppImage
+    size: 47 MB
+    md5sum: 02986A8628D5DAE12129EFE3C874CF50
   - type: archlinux
     filename: gwakeonlan-0.7.0-1-any.pkg.tar.zst
     size: 141 kB
