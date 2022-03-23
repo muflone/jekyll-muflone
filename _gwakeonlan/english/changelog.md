@@ -3,6 +3,21 @@ layout: default
 order: 10
 title: Changelog
 ---
+# Version 0.8.0 (Mar 21, 2022)
+
+* Send the magic packet 10 times
+* Major cleanup
+* Added shortcuts dialog
+* When no machines are selected use the currently selected row
+* Added an icon next to each machine
+* Dropped AppMenu
+* Redesigned the main UI with GtkActions and GtkHeaderBar
+* Added Select All and Deselect All options
+* Handle network errors when turning on the machines
+
+{:.center}
+![Main window for gWakeOnLAN 0.8.0](/resources/gwakeonlan/archive/v0.8.0/english/main.png)
+
 # Version 0.7.0 (Oct 18, 2020)
 
 * Python 3 port

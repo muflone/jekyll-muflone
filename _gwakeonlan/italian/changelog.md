@@ -3,6 +3,21 @@ layout: default
 order: 10
 title: Cambiamenti
 ---
+# Versione 0.8.0 (21 Marzo 2022)
+
+* Invia il pacchetto magico 10 volte
+* Ripulitura maggiore
+* Aggiunta finestra di dialogo delle scorciatoie
+* Quando nessuna macchina è selezionata usa la riga attualmente selezionata
+* Aggiunta un'icona accanto ad ogni macchina
+* Rimosso l'AppMenu
+* Ridisegnata l'interfaccia utente principale con GtkActions e GtkHeaderBar
+* Aggiunte le opzioni Seleziona tutto e Deseleziona tutto
+* Gestiti gli errori di rete all'accensione delle macchine
+
+{:.center}
+![Finestra principale di gWakeOnLAN 0.8.0](/resources/gwakeonlan/archive/v0.8.0/italian/main.png)
+
 # Versione 0.7.0 (18 Ottobre 2020)
 
 * Migrazione a Python 3
