@@ -57,9 +57,6 @@ require_jquery_iontabs: True
               <td class="md5sum">{{ package.md5sum | upcase }}</td>
               <td>
     {% if package.type != 'aur' %}
-                <a href="/resources/{{ page.product }}/archive/v{{ version.version}}/{{ package.filename }}"
-                  title="{{ site.data.translations[page.language].downloads.from.muflone }}">
-                  <img src="/theme/images/muflone-32.png"></a>
                 <a href="{{ site.data[page.product].gitrepo }}/releases/download/{{ version.version }}/{{ package.filename }}"
                   title="{{ site.data.translations[page.language].downloads.from.github }}">
                   <img src="/theme/images/github-32.png"></a>
