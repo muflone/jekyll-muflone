@@ -68,11 +68,11 @@ english:
     archlinux:
       title: Installation on Arch Linux and derivatives
       text1: >
-        It's possible to download the <strong>tar.xz</strong> package from the
+        It's possible to download the <strong>tar.zst</strong> package from the
         <a href="download.html">Download page</a> and install it using:
       commands1: |
         cd "~/folder with the downloaded file"
-        sudo pacman -U "$(PACKAGE)-version.tar.xz"
+        sudo pacman -U "$(PACKAGE)-version.tar.zst"
       package: >
         In the official <strong>community repository</strong> you can find the
         latest available version, it can be installed using the command:
@@ -424,11 +424,11 @@ italian:
     archlinux:
       title: Installazione su Arch Linux e derivate
       text1: >
-        E' anche possibile scaricare il pacchetto <strong>tar.xz</strong> dalla
+        E' anche possibile scaricare il pacchetto <strong>tar.zst</strong> dalla
         <a href="download.html">pagina Scarica</a> e installarlo utilizzando:
       commands1: |
         cd "~/cartella con il file scaricato"
-        sudo pacman -U "$(PACKAGE)-versione.tar.xz"
+        sudo pacman -U "$(PACKAGE)-versione.tar.zst"
       package: >
         Nel repository ufficiale <strong>community</strong> è possibile trovare
         l'ultima versione disponibile, e può essere installata usando il comando
