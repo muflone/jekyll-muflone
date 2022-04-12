@@ -4,7 +4,7 @@ order: 6
 title: Cambiamenti
 ---
 # Versione 0.4.4 (10 Aprile 2022)
-* Utilizza sempre la dimensione pulsanti per i pulsanti
+* Ridotta la dimensione delle icone dei pulsanti
 * Correzione traduzioni
 * Rimosso l'indicatore di ordinamento delle applicazioni
 * Resa la colonna applicazioni non cliccabile

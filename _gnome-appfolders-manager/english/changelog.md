@@ -4,7 +4,7 @@ order: 6
 title: Changelog
 ---
 # Version 0.4.4 (Apr 10, 2022)
-* Always use button size for buttons
+* Reduced icon size for buttons
 * Translations fixes
 * Remove applications sort indicator
 * Make the applications column not clickable
