@@ -3,6 +3,20 @@ layout: default
 order: 6
 title: Changelog
 ---
+# Version 0.4.3 (Apr 4, 2022)
+* Removed symbolic icons setup
+* Removed small icons setup
+* Removed the InfoBar
+* Moved option to show hidden files in the main options menu
+* Added AppImage builder setup file
+* New Portuguese automatic translation
+* New Spanish automatic translation
+* Added shortcut to open the options menu
+* Added AppStream metainfo data
+
+{:.center}
+![Main window for GNOME AppFolders Manager 0.4.3](/resources/gnome-appfolders-manager/archive/v0.4.3/english/main.png)
+
 # Version 0.4.2 (Jan 14, 2022)
 * Fixed Spanish translation
 * Fixed Russian translation
