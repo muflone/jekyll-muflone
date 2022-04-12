@@ -14,6 +14,10 @@ versions:
     filename: gwakeonlan-0.8.0.tar.gz
     size: 137 kB
     md5sum: 009D6C6FF5D8F9DCAED845AAC42738F8
+  - type: debianubuntu
+    filename: gwakeonlan_0.8.0-1_all.deb
+    size: 124 kB
+    md5sum: 3BA67AD4E49F99656F23CBC1FFAD78F4
   - type: appimage64
     filename: gwakeonlan-0.8.0-x86_64.AppImage
     size: 47 MB
@@ -22,10 +26,6 @@ versions:
     filename: gwakeonlan-0.8.0-1-any.pkg.tar.zst
     size: 155 kB
     md5sum: CE403B9A36EB235E33B3073A40270831
-  - type: debianubuntu
-    filename: gwakeonlan_0.8.0-1_all.deb
-    size: 124 kB
-    md5sum: 3BA67AD4E49F99656F23CBC1FFAD78F4
   - type: aur
     filename: gwakeonlan-git
     size: '-'
