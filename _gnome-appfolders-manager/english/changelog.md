@@ -3,6 +3,15 @@ layout: default
 order: 6
 title: Changelog
 ---
+# Version 0.4.4 (Apr 10, 2022)
+* Always use button size for buttons
+* Translations fixes
+* Remove applications sort indicator
+* Make the applications column not clickable
+
+{:.center}
+![Main window for GNOME AppFolders Manager 0.4.4](/resources/gnome-appfolders-manager/archive/v0.4.4/english/main.png)
+
 # Version 0.4.3 (Apr 4, 2022)
 * Removed symbolic icons setup
 * Removed small icons setup

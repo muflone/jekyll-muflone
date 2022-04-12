@@ -3,6 +3,15 @@ layout: default
 order: 6
 title: Cambiamenti
 ---
+# Version 0.4.4 (10 Aprile 2022)
+* Utilizza sempre la dimensione pulsanti per i pulsanti
+* Correzione traduzioni
+* Rimosso l'indicatore di ordinamento delle applicazioni
+* Resa la colonna applicazioni non cliccabile
+
+{:.center}
+![Finestra principale di GNOME AppFolders Manager 0.4.4](/resources/gnome-appfolders-manager/archive/v0.4.4/italian/main.png)
+
 # Version 0.4.3 (4 Aprile 2022)
 * Rimossa impostazione per le icone simboliche
 * Rimossa impostazione per le icone piccole
