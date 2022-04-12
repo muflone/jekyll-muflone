@@ -9,5 +9,7 @@ title: Schermate
     data-caption="Finestra dettaglio della macchina"></a>
   <a href="/resources/gwakeonlan/archive/latest/italian/arpcache.png"
     data-caption="Finestra per la scelta da cache ARP"></a>
+  <a href="/resources/gwakeonlan/archive/latest/italian/shortcuts.png"
+    data-caption="Finestra delle scorciatoie"></a>
   <a href="/resources/gwakeonlan/archive/latest/italian/about.png"
     data-caption="Finestra delle informazioni"></a>

@@ -3,6 +3,16 @@ layout: default
 order: 10
 title: Changelog
 ---
+# Version 0.8.1 (Apr 3, 2022)
+
+* Updated Lithuanian translation
+* Updated Dutch translation
+* Add apputils metainfo specification file
+* Updated AppImageBuilder file
+
+{:.center}
+![About dialog for gWakeOnLAN 0.8.1](/resources/gwakeonlan/archive/v0.8.1/english/about.png)
+
 # Version 0.8.0 (Mar 21, 2022)
 
 * Send the magic packet 10 times

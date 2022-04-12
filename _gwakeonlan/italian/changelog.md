@@ -3,6 +3,16 @@ layout: default
 order: 10
 title: Cambiamenti
 ---
+# Versione 0.8.1 (3 Aprile 2022)
+
+* Aggiornata traduzione lituana
+* Aggiornata traduzione olandese
+* Aggiunti dati AppStream metainfo
+* Aggiornato il file AppImageBuilder
+
+{:.center}
+![Finestra delle informazioni di gWakeOnLAN 0.8.1](/resources/gwakeonlan/archive/v0.8.1/italian/about.png)
+
 # Versione 0.8.0 (21 Marzo 2022)
 
 * Invia il pacchetto magico 10 volte
