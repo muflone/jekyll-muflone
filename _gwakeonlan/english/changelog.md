@@ -3,6 +3,15 @@ layout: default
 order: 10
 title: Changelog
 ---
+# Version 0.8.2 (Apr 15, 2022)
+
+* Added UIBase to inherit the common UI methods
+* Added GTK+ translations to AppImage
+* Load computer icon from filesystem
+
+{:.center}
+![Detail window for gWakeOnLAN 0.8.2](/resources/gwakeonlan/archive/v0.8.2/english/detail.png)
+
 # Version 0.8.1 (Apr 3, 2022)
 
 * Updated Lithuanian translation
