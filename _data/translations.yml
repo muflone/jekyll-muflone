@@ -165,6 +165,15 @@ english:
         sudo make install
         sudo gtk-update-icon-cache -q /usr/share/icons/hicolor/
         cd ..
+      text5: >
+        After the installation, if no errors were reported the folder build can
+        be removed from root or via <code>sudo rm -rf "build"</code> and the
+        same for the downloaded source package.
+      text6: >
+        After executing the manual installation from source code an automatic
+        software uninstall will not be possibile but you will have to manually
+        delete all the installed files that were reported during the last
+        installation step.
   translations:
     title: Translations
     text1: >
@@ -524,6 +533,15 @@ italian:
         sudo make install
         sudo gtk-update-icon-cache -q /usr/share/icons/hicolor/
         cd ..
+      text5: >
+        Al termine dell'installazione, se non sono stati riportati errori sarà
+        possibile eliminare la cartella build da root oppure tramite
+        <code>sudo rm -rf "build"</code> e il file sorgente scaricato.
+      text6: >
+        Dopo aver eseguito la procedura di installazione manuale da codice
+        sorgente non sarà possibile disinstallare automaticamente il software
+        ma sarà necessario eliminare manualmente tutti i files installati che
+        sono indicati durante l'ultimo passaggio del processo di installazione.
   translations:
     title: Traduzioni
     text1: >
