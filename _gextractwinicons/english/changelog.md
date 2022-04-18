@@ -3,6 +3,10 @@ layout: default
 order: 6
 title: Changelog
 ---
+# Version 0.4.2 (Oct 4, 2014)
+
+* New German translation by Ettore Atalan
+
 # Version 0.4.1 (Sep 6, 2014)
 
 * Changed website to http://www.muflone.com/gextractwinicons/

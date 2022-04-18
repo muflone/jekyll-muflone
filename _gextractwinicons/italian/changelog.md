@@ -3,7 +3,11 @@ layout: default
 order: 6
 title: Cambiamenti
 ---
-# Version 0.4.1 (6 Settembre 2014)
+# Versione 0.4.2 (4 Ottobre 2014)
+
+* Nuova traduzione tedesco da Ettore Atalan
+
+# Versione 0.4.1 (6 Settembre 2014)
 
 * Cambiato sito web in http://www.muflone.com/gextractwinicons/
 * Aggiornate le traduzioni
