@@ -17,7 +17,7 @@ english:
     hebrew:     Hebrew
     basque:     Basque
     dutch:      Dutch
-    portoguese: Portoguese
+    portuguese: Portuguese
     slovak:     Slovak
     slovenian:  Slovenian
     turkish:    Turkish
@@ -317,9 +317,9 @@ english:
       unavailable: Unavailable
     languages:
       af1: Afrikaans male
-      br1: Brazilian Portoguese male
-      br3: Brazilian Portoguese male
-      br4: Brazilian Portoguese female
+      br1: Brazilian Portuguese male
+      br3: Brazilian Portuguese male
+      br4: Brazilian Portuguese female
       cr1: Croatian male
       cz2: Czech male
       de2: German male
@@ -344,7 +344,7 @@ english:
       mx2: Spanish Mexican male
       nl2: Dutch male
       pl1: Polish female
-      pt1: European Portoguese female
+      pt1: European Portuguese female
       ro1: Romanian male
       sw1: Swedish male
       sw2: Swedish female
@@ -381,7 +381,7 @@ italian:
     hebrew:     Ebraico
     basque:     Basco
     dutch:      Olandese
-    portoguese: Portoghese
+    portuguese: Portoghese
     slovak:     Slovacco
     slovenian:  Sloveno
     turkish:    Turco
