@@ -3,6 +3,20 @@ layout: default
 order: 6
 title: Changelog
 ---
+# Version 0.5.0 (Apr 18, 2022)
+
+* Ported to Python 3
+* Dropped AppMenu
+* Added shortcuts dialog
+* Updated translations
+* New Lithuanian translation by Moo
+* New Dutch translation by Heimen Stoffels
+* New Portuguese translation by Danielson Tavares
+* Added AppImage builder setup file
+
+{:.center}
+![Main window for gExtractWinIcons 0.5.0](/resources/gextractwinicons/archive/v0.5.0/english/main.png)
+
 # Version 0.4.2 (Oct 4, 2014)
 
 * New German translation by Ettore Atalan

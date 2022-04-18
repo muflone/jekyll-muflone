@@ -3,6 +3,20 @@ layout: default
 order: 6
 title: Cambiamenti
 ---
+# Versione 0.5.0 (18 Aprile 2022)
+
+* Migrazione a Python 3
+* Eliminato l'AppMenu
+* Aggiunta finestra delle scorciatoie
+* Aggiornate le traduzioni
+* Nuova traduzione in lituano da Moo
+* Nuova traduzione in olandese da Heimen Stoffels
+* Nuova traduzione in portoghese da Danielson Tavares
+* Aggiunto file di impostazione per AppImage builder
+
+{:.center}
+![Finestra principale di gExtractWinIcons 0.5.0](/resources/gextractwinicons/archive/v0.5.0/italian/main.png)
+
 # Versione 0.4.2 (4 Ottobre 2014)
 
 * Nuova traduzione tedesco da Ettore Atalan

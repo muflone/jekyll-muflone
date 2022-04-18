@@ -5,8 +5,35 @@ description:
   english: Extract cursors, icons and images from MS Windows resources files (like .exe, .dll, .ocx and .cpl).
 gitrepo: https://github.com/muflone/gextractwinicons
 translations_repo: https://www.transifex.com/projects/p/gextractwinicons/
-license: gpl2
+license: gpl3
 versions:
+- version: 0.5.0
+  normalized: v050
+  packages:
+  - type: source
+    filename: gextractwinicons-0.5.0.tar.gz
+    size: 97 kB
+    md5sum: 45e8831ce69246ea8d375d6fc3f8c1ee
+  - type: debianubuntu
+    filename: gextractwinicons_0.5.0-1_all.deb
+    size: 86 kB
+    md5sum: 3451b839e1706423eac514b8c6008243
+  - type: appimage64
+    filename: gextractwinicons-0.5.0-x86_64.AppImage
+    size: 70 MB
+    md5sum: c7fcef474b1cc5d6714171bf264120c2
+  - type: archlinux
+    filename: gextractwinicons-0.5.0-1-any.pkg.tar.zst
+    size: 110 kB
+    md5sum: 3166c28f20a4a90739cd8834e04b6330
+  - type: aur
+    filename: gextractwinicons
+    size: '-'
+    md5sum: '-'
+  - type: aur
+    filename: gextractwinicons-git
+    size: '-'
+    md5sum: '-'
 - version: 0.4.2
   normalized: v042
   packages:
@@ -18,14 +45,6 @@ versions:
     filename: gextractwinicons-0.4.2-1-any.pkg.tar.xz
     size: 70 kB
     md5sum: f65db7d9756b8bad560f96436c5adc72
-  - type: aur
-    filename: gextractwinicons
-    size: '-'
-    md5sum: '-'
-  - type: aur
-    filename: gextractwinicons-git
-    size: '-'
-    md5sum: '-'
 - version: 0.4.1
   normalized: v041
   packages:
@@ -73,3 +92,6 @@ translations:
 - catalan
 - bulgarian
 - german
+- lithuanian
+- dutch
+- portuguese
