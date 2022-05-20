@@ -3,6 +3,10 @@ layout: default
 order: 7
 title: Cambiamenti
 ---
+# Versione 0.2.2 (4 Ottobre 2014)
+
+* Aggiornata la traduzione in tedesco
+
 # Versione 0.2.1 (6 Settembre 2014)
 
 * Aggiornate le traduzioni
