@@ -6,7 +6,7 @@ title: Domande frequenti
 ## Cosa può fare BlueWho per me?
 
 BlueWho può effettuare scansioni nella rete alla ricerca di dispositivi
-Bluetooth nelle vicinanze e ispezionare i loro servizi Bluetooth.
+Bluetooth nelle vicinanze.
 
 ## Cosa non può fare BlueWho per me?
 

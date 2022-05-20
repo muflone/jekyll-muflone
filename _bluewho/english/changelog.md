@@ -3,6 +3,17 @@ layout: default
 order: 7
 title: Changelog
 ---
+# Version 0.5.0 (May 15, 2022)
+
+* Dropped AppMenu
+* Ported from pybluez to bluezero
+* Removed services details
+* Removed preferences dialog and moved preferences in options menu
+* Added options for adding fake devices
+* Translations updates
+* New Lithuanian translation by Moo
+* New Russian translation by Dmitry
+
 # Version 0.4.0 (Apr 30, 2021)
 
 * Many fixes and changes

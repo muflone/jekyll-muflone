@@ -5,8 +5,7 @@ title: FAQ
 ---
 ## What can do BlueWho for me?
 
-BlueWho can scan the network to find Bluetooth devices near you and
-inspect their Bluetooth services.
+BlueWho can scan the network to find Bluetooth devices near you.
 
 ## What cannot do BlueWho for me?
 

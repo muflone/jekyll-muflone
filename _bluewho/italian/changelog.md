@@ -3,6 +3,17 @@ layout: default
 order: 7
 title: Cambiamenti
 ---
+# Versione 0.5.0 (15 Maggio, 2022)
+
+* Eliminazione AppMenu
+* Migrazione da pybluez a bluezero
+* Rimossi i dettagli dei servizi
+* Rimossa la finestra delle preferenze e spostate nel menu opzioni
+* Aggiunte opzioni per l'aggiunta di dispositivi fasulli
+* Aggiornamento traduzioni
+* Nuova traduzione in lituano da Moo
+* Nuova traduzione in russo da Dmitry
+
 # Versione 0.4.0 (30 Aprile 2021)
 
 * Numerose correzioni e cambiamenti
