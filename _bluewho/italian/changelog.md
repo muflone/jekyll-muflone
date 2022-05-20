@@ -3,6 +3,12 @@ layout: default
 order: 7
 title: Cambiamenti
 ---
+# Versione 0.3.0 (26 Aprile 2021)
+
+* Cambiata licenza da GPL-2+ a GPL-3+
+* Migrazione da Python 2 a Python 3
+* Aggiunta velocità di scansione
+
 # Versione 0.2.2 (4 Ottobre 2014)
 
 * Aggiornata la traduzione in tedesco

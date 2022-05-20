@@ -7,13 +7,13 @@ gitrepo: https://github.com/muflone/bluewho
 translations_repo: https://www.transifex.com/projects/p/bluewho/
 license: gpl3
 versions:
-- version: 0.2.2
-  normalized: v022
+- version: 0.3.0
+  normalized: v030
   packages:
   - type: source
-    filename: bluewho-0.2.2.tar.gz
-    size: 335 kB
-    md5sum: 9e5853ee2ace518931beb05954757250
+    filename: bluewho-0.3.0.tar.gz
+    size: 394 kB
+    md5sum: b510d1580b57c346d7d45db1e6fdea44
   - type: aur
     filename: bluewho
     size: '-'
@@ -22,6 +22,13 @@ versions:
     filename: bluewho-git
     size: '-'
     md5sum: '-'
+- version: 0.2.2
+  normalized: v022
+  packages:
+  - type: source
+    filename: bluewho-0.2.2.tar.gz
+    size: 335 kB
+    md5sum: 9e5853ee2ace518931beb05954757250
 - version: 0.2.1
   normalized: v021
   packages:

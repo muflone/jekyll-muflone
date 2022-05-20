@@ -3,6 +3,12 @@ layout: default
 order: 7
 title: Changelog
 ---
+# Version 0.3.0 (Apr 26, 2021)
+
+* Changed license from GPL-2+ to GPL-3+
+* Ported from Python from 2 to Python 3
+* Added scan speed
+
 # Version 0.2.2 (Oct 4, 2014)
 
 * Updated German translation
