@@ -3,6 +3,16 @@ layout: default
 order: 7
 title: Changelog
 ---
+# Version 0.4.0 (Apr 30, 2021)
+
+* Many fixes and changes
+* Search local adapters using dbus
+* Power on adapters before scan
+* Check if bluez is available
+* Added confirmation before clearing the devices list
+* Added shortcuts dialog
+* Added tooltips
+
 # Version 0.3.0 (Apr 26, 2021)
 
 * Changed license from GPL-2+ to GPL-3+

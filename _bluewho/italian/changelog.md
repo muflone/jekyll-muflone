@@ -3,6 +3,16 @@ layout: default
 order: 7
 title: Cambiamenti
 ---
+# Versione 0.4.0 (30 Aprile 2021)
+
+* Numerose correzioni e cambiamenti
+* Ricerca adattatori locali utilizzando dbus
+* Accensione degli adattatori prima della scansione
+* Controlla se bluez è disponibile
+* Aggiunga conferma prima di svuotare l'elenco dei dispositivi
+* Aggiunta finestra delle scorciatoie
+* Aggiunti suggerimenti
+
 # Versione 0.3.0 (26 Aprile 2021)
 
 * Cambiata licenza da GPL-2+ a GPL-3+
