@@ -18,7 +18,7 @@ versions:
     md5sum: 5f71c42be4c77ce546eefde609fa44a5
   - type: appimage64
     filename: gwakeonlan-0.8.2-x86_64.AppImage
-    md5sum: b3bd2f27cbbd479233e6d3bef1babda2
+    md5sum: aceabd2d94cc7a308b47d3b57ccf3d0f
   - type: archlinux
     filename: gwakeonlan-0.8.2-2-any.pkg.tar.zst
     md5sum: 82393117b8ee1e7867136a7803885c42
@@ -45,76 +45,76 @@ versions:
   packages:
   - type: source
     filename: gwakeonlan-0.8.0.tar.gz
-    md5sum: 009D6C6FF5D8F9DCAED845AAC42738F8
+    md5sum: 009d6c6ff5d8f9dcaed845aac42738f8
   - type: debianubuntu
     filename: gwakeonlan_0.8.0-1_all.deb
-    md5sum: 3BA67AD4E49F99656F23CBC1FFAD78F4
+    md5sum: 3ba67ad4e49f99656f23cbc1ffad78f4
   - type: appimage64
     filename: gwakeonlan-0.8.0-x86_64.AppImage
-    md5sum: 0762B858B1E5F8AA924E08CC6ED3EA7C
+    md5sum: 0762b858b1e5f8aa924e08cc6ed3ea7c
   - type: archlinux
     filename: gwakeonlan-0.8.0-1-any.pkg.tar.zst
-    md5sum: CE403B9A36EB235E33B3073A40270831
+    md5sum: ce403b9a36eb235e33b3073a40270831
 - version: 0.7.0
   normalized: v070
   packages:
   - type: source
     filename: gwakeonlan-0.7.0.tar.gz
-    md5sum: 7C0DCBD2CCB0387504C7AEE4EB92E1D5
+    md5sum: 7c0dcbd2ccb0387504c7aee4eb92e1d5
   - type: appimage64
     filename: gwakeonlan-0.7.0-x86_64.AppImage
-    md5sum: 02986A8628D5DAE12129EFE3C874CF50
+    md5sum: 02986a8628d5dae12129efe3c874cf50
   - type: archlinux
     filename: gwakeonlan-0.7.0-1-any.pkg.tar.zst
-    md5sum: 67C10EB7700FD9DABBD2B6412F7719EF
+    md5sum: 67c10eb7700fd9dabbd2b6412f7719ef
 - version: 0.6.3
   normalized: v063
   packages:
   - type: source
     filename: gwakeonlan-0.6.3.tar.gz
-    md5sum: CF182CDE5631A0261D952C9C5D19353B
+    md5sum: cf182cde5631a0261d952c9c5d19353b
   - type: archlinux
     filename: gwakeonlan-0.6.3-1-any.pkg.tar.xz
-    md5sum: 76C76160276278035B854CDE7A30A153
+    md5sum: 76c76160276278035b854cde7a30a153
 - version: 0.6.2
   normalized: v062
   packages:
   - type: source
     filename: gwakeonlan-0.6.2.tar.gz
-    md5sum: CCDC29789E9A9233631D4E2D403B5797
+    md5sum: ccdc29789e9a9233631d4e2d403b5797
   - type: archlinux
     filename: gwakeonlan-0.6.2-1-any.pkg.tar.xz
-    md5sum: A21AAFF372DEB5FE06990D5622EBC68E
+    md5sum: a21aaff372deb5fe06990d5622ebc68e
 - version: 0.6.1
   normalized: v061
   packages:
   - type: source
     filename: gwakeonlan-0.6.1.tar.gz
-    md5sum: 3B4D50F2B1FED2260F36DE492ED1E84F
+    md5sum: 3b4d50f2b1fed2260f36de492ed1e84f
   - type: archlinux
     filename: gwakeonlan-0.6.1-1-any.pkg.tar.xz
-    md5sum: 339C0C49E7ED56EBF23F6C483FE562FB
+    md5sum: 339c0c49e7ed56ebf23f6c483fe562fb
 - version: 0.6
   normalized: v060
   packages:
   - type: source
     filename: gwakeonlan-0.6.tar.gz
-    md5sum: 45308DC3DF2ACB26968F3BEDCC0C9A52
+    md5sum: 45308dc3df2acb26968f3bedcc0c9a52
   - type: archlinux
     filename: gwakeonlan-0.6-2-any.pkg.tar.xz
-    md5sum: E217BF6E30A899884E55972168FE52C8
+    md5sum: e217bf6e30a899884e55972168fe52c8
 - version: 0.5.1
   normalized: v051
   packages:
   - type: source
     filename: gwakeonlan-0.5.1.tar.gz
-    md5sum: 68BDE5820DB9C122EDF9E221797049FA
+    md5sum: 68bde5820db9c122edf9e221797049fa
   - type: debianubuntu
     filename: gwakeonlan_0.5.1-1_all.deb
-    md5sum: D267F4148769D66E5AF3D2CA93EEF8E2
+    md5sum: d267f4148769d66e5af3d2ca93eef8e2
   - type: archlinux
     filename: gwakeonlan-0.5.1-3-any.pkg.tar.xz
-    md5sum: 9A6FE2FDF58AA7C72A7B4ABFE9A9704A
+    md5sum: 9a6fe2fdf58aa7c72a7b4abfe9a9704a
 translations:
 - english
 - french
