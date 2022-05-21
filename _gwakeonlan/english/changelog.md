@@ -3,6 +3,18 @@ layout: default
 order: 10
 title: Changelog
 ---
+# Version 0.8.3 (May 22, 2022)
+
+* Added shortcut to open the options menu
+* Updated Turkish translation
+* Updated Russian translation
+* Added usage instructions on README
+* Enhanced logging format
+* Made the Turn on button as suggested action
+
+{:.center}
+![Main window for gWakeOnLAN 0.8.3](/resources/gwakeonlan/archive/v0.8.3/english/main.png)
+
 # Version 0.8.2 (Apr 15, 2022)
 
 * Added UIBase to inherit the common UI methods

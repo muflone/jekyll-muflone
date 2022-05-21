@@ -3,6 +3,18 @@ layout: default
 order: 10
 title: Cambiamenti
 ---
+# Versione 0.8.3 (22 Maggio 2022)
+
+* Aggiunta scorciatoia per aprire il menu opzioni
+* Aggiornata traduzione in turco
+* Aggiornata traduzione in russo
+* Aggiunte istruzioni d'uso sul file README
+* Migliorato il formato di logging
+* Contrassegnato il pulsante Accendi come azione suggerita
+
+{:.center}
+![Finestra principale di gWakeOnLAN 0.8.3](/resources/gwakeonlan/archive/v0.8.3/italian/main.png)
+
 # Versione 0.8.2 (15 Aprile 2022)
 
 * Aggiunta UIBase per ereditare i metodi comuni della UI
