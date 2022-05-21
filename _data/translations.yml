@@ -218,7 +218,6 @@ english:
       title: Downloadable packages
       type: Package type
       name: Package name
-      size: Size
       md5: MD5
       action: Download
       text1: >
@@ -587,7 +586,6 @@ italian:
       title: Pacchetti da scaricare
       type: Tipo di pacchetto
       name: Nome del pacchetto
-      size: Dimensione
       md5: MD5
       action: Scarica
       text1: >

@@ -12,81 +12,66 @@ versions:
   packages:
   - type: source
     filename: bluewho-0.5.0.tar.gz
-    size: 391 kB
     md5sum: ffb6ab79aa64d24eecc6fca4371dee4e
   - type: appimage64
     filename: bluewho-0.5.0-x86_64.AppImage
-    size: 56 MB
     md5sum: 628a3d423987e5990ba3795190df802d
   - type: archlinux64
     filename: bluewho-0.5.0-1-any.pkg.tar.zst
-    size: 408 kB
     md5sum: 023759ac6d537e78620d3018eb8edd75
   - type: aur
     filename: bluewho
-    size: '-'
     md5sum: '-'
   - type: aur
     filename: bluewho-git
-    size: '-'
     md5sum: '-'
 - version: 0.4.0
   normalized: v040
   packages:
   - type: source
     filename: bluewho-0.4.0.tar.gz
-    size: 397 kB
     md5sum: c0e7ae1e04bd951c572280b07dc2e62d
 - version: 0.3.0
   normalized: v030
   packages:
   - type: source
     filename: bluewho-0.3.0.tar.gz
-    size: 394 kB
     md5sum: b510d1580b57c346d7d45db1e6fdea44
 - version: 0.2.2
   normalized: v022
   packages:
   - type: source
     filename: bluewho-0.2.2.tar.gz
-    size: 335 kB
     md5sum: 9e5853ee2ace518931beb05954757250
 - version: 0.2.1
   normalized: v021
   packages:
   - type: source
     filename: bluewho-0.2.1.tar.gz
-    size: 335 kB
     md5sum: df8ab67e21081bcdc3261596f56bc220
   - type: archlinux
     filename: bluewho-0.2.1-1-any.pkg.tar.xz
-    size: 328 kB
     md5sum: 5a4547e00a975143d39f6c47a6ffb32e
 - version: 0.2
   normalized: v020
   packages:
   - type: source
     filename: bluewho-0.2.tar.gz
-    size: 325 kB
     md5sum: 658c4431e652de5b05296c5d42db4525
   - type: archlinux
     filename: bluewho-0.2-1-any.pkg.tar.xz
-    size: 321 kB
     md5sum: d1f9e42262e0e70c9e1457dbb5f03b64
 - version: 0.1
   normalized: v010
   packages:
   - type: source
     filename: bluewho-0.1.tar.gz
-    size: 191 kB
     md5sum: e263d2c77b704514fa5c1c97984cfd9d
   - type: debianubuntu
     filename: bluewho_0.1-1_all.deb
-    size: 179 kB
     md5sum: a6f61f7b6e689f583988a56bd02663c1
   - type: archlinux
     filename: bluewho-0.1-1-any.pkg.tar.xz
-    size: 167 kB
     md5sum: 3c01fe0eca7d2eb6dd30f7ad1c1f4e3e
 translations:
 - english

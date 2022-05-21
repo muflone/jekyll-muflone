@@ -41,7 +41,6 @@ require_jquery_iontabs: True
               <tr>
                 <th>{{ site.data.translations[page.language].downloads.packages.type }}</th>
                 <th>{{ site.data.translations[page.language].downloads.packages.name }}</th>
-                <th>{{ site.data.translations[page.language].downloads.packages.size }}</th>
                 <th>{{ site.data.translations[page.language].downloads.packages.md5 }}</th>
                 <th>{{ site.data.translations[page.language].downloads.packages.action }}</th>
               </tr>
@@ -53,7 +52,6 @@ require_jquery_iontabs: True
                 {{ site.data.translations[page.language].downloads.types[package.type].title }}
               </td>
               <td class="name">{{ package.filename }}</td>
-              <td class="size">{{ package.size }}</td>
               <td class="md5sum">{{ package.md5sum | upcase }}</td>
               <td>
     {% if package.type != 'aur' %}

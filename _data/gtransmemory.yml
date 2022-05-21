@@ -12,59 +12,48 @@ versions:
   packages:
   - type: source
     filename: gtransmemory-0.3.0.tar.gz
-    size: 133 kB
     md5sum: a53f05259c1632437addb8c1bf10bd42
   - type: archlinux
     filename: gtransmemory-0.3.0-1-any.pkg.tar.xz
-    size: 135 kB
     md5sum: 1e6017775c403e896afd3eaa5640a0bc
   - type: aur
     filename: gtransmemory
-    size: '-'
     md5sum: '-'
 - version: 0.2.0
   normalized: v020
   packages:
   - type: source
     filename: gtransmemory-0.2.0.tar.gz
-    size: 131 kB
     md5sum: 4f064bbfe2a4cd03998e3dd6bc3c66a6
   - type: archlinux
     filename: gtransmemory-0.2.0-1-any.pkg.tar.xz
-    size: 134 kB
     md5sum: a4d9bf274ae092dcabbe97ec7c8956e7
 - version: 0.1.0
   normalized: v010
   packages:
   - type: source
     filename: gtransmemory-0.1.0.tar.gz
-    size: 131 kB
     md5sum: 6ed6579732f8e500e00a5a3b2a16b42f
   - type: archlinux
     filename: gtransmemory-0.1.0-1-any.pkg.tar.xz
-    size: 133 kB
     md5sum: e7948b369497f1ce544cb272e8ce4ecb
 - version: 0.0.2
   normalized: v002
   packages:
   - type: source
     filename: gtransmemory-0.0.2.tar.gz
-    size: 128 kB
     md5sum: 48cca1e544fba0df5a324ced457a7d72
   - type: archlinux
     filename: gtransmemory-0.0.2-1-any.pkg.tar.xz
-    size: 130 kB
     md5sum: a712274b6d4d5cb5dc07a8b8419708b4
 - version: 0.0.1
   normalized: v001
   packages:
   - type: source
     filename: gtransmemory-0.0.1.tar.gz
-    size: 50 kB
     md5sum: fa294ca4fded195ca49995f96bc4c42e
   - type: archlinux
     filename: gtransmemory-0.0.1-1-any.pkg.tar.xz
-    size: 66 kB
     md5sum: 576d4ca245bd009a9a9e27fd0ced57c0
 translations:
 - english

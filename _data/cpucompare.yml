@@ -11,72 +11,58 @@ versions:
   packages:
   - type: source
     filename: cpucompare-0.6.tar.gz
-    size: 75 kB
     md5sum: 34f5bc355a7a604991a1d96ad23c38e5
   - type: archlinux
     filename: cpucompare-0.6-1-any.pkg.tar.xz
-    size: 66 kB
     md5sum: 5803d45ad30ef75501680b939580864e
   - type: aur
     filename: cpucompare
-    size: '-'
     md5sum: '-'
   - type: aur
     filename: cpucompare-git
-    size: '-'
     md5sum: '-'
 - version: 0.5
   normalized: v050
   packages:
   - type: source
     filename: cpucompare-0.5.tar.gz
-    size: 47 kB
     md5sum: ac11b06e51b55155435d5ae5bb474878
   - type: archlinux
     filename: cpucompare-0.5-3-any.pkg.tar.xz
-    size: 38 kB
     md5sum: 75725661df27ec13f1713fade1c233e1
 - version: 0.4
   normalized: v040
   packages:
   - type: source
     filename: cpucompare-0.4.tar.gz
-    size: 48 kB
     md5sum: 4745925bd23a712b1984b8e48cc3303d
   - type: archlinux
     filename: cpucompare-0.4-1-any.pkg.tar.xz
-    size: 39 kB
     md5sum: 30ae3e7f653be06c306953eb8397f927
 - version: 0.3
   normalized: v030
   packages:
   - type: source
     filename: cpucompare-0.3.tar.gz
-    size: 48 kB
     md5sum: c7b1893174fedcc104a22d0548f4f893
   - type: archlinux
     filename: cpucompare-0.3-1-any.pkg.tar.xz
-    size: 38 kB
     md5sum: 0cc18b01f7aaba532965e39d88809f42
 - version: 0.2
   normalized: v020
   packages:
   - type: source
     filename: cpucompare-0.2.tar.gz
-    size: 47 kB
     md5sum: 022e8cc2d65423ee595375d603aab223
   - type: archlinux
     filename: cpucompare-0.2-1-any.pkg.tar.xz
-    size: 36 kB
     md5sum: 0c16ccd1e6c6cf3deccc134bbbe98007
 - version: 0.1
   normalized: v010
   packages:
   - type: source
     filename: cpucompare-0.1.tar.gz
-    size: 47 kB
     md5sum: aeeceb2ff1ba3520d089053d78aaec71
   - type: archlinux
     filename: cpucompare-0.1-1-any.pkg.tar.xz
-    size: 36 kB
     md5sum: ed240b6c168156f4903c1a7a0a096edd
