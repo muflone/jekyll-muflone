@@ -3,6 +3,15 @@ layout: default
 order: 5
 title: Changelog
 ---
+# Version 0.8 (May 20, 2022)
+
+* Changed license from GPL-2+ to GPL-3+
+* Porting to Python 3
+* Dropped AppMenu
+* New Dutch translation by Heimen Stoffels
+
+![Main window for CPUCompare 0.8.0](/resources/cpucompare/archive/v0.8.0/english/main.png)
+
 # Version 0.7 (May 7, 2017)
 
 * Rewrite from scratch

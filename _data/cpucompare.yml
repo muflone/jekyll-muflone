@@ -4,20 +4,36 @@ description:
   italian: Esegui confronti tra numerosi modelli di CPU per trovare quelle di tuo interesse.
   english: Compare between a large number of CPU models to find those of your interest.
 gitrepo: https://github.com/muflone/cpucompare
-license: gpl2
+translations_repo: https://www.transifex.com/projects/p/cpucompare/
+license: gpl3
 versions:
-- version: 0.7.0
-  normalized: v070
+- version: 0.8.0
+  normalized: v080
   packages:
   - type: source
-    filename: cpucompare-0.7.0.tar.gz
-    md5sum: 4e495f645b94132eb1abb3a224b01e75
+    filename: cpucompare-0.8.0.tar.gz
+    md5sum: bb29a51235aed8e0de525b36e5155c45
+  - type: debianubuntu
+    filename: cpucompare_0.8.0-1_all.deb
+    md5sum: b0c06a2a121b8cc3a3c78db9b036356f
+  - type: appimage64
+    filename: cpucompare-0.8.0-x86_64.AppImage
+    md5sum: 625941b2324a0bf36fbcac9612d78576
+  - type: archlinux
+    filename: cpucompare-0.8.0-2-any.pkg.tar.zst
+    md5sum: 'f404becaf6ee0bea4d23041009390415'
   - type: aur
     filename: cpucompare
     md5sum: '-'
   - type: aur
     filename: cpucompare-git
     md5sum: '-'
+- version: 0.7.0
+  normalized: v070
+  packages:
+  - type: source
+    filename: cpucompare-0.7.0.tar.gz
+    md5sum: 4e495f645b94132eb1abb3a224b01e75
 - version: 0.6
   normalized: v060
   packages:
@@ -72,3 +88,7 @@ versions:
   - type: archlinux
     filename: cpucompare-0.1-1-any.pkg.tar.xz
     md5sum: ed240b6c168156f4903c1a7a0a096edd
+translations:
+  - english
+  - italian
+  - dutch
