@@ -3,6 +3,10 @@ layout: default
 order: 5
 title: Cambiamenti
 ---
+# Versione 0.7 (7 Maggio 2017)
+
+* Riscrittura da capo
+
 # Version 0.6 (15 Settembre 2013)
 
 * Spostata la casella di ricerca del modello di CPU nel lato superiore e adesso

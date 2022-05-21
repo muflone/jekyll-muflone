@@ -3,6 +3,10 @@ layout: default
 order: 5
 title: Changelog
 ---
+# Version 0.7 (May 7, 2017)
+
+* Rewrite from scratch
+
 # Version 0.6 (Sep 15, 2013)
 
 * Moved the search entry for CPU model in the upper side and now it finds a CPU

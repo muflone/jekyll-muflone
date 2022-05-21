@@ -6,6 +6,18 @@ description:
 gitrepo: https://github.com/muflone/cpucompare
 license: gpl2
 versions:
+- version: 0.7.0
+  normalized: v070
+  packages:
+  - type: source
+    filename: cpucompare-0.7.0.tar.gz
+    md5sum: 4e495f645b94132eb1abb3a224b01e75
+  - type: aur
+    filename: cpucompare
+    md5sum: '-'
+  - type: aur
+    filename: cpucompare-git
+    md5sum: '-'
 - version: 0.6
   normalized: v060
   packages:
@@ -15,12 +27,6 @@ versions:
   - type: archlinux
     filename: cpucompare-0.6-1-any.pkg.tar.xz
     md5sum: 5803d45ad30ef75501680b939580864e
-  - type: aur
-    filename: cpucompare
-    md5sum: '-'
-  - type: aur
-    filename: cpucompare-git
-    md5sum: '-'
 - version: 0.5
   normalized: v050
   packages:
