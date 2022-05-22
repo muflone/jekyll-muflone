@@ -3,6 +3,11 @@ layout: default
 order: 6
 title: Changelog
 ---
+# Version 0.4.5 (May 22, 2022)
+* Replaced system options menu with popup menu icon
+* Updated translations
+* Enhanced logging format
+
 # Version 0.4.4 (Apr 10, 2022)
 * Reduced icon size for buttons
 * Translations fixes

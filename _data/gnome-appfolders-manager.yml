@@ -7,6 +7,24 @@ gitrepo: https://github.com/muflone/gnome-appfolders-manager
 translations_repo: https://www.transifex.com/projects/p/gnome-appfolders-manager/
 license: gpl3
 versions:
+- version: 0.4.5
+  normalized: v045
+  packages:
+  - type: source
+    filename: gnome-appfolders-manager-0.4.5.tar.gz
+    md5sum: 5b381df77ca05b50f618651f2315feb1
+  - type: debianubuntu
+    filename: gnome-appfolders-manager_0.4.5-1_all.deb
+    md5sum: a3ceb2689ec4e92457eac948000cacd0
+  - type: appimage64
+    filename: gnome-appfolders-manager-0.4.5-x86_64.AppImage
+    md5sum: 0c9204c37d90929ac256aa0a80dac664
+  - type: archlinux
+    filename: gnome-appfolders-manager-0.4.5-1-any.pkg.tar.zst
+    md5sum: 9332c7d432655cf715e82c0d667241a1
+  - type: aur
+    filename: gnome-appfolders-manager-git
+    md5sum: '-'
 - version: 0.4.4
   normalized: v044
   packages:
@@ -22,9 +40,6 @@ versions:
   - type: archlinux
     filename: gnome-appfolders-manager-0.4.4-1-any.pkg.tar.zst
     md5sum: 42fc29b02835438209e9fcc686e5f39e
-  - type: aur
-    filename: gnome-appfolders-manager-git
-    md5sum: '-'
 - version: 0.4.3
   normalized: v043
   packages:
