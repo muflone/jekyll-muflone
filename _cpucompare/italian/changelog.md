@@ -3,6 +3,15 @@ layout: default
 order: 5
 title: Cambiamenti
 ---
+# Versione 0.8 (20 Maggio 2022)
+
+* Cambiata licenza da GPL-2+ a GPL-3+
+* Migrazione da Python 2 a Python 3
+* Eliminazione AppMenu
+* Nuova traduzione in olandese da Heimen Stoffels
+
+![Finestra principale di CPUCompare 0.8.0](/resources/cpucompare/archive/v0.8.0/italian/main.png)
+
 # Versione 0.7 (7 Maggio 2017)
 
 * Riscrittura da capo
