@@ -3,6 +3,13 @@ layout: default
 order: 6
 title: Cambiamenti
 ---
+# Versione 0.5.0 (11 Luglio 2021)
+
+* Migrato a Python 3
+* Aggiunto supporto per Travis CI e Circle CI
+* Nuova traduzione in lituano da Moo
+* Nuova traduzione in olandese da Heimen Stoffels
+
 # Versione 0.4.2 (6 Settembre 2014)
 
 * Nuova traduzione in bulgaro da sahwar

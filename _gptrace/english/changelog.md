@@ -3,6 +3,13 @@ layout: default
 order: 6
 title: Changelog
 ---
+# Version 0.5.0 (Jul 11, 2021)
+
+* Ported to Python 3
+* Added support for Travis CI and Circle CI
+* New Lithuanian translation by Moo
+* New Dutch translation by Heimen Stoffels
+
 # Version 0.4.2 (Sep 6, 2014)
 
 * New Bulgarian translation by sahwar

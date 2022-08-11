@@ -1,12 +1,27 @@
 name: gpTrace
 lowername: gptrace
 description:
-  italian: Traccia le attivita di un'applicazione esterna.
+  italian: Traccia le attività di un'applicazione esterna.
   english: Trace the activities of an external application.
 gitrepo: https://github.com/muflone/gptrace
 translations_repo: https://www.transifex.com/projects/p/gptrace/
 license: gpl3
 versions:
+- version: 0.5.0
+  normalized: v050
+  packages:
+  - type: source
+    filename: gptrace-0.5.0.tar.gz
+    md5sum: 4c9edc640feb19518b3d8de2f10571d1
+  - type: archlinux
+    filename: gptrace-0.5.0-1-any.pkg.tar.zst
+    md5sum: 9d3e251824b0aa94f97436ec3dda31c2
+  - type: aur
+    filename: gptrace
+    md5sum: '-'
+  - type: aur
+    filename: gptrace-git
+    md5sum: '-'
 - version: 0.4.2
   normalized: v042
   packages:
@@ -16,12 +31,6 @@ versions:
   - type: archlinux
     filename: gptrace-0.4.2-1-any.pkg.tar.xz
     md5sum: 00629359DC23A9A09665FCAB81EF1268
-  - type: aur
-    filename: gptrace
-    md5sum: '-'
-  - type: aur
-    filename: gptrace-git
-    md5sum: '-'
 - version: 0.4.1
   normalized: v041
   packages:
@@ -107,3 +116,5 @@ translations:
 - english
 - italian
 - bulgarian
+- lithuanian
+- dutch
