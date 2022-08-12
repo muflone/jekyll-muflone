@@ -7,6 +7,27 @@ gitrepo: https://github.com/muflone/gptrace
 translations_repo: https://www.transifex.com/projects/p/gptrace/
 license: gpl3
 versions:
+- version: 0.6.0
+  normalized: v060
+  packages:
+  - type: source
+    filename: gptrace-0.6.0.tar.gz
+    md5sum: 761f79ba639a60f1166ad4835ebb01f5
+  - type: debianubuntu
+    filename: gptrace_0.6.0-1_all.deb
+    md5sum: e194c505be7db2483544e294c1b6d29d
+  - type: appimage64
+    filename: gptrace-0.6.0-x86_64.AppImage
+    md5sum: f179b070ea4bcc3eb9f100cfb1d20c7e
+  - type: archlinux
+    filename: gptrace-0.6.0-1-any.pkg.tar.zst
+    md5sum: cddc078d240575d37f4a2141d5418baf
+  - type: aur
+    filename: gptrace
+    md5sum: '-'
+  - type: aur
+    filename: gptrace-git
+    md5sum: '-'
 - version: 0.5.0
   normalized: v050
   packages:
@@ -16,12 +37,6 @@ versions:
   - type: archlinux
     filename: gptrace-0.5.0-1-any.pkg.tar.zst
     md5sum: 9d3e251824b0aa94f97436ec3dda31c2
-  - type: aur
-    filename: gptrace
-    md5sum: '-'
-  - type: aur
-    filename: gptrace-git
-    md5sum: '-'
 - version: 0.4.2
   normalized: v042
   packages:

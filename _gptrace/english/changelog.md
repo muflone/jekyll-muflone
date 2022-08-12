@@ -3,6 +3,17 @@ layout: default
 order: 6
 title: Changelog
 ---
+# Version 0.6.0 (Aug 12, 2022)
+
+* Dropped AppMenu
+* Ported to Python 3 and migrated to modern app
+* Moved the program path to header bar
+* Show only a button at once for Start and Stop process
+* Rename Intercepted syscalls to Selected syscalls
+
+{:.center}
+![Main window for gpTrace 0.6.0](/resources/gptrace/archive/v0.6.0/english/expanded.png)
+
 # Version 0.5.0 (Jul 11, 2021)
 
 * Ported to Python 3

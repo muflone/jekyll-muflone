@@ -3,6 +3,17 @@ layout: default
 order: 6
 title: Cambiamenti
 ---
+# Versione 0.6.0 (12 Agosto 2022)
+
+* Rimosso AppMenu
+* Migrazione a Python e ed app moderna
+* Spostato il percorso del programma nella header bar
+* Mostrato solo un pulsante alla volta per avvia e ferma processo
+* Rinominate Syscall intercettate in Syscalls selezionate
+
+{:.center}
+![Finestra principale di gpTrace 0.6.0](/resources/gptrace/archive/v0.6.0/italian/expanded.png)
+
 # Versione 0.5.0 (11 Luglio 2021)
 
 * Migrato a Python 3
