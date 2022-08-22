@@ -3,6 +3,14 @@ layout: default
 order: 6
 title: Changelog
 ---
+# Version 0.5.1 (Aug 22, 2022)
+
+* Translations update
+* Updated Russian translation
+* Updated Lithuanian translation by Moo
+* Updated Dutch translation by Heimen Stoffels
+* Updated Brazilian Portuguese translation by Paguiar735
+
 # Version 0.5.0 (Apr 18, 2022)
 
 * Ported to Python 3

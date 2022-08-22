@@ -3,6 +3,14 @@ layout: default
 order: 6
 title: Cambiamenti
 ---
+# Versione 0.5.1 (22 Agosto 2022)
+
+* Aggiornamento traduzioni
+* Aggiornata la traduzione in russo
+* Aggiornata la traduzione in litauno da Moo
+* Aggiornata la traduzione olandese da Heimen Stoffels
+* Aggiornata la traduzione portoghese brasiliano da Paguiar735
+
 # Versione 0.5.0 (18 Aprile 2022)
 
 * Migrazione a Python 3

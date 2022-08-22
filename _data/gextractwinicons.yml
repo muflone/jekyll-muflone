@@ -7,6 +7,27 @@ gitrepo: https://github.com/muflone/gextractwinicons
 translations_repo: https://www.transifex.com/projects/p/gextractwinicons/
 license: gpl3
 versions:
+- version: 0.5.1
+  normalized: v051
+  packages:
+  - type: source
+    filename: gextractwinicons-0.5.1.tar.gz
+    md5sum: b56ca17860a54f010d68ddc2bb0fa47b
+  - type: debianubuntu
+    filename: gextractwinicons_0.5.1-1_all.deb
+    md5sum: 1b6ae11f3e4cfb5702ea6813a59644ea
+  - type: appimage64
+    filename: gextractwinicons-0.5.1-x86_64.AppImage
+    md5sum: c9bf5d2ca998d68a1fec30e0efba6b55
+  - type: archlinux
+    filename: gextractwinicons-0.5.1-1-any.pkg.tar.zst
+    md5sum: 3de4e0dba3a1d17741d0ce438ce56cd0
+  - type: aur
+    filename: gextractwinicons
+    md5sum: '-'
+  - type: aur
+    filename: gextractwinicons-git
+    md5sum: '-'
 - version: 0.5.0
   normalized: v050
   packages:
@@ -22,12 +43,6 @@ versions:
   - type: archlinux
     filename: gextractwinicons-0.5.0-1-any.pkg.tar.zst
     md5sum: 3166c28f20a4a90739cd8834e04b6330
-  - type: aur
-    filename: gextractwinicons
-    md5sum: '-'
-  - type: aur
-    filename: gextractwinicons-git
-    md5sum: '-'
 - version: 0.4.2
   normalized: v042
   packages:
