@@ -3,6 +3,11 @@ layout: default
 order: 6
 title: Cambiamenti
 ---
+# Versione 0.6.1 (22 Agosto 2022)
+
+* Aggiornamento traduzioni
+* Aggiornata la traduzione in olandese
+
 # Versione 0.6.0 (12 Agosto 2022)
 
 * Rimosso AppMenu

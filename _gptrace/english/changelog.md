@@ -3,6 +3,11 @@ layout: default
 order: 6
 title: Changelog
 ---
+# Version 0.6.1 (Aug 22, 2022)
+
+* Translations update
+* Updated Dutch translation
+
 # Version 0.6.0 (Aug 12, 2022)
 
 * Dropped AppMenu
