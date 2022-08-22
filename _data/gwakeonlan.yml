@@ -7,6 +7,24 @@ gitrepo: https://github.com/muflone/gwakeonlan
 translations_repo: https://www.transifex.com/projects/p/gwakeonlan/
 license: gpl3
 versions:
+- version: 0.8.4
+  normalized: v084
+  packages:
+  - type: source
+    filename: gwakeonlan-0.8.4.tar.gz
+    md5sum: 2daa11e07cf61fc8b9499a0a46ab1019
+  - type: debianubuntu
+    filename: gwakeonlan_0.8.4-1_all.deb
+    md5sum: 53a148251ae171fa32a351677e9a4ceb
+  - type: appimage64
+    filename: gwakeonlan-0.8.4-x86_64.AppImage
+    md5sum: 67db194efb1541e7716151456f295e11
+  - type: archlinux
+    filename: gwakeonlan-0.8.4-1-any.pkg.tar.zst
+    md5sum: 04e9e7d9e65c869881fce612797f8c9c
+  - type: aur
+    filename: gwakeonlan-git
+    md5sum: '-'
 - version: 0.8.3
   normalized: v083
   packages:
@@ -22,9 +40,6 @@ versions:
   - type: archlinux
     filename: gwakeonlan-0.8.3-1-any.pkg.tar.zst
     md5sum: a1c81197822cf7a4f586cdf52ad7096b
-  - type: aur
-    filename: gwakeonlan-git
-    md5sum: '-'
 - version: 0.8.2
   normalized: v082
   packages:

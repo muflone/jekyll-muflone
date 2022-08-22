@@ -9,6 +9,8 @@ title: Screenshots
     data-caption="Machine detail window"></a>
   <a href="/resources/gwakeonlan/archive/latest/english/arpcache.png"
     data-caption="ARP cache picker dialog"></a>
+  <a href="/resources/gwakeonlan/archive/latest/english/options.png"
+    data-caption="Options menu"></a>
   <a href="/resources/gwakeonlan/archive/latest/english/shortcuts.png"
     data-caption="Shortcuts dialog"></a>
   <a href="/resources/gwakeonlan/archive/latest/english/about.png"

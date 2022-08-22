@@ -3,6 +3,14 @@ layout: default
 order: 10
 title: Changelog
 ---
+# Version 0.8.4 (Aug 22, 2022)
+
+* Add "-" as MAC address delimiter by Seiichi "Suikan" Horie
+* Translations update
+* Updated Lithuanian translation
+* Updated the French translation by Paul Mairo
+* Updated Brazilian Portuguese translation by Paguiar735
+
 # Version 0.8.3 (May 22, 2022)
 
 * Added shortcut to open the options menu

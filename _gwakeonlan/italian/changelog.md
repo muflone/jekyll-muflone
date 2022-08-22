@@ -3,6 +3,14 @@ layout: default
 order: 10
 title: Cambiamenti
 ---
+# Versione 0.8.4 (22 Agosto 2022)
+
+* Aggiunto "-" come delimitatore dell'indirizzo MAC da Seiichi "Suikan" Horie
+* Aggiornamento traduzioni
+* Aggiornata la traduzione in lituano
+* Aggiornata la traduzione in francese da Paul Mairo
+* Aggiornata la traduzione in portoghese brasiliano da Paguiar735
+
 # Versione 0.8.3 (22 Maggio 2022)
 
 * Aggiunta scorciatoia per aprire il menu opzioni
