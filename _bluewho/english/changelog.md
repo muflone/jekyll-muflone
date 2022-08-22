@@ -3,6 +3,13 @@ layout: default
 order: 7
 title: Changelog
 ---
+# Version 0.5.1 (Aug 22, 2022)
+
+* Made the Scan button as suggested action
+* Translations update
+* Updated Dutch translation
+* Updated the French translation by Paul Mairo
+
 # Version 0.5.0 (May 15, 2022)
 
 * Dropped AppMenu

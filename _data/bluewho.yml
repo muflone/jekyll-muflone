@@ -7,6 +7,24 @@ gitrepo: https://github.com/muflone/bluewho
 translations_repo: https://www.transifex.com/projects/p/bluewho/
 license: gpl3
 versions:
+- version: 0.5.1
+  normalized: v051
+  packages:
+  - type: source
+    filename: bluewho-0.5.1.tar.gz
+    md5sum: 22561cb62be9c10595cd4128d20193f7
+  - type: appimage64
+    filename: bluewho-0.5.1-x86_64.AppImage
+    md5sum: 3d50fcb50c79e1346e8b8d4e0d255ab7
+  - type: archlinux64
+    filename: bluewho-0.5.1-1-any.pkg.tar.zst
+    md5sum: b96569b5cb03f3efe174b5691a92f886
+  - type: aur
+    filename: bluewho
+    md5sum: '-'
+  - type: aur
+    filename: bluewho-git
+    md5sum: '-'
 - version: 0.5.0
   normalized: v050
   packages:
@@ -19,12 +37,6 @@ versions:
   - type: archlinux64
     filename: bluewho-0.5.0-1-any.pkg.tar.zst
     md5sum: 023759ac6d537e78620d3018eb8edd75
-  - type: aur
-    filename: bluewho
-    md5sum: '-'
-  - type: aur
-    filename: bluewho-git
-    md5sum: '-'
 - version: 0.4.0
   normalized: v040
   packages:

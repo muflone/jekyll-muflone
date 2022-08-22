@@ -3,7 +3,14 @@ layout: default
 order: 7
 title: Cambiamenti
 ---
-# Versione 0.5.0 (15 Maggio, 2022)
+# Versione 0.5.1 (22 Agosto 2022)
+
+* Reso il pulsante Rileva come azione suggerita
+* Aggiornamento traduzioni
+* Aggiornata la traduzione olandese
+* Aggiornata la traduzione francese da Paul Mairo
+
+# Versione 0.5.0 (15 Maggio 2022)
 
 * Eliminazione AppMenu
 * Migrazione da pybluez a bluezero
