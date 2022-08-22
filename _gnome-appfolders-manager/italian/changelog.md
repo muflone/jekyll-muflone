@@ -3,6 +3,11 @@ layout: default
 order: 6
 title: Cambiamenti
 ---
+# Versione 0.4.6 (22 Agosto 2022)
+* Aggiornamento traduzioni
+* Aggiornata la traduzione in francese da Paul Mairo
+* Aggiornata la traduzione in portoghese brasiliano da Paguiar735
+
 # Versione 0.4.5 (22 Maggio 2022)
 * Sostituita l'icona opzioni di sistema con l'icona menu popup
 * Aggiornamento traduzioni

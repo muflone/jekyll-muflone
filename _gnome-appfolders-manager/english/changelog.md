@@ -3,6 +3,11 @@ layout: default
 order: 6
 title: Changelog
 ---
+# Version 0.4.6 (Aug 22, 2022)
+* Translations update
+* Updated the French translation by Paul Mairo
+* Updated Brazilian Portuguese translation by Paguiar735
+
 # Version 0.4.5 (May 22, 2022)
 * Replaced system options menu with popup menu icon
 * Updated translations
