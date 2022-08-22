@@ -3,6 +3,10 @@ layout: default
 order: 5
 title: Changelog
 ---
+# Version 0.8.1 (Aug 20, 2022)
+
+* Translations update
+
 # Version 0.8.0 (May 20, 2022)
 
 * Changed license from GPL-2+ to GPL-3+

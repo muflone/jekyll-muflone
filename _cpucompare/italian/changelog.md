@@ -3,6 +3,10 @@ layout: default
 order: 5
 title: Cambiamenti
 ---
+# Versione 0.8.1 (22 Agosto 2022)
+
+* Aggiornamento traduzioni
+
 # Versione 0.8.0 (20 Maggio 2022)
 
 * Cambiata licenza da GPL-2+ a GPL-3+
