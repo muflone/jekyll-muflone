@@ -3,9 +3,9 @@ layout: default
 order: 5
 title: Changelog
 ---
-# Version 0.8.1 (Aug 20, 2022)
+# Version 0.8.2 (Oct 1, 2022)
 
-* Translations update
+* Fixed Italian translation
 
 # Version 0.8.0 (May 20, 2022)
 

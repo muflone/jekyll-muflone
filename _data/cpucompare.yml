@@ -7,6 +7,27 @@ gitrepo: https://github.com/muflone/cpucompare
 translations_repo: https://www.transifex.com/projects/p/cpucompare/
 license: gpl3
 versions:
+- version: 0.8.2
+  normalized: v082
+  packages:
+  - type: source
+    filename: cpucompare-0.8.2.tar.gz
+    md5sum: 720ad1396dcdc907c7fad00761c0a1ea
+  - type: debianubuntu
+    filename: cpucompare_0.8.2-1_all.deb
+    md5sum: a8b8854aa5e096588ae66c9d73072b0b
+  - type: appimage64
+    filename: cpucompare-0.8.2-x86_64.AppImage
+    md5sum: 72f299b5b754999a619a0caf68dbf140
+  - type: archlinux
+    filename: cpucompare-0.8.2-1-any.pkg.tar.zst
+    md5sum: 509911f5ee22777418dd954100f9fb9b
+  - type: aur
+    filename: cpucompare
+    md5sum: '-'
+  - type: aur
+    filename: cpucompare-git
+    md5sum: '-'
 - version: 0.8.1
   normalized: v081
   packages:
@@ -22,12 +43,6 @@ versions:
   - type: archlinux
     filename: cpucompare-0.8.1-1-any.pkg.tar.zst
     md5sum: 49f6c44a19067f0d6adc88d5b39491d5
-  - type: aur
-    filename: cpucompare
-    md5sum: '-'
-  - type: aur
-    filename: cpucompare-git
-    md5sum: '-'
 - version: 0.8.0
   normalized: v080
   packages:

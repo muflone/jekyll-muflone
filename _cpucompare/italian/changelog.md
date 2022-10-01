@@ -3,6 +3,10 @@ layout: default
 order: 5
 title: Cambiamenti
 ---
+# Versione 0.8.2 (1 Ottobre 2022)
+
+* Rettificata la traduzione italiana
+
 # Versione 0.8.1 (22 Agosto 2022)
 
 * Aggiornamento traduzioni
