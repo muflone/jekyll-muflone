@@ -3,6 +3,11 @@ layout: default
 order: 7
 title: Cambiamenti
 ---
+# Versione 0.5.2 (1 Ottobre 2022)
+
+* Aggiornata la traduzione francese da Albano Battistella
+* Rettificata la traduzione italiana
+
 # Versione 0.5.1 (22 Agosto 2022)
 
 * Reso il pulsante Rileva come azione suggerita
