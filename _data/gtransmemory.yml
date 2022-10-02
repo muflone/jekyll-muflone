@@ -1,12 +1,33 @@
 name: gTransMemory
 lowername: gtransmemory
 description:
-  italian: Memoria di apprendimento per traduttori.
-  english: Learn memory for translators.
+  italian: Memorie dei termini per traduttori.
+  english: Memory of terms for translators.
 gitrepo: https://github.com/muflone/gtransmemory
 translations_repo: https://www.transifex.com/projects/p/gtransmemory/
-license: gpl2
+license: gpl3
 versions:
+- version: 0.4.0
+  normalized: v040
+  packages:
+  - type: source
+    filename: gtransmemory-0.4.0.tar.gz
+    md5sum: e0d0c9f85bb532249f8d5980dd783a82
+  - type: debianubuntu
+    filename: gtransmemory_0.4.0-1_all.deb
+    md5sum: e071af06091f65040c767cb0091e026e
+  - type: appimage64
+    filename: gtransmemory-0.4.0-x86_64.AppImage
+    md5sum: 860a7c8fbccf0a3b218c8f82f91569d9
+  - type: archlinux
+    filename: gtransmemory-0.4.0-1-any.pkg.tar.zst
+    md5sum: bdb57f65097f3a91467cb18efd38d475
+  - type: aur
+    filename: gtransmemory
+    md5sum: '-'
+  - type: aur
+    filename: gtransmemory-git
+    md5sum: '-'
 - version: 0.3.0
   normalized: v030
   packages:
@@ -16,9 +37,6 @@ versions:
   - type: archlinux
     filename: gtransmemory-0.3.0-1-any.pkg.tar.xz
     md5sum: 1e6017775c403e896afd3eaa5640a0bc
-  - type: aur
-    filename: gtransmemory
-    md5sum: '-'
 - version: 0.2.0
   normalized: v020
   packages:
@@ -58,3 +76,4 @@ versions:
 translations:
 - english
 - italian
+- dutch

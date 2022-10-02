@@ -3,6 +3,23 @@ layout: default
 order: 6
 title: Cambiamenti
 ---
+# Versione 0.4.0 (1 Ottobre 2022)
+
+* Modificata la licenza da GPL-2+ a GPL-3+
+* Migrazione a Python 3
+* Riscritta l'applicazione come applicazione moderna
+* Nuova traduzione in olandese da Heimen Stoffels
+* Aggiunte le lingue alle memorie
+* Nuova funzionalità per importare file da una cartella
+* Mostrato il numero dei messaggi caricati
+* Sostituita la ricerca col filtro
+* Aggiunto completamento del testo per l'origine nell'importare un file
+* Aggiunto completamento del testo per l'origine nell'importare file da una cartella
+* Permesso il filtro dei risultati per origine utilizzando il prefisso source:
+
+{:.center}
+![Finestra principale di gTransMemory 0.4.0](/resources/gtransmemory/archive/v0.4.0/italian/main.png)
+
 # Versione 0.3.0 (10 Luglio 2016)
 
 * Aggiunta finestra delle scorciatoie per GTK+ 3.20+
