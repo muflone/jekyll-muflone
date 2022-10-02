@@ -79,13 +79,13 @@ english:
         <code>pacman -S $(PACKAGE)</code>.
       aur: >
         In the AUR you can find the latest available version, it can be
-        downloaded and built using yaourt (or a similar AUR helper) using
-        <code>yaourt -S $(PACKAGE)</code> and then following the AUR helper
+        downloaded and built using yay (or a similar AUR helper) using
+        <code>yay -S $(PACKAGE)</code> and then following the AUR helper
         instructions.
       development: >
         The development version is also available in the AUR and can be
-        installed using yaourt (or a similar AUR helper) with
-        <code>yaourt -S $(PACKAGE)</code>.
+        installed using yay (or a similar AUR helper) with
+        <code>yay -S $(PACKAGE)</code>.
     python2:
       title: Installation from source code with Python 2
       text1: >
@@ -443,12 +443,12 @@ italian:
         <code>pacman -S $(PACKAGE)</code>.
       aur: >
         In AUR è presente l'ultima versione disponibile, è possibile scaricarla
-        e compilarla utilizzando yaourt (o un analogo gestore per AUR) con
-        <code>yaourt -S $(PACKAGE)</code> e seguire le istruzioni del gestore di AUR.
+        e compilarla utilizzando yay (o un analogo gestore per AUR) con
+        <code>yay -S $(PACKAGE)</code> e seguire le istruzioni del gestore di AUR.
       development: >
         E' anche disponibile la versione di sviluppo in AUR e può essere
-        installata utilizzando yaourt (o un analogo gestore per AUR) con
-        <code>yaourt -S $(PACKAGE)</code>.
+        installata utilizzando yay (o un analogo gestore per AUR) con
+        <code>yay -S $(PACKAGE)</code>.
     python2:
       title: Installazione dal codice sorgente con Python 2
       text1: >
