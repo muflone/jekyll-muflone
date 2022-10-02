@@ -3,6 +3,10 @@ layout: default
 order: 6
 title: Changelog
 ---
+# Version 0.6.2 (Oct 1, 2022)
+
+* Fixed Italian translation
+
 # Version 0.6.1 (Aug 22, 2022)
 
 * Translations update
