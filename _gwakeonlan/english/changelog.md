@@ -3,6 +3,10 @@ layout: default
 order: 10
 title: Changelog
 ---
+# Version 0.8.5 (Oct 1, 2022)
+
+* Updated French translation by Albano Battistella
+
 # Version 0.8.4 (Aug 22, 2022)
 
 * Add "-" as MAC address delimiter by Seiichi "Suikan" Horie
