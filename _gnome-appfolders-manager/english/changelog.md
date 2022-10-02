@@ -3,6 +3,9 @@ layout: default
 order: 6
 title: Changelog
 ---
+# Version 0.4.7 (Oct 1, 2022)
+* Updated French translation by Albano Battistella
+
 # Version 0.4.6 (Aug 22, 2022)
 * Translations update
 * Updated the French translation by Paul Mairo
