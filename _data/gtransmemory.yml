@@ -4,7 +4,7 @@ description:
   italian: Memorie dei termini per traduttori.
   english: Memory of terms for translators.
 gitrepo: https://github.com/muflone/gtransmemory
-translations_repo: https://www.transifex.com/projects/p/gtransmemory/
+translations_repo: https://explore.transifex.com/muflone/gtransmemory/
 license: gpl3
 versions:
 - version: 0.4.0

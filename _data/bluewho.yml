@@ -4,7 +4,7 @@ description:
   italian: Ricerca dispositivi Bluetooth nelle vicinanze e ricevi le notifiche quando un nuovo dispositivo viene rilevato.
   english: Find Bluetooth devices near you and receive notifications when a new device is detected.
 gitrepo: https://github.com/muflone/bluewho
-translations_repo: https://www.transifex.com/projects/p/bluewho/
+translations_repo: https://explore.transifex.com/muflone/bluewho/
 license: gpl3
 versions:
 - version: 0.5.2

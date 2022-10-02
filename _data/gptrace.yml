@@ -4,7 +4,7 @@ description:
   italian: Traccia le attività di un'applicazione esterna.
   english: Trace the activities of an external application.
 gitrepo: https://github.com/muflone/gptrace
-translations_repo: https://www.transifex.com/projects/p/gptrace/
+translations_repo: https://explore.transifex.com/muflone/gptrace/
 license: gpl3
 versions:
 - version: 0.6.2

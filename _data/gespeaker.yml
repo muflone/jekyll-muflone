@@ -4,7 +4,7 @@ description:
   italian: Ascolta il testo scritto in varie lingue con impostazioni per voce, intonazione, volume e velocit&agrave.
   english: Listen the written text in various languages with settings for voices, speech, volume and speed.
 gitrepo: https://github.com/muflone/gespeaker
-translations_repo: https://www.transifex.com/projects/p/gespeaker/
+translations_repo: https://explore.transifex.com/muflone/gespeaker/
 license: gpl3
 versions:
 - version: 0.8.6

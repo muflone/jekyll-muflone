@@ -4,7 +4,7 @@ description:
   italian: Esegui confronti tra numerosi modelli di CPU per trovare quelle di tuo interesse.
   english: Compare between a large number of CPU models to find those of your interest.
 gitrepo: https://github.com/muflone/cpucompare
-translations_repo: https://www.transifex.com/projects/p/cpucompare/
+translations_repo: https://explore.transifex.com/muflone/cpucompare/
 license: gpl3
 versions:
 - version: 0.8.2
