@@ -7,7 +7,7 @@ title: Cambiamenti
 
 * Aggiornamento traduzioni
 * Aggiornata la traduzione in russo
-* Aggiornata la traduzione in litauno da Moo
+* Aggiornata la traduzione in lituano da Moo
 * Aggiornata la traduzione olandese da Heimen Stoffels
 * Aggiornata la traduzione portoghese brasiliano da Paguiar735
 
