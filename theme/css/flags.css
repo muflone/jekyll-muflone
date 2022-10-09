@@ -6,3 +6,7 @@
 #main-content {
   padding: 10% 0;
 }
+
+#main-content div.language-flag img:hover {
+  filter: brightness(120%);
+}
