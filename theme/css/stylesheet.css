@@ -224,6 +224,15 @@ div.bff-container div.gitrepo {
   margin-left: 20px;
 }
 
+.footer-links ul {
+  margin: 0;
+}
+
+.footer-links ul li {
+  margin: 0 2rem 0 0;
+}
+
+
 @media (min-width: 1200px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
     max-width: 95%;
