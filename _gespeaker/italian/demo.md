@@ -2,7 +2,6 @@
 layout: default
 order: 60
 title: Voci dimostrative
-require_jquery: True
 require_jquery_jplayer: True
 ---
 # Voci dimostrative

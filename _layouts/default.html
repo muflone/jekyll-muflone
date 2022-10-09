@@ -4,7 +4,7 @@ layout: base
         <section id="main-content">
 {{ content }}
         </section>
-        <aside id="sidebar">
+        <aside id="sidebar" class="content">
 {%- comment -%}Skip the sidebar pages list when this page has order 0{%- endcomment -%}
 {%- if page.order > 0 -%}
   {%- assign collection = site.collections | where: 'label', page.product | first -%}
@@ -50,14 +50,4 @@ layout: base
           </ul>
           <!-- End of sidebar depth 1 -->
 {% endif %}
-          <div class="repo-owner">
-{% unless page.layout == 'flags' %}
-            <div>
-              <a href="{{ site.data[page.product].gitrepo }}" target="_blank">{{ site.data[page.product].name }}</a>
-              {{ site.data.translations[page.language].github.developed_by }} 
-              <a href="{{ site.data.home.gitrepo }}" target="_blank">{{ site.data.home.name }}</a>.
-            </div>
-{% endunless %}
-            <div>{{ site.data.translations[page.language].theme_info }}</div>
-          </div>
         </aside>

@@ -1,34 +1,28 @@
 ---
 layout: base
 ---
-        <section id="main-content" class="full">
+        <section id="main-content" class="full-width">
 {% unless page.content_after %}
           <!-- Begin of page content section -->
           {{ content }}
           <!-- End of page content section -->
 {% endunless %}
-
-          <h1><a name="description" class="anchor"></a>{{ page.title }}</h1>
-          <table class="flags" border="0" cellpadding="0" cellspacing="0">
-            <tbody>
-              <tr>
-                <td>
-                  <a href="english/" title="{{ site.data.translations['english'].languages.english }}">
+          <div class="row center">
+            <div class="col col-lg-6">
+                <a href="english/" title="{{ site.data.translations['english'].languages.english }}">
                     <img alt="{{ site.data.translations['english'].languages.english }}"
-                      src="{{ site.data.translations['english'].icons.flag_maxi }}"><br>
+                         src="{{ site.data.translations['english'].icons.flag_maxi }}"><br>
                     {{ site.data.translations['english'].languages.english }}
-                  </a>
-                </td>
-                <td>
-                  <a href="italian/" title="{{ site.data.translations['italian'].languages.italian }}">
+                </a>
+            </div>
+            <div class="col col-lg-6">
+                <a href="italian/" title="{{ site.data.translations['italian'].languages.italian }}">
                     <img alt="{{ site.data.translations['italian'].languages.italian }}"
-                      src="{{ site.data.translations['italian'].icons.flag_maxi }}"><br>
+                         src="{{ site.data.translations['italian'].icons.flag_maxi }}"><br>
                     {{ site.data.translations['italian'].languages.italian }}
-                  </a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+                </a>
+            </div>
+          </div>
 {% if page.content_after %}
           <!-- Begin of page content section -->
           {{ content }}

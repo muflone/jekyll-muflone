@@ -1,6 +1,5 @@
 english:
   copyright: Copyright &copy; 2013-2022
-  theme_info: This page uses the Architect theme by <a href="https://twitter.com/jasonlong" target="_blank">Jason Long</a>.
   icons:
     flag_mini: /theme/images/flag-en-16.png
     flag_maxi: /theme/images/flag-en-128.png
@@ -363,7 +362,6 @@ english:
   offline_copy: Offline copy
 italian:
   copyright: Copyright &copy; 2013-2022
-  theme_info: Questa pagina usa il tema Architect di <a href="https://twitter.com/jasonlong" target="_blank">Jason Long</a>.
   icons:
     flag_mini: /theme/images/flag-it-16.png
     flag_maxi: /theme/images/flag-it-128.png

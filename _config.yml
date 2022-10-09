@@ -6,11 +6,11 @@ username_disqus: muflone
 username_analytics: muflone.com
 url: http://www.muflone.com
 show_social: false
-icon_footer: android-icon-48x48.png
-icon_home: android-icon-144x144.png
+icon_footer: apple-icon-60x60.png
+icon_home: android-icon-192x192.png
 sections:
-  - articles
   - contacts
+  - articles
   - gespeaker
   - gwakeonlan
   - gextractwinicons
@@ -92,7 +92,6 @@ defaults:
     values:
       depth: 1
       layout: articles
-      require_jquery: False
       require_jquery_jplayer: False
       require_jquery_iontabs: False
 

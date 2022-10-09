@@ -3,6 +3,7 @@
 <html lang="{{ page.language }}">
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="charset" content="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 {%- if page.description %}
     <meta name="description" content="{{ page.description }}" />
@@ -26,101 +27,133 @@
     <link rel="icon" type="image/png" sizes="16x16"   href="/resources/{{ product.lowername }}/icons/favicon-16x16.png">
     <link rel="icon" type="image/x-icon"              href="/resources/{{ product.lowername }}/icons/favicon.ico">
     <link rel="shortcut icon" type="image/x-icon"     href="/resources/{{ product.lowername }}/icons/favicon.ico">
-    <link type="text/css" rel="stylesheet" href="/theme/css/reset.css">
-    <link type="text/css" rel="stylesheet" href="/theme/css/font-architects.css">
-    <link type="text/css" rel="stylesheet" href="/theme/css/font-awesome.min.css">
+
+    <link type="text/css" rel="stylesheet" href="/theme/css/libs.css">
+    <link type="text/css" rel="stylesheet" href="/theme/css/style.css">
     <link type="text/css" rel="stylesheet" href="/theme/css/stylesheet.css">
     <link type="text/css" rel="stylesheet" href="/theme/css/sidebar.css">
     <link type="text/css" rel="stylesheet" href="/theme/css/blockquotes.css">
     <link type="text/css" rel="stylesheet" href="/theme/css/blockquotes-{{ page.language }}.css">
     <link type="text/css" rel="stylesheet" href="/theme/css/external-links.css">
 {% if page.layout == 'article' %}
-    <link type="text/css" rel="stylesheet" href="/theme/css/offline-copy.css">
-{%- endif -%}
-{% if page.layout == 'sections' %}
-    <link type="text/css" rel="stylesheet" href="/theme/css/sections.css">
-{%- endif -%}
-{% if page.layout == 'flags' %}
-    <link type="text/css" rel="stylesheet" href="/theme/css/flags.css">
+      <link type="text/css" rel="stylesheet" href="/theme/css/offline-copy.css">
 {%- endif -%}
 {% if page.layout == 'mbrola_voices' %}
-    <link type="text/css" rel="stylesheet" href="/theme/css/mbrola_voices.css">
+      <link type="text/css" rel="stylesheet" href="/theme/css/mbrola_voices.css">
 {%- endif -%}
 {% if page.layout == 'contacts' %}
-    <link type="text/css" rel="stylesheet" href="/theme/css/contacts.css">
+      <link type="text/css" rel="stylesheet" href="/theme/css/contacts.css">
 {%- endif -%}
 {% if page.layout == 'downloads' %}
-    <link type="text/css" rel="stylesheet" href="/theme/css/downloads.css">
-{%- endif -%}
-{% if page.require_jquery or layout.require_jquery %}
-    <script type="text/javascript" src="/theme/js/jquery-1.10.2.min.js"></script>
+      <link type="text/css" rel="stylesheet" href="/theme/css/downloads.css">
 {%- endif -%}
 {% if page.require_jquery_jplayer or layout.require_jquery_jplayer %}
-    <script type="text/javascript" src="/theme/js/jquery.jplayer.min.js"></script> 
-    <script type="text/javascript" src="/theme/js/create_new_jplayer.js"></script> 
+      <script type="text/javascript" src="/theme/js/jquery.jplayer.min.js"></script>
+      <script type="text/javascript" src="/theme/js/create_new_jplayer.js"></script>
 {%- endif -%}
 {% if page.require_jquery_iontabs or layout.require_jquery_iontabs %}
-    <script type="text/javascript" src="/theme/js/ion.tabs.min.js"></script>
-    <link type="text/css" rel="stylesheet" href="/theme/css/ion.tabs.css">
-    <link type="text/css" rel="stylesheet" href="/theme/css/ion.tabs.skinBorderedCustom.css">
+      <script type="text/javascript" src="/theme/js/ion.tabs.min.js"></script>
+      <link type="text/css" rel="stylesheet" href="/theme/css/ion.tabs.css">
+      <link type="text/css" rel="stylesheet" href="/theme/css/ion.tabs.skinBorderedCustom.css">
 {%- endif -%}
 {% if page.require_jquery_fotorama or layout.require_jquery_fotorama %}
-    <script type="text/javascript" src="/theme/js/fotorama-4.6.4.js"></script>
-    <link type="text/css" rel="stylesheet" href="/theme/css/fotorama-4.6.4.css">
-    <link type="text/css" rel="stylesheet" href="/theme/css/fotorama-custom.css">
+      <script type="text/javascript" src="/theme/js/fotorama-4.6.4.js"></script>
+      <link type="text/css" rel="stylesheet" href="/theme/css/fotorama-4.6.4.css">
+      <link type="text/css" rel="stylesheet" href="/theme/css/fotorama-custom.css">
 {% endif %}
+{% if page.layout == 'flags' %}
+      <link type="text/css" rel="stylesheet" href="/theme/css/flags.css">
+{%- endif -%}
+{% if page.layout == 'sections' %}
+      <link type="text/css" rel="stylesheet" href="/theme/css/sections.css">
+{%- endif -%}
+    <link type="font/woff2" rel="preload" href="/theme/fonts/istok-web-v15-latin/istok-web-v15-latin-regular.woff2" as="font" crossorigin>
+    <link type="font/woff2" rel="preload" href="/theme/fonts/istok-web-v15-latin/istok-web-v15-latin-700.woff2" as="font" crossorigin>
+    <link type="font/woff2" rel="preload" href="/theme/fonts/montserrat-v15-latin/montserrat-v15-latin-700.woff2" as="font" crossorigin>
+    <link type="font/woff2" rel="preload" href="/theme/fonts/montserrat-v15-latin/montserrat-v15-latin-600.woff2" as="font" crossorigin>
+    <link type="font/woff2" rel="preload" href="/theme/fonts/material-icons/material-icons.woff2" as="font" crossorigin>
+    <link type="font/woff2" rel="preload" href="/theme/fonts/material-icons/material-icons-outlined.woff2" as="font" crossorigin>
   </head>
   <body>
-    <header>
-      <div class="inner">
-        <a href="{% unless page.layout == 'sections' %}/{{ product.lowername }}{% endunless %}/{{ page.language }}/">
-          <img src="/resources/{{ product.lowername }}/icons/ms-icon-144x144.png" style="padding-right: 20px;" align="left"></a>
-        <h1>{{ product.name }}</h1>
-        <h2>{{ page.title }}</h2>
-        <a href="{{ product.gitrepo }}" target="_blank" class="button">
-          <small>{{ site.data.translations[page.language].github.view_project }}</small>
-          {{ site.data.translations[page.language].github.name }}
-        </a>
-      </div>
-    </header>
+    <main class="main">
+      <div class="main-inner">
+        <div class="bff d-md-block">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="bff-container">
+                  <a class="main-logo" href="{% unless page.layout == 'sections' %}/{{ product.lowername }}{% endunless %}/{{ page.language }}/">
+                    <img src="/resources/{{ product.lowername }}/icons/ms-icon-144x144.png"></a>
+                  <div class="main-title">
+                    <h1><a href="{% unless page.layout == 'sections' %}/{{ product.lowername }}{% endunless %}/{{ page.language }}/">
+                      <span class="middle">{{ product.name }}</span></a></h1>
+                    <h2>{{ page.title }}</h2>
+                  </div>
+                  <div class="float-right gitrepo">
+                    <a href="{{ product.gitrepo }}" target="_blank" class="button">
+                      <small>{{ site.data.translations[page.language].github.view_project }}</small>
+                      {{ site.data.translations[page.language].github.name }}
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-{{ content }}
+        <div class="container content" id="content">
+          {{ content }}
+        </div>
       </div>
-    </div>
 
-    <!-- Begin of footer block -->
-    <div class="footer">
-      <div id="icons">
-        <a href="/" title="Home">
-          <img src="/resources/home/icons/{{ site.icon_footer }}">
-        </a>
+      <!-- Begin footer -->
+      <footer class="footer">
+        <div class="footer-main row">
+          <div class="container">
+            <a href="/" title="Home">
+              <img src="/resources/home/icons/{{ site.icon_footer }}">
+            </a>
 {% for section in site.sections %}
-        <a href="/{{ section }}/" title="{{ site.data[section].name }}">
-          <img src="/resources/{{ section }}/icons/{{ site.icon_footer }}">
-        </a>
+            <a href="/{{ section }}/" title="{{ site.data[section].name }}">
+              <img src="/resources/{{ section }}/icons/{{ site.icon_footer }}">
+            </a>
 {% endfor %}
-      </div>
-      <div>{{ site.data.translations[page.language].copyright }}
-        Fabio Castelli |
-        <a href="/" title="Home">Home</a> | 
-        <a href="/english/" title="{{ site.data.translations[page.language].languages.english }}">
-          <img src="/theme/images/flag-en-16.png">
-          {{ site.data.translations[page.language].languages.english }}
-        </a> |
-        <a href="/italian/" title="{{ site.data.translations[page.language].languages.italian }}">
-          <img src="/theme/images/flag-it-16.png">
-          {{ site.data.translations[page.language].languages.italian }}
-        </a> |
-        <a href="/contacts/" title="{{ site.data.translations[page.language].sections.contacts }}">
-          {{ site.data.translations[page.language].sections.contacts }}
-        </a> |
-        <a href="//www.iubenda.com/privacy-policy/{{ site.data.translations[page.language].privacy.iubenda }}"
-          target="_blank" class="iubenda-white iubenda-embed" title="Privacy Policy">Privacy Policy</a>
-      </div>
-    </div>
-    <!-- End of footer block -->
+            </div>
+        </div>
+        <div class="footer-bottom row">
+          <div class="container">
+            <div class="row justify-content-between items">
+              <div class="col-md-auto col-12 item">
+                <nav class="footer-links">
+                  <ul>
+                    <li><a href="/">Home</a></li>
+                      <li><a href="/contacts/" title="{{ site.data.translations[page.language].sections.contacts }}">
+                          {{ site.data.translations[page.language].sections.contacts }}</a></li>
+                    <li><a href="/english/" title="{{ site.data.translations[page.language].languages.english }}">
+                        <img src="/theme/images/flag-en-16.png"> {{ site.data.translations[page.language].languages.english }}</a></li>
+                    <li><a href="/italian/" title="{{ site.data.translations[page.language].languages.italian }}">
+                        <img src="/theme/images/flag-it-16.png"> {{ site.data.translations[page.language].languages.italian }}</a></li>
+                    <li><a href="//www.iubenda.com/privacy-policy/{{ site.data.translations[page.language].privacy.iubenda }}" target="_blank">
+                      Privacy Policy</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="col-md-auto col-12 item">
+                <div class="copyright">{{ site.data.translations[page.language].copyright }} Fabio Castelli (Muflone)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- End footer -->
+    </main>
+    <!-- End main -->
+
+    <script type="text/javascript" src="/theme/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="/theme/js/lozad.min.js"></script>
+    <script type="text/javascript" src="/theme/js/device.js"></script>
+    <script type="text/javascript" src="/theme/js/custom.js"></script>
+
 {% include cookie-consent.html %}
 {% include google-analytics.html %}
   </body>

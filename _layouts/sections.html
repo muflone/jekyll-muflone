@@ -1,25 +1,26 @@
 ---
 layout: base
 ---
-        <section class="full-width">
-          <div class="full-width product">
-            <div class="products-table">
-  {% for section in site.sections %}
-              <div class="product product-column">
-                <div><a href="/{{ section }}/{{ page.language }}/">
-                  <img src="/resources/{{ section }}/icons/{{ site.icon_home }}">
-                  <div class="product-name">{{ site.data[section].name }}</div></a>
-                  <div>
-    {%- if page.language == 'italian' -%}
-                    {{ site.data[section].description.italian }}
-    {%- else -%}
-                    {{ site.data[section].description.english }}
-    {%- endif -%}
+            <div class="row">
+{% for section in site.sections %}
+              <div class="col-lg-3 col-md-6 col-12 item">
+                <a href="/{{ section }}/{{ page.language }}/" class="iitem item-style">
+                  <div class="iitem-icon">
+                    <img src="/resources/{{ section }}/icons/{{ site.icon_footer }}">
                   </div>
-                </div>
+                  <div class="iitem-icon-bg">
+                    <img src="/resources/{{ section }}/icons/{{ site.icon_home }}">
+                  </div>
+                  <h2 class="iitem-heading item-heading-large">{{ site.data[section].name }}</h2>
+                  <div class="iitem-desc">
+  {%- if page.language == 'italian' -%}
+                    {{ site.data[section].description.italian }}
+  {%- else -%}
+                    {{ site.data[section].description.english }}
+  {%- endif -%}
+                  </div>
+                </a>
               </div>
-  {% endfor %}
+{% endfor %}
+        {{ page.content }}
             </div>
-          </div>
-  {{ page.content }}
-        </section>
