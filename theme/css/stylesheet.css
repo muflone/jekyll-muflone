@@ -224,8 +224,16 @@ div.bff-container div.gitrepo {
   margin-left: 20px;
 }
 
+.footer a {
+  opacity: 100%;
+}
+
 .footer-links ul {
   margin: 0;
+}
+
+.footer-icons img:hover {
+  filter: brightness(120%);
 }
 
 .footer-links ul li {
