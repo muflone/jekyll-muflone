@@ -36,36 +36,36 @@
     <link type="text/css" rel="stylesheet" href="/theme/css/blockquotes-{{ page.language }}.css">
     <link type="text/css" rel="stylesheet" href="/theme/css/external-links.css">
 {% if page.layout == 'article' %}
-      <link type="text/css" rel="stylesheet" href="/theme/css/offline-copy.css">
+    <link type="text/css" rel="stylesheet" href="/theme/css/offline-copy.css">
 {%- endif -%}
 {% if page.layout == 'mbrola_voices' %}
-      <link type="text/css" rel="stylesheet" href="/theme/css/mbrola_voices.css">
+    <link type="text/css" rel="stylesheet" href="/theme/css/mbrola_voices.css">
 {%- endif -%}
 {% if page.layout == 'contacts' %}
-      <link type="text/css" rel="stylesheet" href="/theme/css/contacts.css">
+    <link type="text/css" rel="stylesheet" href="/theme/css/contacts.css">
 {%- endif -%}
 {% if page.layout == 'downloads' %}
-      <link type="text/css" rel="stylesheet" href="/theme/css/downloads.css">
-{%- endif -%}
+    <link type="text/css" rel="stylesheet" href="/theme/css/downloads.css">
+{% endif %}
 {% if page.require_jquery_jplayer or layout.require_jquery_jplayer %}
-      <script type="text/javascript" src="/theme/js/jquery.jplayer.min.js"></script>
-      <script type="text/javascript" src="/theme/js/create_new_jplayer.js"></script>
-{%- endif -%}
+    <script type="text/javascript" src="/theme/js/jquery.jplayer.min.js"></script>
+    <script type="text/javascript" src="/theme/js/create_new_jplayer.js"></script>
+{% endif %}
 {% if page.require_jquery_iontabs or layout.require_jquery_iontabs %}
       <script type="text/javascript" src="/theme/js/ion.tabs.min.js"></script>
       <link type="text/css" rel="stylesheet" href="/theme/css/ion.tabs.css">
       <link type="text/css" rel="stylesheet" href="/theme/css/ion.tabs.skinBorderedCustom.css">
 {%- endif -%}
 {% if page.require_jquery_fotorama or layout.require_jquery_fotorama %}
-      <script type="text/javascript" src="/theme/js/fotorama-4.6.4.js"></script>
-      <link type="text/css" rel="stylesheet" href="/theme/css/fotorama-4.6.4.css">
-      <link type="text/css" rel="stylesheet" href="/theme/css/fotorama-custom.css">
+    <script type="text/javascript" src="/theme/js/fotorama-4.6.4.js"></script>
+    <link type="text/css" rel="stylesheet" href="/theme/css/fotorama-4.6.4.css">
+    <link type="text/css" rel="stylesheet" href="/theme/css/fotorama-custom.css">
 {% endif %}
 {% if page.layout == 'flags' %}
-      <link type="text/css" rel="stylesheet" href="/theme/css/flags.css">
+    <link type="text/css" rel="stylesheet" href="/theme/css/flags.css">
 {%- endif -%}
 {% if page.layout == 'sections' %}
-      <link type="text/css" rel="stylesheet" href="/theme/css/sections.css">
+    <link type="text/css" rel="stylesheet" href="/theme/css/sections.css">
 {%- endif -%}
     <link type="font/woff2" rel="preload" href="/theme/fonts/istok-web-v15-latin/istok-web-v15-latin-regular.woff2" as="font" crossorigin>
     <link type="font/woff2" rel="preload" href="/theme/fonts/istok-web-v15-latin/istok-web-v15-latin-700.woff2" as="font" crossorigin>
@@ -130,9 +130,9 @@
                       <li><a href="/contacts/" title="{{ site.data.translations[page.language].sections.contacts }}">
                           {{ site.data.translations[page.language].sections.contacts }}</a></li>
                     <li><a href="/english/" title="{{ site.data.translations[page.language].languages.english }}">
-                        <img src="/theme/images/flag-en-16.png"> {{ site.data.translations[page.language].languages.english }}</a></li>
+                        <img src="{{ site.data.translations.english.icons.flag_mini }}"> {{ site.data.translations[page.language].languages.english }}</a></li>
                     <li><a href="/italian/" title="{{ site.data.translations[page.language].languages.italian }}">
-                        <img src="/theme/images/flag-it-16.png"> {{ site.data.translations[page.language].languages.italian }}</a></li>
+                        <img src="{{ site.data.translations.italian.icons.flag_mini }}"> {{ site.data.translations[page.language].languages.italian }}</a></li>
                     <li><a href="//www.iubenda.com/privacy-policy/{{ site.data.translations[page.language].privacy.iubenda }}" target="_blank">
                       Privacy Policy</a></li>
                   </ul>

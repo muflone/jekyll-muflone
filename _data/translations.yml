@@ -37,7 +37,6 @@ english:
     description: Description
   github:
     view_project: View project on
-    developed_by: is developed by
     name: GitHub
   privacy:
     iubenda: 721463
@@ -399,7 +398,6 @@ italian:
     description: Descrizione
   github:
     view_project: Vedi il progetto su
-    developed_by: è sviluppato da
     name: GitHub
   privacy:
     iubenda: 939201
