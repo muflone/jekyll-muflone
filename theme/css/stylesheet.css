@@ -145,6 +145,14 @@ div#content {
   margin-bottom: 0;
 }
 
+.mbrola-voices {
+  margin-bottom: 0;
+}
+
+.mbrola-voices img {
+  vertical-align: top;
+}
+
 /* Layout styles */
 #content-wrapper {
   border-top: solid 1px #fff;
