@@ -211,6 +211,14 @@ div#content {
   text-align: center;
 }
 
+blockquote.demo-voices {
+  border-left: 3px solid var(--main-color);
+}
+
+blockquote.demo-voices p {
+  color: var(--text-primary);
+}
+
 a.button {
   width: 134px;
   height: 58px;

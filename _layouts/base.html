@@ -47,17 +47,13 @@
 {% if page.layout == 'downloads' %}
     <link type="text/css" rel="stylesheet" href="/theme/css/downloads.css">
 {% endif %}
-{% if page.require_jquery_jplayer or layout.require_jquery_jplayer %}
-    <script type="text/javascript" src="/theme/js/jquery.jplayer.min.js"></script>
-    <script type="text/javascript" src="/theme/js/create_new_jplayer.js"></script>
-{% endif %}
 {% if page.require_jquery_fotorama or layout.require_jquery_fotorama %}
     <link type="text/css" rel="stylesheet" href="/theme/css/fotorama-4.6.4.css">
     <link type="text/css" rel="stylesheet" href="/theme/css/screenshots.css">
 {% endif %}
 {% if page.layout == 'flags' %}
     <link type="text/css" rel="stylesheet" href="/theme/css/flags.css">
-{%- endif -%}
+{% endif %}
 {% if page.layout == 'sections' %}
     <link type="text/css" rel="stylesheet" href="/theme/css/sections.css">
 {%- endif -%}
@@ -67,6 +63,11 @@
     <link type="font/woff2" rel="preload" href="/theme/fonts/montserrat-v15-latin/montserrat-v15-latin-600.woff2" as="font" crossorigin>
     <link type="font/woff2" rel="preload" href="/theme/fonts/material-icons/material-icons.woff2" as="font" crossorigin>
     <link type="font/woff2" rel="preload" href="/theme/fonts/material-icons/material-icons-outlined.woff2" as="font" crossorigin>
+    <script type="text/javascript" src="/theme/js/jquery-1.10.2.min.js"></script>
+{% if page.require_jquery_jplayer or layout.require_jquery_jplayer %}
+    <script type="text/javascript" src="/theme/js/jquery.jplayer.min.js"></script>
+    <script type="text/javascript" src="/theme/js/create_new_jplayer.js"></script>
+{% endif %}
   </head>
   <body>
     <main class="main">
@@ -143,7 +144,6 @@
     </main>
     <!-- End main -->
 
-    <script type="text/javascript" src="/theme/js/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="/theme/js/lozad.min.js"></script>
     <script type="text/javascript" src="/theme/js/device.js"></script>
     <script type="text/javascript" src="/theme/js/custom.js"></script>
