@@ -52,9 +52,8 @@
     <script type="text/javascript" src="/theme/js/create_new_jplayer.js"></script>
 {% endif %}
 {% if page.require_jquery_fotorama or layout.require_jquery_fotorama %}
-    <script type="text/javascript" src="/theme/js/fotorama-4.6.4.js"></script>
     <link type="text/css" rel="stylesheet" href="/theme/css/fotorama-4.6.4.css">
-    <link type="text/css" rel="stylesheet" href="/theme/css/fotorama-custom.css">
+    <link type="text/css" rel="stylesheet" href="/theme/css/screenshots.css">
 {% endif %}
 {% if page.layout == 'flags' %}
     <link type="text/css" rel="stylesheet" href="/theme/css/flags.css">
@@ -148,6 +147,9 @@
     <script type="text/javascript" src="/theme/js/lozad.min.js"></script>
     <script type="text/javascript" src="/theme/js/device.js"></script>
     <script type="text/javascript" src="/theme/js/custom.js"></script>
+{% if page.require_jquery_fotorama or layout.require_jquery_fotorama %}
+    <script type="text/javascript" src="/theme/js/fotorama-4.6.4.js"></script>
+{% endif %}
 
 {% include cookie-consent.html %}
 {% include google-analytics.html %}
