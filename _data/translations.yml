@@ -208,6 +208,7 @@ english:
       Anyone can fork the project, modify and distribute it under the same GNU GPL-3+ license.
   downloads:
     title: Downloads
+    version: Version
     from:
       muflone: Download from Muflone
       github: Download from GitHub
@@ -216,8 +217,8 @@ english:
       title: Downloadable packages
       type: Package type
       name: Package name
-      md5: MD5
-      action: Download
+      checksum: Checksum MD5
+      download: Download
       text1: >
         The following are packages for different distributions.
         Choose that more suitable for the distribution in use and refer to the
@@ -574,6 +575,7 @@ italian:
       Chiunque può derivare il progetto, modificarlo e distribuirlo purchè il nuovo progetto derivato sia rilasciato sotto la stessa licenza GNU GPL-3+.
   downloads:
     title: Scarica
+    version: Versione
     from:
       muflone: Scarica da Muflone
       github: Scarica da GitHub
@@ -582,8 +584,8 @@ italian:
       title: Pacchetti da scaricare
       type: Tipo di pacchetto
       name: Nome del pacchetto
-      md5: MD5
-      action: Scarica
+      checksum: Checksum MD5
+      download: Scarica
       text1: >
         Quelli qui riportati sono pacchetti per differenti distribuzioni.
         Scegliere quello pi&ugrave; idoneo alla distribuzione che si utilizza e
