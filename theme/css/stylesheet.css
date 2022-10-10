@@ -141,6 +141,10 @@ div#content {
   margin: 0 auto;
 }
 
+.content > * {
+  margin-bottom: 0;
+}
+
 /* Layout styles */
 #content-wrapper {
   border-top: solid 1px #fff;
