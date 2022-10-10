@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="charset" content="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-{%- if page.description %}
+{% if page.description %}
     <meta name="description" content="{{ page.description }}" />
-{%- endif %}
-{%- if page.keywords %}
+{% endif %}
+{% if page.keywords %}
     <meta name="keywords" content="{{ page.keywords }}" />
-{%- endif %}
+{% endif %}
     <title>{{ product.name }} | {{ page.title }}</title>
     <link rel="apple-touch-icon"      sizes="57x57"   href="/resources/{{ product.lowername }}/icons/apple-icon-57x57.png">
     <link rel="apple-touch-icon"      sizes="60x60"   href="/resources/{{ product.lowername }}/icons/apple-icon-60x60.png">
@@ -37,13 +37,13 @@
     <link type="text/css" rel="stylesheet" href="/theme/css/external-links.css">
 {% if page.layout == 'article' %}
     <link type="text/css" rel="stylesheet" href="/theme/css/offline-copy.css">
-{%- endif -%}
+{% endif %}
 {% if page.layout == 'mbrola_voices' %}
     <link type="text/css" rel="stylesheet" href="/theme/css/mbrola_voices.css">
-{%- endif -%}
+{% endif %}
 {% if page.layout == 'contacts' %}
     <link type="text/css" rel="stylesheet" href="/theme/css/contacts.css">
-{%- endif -%}
+{% endif %}
 {% if page.layout == 'downloads' %}
     <link type="text/css" rel="stylesheet" href="/theme/css/downloads.css">
 {% endif %}
@@ -56,7 +56,7 @@
 {% endif %}
 {% if page.layout == 'sections' %}
     <link type="text/css" rel="stylesheet" href="/theme/css/sections.css">
-{%- endif -%}
+{% endif %}
     <link type="font/woff2" rel="preload" href="/theme/fonts/istok-web-v15-latin/istok-web-v15-latin-regular.woff2" as="font" crossorigin>
     <link type="font/woff2" rel="preload" href="/theme/fonts/istok-web-v15-latin/istok-web-v15-latin-700.woff2" as="font" crossorigin>
     <link type="font/woff2" rel="preload" href="/theme/fonts/montserrat-v15-latin/montserrat-v15-latin-700.woff2" as="font" crossorigin>
