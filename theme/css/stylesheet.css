@@ -203,6 +203,7 @@ div#content {
 
 #main-content img {
   display: inline;
+  margin-bottom: 0;
 }
 
 .footer div#icons {
