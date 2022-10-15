@@ -16,5 +16,5 @@ The file to open, including its path.
 
 The application used to detect the file association.
 
-* **Automatically detected** will use the xdg-open launcher
-* **Open for GNOME** will use the gnome-open launcher
+* **Automatically detected**: will use the xdg-open launcher
+* **Open for GNOME**: will use the gnome-open launcher

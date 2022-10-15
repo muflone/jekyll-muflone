@@ -16,5 +16,5 @@ Il file da aprire, comprensivo del percorso.
 
 L'applicazione da utilizzare per rilevare l'associazione del file.
 
-* **Automatically detected** utilizzerà xdg-open
-* **Open for GNOME** utilizzerà gnome-open
+* **Automatically detected**: utilizzerà xdg-open
+* **Open for GNOME**: utilizzerà gnome-open
