@@ -508,7 +508,7 @@ italian:
         Scaricare Remmina Plugin Builder dalla
         <a href="../../remmina-plugin-builder/index.html">pagina del progetto</a>
         e fare riferimento alla
-        <a href=../../remmina-plugin-builder/$(LANGUAGE)/install.html>pagina Installazione</a>.
+        <a href="../../remmina-plugin-builder/$(LANGUAGE)/install.html">pagina Installazione</a>.
       text3: >
         Il processo di compilazione richiede semplicemente l'estrazione del
         codice sorgente sia di Remmina Plugin Builder sia di $(NAME)
