@@ -15,11 +15,11 @@ title: Changelog
 * Add embedded window argument only if a socket id was set
 * Replaced the arguments insertion with the macro ADD_ARGUMENT
 
-# Version 1.0.0.1 (Maj 27, 2013)
+# Version 1.0.0.1 (May 27, 2013)
 
 * Added CMakeLists.txt for cmake
 * Added snapshots/ to .gitignore
 
-# Version 1.0.0.0 (Maj 1, 2013)
+# Version 1.0.0.0 (May 1, 2013)
 
 * Initial release

@@ -3,11 +3,11 @@ layout: default
 order: 6
 title: Changelog
 ---
-# Version 1.0.0.3 (Maj 27, 2013)
+# Version 1.0.0.3 (May 27, 2013)
 
 * Added CMakeLists.txt for cmake
 
-# Version 1.0.0.2 (Maj 27, 2013)
+# Version 1.0.0.2 (May 27, 2013)
 
 * Added snapshots/ to .gitignore
 
