@@ -54,7 +54,7 @@ english:
           please refer to the <a href="install.html">Installation page</a>.
       text2: >
         The $(NAME) development version source code is
-        <a href="$(GITHUB)" target="_blank">available on GitHub</a>.
+        <a href="$(GITHUB)" target="_blank" class="external">available on GitHub</a>.
     debian:
       title: Installation on Debian, Ubuntu and derivatives
       text1: >
@@ -182,16 +182,16 @@ english:
       languages.
     text3: >
       Please submit your translations to
-      <a href="$(TRANSIFEX)" target="_blank">Transifex</a>
+      <a href="$(TRANSIFEX)" target="_blank" class="external">Transifex</a>
       or file an issue in
-      <a href="$(GITHUB)/issues" target="_blank">GitHub bugtracker</a>
-      or <a href="$(GITHUB)/pulls" target="_blank">pull a request on GitHub</a>.
+      <a href="$(GITHUB)/issues" target="_blank" class="external">GitHub bugtracker</a>
+      or <a href="$(GITHUB)/pulls" target="_blank" class="external">pull a request on GitHub</a>.
   license_gpl2:
     title: License
     text1: >
       <strong>$(NAME)</strong> is distributed as open source code
-      <a href="$(GITHUB)" target="_blank">available on GitHub</a> under
-      <a href="https://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU GPL-2+ license</a>
+      <a href="$(GITHUB)" target="_blank" class="external">available on GitHub</a> under
+      <a href="https://www.gnu.org/licenses/gpl-2.0.html" target="_blank" class="external">GNU GPL-2+ license</a>
       (GNU General Public License version 2 or higher).
     text2: >
       The software is supplied as is and it doesn't offer any warranty.
@@ -200,8 +200,8 @@ english:
     title: License
     text1: >
       <strong>$(NAME)</strong> is distributed as open source code
-      <a href="$(GITHUB)" target="_blank">available on GitHub</a> under
-      <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GNU GPL-3+ license</a>
+      <a href="$(GITHUB)" target="_blank" class="external">available on GitHub</a> under
+      <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank" class="external">GNU GPL-3+ license</a>
       (GNU General Public License version 3 or higher).
     text2: >
       The software is supplied as is and it doesn't offer any warranty.
@@ -233,7 +233,7 @@ english:
         in the distributions is difficult and requires a lot of time.
       text2: >
         The Latest available version is that one indicated in the
-        <a href="$(GITHUB)/releases">releases page on GitHub</a>.
+        <a href="$(GITHUB)/releases" class="external">releases page on GitHub</a>.
     types:
       source:
         title: Source code
@@ -416,7 +416,7 @@ italian:
         fare riferimento alla <a href="install.html">pagina Installazione</a>.
       text2: >
         Il codice sorgente di $(NAME) è
-        <a href="$(GITHUB)" target="_blank">disponibile su GitHub</a> con la
+        <a href="$(GITHUB)" target="_blank" class="external">disponibile su GitHub</a> con la
         versione attualmente in sviluppo.
     debian:
       title: Installazione su Debian, Ubuntu e derivate
@@ -546,18 +546,18 @@ italian:
       Sono richiesti traduttori, aiutaci a tradurre $(NAME) in altre lingue.
     text3: >
       Prego compila le tue traduzioni su
-      <a href="$(TRANSIFEX)" target="_blank">Transifex</a>
+      <a href="$(TRANSIFEX)" target="_blank" class="external">Transifex</a>
       oppure apri una richiesta sul sistema di
-      <a href="$(GITHUB)/issues" target="_blank">segnalazioni di GitHub</a>
+      <a href="$(GITHUB)/issues" target="_blank" class="external">segnalazioni di GitHub</a>
       oppure apri una
-      <a href="$(GITHUB)/pulls" target="_blank">richiesta di pull su GitHub</a>.
+      <a href="$(GITHUB)/pulls" target="_blank" class="external">richiesta di pull su GitHub</a>.
   license_gpl2:
     title: Licenza
     text1: >
       <strong>$(NAME)</strong> viene distribuito sotto forma di codice
       sorgente aperto
-      <a href="$(GITHUB)" target="_blank">disponibile su GitHub</a> sotto
-      <a href="https://www.gnu.org/licenses/gpl-2.0.html" target="_blank">licenza GNU GPL-2+</a>
+      <a href="$(GITHUB)" target="_blank" class="external">disponibile su GitHub</a> sotto
+      <a href="https://www.gnu.org/licenses/gpl-2.0.html" target="_blank" class="external">licenza GNU GPL-2+</a>
       (GNU General Public License versione 2 o superiore).
     text2: >
       Il software viene fornito così com'è e non è offerto alcun tipo di garanzia.
@@ -567,8 +567,8 @@ italian:
     text1: >
       <strong>$(NAME)</strong> viene distribuito sotto forma di codice
       sorgente aperto
-      <a href="$(GITHUB)" target="_blank">disponibile su GitHub</a> sotto
-      <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">licenza GNU GPL-3+</a>
+      <a href="$(GITHUB)" target="_blank" class="external">disponibile su GitHub</a> sotto
+      <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank" class="external">licenza GNU GPL-3+</a>
       (GNU General Public License versione 3 o superiore).
     text2: >
       Il software viene fornito così com'è e non è offerto alcun tipo di garanzia.
@@ -600,7 +600,7 @@ italian:
         distribuzioni è laborioso e richiede tanto tempo di aggiornamento.
       text2: >
         L'ultima versione disponibile è quella presente nella 
-        <a href="$(GITHUB)/releases">pagina rilasci su GitHub</a>.
+        <a href="$(GITHUB)/releases" class="external">pagina rilasci su GitHub</a>.
     types:
       source:
         title: Codice sorgente
