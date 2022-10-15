@@ -85,6 +85,10 @@ a.main-logo {
   margin-right: 20px;
 }
 
+a.main-logo img:hover {
+  filter: brightness(120%);
+}
+
 div.main-title {
   float: left;
   width: calc(95% - 230px);
