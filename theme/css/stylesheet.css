@@ -184,6 +184,11 @@ div#content {
   padding-bottom: 10px;
 }
 
+#main-content ol li a,
+#main-content ul li a {
+  margin: 0 5px;
+}
+
 #main-content ul#articles li {
   list-style: none;
   line-height: 1.5;
