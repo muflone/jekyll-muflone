@@ -39,9 +39,6 @@ layout: base
         {% assign has_children = true %}
             <li><img src="{{ site.data.translations[post.language].icons.flag_mini }}">
               <a href="{{ post.url }}">{{ post.title}}</a> ({{ post.date | date_to_string}})
-        {%- if post.description %}
-              <div class="article_description">{{ post.description }}</div>
-        {%- endif %}
             </li>
       {%- endif -%}
     {%- endfor -%}
@@ -57,9 +54,6 @@ layout: base
         {% if post_section[0] == section %}
           <h2><img src="{{ site.data.translations[post.language].icons.flag_mini }}">
             <a href="{{ post.url }}">{{ post.title}}</a></h2>
-          {%- if post.description %}
-          <div class="article_description">{{ post.description }}</div>
-          {%- endif %}
         {%- endif -%}
       {%- endunless -%}
     {% endfor %}
