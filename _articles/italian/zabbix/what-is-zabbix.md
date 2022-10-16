@@ -38,13 +38,13 @@ propri sistemi, della rete e delle applicazioni.
 
 Zabbix può controllare:
 
-- **Sistemi operativi** come Microsoft Windows, GNU/Linux, Apple OS X, Solaris,
+- **Sistemi operativi**&nbsp;come Microsoft Windows, GNU/Linux, Apple OS X, Solaris,
   BSD, AIX
-- **Hardware** come server, UPS, NAS, router, switch attraverso SNMP e IPMI
-- Sistemi raggiungibili **via rete** attraverso ICMP, SSH, Telnet e connessioni TCP
-- **Macchine virtuali** e **Hypervisor**
+- **Hardware**&nbsp;come server, UPS, NAS, router, switch attraverso SNMP e IPMI
+- Sistemi raggiungibili&nbsp;**via rete**&nbsp;attraverso ICMP, SSH, Telnet e connessioni TCP
+- **Macchine virtuali**&nbsp;e&nbsp;**Hypervisor**
 - **Database**
-- **Applicazioni** e **servizi Web**
+- **Applicazioni**&nbsp;e&nbsp;**servizi Web**
 
 ----
 # Come funziona Zabbix?
@@ -52,9 +52,9 @@ Zabbix può controllare:
 Zabbix supporta numerose modalità di controllo delle risorse.
 
 - Per il controllo dei sistemi operativi è possibile installare un software
-  chiamato **agente Zabbix**, disponibile per i principali sistemi operativi
+  chiamato&nbsp; **agente Zabbix**, disponibile per i principali sistemi operativi
 - Per il controllo dei dispositivi hardware è possibile leggere i valori 
-  tramite **interfaccia SNMP o IPMI** e recuperare i valori interessati, come ad
+  tramite interfaccia SNMP o IPMI e recuperare i valori interessati, come ad
   esempio temperature, livelli di consumabili, carica delle batterie, stato di
   salute (naturalmente l'interfaccia SNMP o IPMI deve fornitore questi valori)
 - Controlli via rete come PING o accesso ai servizi di rete possono consentire

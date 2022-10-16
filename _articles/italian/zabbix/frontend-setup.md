@@ -46,14 +46,14 @@ di configurare nuovamente Zabbix Frontend Web.
 Il passaggio principale della configurazione di Zabbix Frontend Web è la
 configurazione della connessione al database e per far ciò è necessario indicare:
 
-1. Il tipo di database utilizzato (in questo esempio **MySQL**)
-1. L'indirizzo del server dove si trova il database (in questo esempio
+1. Il tipo di database utilizzato (in questo esempio:&nbsp;**MySQL**)
+1. L'indirizzo del server dove si trova il database (in questo esempio:&nbsp;
    **localhost**)
 1. Il numero di porta da utilizzare per accedere al database (in questo esempio
    è stato lasciato il valore 0 che fa riferimento alla porta 3306 predefinita
    di MySQL)
-1. Il nome del database sul server dei database (in questo esempio **zabbix**)
-1. Il nome utente valido per accedere al server e al database (in questo esempio
+1. Il nome del database sul server dei database (in questo esempio:&nbsp;**zabbix**)
+1. Il nome utente valido per accedere al server e al database (in questo esempio:&nbsp;
    **zabbix**)
 1. La password di accesso correlata all'utente del server e del database
 
@@ -63,12 +63,12 @@ configurazione della connessione al database e per far ciò è necessario indica
 Segue la procedura con l'indicazione dei dati di Zabbix Server:
 
 1. Indicare l'indirizzo del server dove è in esecuzione Zabbix Server (in questo
-   esempio **localhost** in quanto Zabbix Frontend Web è in esecuzione sulla
+   esempio&nbsp;**localhost**&nbsp;in quanto Zabbix Frontend Web è in esecuzione sulla
    stessa macchina dove è in esecuzione Zabbix Server)
 1. Indicare il numero di porta sulla quale Zabbix Server è in ascolto, la
    porta predefinita di Zabbix Server è 10051
 1. Indicare il nome che sarà visualizzato nell'interfaccia web di Zabbix per
-   identificare il server controllato (in questo esempio **Zabbix Muflone**)
+   identificare il server controllato (in questo esempio&nbsp;**Zabbix Muflone**)
 
 {:.center}
 ![Pre-installation summary](/resources/articles/zabbix/frontend-setup/05.png)

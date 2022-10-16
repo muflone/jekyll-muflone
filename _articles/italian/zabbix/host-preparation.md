@@ -21,20 +21,20 @@ date: 2018-04-25T00:00:00Z
 Il processo di configurazione di un host controllato passa da tre semplici
 passaggi (vedi anche la pagina [come funziona Zabbix?][How Zabbix works]):
 
-1. La scelta del **protocollo di monitoraggio** e quindi la configurazione del
+1. La scelta del&nbsp;**protocollo di monitoraggio**&nbsp;e quindi la configurazione del
    protocollo scelto sul sistema da controllare
-1. La configurazione di un **gruppo di host** sul server di Zabbix
-1. La configurazione dell'**host** sul server di Zabbix
+1. La configurazione di un&nbsp;**gruppo di host**&nbsp;sul server di Zabbix
+1. La configurazione dell'**host**&nbsp;sul server di Zabbix
 
 ----
 # Scelta del protocollo di monitoraggio
 
 Zabbix può controllare vari dispositivi ma le principali tipologie sono:
 
-* Sistemi operativi, attraverso un applicativo da installare chiamato
+* Sistemi operativi, attraverso un applicativo da installare chiamato&nbsp;
   **Zabbix Agent** o agente
-* Dispositivi di rete tramite protocollo **SNMP**
-* Server e altri hardware tramite protocollo **IPMI**
+* Dispositivi di rete tramite protocollo&nbsp;**SNMP**
+* Server e altri hardware tramite protocollo&nbsp;**IPMI**
 
 L'elenco non è completo, Zabbix infatti è estendibile in mille maniere e
 possono essere sviluppati altri controlli con altri protocolli.
