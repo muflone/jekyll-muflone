@@ -35,8 +35,8 @@
     <link type="text/css" rel="stylesheet" href="/theme/css/blockquotes.css">
     <link type="text/css" rel="stylesheet" href="/theme/css/blockquotes-{{ page.language }}.css">
     <link type="text/css" rel="stylesheet" href="/theme/css/external-links.css">
-{% if page.layout == 'article' %}
-    <link type="text/css" rel="stylesheet" href="/theme/css/offline-copy.css">
+{% if page.layout == 'article' or page.layout == 'articles' %}
+    <link type="text/css" rel="stylesheet" href="/theme/css/articles.css">
 {% endif %}
 {% if page.layout == 'mbrola_voices' %}
     <link type="text/css" rel="stylesheet" href="/theme/css/mbrola_voices.css">
