@@ -1,78 +1,64 @@
 ---
 layout: base
 ---
-        <section id="main-content">
-          <p class="center"><img src="/theme/images/muflone-full.png" alt="Muflone"></p>
-
+          <section id="main-content" class="full-width">
 {% unless page.content_after %}
-          <!-- Begin of page content section -->
-            {{ content }}
-          <!-- End of page content section -->
+            <!-- Begin of page content section -->
+              {{ content }}
+            <!-- End of page content section -->
 {% endunless %}
 
-          <hr />
-          <p>{{ site.data.translations[page.language].contacts.title1 }}</p>
+            <h1>{{ site.data.translations[page.language].contacts.title1 }}</h1>
+            <ul>
+              <li><a href="mailto:{{ site.author_email }}"><img src="/theme/images/link-email.png">
+                <strong>E-mail</strong> <span class="contact-url">{{ site.author_email }}</span></a></li>
+              <li><a href="http://url.muflone.com/telegram" target="_blank"><img src="/theme/images/link-telegram.png">
+                <strong>Telegram</strong> <span class="contact-url">https://t.me/il_muflone</span></a></li>
+              <li><a href="http://url.muflone.com/twitter" target="_blank"><img src="/theme/images/link-twitter.png">
+                <strong>Twitter</strong> <span class="contact-url">https://www.twitter.com/il_muflone</span></a></li>
+              <li><a href="http://url.muflone.com/ubuntuitforum" target="_blank"><img src="/theme/images/link-ubuntu-it.png">
+                <strong>Forum Ubuntu-it</strong> <span class="contact-url">https://forum.ubuntu-it.org/memberlist.php?mode=viewprofile&u=73229</span></a></li>
+            </ul>
 
-          <hr />
-          <ul>
-            <li><a href="mailto:{{ site.author_email }}"><img src="/theme/images/link-email.png">
-              <strong>E-mail</strong> {{ site.author_email }}</a></li>
-            <li><a href="http://url.muflone.com/telegram" target="_blank"><img src="/theme/images/link-telegram.png">
-              <strong>Telegram</strong> https://t.me/il_muflone</a></li>
-            <li><a href="http://url.muflone.com/twitter" target="_blank"><img src="/theme/images/link-twitter.png">
-              <strong>Twitter</strong> https://www.twitter.com/il_muflone</a></li>
-            <li><a href="http://url.muflone.com/youtube" target="_blank"><img src="/theme/images/link-youtube.png">
-              <strong>YouTube</strong> https://www.youtube.com/user/fibiafbi</a></li>
-            <li><a href="http://url.muflone.com/ubuntuitforum" target="_blank"><img src="/theme/images/link-ubuntu-it.png">
-              <strong>Forum Ubuntu-it</strong> https://forum.ubuntu-it.org/…73229</a></li>
-          </ul>
+            <h1>{{ site.data.translations[page.language].contacts.title2 }}</h1>
+            <ul>
+              <li><a href="http://url.muflone.com/github" target="_blank"><img src="/theme/images/link-github.png">
+                <strong>GitHub</strong> <span class="contact-url">https://github.com/muflone/</span></a></li>
+              <li><a href="http://url.muflone.com/pypi" target="_blank"><img src="/theme/images/link-pypi.png">
+                <strong>Python Package Index (PyPI)</strong> <span class="contact-url">https://pypi.org/user/Muflone/</span></a></li>
+              <li><a href="http://url.muflone.com/openhub" target="_blank"><img src="/theme/images/link-openhub.png">
+                <strong>Black Duck Open Hub</strong> <span class="contact-url">https://www.openhub.net/accounts/Muflone</span></a></li>
+              <li><a href="http://url.muflone.com/archlinux" target="_blank"><img src="/theme/images/link-archlinux.png">
+                <strong>Arch Linux Trusted Users</strong> <span class="contact-url">https://archlinux.org/people/trusted-users/#muflone</span></a></li>
+              <li><a href="http://url.muflone.com/aur" target="_blank"><img src="/theme/images/link-archlinux.png">
+                <strong>Arch Linux AUR packages</strong> <span class="contact-url">https://aur.archlinux.org/packages/?SeB=m&amp;K=muflone</span></a></li>
+              <li><a href="http://url.muflone.com/archwiki" target="_blank"><img src="/theme/images/link-archlinux.png">
+                <strong>Arch Linux Wiki</strong> <span class="contact-url">https://wiki.archlinux.org/index.php/User:Muflone</span></a></li>
+              <li><a href="http://url.muflone.com/debian" target="_blank"><img src="/theme/images/link-debian.png">
+                <strong>Debian packages</strong> <span class="contact-url">https://qa.debian.org/developer.php</span></a></li>
+              <li><a href="http://url.muflone.com/launchpad" target="_blank"><img src="/theme/images/link-launchpad.png">
+                <strong>Launchpad</strong> <span class="contact-url">https://launchpad.net/~il-muflone</span></a></li>
+              <li><a href="http://url.muflone.com/sourceforge" target="_blank"><img src="/theme/images/link-sourceforge.png">
+                <strong>Sourceforge</strong> <span class="contact-url">https://sourceforge.net/users/muflone/</span></a></li>
+            </ul>
 
-          <hr />
-          <p>{{ site.data.translations[page.language].contacts.title2 }}</p>
+            <h1>{{ site.data.translations[page.language].contacts.title3 }}</h1>
+            <ul>
+              <li><a href="http://url.muflone.com/blog" target="_blank"><img src="/theme/images/link-wordpress.png">
+                <strong>Un caprone che fa bau</strong> <span class="contact-url">https://muflone.wordpress.com/</span></a></li>
+              <li><a href="http://url.muflone.com/ubuntutrucchi" target="_blank"><img src="/theme/images/link-wordpress.png">
+                <strong>Ubuntu Trucchi</strong> <span class="contact-url">https://ubuntrucchi.wordpress.com/</span></a></li>
+              <li><a href="http://url.muflone.com/pygtk" target="_blank"><img src="/theme/images/link-wordpress.png">
+                <strong>Appunti sparsi su PyGTK</strong> <span class="contact-url">https://pygtk.wordpress.com/</span></a></li>
+              <li><a href="http://url.muflone.com/gnomeshell" target="_blank"><img src="/theme/images/link-wordpress.png">
+                <strong>The GNOME Shell</strong> <span class="contact-url">https://pygtk.wordpress.com/</span></a></li>
+            </ul>
 
-          <hr />
-          <ul>
-            <li><a href="http://url.muflone.com/github" target="_blank"><img src="/theme/images/link-github.png">
-              <strong>GitHub</strong> https://github.com/muflone/</a></li>
-            <li><a href="http://url.muflone.com/pypi" target="_blank"><img src="/theme/images/link-pypi.png">
-              <strong>Python Package Index (PyPI)</strong> https://pypi.org/user/Muflone/</a></li>
-            <li><a href="http://url.muflone.com/openhub" target="_blank"><img src="/theme/images/link-openhub.png">
-              <strong>Black Duck Open Hub</strong> https://www.openhub.net/accounts/Muflone</a></li>
-            <li><a href="http://url.muflone.com/archlinux" target="_blank"><img src="/theme/images/link-archlinux.png">
-              <strong>Arch Linux Trusted Users</strong> https://archlinux.org/people/trusted-users/#muflone</a></li>
-            <li><a href="http://url.muflone.com/aur" target="_blank"><img src="/theme/images/link-archlinux.png">
-              <strong>Arch Linux AUR packages</strong> https://aur.archlinux.org/packages/?SeB=m&amp;K=muflone</a></li>
-            <li><a href="http://url.muflone.com/archwiki" target="_blank"><img src="/theme/images/link-archlinux.png">
-              <strong>Arch Linux Wiki</strong> https://wiki.archlinux.org/index.php/User:Muflone</a></li>
-            <li><a href="http://url.muflone.com/debian" target="_blank"><img src="/theme/images/link-debian.png">
-              <strong>Debian packages</strong> https://qa.debian.org/developer.php</a></li>
-            <li><a href="http://url.muflone.com/launchpad" target="_blank"><img src="/theme/images/link-launchpad.png">
-              <strong>Launchpad</strong> https://launchpad.net/~il-muflone</a></li>
-            <li><a href="http://url.muflone.com/sourceforge" target="_blank"><img src="/theme/images/link-sourceforge.png">
-              <strong>Sourceforge</strong> https://sourceforge.net/users/muflone/</a></li>
-          </ul>
-
-          <hr />
-          <p>{{ site.data.translations[page.language].contacts.title3 }}</p>
-
-          <hr />
-          <ul>
-            <li><a href="http://url.muflone.com/blog" target="_blank"><img src="/theme/images/link-wordpress.png">
-              <strong>Un caprone che fa bau</strong> https://muflone.wordpress.com/</a></li>
-            <li><a href="http://url.muflone.com/ubuntutrucchi" target="_blank"><img src="/theme/images/link-wordpress.png">
-              <strong>Ubuntu Trucchi</strong> https://ubuntrucchi.wordpress.com/</a></li>
-            <li><a href="http://url.muflone.com/pygtk" target="_blank"><img src="/theme/images/link-wordpress.png">
-              <strong>Appunti sparsi su PyGTK</strong> https://pygtk.wordpress.com/</a></li>
-            <li><a href="http://url.muflone.com/gnomeshell" target="_blank"><img src="/theme/images/link-wordpress.png">
-              <strong>The GNOME Shell</strong> https://pygtk.wordpress.com/</a></li>
-          </ul>
-
-          <hr />
 {% if page.content_after %}
-          <!-- Begin of page content section -->
-          <div>
-            {{ content }}
-          </div>
-          <!-- End of page content section -->
+            <!-- Begin of page content section -->
+            <div>
+              {{ content }}
+            </div>
+            <!-- End of page content section -->
 {% endif %}
-        </section>
+          </section>
