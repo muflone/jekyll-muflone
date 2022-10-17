@@ -2,8 +2,14 @@ ul li img:hover {
   filter: brightness(120%);
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 991.98px) {
   .contact-url {
     display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .contact-url {
+    font-size: 13px;
   }
 }
