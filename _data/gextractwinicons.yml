@@ -9,6 +9,7 @@ license: gpl3
 versions:
 - version: 0.5.2
   normalized: v052
+  date: 2022-10-01
   packages:
   - type: source
     filename: gextractwinicons-0.5.2.tar.gz
@@ -30,6 +31,7 @@ versions:
     md5sum: '-'
 - version: 0.5.1
   normalized: v051
+  date: 2022-08-22
   packages:
   - type: source
     filename: gextractwinicons-0.5.1.tar.gz
@@ -45,6 +47,7 @@ versions:
     md5sum: 3de4e0dba3a1d17741d0ce438ce56cd0
 - version: 0.5.0
   normalized: v050
+  date: 2022-04-18
   packages:
   - type: source
     filename: gextractwinicons-0.5.0.tar.gz
@@ -60,6 +63,7 @@ versions:
     md5sum: 3166c28f20a4a90739cd8834e04b6330
 - version: 0.4.2
   normalized: v042
+  date: 2014-10-04
   packages:
   - type: source
     filename: gextractwinicons-0.4.2.tar.gz
@@ -69,6 +73,7 @@ versions:
     md5sum: f65db7d9756b8bad560f96436c5adc72
 - version: 0.4.1
   normalized: v041
+  date: 2014-09-06
   packages:
   - type: source
     filename: gextractwinicons-0.4.1.tar.gz
@@ -78,6 +83,7 @@ versions:
     md5sum: 176f717f23897a1f4bf6b3a09d120cb0
 - version: 0.4
   normalized: v040
+  date: 2013-10-27
   packages:
   - type: source
     filename: gextractwinicons-0.4.tar.gz
@@ -87,6 +93,7 @@ versions:
     md5sum: 9654c8b8ef33f46f4c07eb5f0a88eb5a
 - version: 0.3.1
   normalized: v031
+  date: 2010-10-24
   packages:
   - type: source
     filename: gextractwinicons-0.3.1.tar.gz
@@ -99,6 +106,7 @@ versions:
     md5sum: bc2243d00e9ad2a8141dbf1b5b126f62
 - version: 0.3
   normalized: v030
+  date: 2010-01-23
   packages:
   - type: source
     filename: gextractwinicons-0.3.tar.gz

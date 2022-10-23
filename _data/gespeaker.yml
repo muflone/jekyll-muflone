@@ -9,6 +9,7 @@ license: gpl3
 versions:
 - version: 0.8.6
   normalized: v086
+  date: 2015-08-02
   packages:
   - type: source
     filename: gespeaker-0.8.6.tar.gz
@@ -24,6 +25,7 @@ versions:
     md5sum: '-'
 - version: 0.8.5
   normalized: v085
+  date: 2014-10-04
   packages:
   - type: source
     filename: gespeaker-0.8.5.tar.gz
@@ -36,6 +38,7 @@ versions:
     md5sum: 960C0FBE1E596A122635C4744F4BBB0E
 - version: 0.8.4
   normalized: v084
+  date: 2014-09-06
   packages:
   - type: source
     filename: gespeaker-0.8.4.tar.gz
@@ -48,6 +51,7 @@ versions:
     md5sum: D1772D76588206F3359B7082F24AE6EB
 - version: 0.8.3
   normalized: v083
+  date: 2014-08-31
   packages:
   - type: source
     filename: gespeaker-0.8.3.tar.gz
@@ -60,6 +64,7 @@ versions:
     md5sum: A1AFF7C06637A9950B80D22FF61E77CD
 - version: 0.8.2
   normalized: v082
+  date: 2013-07-11
   packages:
   - type: source
     filename: gespeaker-0.8.2.tar.gz

@@ -9,6 +9,7 @@ license: gpl3
 versions:
 - version: 0.8.2
   normalized: v082
+  date: 2022-10-01
   packages:
   - type: source
     filename: cpucompare-0.8.2.tar.gz
@@ -30,6 +31,7 @@ versions:
     md5sum: '-'
 - version: 0.8.1
   normalized: v081
+  date: 2022-08-22
   packages:
   - type: source
     filename: cpucompare-0.8.1.tar.gz
@@ -45,6 +47,7 @@ versions:
     md5sum: 49f6c44a19067f0d6adc88d5b39491d5
 - version: 0.8.0
   normalized: v080
+  date: 2022-05-20
   packages:
   - type: source
     filename: cpucompare-0.8.0.tar.gz
@@ -60,12 +63,14 @@ versions:
     md5sum: 'f404becaf6ee0bea4d23041009390415'
 - version: 0.7.0
   normalized: v070
+  date: 2017-05-07
   packages:
   - type: source
     filename: cpucompare-0.7.0.tar.gz
     md5sum: 4e495f645b94132eb1abb3a224b01e75
 - version: 0.6
   normalized: v060
+  date: 2013-09-15
   packages:
   - type: source
     filename: cpucompare-0.6.tar.gz
@@ -75,6 +80,7 @@ versions:
     md5sum: 5803d45ad30ef75501680b939580864e
 - version: 0.5
   normalized: v050
+  date: 2013-09-13
   packages:
   - type: source
     filename: cpucompare-0.5.tar.gz
@@ -84,6 +90,7 @@ versions:
     md5sum: 75725661df27ec13f1713fade1c233e1
 - version: 0.4
   normalized: v040
+  date: 2013-09-12
   packages:
   - type: source
     filename: cpucompare-0.4.tar.gz
@@ -93,6 +100,7 @@ versions:
     md5sum: 30ae3e7f653be06c306953eb8397f927
 - version: 0.3
   normalized: v030
+  date: 2013-09-11
   packages:
   - type: source
     filename: cpucompare-0.3.tar.gz
@@ -102,6 +110,7 @@ versions:
     md5sum: 0cc18b01f7aaba532965e39d88809f42
 - version: 0.2
   normalized: v020
+  date: 2013-09-10
   packages:
   - type: source
     filename: cpucompare-0.2.tar.gz
@@ -111,6 +120,7 @@ versions:
     md5sum: 0c16ccd1e6c6cf3deccc134bbbe98007
 - version: 0.1
   normalized: v010
+  date: 2013-09-10
   packages:
   - type: source
     filename: cpucompare-0.1.tar.gz

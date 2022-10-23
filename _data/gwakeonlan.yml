@@ -9,6 +9,7 @@ license: gpl3
 versions:
 - version: 0.8.5
   normalized: v085
+  date: 2022-10-01
   packages:
   - type: source
     filename: gwakeonlan-0.8.5.tar.gz
@@ -27,6 +28,7 @@ versions:
     md5sum: '-'
 - version: 0.8.4
   normalized: v084
+  date: 2022-08-22
   packages:
   - type: source
     filename: gwakeonlan-0.8.4.tar.gz
@@ -42,6 +44,7 @@ versions:
     md5sum: 04e9e7d9e65c869881fce612797f8c9c
 - version: 0.8.3
   normalized: v083
+  date: 2022-05-22
   packages:
   - type: source
     filename: gwakeonlan-0.8.3.tar.gz
@@ -57,6 +60,7 @@ versions:
     md5sum: a1c81197822cf7a4f586cdf52ad7096b
 - version: 0.8.2
   normalized: v082
+  date: 2022-04-15
   packages:
   - type: source
     filename: gwakeonlan-0.8.2.tar.gz
@@ -72,6 +76,7 @@ versions:
     md5sum: 82393117b8ee1e7867136a7803885c42
 - version: 0.8.1
   normalized: v081
+  date: 2022-04-02
   packages:
   - type: source
     filename: gwakeonlan-0.8.1.tar.gz
@@ -87,6 +92,7 @@ versions:
     md5sum: a360c15361100cd30407d27ca70b2c0d
 - version: 0.8.0
   normalized: v080
+  date: 2022-03-20
   packages:
   - type: source
     filename: gwakeonlan-0.8.0.tar.gz
@@ -102,6 +108,7 @@ versions:
     md5sum: ce403b9a36eb235e33b3073a40270831
 - version: 0.7.0
   normalized: v070
+  date: 2020-10-18
   packages:
   - type: source
     filename: gwakeonlan-0.7.0.tar.gz
@@ -114,6 +121,7 @@ versions:
     md5sum: 67c10eb7700fd9dabbd2b6412f7719ef
 - version: 0.6.3
   normalized: v063
+  date: 2014-10-04
   packages:
   - type: source
     filename: gwakeonlan-0.6.3.tar.gz
@@ -123,6 +131,7 @@ versions:
     md5sum: 76c76160276278035b854cde7a30a153
 - version: 0.6.2
   normalized: v062
+  date: 2014-09-06
   packages:
   - type: source
     filename: gwakeonlan-0.6.2.tar.gz
@@ -132,6 +141,7 @@ versions:
     md5sum: a21aaff372deb5fe06990d5622ebc68e
 - version: 0.6.1
   normalized: v061
+  date: 2013-12-08
   packages:
   - type: source
     filename: gwakeonlan-0.6.1.tar.gz
@@ -141,6 +151,7 @@ versions:
     md5sum: 339c0c49e7ed56ebf23f6c483fe562fb
 - version: 0.6
   normalized: v060
+  date: 2013-10-20
   packages:
   - type: source
     filename: gwakeonlan-0.6.tar.gz
@@ -150,6 +161,7 @@ versions:
     md5sum: e217bf6e30a899884e55972168fe52c8
 - version: 0.5.1
   normalized: v051
+  date: 2010-10-17
   packages:
   - type: source
     filename: gwakeonlan-0.5.1.tar.gz
@@ -162,6 +174,7 @@ versions:
     md5sum: 9a6fe2fdf58aa7c72a7b4abfe9a9704a
 - version: 0.5
   normalized: v050
+  date: 2010-02-20
   packages:
   - type: source
     filename: gwakeonlan-0.5.tar.gz
@@ -171,6 +184,7 @@ versions:
     md5sum: a8634f909f186a125cba133faad11c7f
 - version: 0.4
   normalized: v040
+  date: 2010-01-23
   packages:
   - type: source
     filename: gwakeonlan-0.4.tar.gz
@@ -180,6 +194,7 @@ versions:
     md5sum: 86620e880757ff23adc380f3c2e2d770
 - version: 0.2
   normalized: v020
+  date: 2009-12-13
   packages:
   - type: source
     filename: gwakeonlan-0.2.tar.gz

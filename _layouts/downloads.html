@@ -26,7 +26,10 @@ layout: default
               <div class="col col-12 col-lg-12">
                 <ul class="accordion-list">
                   <li class="accordion-item section-bgc {% if forloop.first %}active{% endif %}" id="version-{{ version.normalized }}">
-                    <div class="accordion-trigger package-version">{{ site.data.translations[page.language].downloads.version }} {{ version.version }}</div>
+                    <div class="accordion-trigger package-version">
+                      {{ site.data.translations[page.language].downloads.version }} {{ version.version }}
+                      - {{ site.data.translations[page.language].downloads.release_date }}: {{ version.date }}
+                    </div>
                     <div class="accordion-content content" {% if forloop.first %}style="display:block;"{% endif %}>
                       <div class="table-responsive-outer">
                         <div class="table-responsive">

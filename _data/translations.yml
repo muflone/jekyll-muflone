@@ -210,6 +210,7 @@ english:
   downloads:
     title: Downloads
     version: Version
+    release_date: Release date
     from:
       muflone: Download from Muflone
       github: Download from GitHub
@@ -578,6 +579,7 @@ italian:
   downloads:
     title: Scarica
     version: Versione
+    release_date: Data del rilascio
     from:
       muflone: Scarica da Muflone
       github: Scarica da GitHub

@@ -9,6 +9,7 @@ license: gpl3
 versions:
 - version: 0.4.7
   normalized: v047
+  date: 2022-10-01
   packages:
   - type: source
     filename: gnome-appfolders-manager-0.4.7.tar.gz
@@ -27,6 +28,7 @@ versions:
     md5sum: '-'
 - version: 0.4.6
   normalized: v046
+  date: 2022-08-22
   packages:
   - type: source
     filename: gnome-appfolders-manager-0.4.6.tar.gz
@@ -42,6 +44,7 @@ versions:
     md5sum: a5f5a33860622b7bf82f304215150596
 - version: 0.4.5
   normalized: v045
+  date: 2022-05-22
   packages:
   - type: source
     filename: gnome-appfolders-manager-0.4.5.tar.gz
@@ -57,6 +60,7 @@ versions:
     md5sum: 9332c7d432655cf715e82c0d667241a1
 - version: 0.4.4
   normalized: v044
+  date: 2022-04-10
   packages:
   - type: source
     filename: gnome-appfolders-manager-0.4.4.tar.gz
@@ -72,6 +76,7 @@ versions:
     md5sum: 42fc29b02835438209e9fcc686e5f39e
 - version: 0.4.3
   normalized: v043
+  date: 2022-04-04
   packages:
   - type: source
     filename: gnome-appfolders-manager-0.4.3.tar.gz
@@ -87,6 +92,7 @@ versions:
     md5sum: 5ed7b5a33bd8769043ab035485c7e44b
 - version: 0.4.2
   normalized: v042
+  date: 2022-01-14
   packages:
   - type: source
     filename: gnome-appfolders-manager-0.4.2.tar.gz
@@ -96,6 +102,7 @@ versions:
     md5sum: f9867847e6f7f1959d74f8b70333ce9b
 - version: 0.4.1
   normalized: v041
+  date: 2022-01-10
   packages:
   - type: source
     filename: gnome-appfolders-manager-0.4.1.tar.gz
@@ -105,6 +112,7 @@ versions:
     md5sum: f2b1c6d03aca230966fa0f979c92b94c
 - version: 0.4.0
   normalized: v040
+  date: 2022-01-10
   packages:
   - type: source
     filename: gnome-appfolders-manager-0.4.0.tar.gz
@@ -117,6 +125,7 @@ versions:
     md5sum: 452552596229772257ddf617282c0d60
 - version: 0.3.2
   normalized: v032
+  date: 2017-04-22
   packages:
   - type: source
     filename: gnome-appfolders-manager-0.3.2.tar.gz
@@ -126,6 +135,7 @@ versions:
     md5sum: 8f80cd11ed886208fe7db4c70fa8a5f5
 - version: 0.3.1
   normalized: v031
+  date: 2016-05-31
   packages:
   - type: source
     filename: gnome-appfolders-manager-0.3.1.tar.gz
@@ -138,6 +148,7 @@ versions:
     md5sum: 708f1e58555b3d4fb20ef89d7bba558b
 - version: 0.3.0
   normalized: v030
+  date: 2016-05-28
   packages:
   - type: source
     filename: gnome-appfolders-manager-0.3.0.tar.gz
@@ -147,6 +158,7 @@ versions:
     md5sum: a5af1e6ac821d72e722cb8917b8e5dd4
 - version: 0.2.4
   normalized: v024
+  date: 2016-05-22
   packages:
   - type: source
     filename: gnome-appfolders-manager-0.2.4.tar.gz
@@ -156,6 +168,7 @@ versions:
     md5sum: b2d34e0c57d115111ab8f39efeebf520
 - version: 0.2.3
   normalized: v023
+  date: 2016-05-22
   packages:
   - type: source
     filename: gnome-appfolders-manager-0.2.3.tar.gz
@@ -165,6 +178,7 @@ versions:
     md5sum: 327f324c5da6c42246f827a4329a2465
 - version: 0.2.2
   normalized: v022
+  date: 2016-05-20
   packages:
   - type: source
     filename: gnome-appfolders-manager-0.2.2.tar.gz
@@ -174,6 +188,7 @@ versions:
     md5sum: b164c47fffdd3be8fb67131c96379f24
 - version: 0.2.1
   normalized: v021
+  date: 2016-05-15
   packages:
   - type: source
     filename: gnome-appfolders-manager-0.2.1.tar.gz
@@ -183,6 +198,7 @@ versions:
     md5sum: 43df8d4dd8386dd18e97750ad8a194a2
 - version: 0.2.0
   normalized: v020
+  date: 2016-05-15
   packages:
   - type: source
     filename: gnome-appfolders-manager-0.2.0.tar.gz
