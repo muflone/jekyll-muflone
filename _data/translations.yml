@@ -1,6 +1,6 @@
 english:
   copyright: Copyright &copy; 2013-2022
-  latest_update: Last update
+  last_update: Last update
   icons:
     flag_mini: /theme/images/flag-en-16.png
     flag_maxi: /theme/images/flag-en-128.png
@@ -363,7 +363,7 @@ english:
   offline_copy: Offline copy
 italian:
   copyright: Copyright &copy; 2013-2022
-  latest_update: Ultimo aggiornamento
+  last_update: Ultimo aggiornamento
   icons:
     flag_mini: /theme/images/flag-it-16.png
     flag_maxi: /theme/images/flag-it-128.png
