@@ -306,6 +306,9 @@ english:
       opensuse64:
         title: OpenSUSE x86_64 (64 bit)
         icon: opensuse-32.png
+      python-wheel:
+        title: Python Wheel
+        icon: python-32.png
   mbrola:
     title: Supported MBROLA voices on $(DISTRIBUTION)
     voice: Voice
@@ -675,6 +678,9 @@ italian:
       opensuse64:
         title: OpenSUSE x86_64 (64 bit)
         icon: opensuse-32.png
+      python-wheel:
+        title: Python Wheel
+        icon: python-32.png
   mbrola:
     title: Voci MBROLA supportate su $(DISTRIBUTION)
     voice: Voce
