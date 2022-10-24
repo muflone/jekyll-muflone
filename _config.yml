@@ -29,6 +29,7 @@ sections:
   - remmina-plugin-ultravnc
   - remmina-plugin-url
   - remmina-plugin-webkit
+  - awaitable
 collections:
   contacts:
     output: true
@@ -85,6 +86,9 @@ collections:
     output: true
     permalink: /:collection/:path:output_ext
   remmina-plugin-webkit:
+    output: true
+    permalink: /:collection/:path:output_ext
+  awaitable:
     output: true
     permalink: /:collection/:path:output_ext
 defaults:
@@ -331,5 +335,15 @@ defaults:
       language: english
   - scope:
       path: _remmina-plugin-webkit/italian
+    values:
+      language: italian
+
+  - scope:
+      path: _awaitable
+    values:
+      product: awaitable
+      language: english
+  - scope:
+      path: _awaitable/italian
     values:
       language: italian

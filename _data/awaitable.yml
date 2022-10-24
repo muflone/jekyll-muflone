@@ -1,0 +1,60 @@
+name: Awaitable
+lowername: awaitable
+description:
+  italian: Un piccolo decoratore per eseguire in maniera asincrona funzioni sincrone.
+  english: A small decorator to asynchronously execute synchronous functions.
+gitrepo: https://github.com/muflone/awaitable
+translations_repo: https://explore.transifex.com/muflone/awaitable/
+license: gpl3
+versions:
+- version: 0.2.3
+  normalized: v023
+  date: 2022-09-24
+  packages:
+  - type: source
+    filename: awaitable-0.2.3.tar.gz
+    md5sum: ac4dff78db7f98e6a6b3674420f54828
+  - type: python-wheel
+    filename: Awaitable-0.2.3-py3-none-any.whl
+    md5sum: 18d03140bf4992d3b0403b58268ce6db
+- version: 0.2.2
+  normalized: v022
+  date: 2022-09-22
+  packages:
+  - type: source
+    filename: awaitable-0.2.2.tar.gz
+    md5sum: 3393bbd05a9d6d5d711137529b474158
+  - type: python-wheel
+    filename: Awaitable-0.2.2-py3-none-any.whl
+    md5sum: f3abe5727dbb793cb4079e4aec1e45a4
+- version: 0.2.1
+  normalized: v021
+  date: 2022-09-22
+  packages:
+  - type: source
+    filename: awaitable-0.2.1.tar.gz
+    md5sum: 82f6e0e6c4baa610f9bf6ff12860cf61
+  - type: python-wheel
+    filename: Awaitable-0.2.1-py3-none-any.whl
+    md5sum: 05eef918ecaa52999423f689c52fa65a
+- version: 0.2.0
+  normalized: v020
+  date: 2022-06-12
+  packages:
+  - type: source
+    filename: awaitable-0.2.0.tar.gz
+    md5sum: aae765c4de66726b8356797ebcfb8eb7
+  - type: python-wheel
+    filename: Awaitable-0.2.0-py3-none-any.whl
+    md5sum: 0b25288234e3695feb00bc7c9a48f593
+- version: 0.1.0
+  normalized: v010
+  date: 2022-06-12
+  packages:
+  - type: source
+    filename: awaitable-0.1.0.tar.gz
+    md5sum: a10a38eb1854904ab25d63f6da537b5e
+  - type: python-wheel
+    filename: Awaitable-0.1.0-py3-none-any.whl
+    md5sum: ecd66a01e8e4ea3bfd6705ee939b01a0
+translations:
