@@ -135,6 +135,27 @@ english:
         software uninstall will not be possibile but you will have to manually
         delete all the installed files that were reported during the last
         installation step.
+    pip3:
+      title: Installation with Python 3 using PIP
+      text1: >
+        You can install the $(NAME) Python package from PIP repository using:
+      commands1: |
+        python3 -m pip install $(PACKAGE)
+      text2: >
+        You can install the downloaded Wheel package (.whl) using:
+      commands2: |
+        cd "~/folder with the downloaded file"
+        python3 -m pip install $(PACKAGE)-versione-*.whl
+      text3: >
+        If you prefer to use the source code package you can extract and install it using:
+      commands3: |
+        cd "~/folder with the downloaded file"
+        tar xzf "$(PACKAGE)-version.pkg.tar.gz"
+        python3 -m pip install -e "$(PACKAGE)-version"
+      text4: >
+        To uninstall the package later you can use:
+      commands4: |
+        python3 -m pip uninstall $(PACKAGE)
     remmina_plugin_builder:
       title: Installation from source code
       text1: >
@@ -504,6 +525,28 @@ italian:
         sorgente non sarà possibile disinstallare automaticamente il software
         ma sarà necessario eliminare manualmente tutti i files installati che
         sono indicati durante l'ultimo passaggio del processo di installazione.
+    pip3:
+      title: Installazione con Python 3 utilizzando PIP
+      text1: >
+        Puoi installare il pacchetto Python di $(NAME) dal repository di PIP utilizzando:
+      commands1: |
+        python3 -m pip install $(PACKAGE)
+      text2: >
+        Puoi installare il pacchetto Wheel (.whl) scaricato utilizzando:
+      commands2: |
+        cd "~/cartella con il file scaricato"
+        python3 -m pip install $(PACKAGE)-versione-*.whl
+      text3: >
+        Se preferisci utilizzare il pacchetto col codice sorgente puoi estrarlo ed
+        installarlo utilizzando:
+      commands3: |
+        cd "~/cartella con il file scaricato"
+        tar xzf "$(PACKAGE)-version.pkg.tar.gz"
+        python3 -m pip install -e "$(PACKAGE)-version"
+      text4: >
+        Per disinstallare successivamente il pacchetto puoi utilizzare:
+      commands4: |
+        python3 -m pip uninstall $(PACKAGE)
     remmina_plugin_builder:
       title: Installazione dal codice sorgente
       text1: >
