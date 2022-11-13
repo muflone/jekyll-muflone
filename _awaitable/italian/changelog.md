@@ -1,6 +1,6 @@
 ---
 layout: default
-order: 6
+order: 10
 title: Cambiamenti
 ---
 # Versione 0.2.3 (24 Settembre 2022)

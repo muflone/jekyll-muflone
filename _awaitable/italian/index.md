@@ -3,7 +3,8 @@ layout: index
 order: 1
 title: Introduzione
 ---
-Un piccolo decoratore per eseguire in maniera asincrona funzioni sincrone.
+Un piccolo decoratore Python per eseguire in maniera asincrona funzioni
+sincrone.
 
 **Awaitable** può essere utile quando si desidera eseguide in maniera asincrona
 una funzione sincrona che non può essere riscritta in maniera asincrona
@@ -11,8 +12,9 @@ utilizzando `await` poiché potrebbe contenere del codice che non può essere
 atteso, per la presenza di librerie di terze parti oppure se alcune funzioni
 sono utilizzate in altre parti del codice in maniera sincrona.
 
-Il decoratore awaitable permette di dichiarare le funzioni sincrone come attese,
-in modo da poter essere eseguite da un'altra funzione asincrona.
+Il decoratore [awaitable]({% link _awaitable/italian/docs/awaitable.md %})
+permette di dichiarare le funzioni sincrone come attese, in modo da poter essere
+eseguite da un'altra funzione asincrona.
 
 ```python
 import awaitable
@@ -25,9 +27,9 @@ def do_something():
 
 # AsyncioGather
 
-La classe **AsyncioGather** può essere utilizzata per processare alcuni task
-usando asyncio, raccogliendo i task da eseguire ed eseguendoli, per processarli
-raggruppati in maniera asincrona.
+La classe [AsyncioGather]({% link _awaitable/italian/docs/asynciogather.md %})
+può essere utilizzata per processare alcuni task usando asyncio, raccogliendo i
+task da eseguire ed eseguendoli, per processarli raggruppati in maniera asincrona.
 
 L'esempio seguente dichiara una funzione `do_something` come attesa e all'interno
 della funzione `process` si definisce un gruppo di task per raccogliere, anche
@@ -60,5 +62,6 @@ verranno eseguiti e saranno processati in maniera asincrona.
 awaitable.run_awaitable(func=process, count=10)
 ```
 
-La funzione `run_awaitable` eseguira la funzione asincrona `process(count=10)`
-per raccogliere e processare ogni task generato.
+La funzione [run_awaitable]({% link _awaitable/italian/docs/run_awaitable.md %})
+eseguira la funzione asincrona `process(count=10)` per raccogliere e processare
+ogni task generato.

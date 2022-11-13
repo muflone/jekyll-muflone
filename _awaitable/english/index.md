@@ -10,8 +10,9 @@ function which you cannot rewrite asynchronously using `await` because it may
 contain some code that's not awaitable, for thirdy part libraries or some
 functions are used in some other parts of the code in synchronous way.
 
-The awaitable decorator allows you to declare the synchronous function as
-awaitable, so it could be executed from another asynchonous function.
+The [awaitable]({% link _awaitable/english/docs/awaitable.md %}) decorator
+allows you to declare the synchronous function as awaitable, so it could be
+executed from another asynchonous function.
 
 ```python
 import awaitable
@@ -24,9 +25,9 @@ def do_something():
 
 # AsyncioGather
 
-The **AsyncioGather** class can be used to process some tasks using asyncio,
-collecting the tasks to run and to run them, to process them asynchronously
-grouped.
+The [AsyncioGather]({% link _awaitable/english/docs/asynciogather.md %}) class
+can be used to process some tasks using asyncio, collecting the tasks to run
+and to run them, to process them asynchronously in parallel.
 
 The following example declares a function `do_something` as awaitable and
 into the asynchronous function `process` you define a group of tasks to
@@ -53,11 +54,12 @@ async def process(count):
 ```
 
 Using `tasks.run()` you'll execute all the tasks into the AsyncioGather tasks
-group and you'll process all the tasks asynchronously.
+list and you'll process all the tasks asynchronously.
 
 ```python
 awaitable.run_awaitable(func=process, count=10)
 ```
 
-The `run_awaitable` function will execute the asynchronous function
-`process(count=10)` to collect and process every generated task.
+The [run_awaitable]({% link _awaitable/english/docs/run_awaitable.md %})
+function will execute the asynchronous function `process(count=10)` to collect
+and process every generated task.

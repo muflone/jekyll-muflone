@@ -1,6 +1,6 @@
 ---
 layout: default
-order: 5
+order: 9
 depth: 2
 title: Sleep
 ---
