@@ -85,7 +85,7 @@ english:
         The development version is also available in the AUR and can be
         installed using yay (or a similar AUR helper) with
         <code>yay -S $(PACKAGE)</code>.
-    python2:
+    python2_app:
       title: Installation from source code with Python 2
       text1: >
         If the prebuilt package will not be available for your distribution you
@@ -110,7 +110,7 @@ english:
         software uninstall will not be possibile but you will have to manually
         delete all the installed files that were reported during the last
         installation step.
-    python3:
+    python3_app:
       title: Installation from source code with Python 3
       text1: >
         If the prebuilt package will not be available for your distribution you
@@ -473,7 +473,7 @@ italian:
         E' anche disponibile la versione di sviluppo in AUR e può essere
         installata utilizzando yay (o un analogo gestore per AUR) con
         <code>yay -S $(PACKAGE)</code>.
-    python2:
+    python2_app:
       title: Installazione dal codice sorgente con Python 2
       text1: >
         Se non fosse disponibile il pacchetto preassemblato per la propria
@@ -499,7 +499,7 @@ italian:
         sorgente non sarà possibile disinstallare automaticamente il software
         ma sarà necessario eliminare manualmente tutti i files installati che
         sono indicati durante l'ultimo passaggio del processo di installazione.
-    python3:
+    python3_app:
       title: Installazione dal codice sorgente con Python 3
       text1: >
         Se non fosse disponibile il pacchetto preassemblato per la propria

@@ -5,4 +5,4 @@ title: Installazione
 ---
 {% include installation.html type='debian' %}
 {% include installation.html type='archlinux' aur='cpucompare' development='cpucompare-git' download='cpucompare' %}
-{% include installation.html type='python3' %}
+{% include installation.html type='python3-app' %}
