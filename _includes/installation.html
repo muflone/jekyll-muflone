@@ -52,6 +52,17 @@
   {{ site.data.translations[page.language].installation.python3_app.text3 }}
   </p></blockquote></blockquote></blockquote>
 
+  {% when 'python3-build' %}
+  <!-- Installation type for source code with Python 3 -->
+<h1>{{ site.data.translations[page.language].installation.python3_build.title }}</h1>
+<p>{{ site.data.translations[page.language].installation.python3_build.text1 | replace: '$(NAME)', site.data[page.product].name }}</p>
+<pre class="highlight"><code>{{ site.data.translations[page.language].installation.python3_build.commands1 | replace: '$(PACKAGE)', site.data[page.product].lowername }}</code></pre>
+
+<p>{{ site.data.translations[page.language].installation.python3_build.text2 }}</p>
+<blockquote><blockquote><blockquote><p>
+  {{ site.data.translations[page.language].installation.python3_build.text3 }}
+  </p></blockquote></blockquote></blockquote>
+
   {% when 'pip3' %}
   <!-- Installation type for PIP with Python 3 -->
 <h1>{{ site.data.translations[page.language].installation.pip3.title }}</h1>
