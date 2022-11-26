@@ -30,6 +30,7 @@ sections:
   - remmina-plugin-url
   - remmina-plugin-webkit
   - awaitable
+  - pixelcolor
 collections:
   contacts:
     output: true
@@ -89,6 +90,9 @@ collections:
     output: true
     permalink: /:collection/:path:output_ext
   awaitable:
+    output: true
+    permalink: /:collection/:path:output_ext
+  pixelcolor:
     output: true
     permalink: /:collection/:path:output_ext
 defaults:
@@ -345,5 +349,15 @@ defaults:
       language: english
   - scope:
       path: _awaitable/italian
+    values:
+      language: italian
+
+  - scope:
+      path: _pixelcolor
+    values:
+      product: pixelcolor
+      language: english
+  - scope:
+      path: _pixelcolor/italian
     values:
       language: italian
