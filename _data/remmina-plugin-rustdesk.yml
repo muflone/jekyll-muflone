@@ -1,0 +1,22 @@
+name: Remmina Plugin RustDesk
+lowername: remmina-plugin-rustdesk
+description:
+  italian: Un plugin di protocollo per Remmina per stabilire connessioni tramite RustDesk.
+  english: A Remmina protocol plugin to establish connections through RustDesk.
+gitrepo: https://github.com/muflone/remmina-plugin-rustdesk
+translations_repo:
+license: gpl2
+versions:
+- version: 1.0.0.0
+  normalized: v1000
+  date: 2022-10-31
+  packages:
+  - type: source
+    filename: remmina-plugin-rustdesk-1.0.0.0.tar.gz
+    md5sum: 8df49058fb0894557d00c4fd7aa69581
+  - type: archlinux64
+    filename: remmina-plugin-rustdesk-1.0.0.0-1-x86_64.pkg.tar.zst
+    md5sum: ee09ac6fa25a7176def7b53cd30595df
+  - type: aur
+    filename: remmina-plugin-rustdesk
+    md5sum: '-'

@@ -25,6 +25,7 @@ sections:
   - remmina-plugin-folder
   - remmina-plugin-open
   - remmina-plugin-rdesktop
+  - remmina-plugin-rustdesk
   - remmina-plugin-teamviewer
   - remmina-plugin-ultravnc
   - remmina-plugin-url
@@ -75,6 +76,9 @@ collections:
     output: true
     permalink: /:collection/:path:output_ext
   remmina-plugin-rdesktop:
+    output: true
+    permalink: /:collection/:path:output_ext
+  remmina-plugin-rustdesk:
     output: true
     permalink: /:collection/:path:output_ext
   remmina-plugin-teamviewer:
@@ -299,6 +303,16 @@ defaults:
       language: english
   - scope:
       path: _remmina-plugin-rdesktop/italian
+    values:
+      language: italian
+
+  - scope:
+      path: _remmina-plugin-rustdesk
+    values:
+      product: remmina-plugin-rustdesk
+      language: english
+  - scope:
+      path: _remmina-plugin-rustdesk/italian
     values:
       language: italian
 
