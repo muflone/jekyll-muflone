@@ -10,7 +10,7 @@ title: Impostazioni
 
 ## **Server** (*server*)
 
-L'indirizzo del serve a cui connettersi.
+L'indirizzo del server a cui connettersi.
 
 ## **Password** (*password*)
 
