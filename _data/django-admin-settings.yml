@@ -1,0 +1,49 @@
+name: Django Admin Settings
+lowername: django-admin-settings
+description:
+  italian: Un'applicazione Django per configurare alcune impostazioni di Django Admin
+  english: A Django application to configure some Django Admin settings
+gitrepo: https://github.com/muflone/django-admin-settings
+translations_repo:
+license: gpl3
+versions:
+- version: 0.3.1
+  normalized: v031
+  date: 2023-03-10
+  packages:
+  - type: source
+    filename: django-admin-settings-0.3.1.tar.gz
+    md5sum: 1e635462ba178887cee28c066c8784c2
+  - type: python-wheel
+    filename: django_admin_settings-0.3.1-py3-none-any.whl
+    md5sum: fc731d5c457f68d1b0bd759bbc98d202
+- version: 0.3.0
+  normalized: v030
+  date: 2023-03-08
+  packages:
+  - type: source
+    filename: django-admin-settings-0.3.0.tar.gz
+    md5sum: 9344a4d40a6fae9af910ccaf0cdfc80f
+  - type: python-wheel
+    filename: django_admin_settings-0.3.0-py3-none-any.whl
+    md5sum: 0bf1447b36b85dcf5d86874025e837c3
+- version: 0.2.0
+  normalized: v020
+  date: 2023-03-08
+  packages:
+  - type: source
+    filename: django-admin-settings-0.2.0.tar.gz
+    md5sum: 16be6ed51d84ad127004f3a7ceb76c27
+  - type: python-wheel
+    filename: django_admin_settings-0.2.0-py3-none-any.whl
+    md5sum: 61c0dc56cd0f4a58e30aa77ff148aab3
+- version: 0.1.0
+  normalized: v010
+  date: 2023-03-08
+  packages:
+  - type: source
+    filename: django-admin-settings-0.1.0.tar.gz
+    md5sum: 3a9e9045241816720a63b108a36a633b
+  - type: python-wheel
+    filename: django_admin_settings-0.1.0-py3-none-any.whl
+    md5sum: 8e414ad0a485550ad69cd29fd2e20642

@@ -32,6 +32,7 @@ sections:
   - remmina-plugin-webkit
   - awaitable
   - pixelcolor
+  - django-admin-settings
 collections:
   contacts:
     output: true
@@ -97,6 +98,9 @@ collections:
     output: true
     permalink: /:collection/:path:output_ext
   pixelcolor:
+    output: true
+    permalink: /:collection/:path:output_ext
+  django-admin-settings:
     output: true
     permalink: /:collection/:path:output_ext
 defaults:
@@ -373,5 +377,15 @@ defaults:
       language: english
   - scope:
       path: _pixelcolor/italian
+    values:
+      language: italian
+
+  - scope:
+      path: _django-admin-settings
+    values:
+      product: django-admin-settings
+      language: english
+  - scope:
+      path: _django-admin-settings/italian
     values:
       language: italian
