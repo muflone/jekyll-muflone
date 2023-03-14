@@ -33,7 +33,6 @@ title: Cambiamenti
 * Aggiunte le icone in varie dimensioni
 * Aggiunto il file desktop
 
-{:.center}
 ![Finestra principale di CPUCompare 0.6](/resources/cpucompare/archive/v0.6/italian/main.png)
 
 # Versione 0.5 (13 Settembre 2013)
@@ -45,7 +44,6 @@ title: Cambiamenti
 * I resultset dal database adesso usano ```sqlite3.Row``` invece che tuple per
   accedere a tutti i campi dei risultati tramite nome invece che indice numerico
 
-{:.center}
 ![Finestra principale di CPUCompare 0.5](/resources/cpucompare/archive/v0.5/italian/main.png)
 
 # Versione 0.4 (12 Settembre 2013)
@@ -53,7 +51,6 @@ title: Cambiamenti
 * Vari cambiamenti al codice per spostare la logica dei modelli in classi
   specializzate
 
-{:.center}
 ![Finestra principale di CPUCompare 0.4](/resources/cpucompare/archive/v0.4/italian/main.png)
 
 # Versione 0.3 (11 Settembre 2013)
@@ -64,7 +61,6 @@ title: Cambiamenti
 * Aggiunti gli acceleratori per i pulsanti
 * Aggiunta la versione del database nella finestra delle informazioni
 
-{:.center}
 ![Finestra principale di CPUCompare 0.3](/resources/cpucompare/archive/v0.3/italian/main.png)
 
 # Versione 0.2 (10 Settembre 2013)
@@ -72,12 +68,10 @@ title: Cambiamenti
 * Automaticamente viene scelto l'ultimo elemento dopo l'inserimento
 * Aggiunto il pulsante Rimuovi.
 
-{:.center}
 ![Finestra principale di CPUCompare 0.2](/resources/cpucompare/archive/v0.2/italian/main.png)
 
 # Versione 0.1 (10 Settembre 2013)
 
 * Rilascio iniziale.
 
-{:.center}
 ![Finestra principale di CPUCompare 0.1](/resources/cpucompare/archive/v0.1/italian/main.png)

@@ -55,7 +55,6 @@ title: Changelog
 * New DBUS interface to interact from external apps
 * Fixed minimum words gap from 5 to 0 in main UI
 
-{:.center}
 ![About dialog for Gespeaker 0.8](/resources/gespeaker/archive/v0.8/english/about.png)
 
 # Version 0.7 (Dic 13, 2009)
@@ -64,7 +63,6 @@ title: Changelog
 * New setup.py for distutils installation.
 * New packaging following the Debian policy.
 
-{:.center}
 ![About dialog for Gespeaker 0.7](/resources/gespeaker/archive/v0.7/english/about.png)
 
 # Version 0.6 (Jul 18, 2009)
@@ -83,10 +81,8 @@ title: Changelog
   This was causing weird noises on playing the recorded track if it wasn't a
   .wav filename.
 
-{:.center}
 ![Main window for Gespeaker 0.6](/resources/gespeaker/archive/v0.6/english/main.jpg)
 
-{:.center}
 ![Preferences window for MBROLA for Gespeaker 0.6](/resources/gespeaker/archive/v0.6/english/mbrola.jpg)
 
 # Version 0.5 (Jun 30, 2009)
@@ -105,10 +101,8 @@ title: Changelog
   folder for extra voice variants.
 * Fixed stock icon for ```DialogFileOpenSave```.
 
-{:.center}
 ![Main window for Gespeaker 0.5](/resources/gespeaker/archive/v0.5/english/main.png)
 
-{:.center}
 ![Preferences window for Gespeaker 0.5](/resources/gespeaker/archive/v0.5/english/preferences.png)
 
 # Version 0.4 (Jun 20, 2009)
@@ -127,7 +121,6 @@ title: Changelog
 * New icon and logo, kindly provided by MIX.
 * New french translation provided by Emmanuel.
 
-{:.center}
 ![Main window for Gespeaker 0.4](/resources/gespeaker/archive/v0.4/english/main.png)
 
 # Version 0.3 (Jun 18, 2009)
@@ -149,14 +142,12 @@ title: Changelog
   hardcoded.
 * Symlinked copyright file to ```/usr/share/doc/gespeaker/copyright```
 
-{:.center}
 ![Main window for Gespeaker 0.2](/resources/gespeaker/archive/v0.2/english/main.png)
 
 # Version 0.1 (Jun 13, 2009)
 
 * Initial release.
 
-{:.center}
 ![Main window for Gespeaker 0.1](/resources/gespeaker/archive/v0.1/english/main.jpg)
 
 {: target="_blank" .external }

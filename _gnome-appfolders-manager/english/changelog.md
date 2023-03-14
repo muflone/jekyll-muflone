@@ -22,7 +22,6 @@ title: Changelog
 * Remove applications sort indicator
 * Make the applications column not clickable
 
-{:.center}
 ![Main window for GNOME AppFolders Manager 0.4.4](/resources/gnome-appfolders-manager/archive/v0.4.4/english/main.png)
 
 # Version 0.4.3 (Apr 4, 2022)
@@ -36,7 +35,6 @@ title: Changelog
 * Added shortcut to open the options menu
 * Added AppStream metainfo data
 
-{:.center}
 ![Main window for GNOME AppFolders Manager 0.4.3](/resources/gnome-appfolders-manager/archive/v0.4.3/english/main.png)
 
 # Version 0.4.2 (Jan 14, 2022)
@@ -44,13 +42,11 @@ title: Changelog
 * Fixed Russian translation
 * Fixed French translation
 
-{:.center}
 ![About dialog for GNOME AppFolders Manager 0.4.2](/resources/gnome-appfolders-manager/archive/v0.4.2/english/about.png)
 
 # Version 0.4.1 (Jan 10, 2022)
 * New Dutch translation by Heimen Stoffels
 
-{:.center}
 ![About dialog for GNOME AppFolders Manager 0.4.1](/resources/gnome-appfolders-manager/archive/v0.4.1/english/about.png)
 
 # Version 0.4.0 (Jan 10, 2022)
@@ -63,7 +59,6 @@ title: Changelog
 * Migrated from distutils to setuptools
 * Made the application description translatable
 
-{:.center}
 ![Main window for GNOME AppFolders Manager 0.4.0](/resources/gnome-appfolders-manager/archive/v0.4.0/english/main.png)
 
 # Version 0.3.2 (Apr 22, 2017)
@@ -73,13 +68,11 @@ title: Changelog
 * New Polish translation by Piotr Komur
 * Search icon in the current theme from the file name
 
-{:.center}
 ![About dialog for GNOME AppFolders Manager 0.3.2](/resources/gnome-appfolders-manager/archive/v0.3.2/english/about.png)
 
 # Version 0.3.1 (May 31, 2016)
 * Handled readonly settings directory avoiding the folder creation
 
-{:.center}
 ![About dialog for GNOME AppFolders Manager 0.3.1](/resources/gnome-appfolders-manager/archive/v0.3.1/english/about.png)
 
 # Version 0.3.0 (May 29, 2016)
@@ -92,7 +85,6 @@ title: Changelog
 * New Ukrainian translation by edshevsky
 * Added German translation by Vincent Bermel
 
-{:.center}
 ![Main window for GNOME AppFolders Manager 0.3.0](/resources/gnome-appfolders-manager/archive/v0.3.0/english/main.png)
 
 # Version 0.2.4 (May 22, 2016)
@@ -110,7 +102,6 @@ title: Changelog
 * Added folder properties
 * Set actions sensitiveness on folders selection
 
-{:.center}
 ![Main window for GNOME AppFolders Manager 0.2.3](/resources/gnome-appfolders-manager/archive/v0.2.3/english/main.png)
 
 # Version 0.2.2 (May 20, 2016)
@@ -119,17 +110,14 @@ title: Changelog
 * Added shortcuts window for GTK+ 3.20 and higher
 * Updated translations
 
-{:.center}
 ![Shortcuts window for GNOME AppFolders Manager 0.2.2](/resources/gnome-appfolders-manager/archive/v0.2.2/english/shortcuts.png)
 
 # Version 0.2.1 (May 15, 2016)
 
 * Updated translations
 
-
 # Version 0.2.0 (May 15, 2016)
 
 * Initial release
 
-{:.center}
 ![Main window for GNOME AppFolders Manager 0.2.0](/resources/gnome-appfolders-manager/archive/v0.2.0/english/main.png)

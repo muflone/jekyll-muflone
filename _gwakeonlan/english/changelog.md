@@ -24,7 +24,6 @@ title: Changelog
 * Enhanced logging format
 * Made the Turn on button as suggested action
 
-{:.center}
 ![Main window for gWakeOnLAN 0.8.3](/resources/gwakeonlan/archive/v0.8.3/english/main.png)
 
 # Version 0.8.2 (Apr 15, 2022)
@@ -33,7 +32,6 @@ title: Changelog
 * Added GTK+ translations to AppImage
 * Load computer icon from filesystem
 
-{:.center}
 ![Detail window for gWakeOnLAN 0.8.2](/resources/gwakeonlan/archive/v0.8.2/english/detail.png)
 
 # Version 0.8.1 (Apr 3, 2022)
@@ -43,7 +41,6 @@ title: Changelog
 * Add apputils metainfo specification file
 * Updated AppImageBuilder file
 
-{:.center}
 ![About dialog for gWakeOnLAN 0.8.1](/resources/gwakeonlan/archive/v0.8.1/english/about.png)
 
 # Version 0.8.0 (Mar 21, 2022)
@@ -58,7 +55,6 @@ title: Changelog
 * Added Select All and Deselect All options
 * Handle network errors when turning on the machines
 
-{:.center}
 ![Main window for gWakeOnLAN 0.8.0](/resources/gwakeonlan/archive/v0.8.0/english/main.png)
 
 # Version 0.7.0 (Oct 18, 2020)
@@ -70,7 +66,6 @@ title: Changelog
 * Import hosts from ethers file
 * New and updated translations
 
-{:.center}
 ![Main window for gWakeOnLAN 0.7.0](/resources/gwakeonlan/archive/v0.7.0/english/main.png)
 
 # Version 0.6.3 (Oct 27, 2018)
@@ -82,7 +77,6 @@ title: Changelog
 * Changed project URL to http://www.muflone.com/gwakeonlan
 * New Bulgarian translation by sahwar
 
-{:.center}
 ![About dialog for gWakeOnLAN 0.6.2](/resources/gwakeonlan/archive/v0.6.2/english/about.png)
 
 # Version 0.6.1 (Dic 8, 2013)
@@ -91,7 +85,6 @@ title: Changelog
 * Fixed license URL in the documentation
 * Fixed the minimum GTK+ version to 3.0
 
-{:.center}
 ![About dialog for gWakeOnLAN 0.6.1](/resources/gwakeonlan/archive/v0.6.1/english/about.png)
 
 # Version 0.6 (Oct 20, 2013)
@@ -101,7 +94,6 @@ title: Changelog
 * Added ARP cache picker dialog
 * Added GMenu
 
-{:.center}
 ![ARP cache picker dialog for gWakeOnLAN 0.6](/resources/gwakeonlan/archive/v0.6/english/arpcache.png)
 
 # Version 0.5.1 (Oct 17, 2010)
@@ -111,7 +103,6 @@ title: Changelog
 * Added german translation by Martin Riemenschneider
 * Fixed spanish translation by Luca Della Ghezza
 
-{:.center}
 ![About dialog for gWakeOnLAN 0.5.1](/resources/gwakeonlan/archive/v0.5.1/english/about.png)
 
 # Version 0.5 (Feb 20, 2010)
@@ -130,10 +121,8 @@ title: Changelog
 * Added verbose and client command line options
 * Various code cleanup
 
-{:.center}
 ![Main window for gWakeOnLAN 0.5](/resources/gwakeonlan/archive/v0.5/english/main.png)
 
-{:.center}
 ![Detail window for gWakeOnLAN 0.5](/resources/gwakeonlan/archive/v0.5/english/detail.png)
 
 # Version 0.4 (Jan 16, 2010)
@@ -142,7 +131,6 @@ title: Changelog
 * Added doc/translators for translators notice on about dialog
 * Modified the manpage for further info about bugs reporting and copyright
 
-{:.center}
 ![About dialog for gWakeOnLAN 0.4](/resources/gwakeonlan/archive/v0.4/english/about.png)
 
 # Version 0.3 (Dec 13, 2009)
@@ -151,19 +139,16 @@ title: Changelog
 * Added French translation by Emmanuel
 * Added Distutils setup.py installation script
 
-{:.center}
 ![About dialog for gWakeOnLAN 0.3](/resources/gwakeonlan/archive/v0.3/english/about.png)
 
 # Version 0.2 (Sep 12, 2009)
 
 * Fixes in the magic packet creation code
 
-{:.center}
 ![About dialog for gWakeOnLAN 0.2](/resources/gwakeonlan/archive/v0.2/english/about.png)
 
 # Version 0.1 (Sep 6, 2009)
 
 * Initial release.
 
-{:.center}
 ![Main window for gWakeOnLAN 0.1](/resources/gwakeonlan/archive/v0.1/english/main.png)

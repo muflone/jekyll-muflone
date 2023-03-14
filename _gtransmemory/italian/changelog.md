@@ -17,14 +17,12 @@ title: Cambiamenti
 * Aggiunto completamento del testo per l'origine nell'importare file da una cartella
 * Permesso il filtro dei risultati per origine utilizzando il prefisso source:
 
-{:.center}
 ![Finestra principale di gTransMemory 0.4.0](/resources/gtransmemory/archive/v0.4.0/italian/main.png)
 
 # Versione 0.3.0 (10 Luglio 2016)
 
 * Aggiunta finestra delle scorciatoie per GTK+ 3.20+
 
-{:.center}
 ![Finestra scorciatoie di gTransMemory 0.3.0](/resources/gtransmemory/archive/v0.3.0/italian/shortcuts.png)
 
 # Version 0.2.0 (10 Luglio 2016)
@@ -32,7 +30,6 @@ title: Cambiamenti
 * Aggiunti casella e pulsante di ricerca
 * Aggiungi acceleratori mancanti
 
-{:.center}
 ![Casella di ricerca di gTransMemory 0.2.0](/resources/gtransmemory/archive/v0.2.0/italian/search.png)
 
 # Version 0.1.0 (10 Luglio 2016)
@@ -50,5 +47,4 @@ title: Cambiamenti
 
 * Rilascio iniziale
 
-{:.center}
 ![Main window di gTransMemory 0.0.1](/resources/gtransmemory/archive/v0.0.1/italian/main.png)

@@ -27,7 +27,6 @@ title: Cambiamenti
 * Nuova traduzione in portoghese da Danielson Tavares
 * Aggiunto file di impostazione per AppImage builder
 
-{:.center}
 ![Finestra principale di gExtractWinIcons 0.5.0](/resources/gextractwinicons/archive/v0.5.0/italian/main.png)
 
 # Versione 0.4.2 (4 Ottobre 2014)
@@ -40,7 +39,6 @@ title: Cambiamenti
 * Aggiornate le traduzioni
 * Nuova traduzione in bulgaro da sahwar
 
-{:.center}
 ![Finestra delle informazioni di gExtractWinIcons 0.4.1](/resources/gextractwinicons/archive/v0.4.1/italian/about.png)
 
 # Versione 0.4 (27 Ottobre 2013)
@@ -49,7 +47,6 @@ title: Cambiamenti
 * Ridisegnata tutta l'interfaccia utente con le GTK+ 3.0
 * Aggiunto il GMenu
 
-{:.center}
 ![Finestra principale di gExtractWinIcons 0.4](/resources/gextractwinicons/archive/v0.4/italian/main.png)
 
 # Versione 0.3.1 (24 Ottobre 2010)
@@ -59,7 +56,6 @@ title: Cambiamenti
   cambiamenti del file
 * Sistemato un difetto nell'estrazione dei cursori (Bug Debian #600015)
 
-{:.center}
 ![Finestra delle informazioni di gExtractWinIcons 0.3.1](/resources/gextractwinicons/archive/v0.3.1/italian/about.png)
 
 # Versione 0.3 (3 Gennaio 2010)
@@ -69,7 +65,6 @@ title: Cambiamenti
 * Aggiunta la traduzione francese da Emmanuel
 * Modifiche minori al codice
 
-{:.center}
 ![Finestra delle informazioni di gExtractWinIcons 0.3](/resources/gextractwinicons/archive/v0.3/italian/about.png)
 
 # Versione 0.2 (29 Agosto 2009)
@@ -78,12 +73,10 @@ title: Cambiamenti
 * Aggiunti filtri per la finestra di dialogo di apertura del file
 * Aggiornamento automatico all'apertura del file
 
-{:.center}
 ![Finestra delle informazioni di gExtractWinIcons 0.2](/resources/gextractwinicons/archive/v0.2/italian/about.png)
 
 # Versione 0.1 (28 Agosto 2009)
 
 * Rilascio iniziale
 
-{:.center}
 ![Finestra principale di gExtractWinIcons 0.1](/resources/gextractwinicons/archive/v0.1/italian/main.png)

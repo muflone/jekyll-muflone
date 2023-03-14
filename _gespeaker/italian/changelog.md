@@ -58,7 +58,6 @@ title: Cambiamenti
 * Nuova interfaccia DBUS per l'interazione da applicazioni esterne
 * Corretto il ritardo minimo delle parole da 5 a 0 nell'interfaccia principale
 
-{:.center}
 ![Finestra delle informazioni di Gespeaker 0.8](/resources/gespeaker/archive/v0.8/italian/about.png)
 
 # Versione 0.7 (13 Dicembre 2009)
@@ -68,7 +67,6 @@ title: Cambiamenti
 * Nuovo setup.py per l'installazione distutils.
 * Nuova pacchettizzazione che segue le regole Debian.
 
-{:.center}
 ![Finestra delle informazioni di Gespeaker 0.7](/resources/gespeaker/archive/v0.7/italian/about.png)
 
 # Versione 0.6 (18 Luglio 2009)
@@ -88,10 +86,8 @@ title: Cambiamenti
   Ciò causava strani rumori nella riproduzione della traccia registrata se il
   nome del file non terminava in .wav.
 
-{:.center}
 ![Finestra principale di Gespeaker 0.6](/resources/gespeaker/archive/v0.6/italian/main.jpg)
 
-{:.center}
 ![Finestra delle preferenze per MBROLA di Gespeaker 0.6](/resources/gespeaker/archive/v0.6/italian/mbrola.jpg)
 
 # Versione 0.5 (30 Giugno 2009)
@@ -112,10 +108,8 @@ title: Cambiamenti
   ```/usr/share/espeak-data/voices/!v``` per varianti extra della voce.
 * Sistemate le icone predefinite per ```DialogFileOpenSave```.
 
-{:.center}
 ![Finestra principale di Gespeaker 0.5](/resources/gespeaker/archive/v0.5/italian/main.png)
 
-{:.center}
 ![Finestra delle preferenze di Gespeaker 0.5](/resources/gespeaker/archive/v0.5/italian/preferences.png)
 
 # Versione 0.4 (20 Giugno 2009)
@@ -134,7 +128,6 @@ title: Cambiamenti
 * Nuove icona e logo, gentilmente forniti da MIX.
 * Nuova traduzione francese fornita da Emmanuel.
 
-{:.center}
 ![Finestra principale di Gespeaker 0.4](/resources/gespeaker/archive/v0.4/italian/main.png)
 
 # Versione 0.3 (18 Giugno 2009)
@@ -159,14 +152,12 @@ title: Cambiamenti
 * Aggiunto collegamento simbolico del file di copyright a 
   ```/usr/share/doc/gespeaker/copyright```
 
-{:.center}
 ![Finestra principale di Gespeaker 0.2](/resources/gespeaker/archive/v0.2/italian/main.png)
 
 # Versione 0.1 (13 Giugno 2009)
 
 * Rilascio iniziale.
 
-{:.center}
 ![Finestra principale di Gespeaker 0.1](/resources/gespeaker/archive/v0.1/italian/main.jpg)
 
 {: target="_blank" .external }
