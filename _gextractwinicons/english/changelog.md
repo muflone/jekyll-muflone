@@ -53,7 +53,7 @@ title: Changelog
 
 * Fixed spanish translation (thanks to Federico Caiazza and Fitoschido)
 * Disabled file chooser during the scan to prevent file changes
-* Fixed defect on cursors extraction (Debian bug #600015)
+* Fixed defect on cursors' extraction (Debian bug #600015)
 
 ![About dialog for gExtractWinIcons 0.3.1](/resources/gextractwinicons/archive/v0.3.1/english/about.png)
 

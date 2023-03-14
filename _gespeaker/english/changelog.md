@@ -51,7 +51,7 @@ title: Changelog
 # Version 0.8 (Jun 13, 2010)
 
 * Moved translators from .po files to doc/translators
-* New polish translation by Andrey J.
+* New Polish translation by Andrey J.
 * New DBUS interface to interact from external apps
 * Fixed minimum words gap from 5 to 0 in main UI
 
