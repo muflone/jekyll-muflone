@@ -1,7 +1,7 @@
 ---
 layout: documentation
 order: 500
-title: Documentation
+title: Documentazione
 ---
 # Documentazione
 
