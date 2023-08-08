@@ -1,6 +1,6 @@
 ---
 layout: default
-order: 2
+order: 500
 title: Domande frequenti
 ---
 ## Cosa può fare BlueWho per me?

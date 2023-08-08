@@ -1,6 +1,6 @@
 ---
 layout: index
-order: 1
+order: 100
 title: Introduction
 ---
 **Django Admin Settings** is a Django application to configure some aspects

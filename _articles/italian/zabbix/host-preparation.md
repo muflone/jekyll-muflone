@@ -11,7 +11,7 @@ description: Prima di passare alla configurazione effettiva del primo sistema
              controllato da Zabbix è necessario conoscere il principio di
              funzionamento dei protocolli di monitoraggio, dei gruppi di host
              e degli host.
-order: 410
+order: 1410
 date: 2018-04-25T00:00:00Z
 ---
 

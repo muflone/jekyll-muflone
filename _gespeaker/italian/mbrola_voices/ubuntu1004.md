@@ -1,6 +1,6 @@
 ---
 layout: mbrola_voices
-order: 30
+order: 550
 depth: 2
 title: Ubuntu 10.04
 distribution: Ubuntu 10.04 Lucid Lynx

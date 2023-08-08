@@ -1,6 +1,6 @@
 ---
 layout: index
-order: 1
+order: 100
 title: Introduzione
 ---
 **BlueWho** è un'applicazione libera che ricercherà dispositivi Bluetooth nelle

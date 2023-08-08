@@ -9,7 +9,7 @@ keywords: zabbix, installazione, appliance, virtual, machine, vm, download, ovf
 description: Installare Zabbix Appliance su macchina virtuale è possibile
              utilizzando un modello già pronto da scaricare e semplicemente
              importare nel virtualizzatore preferito.
-order: 405
+order: 1405
 date: 2018-04-18T00:00:00Z
 ---
 

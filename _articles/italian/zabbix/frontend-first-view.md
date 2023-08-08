@@ -9,7 +9,7 @@ keywords: zabbix, configurazione, setup, web, frontend
 description: Impariamo a conoscere Zabbix Frontend Web, la parte centrale per
              la configurazione del sistema, degli host, degli avvisi e dei
              valori da monitorare.
-order: 408
+order: 1408
 date: 2018-04-18T00:00:00Z
 ---
 

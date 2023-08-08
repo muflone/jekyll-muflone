@@ -10,7 +10,7 @@ description: L'agente di Zabbix è un software da installare sul sistema operati
              da controllare che permette ai server di effettuare monitoraggio
              periodico e ricevere gli avvisi in caso di problemi riscontrati
              sul sistema operativo controllato.
-order: 412
+order: 1412
 date: 2018-04-25T00:00:00Z
 ---
 

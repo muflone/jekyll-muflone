@@ -1,6 +1,6 @@
 ---
 layout: mbrola_voices
-order: 10
+order: 530
 depth: 2
 title: Debian 6
 distribution: Debian 6 Squeeze

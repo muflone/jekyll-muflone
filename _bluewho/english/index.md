@@ -1,6 +1,6 @@
 ---
 layout: index
-order: 1
+order: 100
 title: Introduction
 ---
 **BlueWho** is a free application that will scan for Bluetooth devices near you

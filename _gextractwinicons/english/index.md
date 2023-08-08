@@ -1,6 +1,6 @@
 ---
 layout: index
-order: 1
+order: 100
 title: Introduction
 ---
 **gExtractWinIcons** is a free GTK+ application to extract cursors, icons and png

@@ -7,7 +7,7 @@ tags:
   - zabbix
 keywords: zabbix, architettura, componenti, server, web, proxy, agent, client
 description: L'architettura di Zabbix e a cosa serve ciascun componente di Zabbix.
-order: 402
+order: 1402
 date: 2018-04-17T00:00:00Z
 ---
 

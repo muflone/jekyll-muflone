@@ -1,6 +1,6 @@
 ---
 layout: default
-order: 6
+order: 500
 depth: 1
 title: Wake On LAN
 ---

@@ -9,7 +9,7 @@ keywords: zabbix, installazione, arch, linux, pacman, pacchetti
 description: L'installazione di Zabbix Server su Arch Linux richiede un minimo
              di configurazione delle varie componenti. Questa guida spiega i
              passaggi fino all'avvio di Zabbix Frontend Web.
-order: 406
+order: 1406
 date: 2018-04-18T00:00:00Z
 ---
 

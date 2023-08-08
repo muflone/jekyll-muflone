@@ -9,7 +9,7 @@ keywords: zabbix, configurazione, setup, web, frontend
 description: La configurazione iniziale di Zabbix Frontend Web richiede
              l'inserimento dei dati di accesso del server di database e di
              Zabbix Server.
-order: 407
+order: 1407
 date: 2018-04-18T00:00:00Z
 ---
 

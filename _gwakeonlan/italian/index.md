@@ -1,6 +1,6 @@
 ---
 layout: index
-order: 1
+order: 100
 title: Introduzione
 ---
 **gWakeOnLAN** è un'applicazione libera per accendere le macchine mediante il

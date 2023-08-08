@@ -4,6 +4,6 @@ title: Arch Linux
 category: english
 tags:
   - arch linux
-order: 300
+order: 1300
 content_after: false
 ---

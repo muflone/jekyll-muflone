@@ -8,7 +8,7 @@ tags:
 keywords: zabbix, termini, definizioni
 description: I termini e le definizioni utilizzati su Zabbix, fondamentali per
              capire Zabbix e il suo funzionamento.
-order: 409
+order: 1409
 date: 2018-04-18T00:00:00Z
 ---
 

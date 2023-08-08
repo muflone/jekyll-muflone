@@ -9,7 +9,7 @@ keywords: zabbix, installazione, appliance, iso, download, ubuntu, server
 description: Installare Zabbix Appliance da file ISO significa installare un
              nuovo sistema operativo, basato su Ubuntu Server, già pronto e
              configurato per accogliere Zabbix Server.
-order: 404
+order: 1404
 date: 2018-04-18T00:00:00Z
 ---
 

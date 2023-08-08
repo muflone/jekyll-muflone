@@ -1,6 +1,6 @@
 ---
 layout: index
-order: 1
+order: 100
 title: Introduzione
 ---
 **Remmina Plugin Builder** è un software libero che semplifica il processo di

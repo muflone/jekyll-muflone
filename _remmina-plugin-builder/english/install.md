@@ -1,6 +1,6 @@
 ---
 layout: default
-order: 3
+order: 201
 title: Installation
 ---
 # Build process

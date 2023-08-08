@@ -1,6 +1,6 @@
 ---
 layout: default
-order: 3
+order: 201
 title: Installation
 ---
 {% include installation.html type='archlinux' aur='gptrace' development='gptrace-git' download='gptrace' %}

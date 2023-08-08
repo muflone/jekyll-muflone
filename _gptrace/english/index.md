@@ -1,6 +1,6 @@
 ---
 layout: index
-order: 1
+order: 100
 title: Introduction
 ---
 **gpTrace** is a free GTK+ application to trace the activities of an external

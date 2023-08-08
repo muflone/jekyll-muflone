@@ -1,6 +1,6 @@
 ---
 layout: index
-order: 1
+order: 100
 title: Introduction
 ---
 **CPUCompare** is a free GTK+ application to make comparisons between CPU models.

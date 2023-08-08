@@ -1,6 +1,6 @@
 ---
 layout: default
-order: 61
+order: 900
 title: Cambiamenti
 ---
 # Versione 0.8.6 (2 Agosto 2015)

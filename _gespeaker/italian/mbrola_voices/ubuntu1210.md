@@ -1,6 +1,6 @@
 ---
 layout: mbrola_voices
-order: 35
+order: 555
 depth: 2
 title: Ubuntu 12.10
 distribution: Ubuntu 12.10 Quantal Quetzal

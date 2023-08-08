@@ -1,6 +1,6 @@
 ---
 layout: screenshots
-order: 11
+order: 202
 title: Schermate
 ---
   <a href="/resources/django-admin-settings/archive/latest/italian/headers.png"

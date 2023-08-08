@@ -1,6 +1,6 @@
 ---
 layout: default
-order: 7
+order: 510
 title: MBROLA voices
 ---
 # MBROLA voices available on various distributions

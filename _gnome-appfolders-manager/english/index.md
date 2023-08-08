@@ -1,6 +1,6 @@
 ---
 layout: index
-order: 1
+order: 100
 title: Introduction
 ---
 **GNOME AppFolders Manager** is a free GTK+ application to create and edit

@@ -8,7 +8,7 @@ tags:
 keywords: zabbix, introduzione, avvisi, monitoraggio, sistemi, web, snmp, ipmi
 description: Cosa è Zabbix? Introduzione al sistema di monitoraggio più avanzato
              e più usato al mondo.
-order: 401
+order: 1401
 date: 2018-04-17T00:00:00Z
 ---
 

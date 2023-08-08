@@ -9,7 +9,7 @@ keywords: zabbix, agent, installation
 description: La procedura di installazione di Zabbix Agent dipende dal sistema
              operativo in uso. In questa guida saranno mostrate le procedure
              di installazione dell'agente in vari sistemi operativi.
-order: 413
+order: 1413
 date: 2018-04-25T00:00:00Z
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-order: 7
+order: 510
 title: Voci MBROLA
 ---
 # Voci MBROLA disponibili sulle varie distribuzioni

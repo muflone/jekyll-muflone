@@ -1,6 +1,6 @@
 ---
 layout: contacts
-order: 0
+order: 100
 title: Contatti
 content_after: false
 ---

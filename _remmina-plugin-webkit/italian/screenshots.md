@@ -1,6 +1,6 @@
 ---
 layout: screenshots
-order: 5
+order: 202
 title: Schermate
 ---
   <a href="/resources/remmina-plugin-webkit/archive/latest/italian/general.png"

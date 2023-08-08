@@ -1,6 +1,6 @@
 ---
 layout: index
-order: 1
+order: 100
 title: Introduction
 ---
 **PixelColor** is a command line tool to get the color of a pixel from the

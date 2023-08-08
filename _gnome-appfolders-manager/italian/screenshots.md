@@ -1,6 +1,6 @@
 ---
 layout: screenshots
-order: 4
+order: 202
 title: Schermate
 ---
   <a href="/resources/gnome-appfolders-manager/archive/latest/italian/main.png"

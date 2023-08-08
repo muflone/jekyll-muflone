@@ -1,6 +1,6 @@
 ---
 layout: index
-order: 1
+order: 100
 title: Introduction
 ---
 **gTransMemory** is a free GTK+ application to manage words and sentences

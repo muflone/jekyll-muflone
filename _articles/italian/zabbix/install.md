@@ -9,7 +9,7 @@ keywords: zabbix, installazione
 description: La procedura di installazione di Zabbix è semplice e possibile in
              numerose maniere, in base al tipo di installazione che si desidera
              seguire.
-order: 403
+order: 1403
 date: 2018-04-18T00:00:00Z
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: index
-order: 1
+order: 100
 title: Introduzione
 ---
 **CPUCompare** è un'applicazione libera basata sulle GTK+ per paragonare modelli

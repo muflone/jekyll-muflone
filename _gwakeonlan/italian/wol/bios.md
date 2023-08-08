@@ -1,6 +1,6 @@
 ---
 layout: default
-order: 8
+order: 502
 depth: 2
 title: Nel BIOS
 ---

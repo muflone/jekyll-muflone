@@ -1,6 +1,6 @@
 ---
 layout: mbrola_voices
-order: 20
+order: 540
 depth: 2
 title: openSUSE 11
 distribution: openSUSE 11 (in Packman)

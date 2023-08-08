@@ -1,6 +1,6 @@
 ---
 layout: default
-order: 6
+order: 900
 title: Changelog
 ---
 # Version 0.4.7 (Oct 1, 2022)

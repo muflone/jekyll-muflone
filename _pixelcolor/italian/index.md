@@ -1,6 +1,6 @@
 ---
 layout: index
-order: 1
+order: 100
 title: Introduzione
 ---
 **PixelColor** è uno strumento a riga di comando per ottenere il colore di un

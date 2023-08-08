@@ -1,6 +1,6 @@
 ---
 layout: index
-order: 1
+order: 100
 title: Introduction
 ---
 **Remmina Plugin RDesktop** is a free software protocol plugin to establish a

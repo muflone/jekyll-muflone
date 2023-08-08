@@ -1,6 +1,6 @@
 ---
 layout: index
-order: 1
+order: 100
 title: Introduction
 ---
 **Gespeaker** is a free GTK+ frontend for espeak.

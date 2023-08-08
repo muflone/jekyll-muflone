@@ -1,6 +1,6 @@
 ---
 layout: mbrola_voices
-order: 8
+order: 520
 depth: 2
 title: Arch Linux
 distribution: Arch Linux (in AUR)

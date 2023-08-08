@@ -1,6 +1,6 @@
 ---
 layout: contacts
-order: 0
+order: 100
 title: Contacts
 content_after: false
 ---

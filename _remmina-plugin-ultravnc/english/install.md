@@ -1,6 +1,6 @@
 ---
 layout: default
-order: 3
+order: 201
 title: Installation
 ---
 {% include installation.html type='archlinux' aur='remmina-plugin-ultravnc' download='remmina-plugin-ultravnc' %}

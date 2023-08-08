@@ -1,6 +1,6 @@
 ---
 layout: default
-order: 6
+order: 900
 title: Changelog
 ---
 # Version 1.0.0.1 (May 27, 2013)

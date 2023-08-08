@@ -1,6 +1,6 @@
 ---
 layout: index
-order: 1
+order: 100
 title: Introduction
 ---
 **Remmina Plugin Exec** is a free software protocol plugin to execute external

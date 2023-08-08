@@ -1,6 +1,6 @@
 ---
 layout: index
-order: 1
+order: 100
 title: Introduction
 ---
 **gWakeOnLAN** is a free GTK+ application to turn the machines on through the

@@ -1,6 +1,6 @@
 ---
 layout: screenshots
-order: 5
+order: 202
 title: Screenshots
 ---
   <a href="/resources/remmina-plugin-rdesktop/archive/latest/english/general.png"

@@ -1,6 +1,6 @@
 ---
 layout: downloads
-order: 3
+order: 200
 title: Download
 content_after: true
 ---

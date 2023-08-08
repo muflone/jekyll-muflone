@@ -1,6 +1,6 @@
 ---
 layout: default
-order: 60
+order: 600
 title: Demo voices
 require_jquery_jplayer: True
 ---

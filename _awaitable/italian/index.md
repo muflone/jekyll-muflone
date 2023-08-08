@@ -1,6 +1,6 @@
 ---
 layout: index
-order: 1
+order: 100
 title: Introduzione
 ---
 Un piccolo decoratore Python per eseguire in maniera asincrona funzioni

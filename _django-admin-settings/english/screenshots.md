@@ -1,6 +1,6 @@
 ---
 layout: screenshots
-order: 11
+order: 202
 title: Screenshots
 ---
   <a href="/resources/django-admin-settings/archive/latest/english/headers.png"

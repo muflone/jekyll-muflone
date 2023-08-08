@@ -1,6 +1,6 @@
 ---
 layout: index
-order: 1
+order: 100
 title: Introduzione
 ---
 **Remmina Plugin Folder** è un plugin di protocollo libero per aprire una

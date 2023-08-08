@@ -1,6 +1,6 @@
 ---
 layout: index
-order: 1
+order: 100
 title: Introduzione
 ---
 **Gespeaker** è un'interfaccia GTK+ libera per espeak. 

@@ -1,6 +1,6 @@
 ---
 layout: default
-order: 5
+order: 600
 title: Usage examples
 ---
 
