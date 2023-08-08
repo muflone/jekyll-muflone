@@ -1,12 +1,12 @@
 ---
 layout: documentation
-order: 503
+order: 504
 depth: 2
 title: In the operating system
 ---
 # Introduction
 
-After [enabling the Wake on LAN in the BIOS]({% link _gwakeonlan/english/wol/bios.md %})
+After [enabling the Wake on LAN in the BIOS]({% link _gwakeonlan/english/docs/bios.md %})
 the operating system must be informed to enable it before the shutdown otherwise
 the machine will not turn on even if everything else is done properly.
 

@@ -1,6 +1,6 @@
 ---
 layout: documentation
-order: 501
+order: 502
 depth: 2
 title: Requirements
 ---
@@ -15,9 +15,9 @@ Each machine to turn on must:
 * have the power cable plugged all the time.
 * support the Wake On LAN with the [Magic Packet].
 * have the Wake On LAN
-  [enabled in the BIOS]({% link _gwakeonlan/english/wol/bios.md %}).
+  [enabled in the BIOS]({% link _gwakeonlan/english/docs/bios.md %}).
 * have the Wake On LAN by Magic Packet
-  [enabled in the Operating System]({% link _gwakeonlan/italian/wol/os.md %}).
+  [enabled in the Operating System]({% link _gwakeonlan/english/docs/os.md %}).
 * be powered off from the Operating System.
 
 If one or more of these requirements is not met **all the time**, the

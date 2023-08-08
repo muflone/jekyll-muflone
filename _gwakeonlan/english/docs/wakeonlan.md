@@ -1,6 +1,7 @@
 ---
 layout: documentation
-order: 500
+order: 501
+depth: 2
 title: Wake On LAN
 ---
 # Wake On LAN
@@ -16,7 +17,7 @@ off state so that when the special Magic Packet is received the machine will
 automatically turned on.
 
 To allow gWakeOnLAN to work all the system
-[requirements]({% link _gwakeonlan/english/wol/requirements.md %})
+[requirements]({% link _gwakeonlan/english/docs/requirements.md %})
 must be met.
 
 # Local usage

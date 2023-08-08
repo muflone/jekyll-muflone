@@ -1,6 +1,7 @@
 ---
 layout: documentation
-order: 500
+order: 501
+depth: 2
 title: Wake On LAN
 ---
 # Wake On LAN
@@ -16,7 +17,7 @@ nello stato spento in modo che quando lo speciale Magic Packet è ricevuto la
 macchina si accenderà automaticamente.
 
 Per permettere il corretto funzionamento di gWakeOnLAN tutti i
-[requisiti]({% link _gwakeonlan/italian/wol/requirements.md %})
+[requisiti]({% link _gwakeonlan/italian/docs/requirements.md %})
 di sistema devono essere soddisfatti.
 
 # Utilizzo locale

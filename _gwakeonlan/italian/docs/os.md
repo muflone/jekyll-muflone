@@ -1,12 +1,12 @@
 ---
 layout: documentation
-order: 503
+order: 504
 depth: 2
 title: Nel sistema operativo
 ---
 # Introduzione
 
-Dopo aver [attivato il Wake on LAN nel BIOS]({% link _gwakeonlan/italian/wol/bios.md %})
+Dopo aver [attivato il Wake on LAN nel BIOS]({% link _gwakeonlan/italian/docs/bios.md %})
 il sistema operativo deve essere informato di abilitarlo prima dello spegnimento
 altrimenti la macchina non si riaccenderà anche se tutto il resto è stato fatto
 nella maniera corretta.

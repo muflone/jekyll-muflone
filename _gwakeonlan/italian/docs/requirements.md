@@ -1,6 +1,6 @@
 ---
 layout: documentation
-order: 501
+order: 502
 depth: 2
 title: Requisiti
 ---
@@ -16,9 +16,9 @@ Ogni macchina da accendere deve:
 * avere il cavo di alimentazione sempre connesso.
 * supportare il Wake On LAN con [Magic Packet].
 * avere il Wake On LAN 
-  [abilitato nel BIOS]({% link _gwakeonlan/italian/wol/bios.md %}).
+  [abilitato nel BIOS]({% link _gwakeonlan/italian/docs/bios.md %}).
 * avere il Wake On LAN con Magic Packet 
-  [abilitato nel sistema operativo]({% link _gwakeonlan/italian/wol/os.md %}).
+  [abilitato nel sistema operativo]({% link _gwakeonlan/italian/docs/os.md %}).
 * essere spenta dal Sistema operativo.
 
 Se uno o più di questi requisiti non è soddisfatto **per tutto il tempo**,

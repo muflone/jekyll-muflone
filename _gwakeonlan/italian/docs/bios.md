@@ -1,27 +1,26 @@
 ---
 layout: documentation
-order: 502
+order: 503
 depth: 2
-title: In the BIOS
+title: Nel BIOS
 ---
-# Introduction
+# Introduzione
 
-Every BIOS is different so that not every has an option to enable or disable the
-**Wake On LAN** functionality.
+Ogni BIOS è differente e non tutti hanno un'opzione per abilitare o disabilitare
+la funzionalità **Wake On LAN**.
 
-In a general way to enable the Wake On LAN there should be a section for Power
-Management or if the NIC is PCI attached the option should be in the PCI
-peripherals section.
+In linea generale per abilitare il Wake On LAN dovrebbe essere nella sezione
+gestione energetica oppure, se la NIC (scheda di rete) è collegata via PCI
+l'opzione dovrebbe essere nella sezione periferiche PCI.
 
-# Cable needed
+# Necessità del cavo
 
-Some older network cards requires a cable to be connected before they can use
-the Wake On LAN.
+Alcune vecchie schede di rete richiedono la presenza di un cavo collegato prima
+di poter utilizzare il Wake On LAN.
 
 [![](/resources/gwakeonlan/wol_bios/cable-thumb.jpg)](/resources/gwakeonlan/wol_bios/cable.jpg)
 
-
-# Sample images from various BIOSes
+# Immagini di esempio di vari BIOS
 
 ## AMI
 
@@ -55,6 +54,6 @@ the Wake On LAN.
 [![](/resources/gwakeonlan/wol_bios/phoenix-3-thumb.jpg)](/resources/gwakeonlan/wol_bios/phoenix-3.jpg)
 
 
-## Other
+## Altri
 
 [![](/resources/gwakeonlan/wol_bios/other-1-thumb.jpg)](/resources/gwakeonlan/wol_bios/other-1.jpg)
