@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: installation
 order: 201
 title: Installazione
 ---
