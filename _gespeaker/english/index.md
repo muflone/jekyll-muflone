@@ -23,5 +23,5 @@ To hear some samples of recorded voices please see the
 Since version 0.6 it supports the speech synthesizer MBROLA for a better speech
 experience.
 
-See the [MBROLA]({% link _gespeaker/english/mbrola.md %}) page for instructions
+See the [MBROLA]({% link _gespeaker/english/docs/mbrola.md %}) page for instructions
 on enable the enhanced MBROLA voice support.

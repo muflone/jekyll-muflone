@@ -1,6 +1,7 @@
 ---
 layout: documentation
-order: 500
+order: 510
+depth: 2
 title: MBROLA engine
 ---
 # Introduction

@@ -24,5 +24,5 @@ Per ascoltare alcuni esempi di voci registrate vedere la pagina
 Dalla versione 0.6 Gespeaker supporta il sintetizzatore vocale MBROLA per una
 migliore esperienza vocale.
 
-Consultare la pagina [MBROLA]({% link _gespeaker/italian/mbrola.md %})
+Consultare la pagina [MBROLA]({% link _gespeaker/italian/docs/mbrola.md %})
 per istruzioni su come attivare il supporto vocale avanzato MBROLA.
