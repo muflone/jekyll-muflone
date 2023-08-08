@@ -7,41 +7,28 @@ layout: base
         <aside id="sidebar" class="content">
 {%- comment -%}Skip the sidebar pages list when this page has order 0{%- endcomment -%}
 {%- if page.order > 0 -%}
-  {%- assign collection = site.collections | where: 'label', page.product | first -%}
-  {%- assign docs = collection.docs | where: 'language', page.language -%}
-  {%- comment -%}Find the maximum order{%- endcomment -%}
-  {%- assign max_order = -1 -%}
-  {%- for doc in docs -%}
-    {%- if doc.order > max_order -%}
-      {%- assign max_order = doc.order -%}
-    {%- endif -%}
-  {% endfor %}
           <!-- Build sidebar depth 1 -->
           <ul class="menu1">
-  {%- comment -%}Cycle each page (until Jekyll has a better way to cycle collections){%- endcomment -%}
-  {%- assign previous_depth = 1 -%}
   {%- assign with_depth2 = false -%}
-  {%- for order in (1..max_order) -%}
-    {%- for doc in docs -%}
-      {%- if doc.order == order -%}
-        {%- if doc.depth == 1 -%}
-          {%- if with_depth2 -%}
-            {% assign with_depth2 = false %}
+  {%- assign collection = site.collections | where: 'label', page.product | first -%}
+  {%- assign docs = collection.docs | where: 'language', page.language | where_exp: 'item', 'item.order > 0'  | sort: 'order' -%}
+  {%- for doc in docs -%}
+      {%- if doc.depth == 1 -%}
+        {%- if with_depth2 -%}
+          {% assign with_depth2 = false %}
             </ul>
             <!-- End of sidebar depth 2 -->
-          {% endif %}
+        {% endif %}
             <li class="menu1"><a href="{{ doc.url }}">{{ doc.title }}</a></li>
-        {%- else -%}
-          {% unless with_depth2 %}
-            {% assign with_depth2 = true %}
+      {%- else -%}
+        {% unless with_depth2 %}
+          {% assign with_depth2 = true %}
             <!-- Begin of sidebar depth 2 -->
             <ul class="menu2">
-          {% endunless %}
+        {% endunless %}
               <li class="menu2"><a href="{{ doc.url }}">{{ doc.title }}</a></li>
-        {%- endif -%}
       {%- endif -%}
       {%- assign last_depth = doc.depth -%}
-    {%- endfor -%}
   {%- endfor -%}
   {% if with_depth2 %}
             </ul>
