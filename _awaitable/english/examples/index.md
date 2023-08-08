@@ -1,7 +1,6 @@
 ---
 layout: examples
 order: 600
-depth: 1
 title: Usage examples
 ---
 # Usage examples
