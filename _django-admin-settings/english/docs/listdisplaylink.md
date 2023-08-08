@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: documentation
 order: 552
 depth: 2
 title: ListDisplayLink

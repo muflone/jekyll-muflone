@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: documentation
 order: 512
 depth: 2
 title: ADMIN_SITE_HEADER

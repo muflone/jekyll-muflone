@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: documentation
 order: 511
 depth: 2
 title: ADMIN_INDEX_TITLE

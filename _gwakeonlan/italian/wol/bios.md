@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: documentation
 order: 502
 depth: 2
 title: Nel BIOS

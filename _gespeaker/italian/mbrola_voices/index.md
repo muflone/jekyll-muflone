@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: documentation
 order: 510
 title: Voci MBROLA
 ---

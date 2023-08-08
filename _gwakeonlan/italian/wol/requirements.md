@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: documentation
 order: 501
 depth: 2
 title: Requisiti

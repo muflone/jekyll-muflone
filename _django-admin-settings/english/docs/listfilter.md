@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: documentation
 order: 553
 depth: 2
 title: ListFilter

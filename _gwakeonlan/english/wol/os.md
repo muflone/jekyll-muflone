@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: documentation
 order: 503
 depth: 2
 title: In the operating system

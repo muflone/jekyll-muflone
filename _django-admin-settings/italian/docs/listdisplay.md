@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: documentation
 order: 551
 depth: 2
 title: ListDisplay
