@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: examples
 order: 600
 depth: 1
 title: Esempi di utilizzo

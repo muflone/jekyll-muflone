@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: examples
 order: 600
 title: Voci dimostrative
 require_jquery_jplayer: True

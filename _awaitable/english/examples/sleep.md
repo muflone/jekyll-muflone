@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: examples
 order: 601
 depth: 2
 title: Sleep
