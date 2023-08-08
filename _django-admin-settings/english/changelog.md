@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: changelog
 order: 900
 title: Changelog
 ---
