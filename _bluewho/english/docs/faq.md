@@ -1,6 +1,7 @@
 ---
 layout: documentation
-order: 500
+order: 501
+depth: 2
 title: FAQ
 ---
 ## What can do BlueWho for me?
