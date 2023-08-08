@@ -14,4 +14,4 @@ administration web pages, printers and others resources in the network.
 # Settings
 
 The Remmina Plugin WebKit plugin settings are documented in the
-[Settings page]({% link _remmina-plugin-webkit/english/settings.md %}).
+[Documentation page]({% link _remmina-plugin-webkit/english/docs/index.md %}).

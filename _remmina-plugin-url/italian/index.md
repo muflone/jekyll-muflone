@@ -15,4 +15,4 @@ stampanti e altre risorse in rete.
 # Impostazioni
 
 Le impostazioni del plugin Remmina Plugin URL sono documentate nella
-[pagina Impostazioni]({% link _remmina-plugin-url/english/settings.md %}).
+[pagina Documentazione]({% link _remmina-plugin-url/italian/docs/index.md %}).

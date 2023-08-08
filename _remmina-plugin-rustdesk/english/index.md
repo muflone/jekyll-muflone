@@ -16,7 +16,7 @@ RustDesk installation is required in order to let this plugin to work properly.
 # Settings
 
 The Remmina Plugin RustDesk plugin settings are documented in the
-[Settings page]({% link _remmina-plugin-rustdesk/english/settings.md %}).
+[Documentation page]({% link _remmina-plugin-rustdesk/english/docs/index.md %}).
 
 {: target="_blank" .external }
 [RustDesk]: https://rustdesk.com/

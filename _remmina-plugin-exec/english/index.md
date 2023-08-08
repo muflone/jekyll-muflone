@@ -16,4 +16,4 @@ network diagram draw applications and many others.
 # Settings
 
 The Remmina Plugin Exec plugin settings are documented in the
-[Settings page]({% link _remmina-plugin-exec/english/settings.md %}).
+[Documentation page]({% link _remmina-plugin-exec/english/docs/index.md %}).

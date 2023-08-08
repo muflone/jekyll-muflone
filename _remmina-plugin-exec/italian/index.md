@@ -16,4 +16,4 @@ altri.
 # Impostazioni
 
 Le impostazioni del plugin Remmina Plugin Exec sono documentate nella
-[pagina Impostazioni]({% link _remmina-plugin-exec/english/settings.md %}).
+[pagina Documentazione]({% link _remmina-plugin-exec/italian/docs/index.md %}).

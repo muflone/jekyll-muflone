@@ -14,4 +14,4 @@ alle pagine web di amministrazione di router, stampanti e altre risorse in rete.
 # Impostazioni
 
 Le impostazioni del plugin Remmina Plugin WebKit sono documentate nella
-[pagina Impostazioni]({% link _remmina-plugin-webkit/english/settings.md %}).
+[pagina Documentazione]({% link _remmina-plugin-webkit/italian/docs/index.md %}).

@@ -15,4 +15,4 @@ resources in the network.
 # Settings
 
 The Remmina Plugin URL plugin settings are documented in the
-[Settings page]({% link _remmina-plugin-url/english/settings.md %}).
+[Documentation page]({% link _remmina-plugin-url/english/docs/index.md %}).

@@ -16,4 +16,4 @@ LibreOffice format without leaving the Remmina window.
 # Settings
 
 The Remmina Plugin Open plugin settings are documented in the
-[Settings page]({% link _remmina-plugin-open/english/settings.md %}).
+[Documentation page]({% link _remmina-plugin-open/english/docs/index.md %}).

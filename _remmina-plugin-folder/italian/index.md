@@ -15,4 +15,4 @@ lasciare la finestra di Remmina.
 # Impostazioni
 
 Le impostazioni del plugin Remmina Plugin Folder sono documentate nella
-[pagina Impostazioni]({% link _remmina-plugin-folder/english/settings.md %}).
+[pagina Documentazione]({% link _remmina-plugin-folder/italian/docs/index.md %}).

@@ -18,7 +18,7 @@ E' richiesta l'installazione di RDesktop affinchè questo plugin funzioni.
 # Impostazioni
 
 Le impostazioni del plugin Remmina Plugin RDesktop sono documentate nella
-[pagina Impostazioni]({% link _remmina-plugin-rdesktop/english/settings.md %}).
+[pagina Documentazione]({% link _remmina-plugin-rdesktop/italian/docs/index.md %}).
 
 {: target="_blank" .external }
 [RDesktop]: http://www.rdesktop.org/

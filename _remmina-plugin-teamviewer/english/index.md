@@ -16,7 +16,7 @@ TeamViewer installation is required in order to let this plugin to work properly
 # Settings
 
 The Remmina Plugin TeamViewer plugin settings are documented in the
-[Settings page]({% link _remmina-plugin-teamviewer/english/settings.md %}).
+[Documentation page]({% link _remmina-plugin-teamviewer/english/docs/index.md %}).
 
 {: target="_blank" .external }
 [TeamViewer]: https://www.teamviewer.com/

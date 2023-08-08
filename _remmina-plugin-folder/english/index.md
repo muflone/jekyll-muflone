@@ -15,4 +15,4 @@ the Remmina window.
 # Settings
 
 The Remmina Plugin Folder plugin settings are documented in the
-[Settings page]({% link _remmina-plugin-exec/english/settings.md %}).
+[Documentation page]({% link _remmina-plugin-exec/english/docs/index.md %}).
