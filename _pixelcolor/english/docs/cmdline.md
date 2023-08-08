@@ -1,7 +1,8 @@
 ---
 layout: documentation
-order: 500
-title: Documentation
+order: 510
+depth: 2
+title: Command-line options
 ---
 
 # Command-line options

@@ -1,7 +1,8 @@
 ---
 layout: documentation
-order: 500
-title: Documentazione
+order: 510
+depth: 2
+title: Riga di comando
 ---
 
 # Opzioni da riga di comando

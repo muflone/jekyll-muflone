@@ -19,6 +19,6 @@ Questo otterrà il color del pixel alla coordinata 200x300 per lo schermo
 primario e stamperà il colore come cifra esadecimale.
 
 Per una documentazione completa sull'elenco degli argomenti fare riferimento
-alla [Documentazione]({% link _pixelcolor/italian/docs.md %}) e per alcuni
+alla [Documentazione]({% link _pixelcolor/italian/docs/index.md %}) e per alcuni
 esempi di utilizzo vedi la pagina
 [Esempi]({% link _pixelcolor/italian/examples.md %}).

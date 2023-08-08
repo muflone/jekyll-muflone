@@ -19,6 +19,6 @@ This will get the pixel color at the coordinate 200x300 for the primary screen
 and will print the color as hexadecimal digit.
 
 For a complete arguments list documentation please refer to the
-[Documentation]({% link _pixelcolor/english/docs.md %}) and for some usage
+[Documentation]({% link _pixelcolor/english/docs/index.md %}) and for some usage
 examples please see the
 [Examples]({% link _pixelcolor/english/examples.md %}) page.
