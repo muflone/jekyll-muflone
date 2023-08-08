@@ -6,7 +6,7 @@ layout: base
         </section>
         <aside id="sidebar" class="content">
 {%- comment -%}Skip the sidebar pages list when this page has order 0{%- endcomment -%}
-{%- if page.order > 0 -%}
+{%- if page.order > 0 %}
           <!-- Build sidebar depth 1 -->
           <ul class="menu1">
   {%- assign with_depth2 = false -%}
@@ -18,14 +18,14 @@ layout: base
           {% assign with_depth2 = false %}
             </ul>
             <!-- End of sidebar depth 2 -->
-        {% endif %}
+        {%- endif %}
             <li class="menu1"><a href="{{ doc.url }}">{{ doc.title }}</a></li>
       {%- else -%}
-        {% unless with_depth2 %}
+        {%- unless with_depth2 -%}
           {% assign with_depth2 = true %}
             <!-- Begin of sidebar depth 2 -->
             <ul class="menu2">
-        {% endunless %}
+        {%- endunless %}
               <li class="menu2"><a href="{{ doc.url }}">{{ doc.title }}</a></li>
       {%- endif -%}
       {%- assign last_depth = doc.depth -%}
@@ -33,7 +33,7 @@ layout: base
   {% if with_depth2 %}
             </ul>
             <!-- End of sidebar depth 2 -->
-  {% endif %}
+  {%- endif %}
           </ul>
           <!-- End of sidebar depth 1 -->
 {% endif %}

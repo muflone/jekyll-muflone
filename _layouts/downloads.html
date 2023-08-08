@@ -21,7 +21,7 @@ layout: default
           <p>{{ site.data.translations[page.language].downloads.packages.text1 }}</p>
 
           <div class="accordion">
-{% for version in site.data[page.product].versions %}
+{%- for version in site.data[page.product].versions %}
             <div class="row gutters-default">
               <div class="col col-12 col-lg-12">
                 <ul class="accordion-list">
@@ -43,7 +43,7 @@ layout: default
                               </tr>
                             </thead>
                             <tbody>
-  {% for package in version.packages %}
+  {%- for package in version.packages %}
                               <tr>
                                 <td class="package-type">
                                   <img class="package-icon" src="/theme/images/{{ site.data.translations[page.language].downloads.types[package.type].icon }}">
@@ -52,19 +52,19 @@ layout: default
                                 <td class="package-name">{{ package.filename }}</td>
                                 <td class="package-checksum">{{ package.md5sum | upcase }}</td>
                                 <td class="package-download">
-    {% if package.type != 'aur' %}
+    {%- if package.type != 'aur' %}
                                   <a href="{{ site.data[page.product].gitrepo }}/releases/download/{{ version.version }}/{{ package.filename }}"
                                      title="{{ site.data.translations[page.language].downloads.from.github }}">
                                       <img src="/theme/images/github-32.png"></a>
-    {% else %}
+    {%- else %}
                                   <a href="https://aur.archlinux.org/packages/{{ package.filename }}/"
                                      title="{{ site.data.translations[page.language].downloads.from.aur }}"
                                      target="_blank">
                                       <img src="/theme/images/archlinux-32.png"></a>
-    {% endif %}
+    {%- endif %}
                                 </td>
                               </tr>
-  {% endfor %}
+  {%- endfor %}
                             </tbody>
                           </table>
                         </div>
@@ -74,7 +74,7 @@ layout: default
                 </ul>
               </div>
             </div>
-{% endfor %}
+{%- endfor %}
           </div>
           <!-- End of downloads section -->
 
