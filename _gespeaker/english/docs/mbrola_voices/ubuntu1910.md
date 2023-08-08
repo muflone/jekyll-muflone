@@ -1,9 +1,9 @@
 ---
 layout: mbrola_voices
-order: 537
+order: 569
 depth: 2
-title: Debian testing
-distribution: Debian testing Trixie
+title: Ubuntu 19.10
+distribution: Ubuntu 19.10 Eoan Ermine
 ---
 <tbody>
 {% include mbrola_voice.html name='af1' package='mbrola-af1' -%}

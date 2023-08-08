@@ -1,9 +1,9 @@
 ---
 layout: mbrola_voices
-order: 537
+order: 576
 depth: 2
-title: Debian testing
-distribution: Debian testing Trixie
+title: Ubuntu 23.04
+distribution: Ubuntu 23.04 Lunar Lobster
 ---
 <tbody>
 {% include mbrola_voice.html name='af1' package='mbrola-af1' -%}

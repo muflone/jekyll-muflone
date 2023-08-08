@@ -1,9 +1,9 @@
 ---
 layout: mbrola_voices
-order: 537
+order: 573
 depth: 2
-title: Debian testing
-distribution: Debian testing Trixie
+title: Ubuntu 21.10
+distribution: Ubuntu 21.10 Impish Indri
 ---
 <tbody>
 {% include mbrola_voice.html name='af1' package='mbrola-af1' -%}

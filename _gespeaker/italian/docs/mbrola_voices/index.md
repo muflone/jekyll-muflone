@@ -17,6 +17,33 @@ per una semplice installazione.
 ![Arch Linux](/theme/images/archlinux-24.png) [Arch Linux AUR]({% link _gespeaker/italian/docs/mbrola_voices/archlinux.md %})
 
 {:.mbrola-voices}
+![Debian](/theme/images/debian-24.png) [Debian 6 Squeeze]({% link _gespeaker/italian/docs/mbrola_voices/debian6.md %})
+
+{:.mbrola-voices}
+![Debian](/theme/images/debian-24.png) [Debian 7 Wheezy]({% link _gespeaker/italian/docs/mbrola_voices/debian7.md %})
+
+{:.mbrola-voices}
+![Debian](/theme/images/debian-24.png) [Debian 8 Jessie]({% link _gespeaker/italian/docs/mbrola_voices/debian8.md %})
+
+{:.mbrola-voices}
+![Debian](/theme/images/debian-24.png) [Debian 9 Stretch]({% link _gespeaker/italian/docs/mbrola_voices/debian9.md %})
+
+{:.mbrola-voices}
+![Debian](/theme/images/debian-24.png) [Debian 10 Buster]({% link _gespeaker/italian/docs/mbrola_voices/debian10.md %})
+
+{:.mbrola-voices}
+![Debian](/theme/images/debian-24.png) [Debian 11 Bullseye]({% link _gespeaker/italian/docs/mbrola_voices/debian11.md %})
+
+{:.mbrola-voices}
+![Debian](/theme/images/debian-24.png) [Debian 12 Bookworm]({% link _gespeaker/italian/docs/mbrola_voices/debian12.md %})
+
+{:.mbrola-voices}
+![Debian](/theme/images/debian-24.png) [Debian Testing Trixie]({% link _gespeaker/italian/docs/mbrola_voices/debiantesting.md %})
+
+{:.mbrola-voices}
+![Debian](/theme/images/debian-24.png) [Debian Sid unstable]({% link _gespeaker/italian/docs/mbrola_voices/debiansid.md %})
+
+{:.mbrola-voices}
 ![OpenSUSE](/theme/images/opensuse-24.png) [OpenSUSE 11]({% link _gespeaker/italian/docs/mbrola_voices/opensuse11.md %})
 
 {:.mbrola-voices}
@@ -68,16 +95,40 @@ per una semplice installazione.
 ![Ubuntu](/theme/images/ubuntu-24.png) [Ubuntu 16.10 Yakkety Yak]({% link _gespeaker/italian/docs/mbrola_voices/ubuntu1610.md %})
 
 {:.mbrola-voices}
-![Debian](/theme/images/debian-24.png) [Debian 6 Squeeze]({% link _gespeaker/italian/docs/mbrola_voices/debian6.md %})
+![Ubuntu](/theme/images/ubuntu-24.png) [Ubuntu 17.04 Zesty Zapus]({% link _gespeaker/italian/docs/mbrola_voices/ubuntu1704.md %})
 
 {:.mbrola-voices}
-![Debian](/theme/images/debian-24.png) [Debian 7 Wheezy]({% link _gespeaker/italian/docs/mbrola_voices/debian7.md %})
+![Ubuntu](/theme/images/ubuntu-24.png) [Ubuntu 17.10 Artful Aardvark]({% link _gespeaker/italian/docs/mbrola_voices/ubuntu1710.md %})
 
 {:.mbrola-voices}
-![Debian](/theme/images/debian-24.png) [Debian 8 Jessie]({% link _gespeaker/italian/docs/mbrola_voices/debian8.md %})
+![Ubuntu](/theme/images/ubuntu-24.png) [Ubuntu 18.04 Bionic Beaver]({% link _gespeaker/italian/docs/mbrola_voices/ubuntu1804.md %})
 
 {:.mbrola-voices}
-![Debian](/theme/images/debian-24.png) [Debian 9 Stretch]({% link _gespeaker/italian/docs/mbrola_voices/debian9.md %})
+![Ubuntu](/theme/images/ubuntu-24.png) [Ubuntu 18.10 Cosmic Cuttlefish]({% link _gespeaker/italian/docs/mbrola_voices/ubuntu1810.md %})
 
 {:.mbrola-voices}
-![Debian](/theme/images/debian-24.png) [Debian Sid unstable]({% link _gespeaker/italian/docs/mbrola_voices/debiansid.md %})
+![Ubuntu](/theme/images/ubuntu-24.png) [Ubuntu 19.04 Disco Dingo]({% link _gespeaker/italian/docs/mbrola_voices/ubuntu1904.md %})
+
+{:.mbrola-voices}
+![Ubuntu](/theme/images/ubuntu-24.png) [Ubuntu 19.10 Eoan Ermine]({% link _gespeaker/italian/docs/mbrola_voices/ubuntu1910.md %})
+
+{:.mbrola-voices}
+![Ubuntu](/theme/images/ubuntu-24.png) [Ubuntu 20.04 Focal Fossa]({% link _gespeaker/italian/docs/mbrola_voices/ubuntu2004.md %})
+
+{:.mbrola-voices}
+![Ubuntu](/theme/images/ubuntu-24.png) [Ubuntu 20.10 Groovy Gorilla]({% link _gespeaker/italian/docs/mbrola_voices/ubuntu2010.md %})
+
+{:.mbrola-voices}
+![Ubuntu](/theme/images/ubuntu-24.png) [Ubuntu 21.04 Hirsute Hippo]({% link _gespeaker/italian/docs/mbrola_voices/ubuntu2104.md %})
+
+{:.mbrola-voices}
+![Ubuntu](/theme/images/ubuntu-24.png) [Ubuntu 21.10 Impish Indri]({% link _gespeaker/italian/docs/mbrola_voices/ubuntu2110.md %})
+
+{:.mbrola-voices}
+![Ubuntu](/theme/images/ubuntu-24.png) [Ubuntu 22.04 Jammy Jellyfish]({% link _gespeaker/italian/docs/mbrola_voices/ubuntu2204.md %})
+
+{:.mbrola-voices}
+![Ubuntu](/theme/images/ubuntu-24.png) [Ubuntu 22.10 Kinetic Kudu]({% link _gespeaker/italian/docs/mbrola_voices/ubuntu2210.md %})
+
+{:.mbrola-voices}
+![Ubuntu](/theme/images/ubuntu-24.png) [Ubuntu 23.04 Lunar Lobster]({% link _gespeaker/italian/docs/mbrola_voices/ubuntu2304.md %})

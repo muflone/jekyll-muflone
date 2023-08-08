@@ -1,9 +1,9 @@
 ---
 layout: mbrola_voices
-order: 537
+order: 536
 depth: 2
-title: Debian testing
-distribution: Debian testing Trixie
+title: Debian 12
+distribution: Debian 12 Bookworm
 ---
 <tbody>
 {% include mbrola_voice.html name='af1' package='mbrola-af1' -%}

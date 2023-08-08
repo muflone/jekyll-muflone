@@ -1,9 +1,9 @@
 ---
 layout: mbrola_voices
-order: 537
+order: 566
 depth: 2
-title: Debian testing
-distribution: Debian testing Trixie
+title: Ubuntu 18.04
+distribution: Ubuntu 18.04 Bionic Beaver
 ---
 <tbody>
 {% include mbrola_voice.html name='af1' package='mbrola-af1' -%}

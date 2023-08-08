@@ -1,9 +1,9 @@
 ---
 layout: mbrola_voices
-order: 537
+order: 535
 depth: 2
-title: Debian testing
-distribution: Debian testing Trixie
+title: Debian 11
+distribution: Debian 11 Bullseye
 ---
 <tbody>
 {% include mbrola_voice.html name='af1' package='mbrola-af1' -%}

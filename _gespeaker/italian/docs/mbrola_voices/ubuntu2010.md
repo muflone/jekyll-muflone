@@ -1,9 +1,9 @@
 ---
 layout: mbrola_voices
-order: 537
+order: 571
 depth: 2
-title: Debian testing
-distribution: Debian testing Trixie
+title: Ubuntu 20.10
+distribution: Ubuntu 20.10 Groovy Gorilla
 ---
 <tbody>
 {% include mbrola_voice.html name='af1' package='mbrola-af1' -%}
