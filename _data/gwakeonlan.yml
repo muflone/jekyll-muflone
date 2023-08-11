@@ -192,6 +192,16 @@ versions:
   - type: debianubuntu
     filename: gwakeonlan_0.4-1_all.deb
     md5sum: 86620e880757ff23adc380f3c2e2d770
+- version: 0.3
+  normalized: v023
+  date: 2009-12-31
+  packages:
+  - type: source
+    filename: gwakeonlan-0.3.tar.gz
+    md5sum: bd0bffc523839fee96b003eba71af4a2
+  - type: debianubuntu
+    filename: gwakeonlan_0.3-1_all.deb
+    md5sum: 69cbdbc143bb4b1519d20645ffbf197b
 - version: 0.2
   normalized: v020
   date: 2009-12-13
