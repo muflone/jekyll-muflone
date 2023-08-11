@@ -9,6 +9,7 @@ license: gpl2
 versions:
 - version: 1.0.0.2
   normalized: v1002
+  date: 2013-09-25
   packages:
   - type: source
     filename: remmina-plugin-teamviewer-1.0.0.2.tar.gz
@@ -30,12 +31,14 @@ versions:
     md5sum: '-'
 - version: 1.0.0.1
   normalized: v1001
+  date: 2013-05-27
   packages:
   - type: source
     filename: remmina-plugin-teamviewer-1.0.0.1.tar.gz
     md5sum: 4D41D9ED140C9F70ACC38CEC76528F31
 - version: 1.0.0.0
   normalized: v1000
+  date: 2013-05-01
   packages:
   - type: source
     filename: remmina-plugin-teamviewer-1.0.0.0.tar.gz
