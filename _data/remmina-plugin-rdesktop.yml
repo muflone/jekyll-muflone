@@ -7,6 +7,51 @@ gitrepo: https://github.com/muflone/remmina-plugin-rdesktop
 translations_repo:
 license: gpl2
 versions:
+- version: 1.3.0.0
+  normalized: v1300
+  date: 2019-12-21
+  packages:
+  - type: source
+    filename: remmina-plugin-rdesktop-1.3.0.0.tar.gz
+    md5sum: 6e6751c0f4e47c0b9f285cf93d212cbc
+  - type: aur
+    filename: remmina-plugin-exec
+    md5sum: '-'
+- version: 1.2.3.0
+  normalized: v1230
+  date: 2016-04-24
+  packages:
+  - type: source
+    filename: remmina-plugin-rdesktop-1.2.3.0.tar.gz
+    md5sum: c719aef67b97679fa0bb8c658ac8f475
+- version: 1.2.2.0
+  normalized: v1220
+  date: 2015-12-08
+  packages:
+  - type: source
+    filename: remmina-plugin-rdesktop-1.2.2.0.tar.gz
+    md5sum: 9f57bfd057049e905d4288e5efafb808
+- version: 1.2.1.0
+  normalized: v1210
+  date: 2015-12-08
+  packages:
+  - type: source
+    filename: remmina-plugin-rdesktop-1.2.1.0.tar.gz
+    md5sum: 4a4ecdaabeefe3fba60b81ef0420ab3b
+- version: 1.2.0.0
+  normalized: v1200
+  date: 2015-12-08
+  packages:
+  - type: source
+    filename: remmina-plugin-rdesktop-1.2.0.0.tar.gz
+    md5sum: d5879caf02dcb26f7846a29f9d985483
+- version: 1.1.1.0
+  normalized: v1110
+  date: 2014-11-02
+  packages:
+  - type: source
+    filename: remmina-plugin-rdesktop-1.1.1.0.tar.gz
+    md5sum: 1f5fb411e96f0f6bcb19c11fc6c95d67
 - version: 1.0.0.3
   normalized: v1003
   date: 2013-10-03
@@ -26,9 +71,6 @@ versions:
   - type: archlinux64
     filename: remmina-plugin-rdesktop-1.0.0.3-1-x86_64.pkg.tar.xz
     md5sum: CE86623FA2DAF83A17C6C6DFB31D1EFC
-  - type: aur
-    filename: remmina-plugin-exec
-    md5sum: '-'
 - version: 1.0.0.2
   normalized: v1002
   date: 2013-10-03
