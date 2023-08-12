@@ -7,6 +7,44 @@ gitrepo: https://github.com/muflone/remmina-plugin-exec
 translations_repo:
 license: gpl2
 versions:
+- version: 1.2.3.0
+  normalized: v1230
+  date: 2016-04-23
+  packages:
+  - type: source
+    filename: remmina-plugin-exec-1.2.3.0.tar.gz
+    md5sum: 1f3313299dcd54be6b58eb2ffa3ec6cc
+  - type: aur
+    filename: remmina-plugin-exec
+    md5sum: '-'
+- version: 1.2.2.0
+  normalized: v1220
+  date: 2015-11-15
+  packages:
+  - type: source
+    filename: remmina-plugin-exec-1.2.2.0.tar.gz
+    md5sum: ef8e8bfec04fdb711f0ed841aaa948a9
+- version: 1.2.1.0
+  normalized: v1210
+  date: 2015-11-14
+  packages:
+  - type: source
+    filename: remmina-plugin-exec-1.2.1.0.tar.gz
+    md5sum: 4283c9f209b38dca4635a41b7fa48a83
+- version: 1.2.0.0
+  normalized: v1200
+  date: 2015-11-13
+  packages:
+  - type: source
+    filename: remmina-plugin-exec-1.2.0.0.tar.gz
+    md5sum: 705e6364f211baa6b674ac13664c19cc
+- version: 1.1.1.0
+  normalized: v1110
+  date: 2014-11-02
+  packages:
+  - type: source
+    filename: remmina-plugin-exec-1.1.1.0.tar.gz
+    md5sum: 4232b1664662280bdba5c3616b9385d3
 - version: 1.0.0.2
   normalized: v1002
   date: 2013-05-27
@@ -26,9 +64,6 @@ versions:
   - type: archlinux64
     filename: remmina-plugin-exec-1.0.0.2-1-x86_64.pkg.tar.xz
     md5sum: 3D97483A0640C918B004E997190F9805
-  - type: aur
-    filename: remmina-plugin-exec
-    md5sum: '-'
 - version: 1.0.0.1
   normalized: v1001
   date: 2013-05-27
