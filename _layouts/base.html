@@ -134,7 +134,13 @@
               </div>
               <div class="col-md-auto col-12 item">
                 <div class="copyright">
-                  {{ site.data.translations[page.language].last_update}}: {{ 'now' | date: '%Y-%m-%d' }} -
+                  {{ site.data.translations[page.language].last_update}}:&nbsp;
+{%- if site.footer_date -%}
+                    {{ site.footer_date }}
+{%- else -%}
+                    {{ 'now' | date: '%Y-%m-%d' }}
+{%- endif -%}
+                   &nbsp;-
                   {{ site.data.translations[page.language].copyright }} Fabio Castelli (Muflone)
                 </div>
               </div>
