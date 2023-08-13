@@ -3,6 +3,10 @@ layout: changelog
 order: 900
 title: Changelog
 ---
+# Version 1.4.31.0 (Aug 13, 2023)
+
+* Added project deprecation warning in the README
+
 # Version 1.2.3.0 (Apr 23, 2016)
 
 * Updated for Remmina API change and Builder 1.2.3.0

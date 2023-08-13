@@ -3,6 +3,10 @@ layout: changelog
 order: 900
 title: Cambiamenti
 ---
+# Versione 1.4.31.0 (13 Agosto 2023)
+
+* Aggiunto avviso di deprecazione del progetto nel file README
+
 # Versione 1.2.3.0 (23 Aprile 2016)
 
 * Aggiornato per cambiamento API di Remmina e Builder 1.2.3.0

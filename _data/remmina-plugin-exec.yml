@@ -7,6 +7,13 @@ gitrepo: https://github.com/muflone/remmina-plugin-exec
 translations_repo:
 license: gpl2
 versions:
+- version: 1.4.31.0
+  normalized: v1431
+  date: 2023-08-13
+  packages:
+  - type: source
+    filename: remmina-plugin-exec-1.4.31.0.tar.gz
+    md5sum: c4b9394e7106b6a4c92a4bcc01ee7b99
 - version: 1.2.3.0
   normalized: v1230
   date: 2016-04-23
@@ -14,9 +21,6 @@ versions:
   - type: source
     filename: remmina-plugin-exec-1.2.3.0.tar.gz
     md5sum: 1f3313299dcd54be6b58eb2ffa3ec6cc
-  - type: aur
-    filename: remmina-plugin-exec
-    md5sum: '-'
 - version: 1.2.2.0
   normalized: v1220
   date: 2015-11-15
