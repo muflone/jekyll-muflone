@@ -7,6 +7,51 @@ gitrepo: https://github.com/muflone/remmina-plugin-url
 translations_repo:
 license: gpl2
 versions:
+- version: 1.3.0.0
+  normalized: v1300
+  date: 2019-12-22
+  packages:
+  - type: source
+    filename: remmina-plugin-url-1.3.0.0.tar.gz
+    md5sum: e84ca3b50e97147092e2f7905543f52f
+  - type: aur
+    filename: remmina-plugin-url
+    md5sum: '-'
+- version: 1.2.3.0
+  normalized: v1230
+  date: 2016-04-24
+  packages:
+  - type: source
+    filename: remmina-plugin-url-1.2.3.0.tar.gz
+    md5sum: 6a5bc6e218cdbe9d8b82aa9aa3e971f9
+- version: 1.2.2.0
+  normalized: v1220
+  date: 2015-11-15
+  packages:
+  - type: source
+    filename: remmina-plugin-url-1.2.2.0.tar.gz
+    md5sum: cedff092858a1604bcffcde5420422ba
+- version: 1.2.1.0
+  normalized: v1210
+  date: 2015-11-15
+  packages:
+  - type: source
+    filename: remmina-plugin-url-1.2.1.0.tar.gz
+    md5sum: 172f62c8aba563d2ff344245759fe732
+- version: 1.2.0.0
+  normalized: v1200
+  date: 2015-11-15
+  packages:
+  - type: source
+    filename: remmina-plugin-url-1.2.0.0.tar.gz
+    md5sum: 2920f55a505ac52dd3a3aa3299518b63
+- version: 1.1.1.0
+  normalized: v1110
+  date: 2014-11-02
+  packages:
+  - type: source
+    filename: remmina-plugin-url-1.1.1.0.tar.gz
+    md5sum: 798c5b291727d5ec556a5ada5e8f6813
 - version: 1.0.0.1
   normalized: v1001
   date: 2013-05-27
@@ -26,9 +71,6 @@ versions:
   - type: archlinux64
     filename: remmina-plugin-url-1.0.0.1-2-x86_64.pkg.tar.xz
     md5sum: FD1C6A1658301DDAA8B1610F47D1368D
-  - type: aur
-    filename: remmina-plugin-url
-    md5sum: '-'
 - version: 1.0.0.0
   normalized: v1000
   date: 2013-05-01
