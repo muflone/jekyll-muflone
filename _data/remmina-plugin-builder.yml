@@ -7,6 +7,13 @@ gitrepo: https://github.com/muflone/remmina-plugin-builder
 translations_repo:
 license: gpl2
 versions:
+- version: 1.4.31.0
+  normalized: v14310
+  date: 2023-08-14
+  packages:
+  - type: source
+    filename: remmina-plugin-builder-1.4.31.0.tar.gz
+    md5sum: d6c1a955f3df5dd3061a5b3c66276233
 - version: 1.4.27.0
   normalized: v14270
   date: 2022-10-29
