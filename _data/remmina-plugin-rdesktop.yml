@@ -14,6 +14,9 @@ versions:
   - type: source
     filename: remmina-plugin-rdesktop-1.3.0.0.tar.gz
     md5sum: 6e6751c0f4e47c0b9f285cf93d212cbc
+  - type: archlinux64
+    filename: remmina-plugin-rdesktop-1.3.0.0-4-x86_64.pkg.tar.zst
+    md5sum: f054b524fd824a64c2d52f1962b24d72
   - type: aur
     filename: remmina-plugin-rdesktop
     md5sum: '-'
