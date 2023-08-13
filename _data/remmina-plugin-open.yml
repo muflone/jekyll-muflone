@@ -14,6 +14,9 @@ versions:
   - type: source
     filename: remmina-plugin-open-1.3.0.0.tar.gz
     md5sum: bb2c2fb3e7da3c2d85667fc4a6f399f4
+  - type: archlinux64
+    filename: remmina-plugin-open-1.3.0.0-4-x86_64.pkg.tar.zst
+    md5sum: 08d2de710884934e4b15dde89144df2f
   - type: aur
     filename: remmina-plugin-open
     md5sum: '-'
