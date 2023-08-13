@@ -27,7 +27,7 @@ versions:
     filename: remmina-plugin-url-1.0.0.1-2-x86_64.pkg.tar.xz
     md5sum: FD1C6A1658301DDAA8B1610F47D1368D
   - type: aur
-    filename: remmina-plugin-exec
+    filename: remmina-plugin-url
     md5sum: '-'
 - version: 1.0.0.0
   normalized: v1000

@@ -15,7 +15,7 @@ versions:
     filename: remmina-plugin-teamviewer-1.3.0.0.tar.gz
     md5sum: a3fe9365cbc5103c053d3d151fd841ce
   - type: aur
-    filename: remmina-plugin-exec
+    filename: remmina-plugin-teamviewer
     md5sum: '-'
 - version: 1.2.3.0
   normalized: v1230

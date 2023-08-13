@@ -27,7 +27,7 @@ versions:
     filename: remmina-plugin-webkit-1.0.0.3-1-x86_64.pkg.tar.xz
     md5sum: 8DE728B55234424E3BE94848A5EDD9A2
   - type: aur
-    filename: remmina-plugin-exec
+    filename: remmina-plugin-webkit
     md5sum: '-'
 - version: 1.0.0.2
   normalized: v1002
