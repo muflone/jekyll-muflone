@@ -19,7 +19,7 @@ title: Cambiamenti
 # Versione 1.2.0.0 (13 Novembre 2015)
 
 * Aggiornato per Remmina 1.2 GTK+ 3
-* Aggiunte librerie comuni durante il linking
+* Aggiunte librerie comuni durante la compilazione
 * Aggiunto tracciamento delle chiamate
 
 # Versione 1.1.1.0 (2 Novembre 2014)
