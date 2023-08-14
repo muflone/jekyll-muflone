@@ -171,6 +171,48 @@ versions:
   - type: archlinux
     filename: gptrace-0.1.0-1-any.pkg.tar.xz
     md5sum: FCD4D301362F47B0EECD4A8FED7E3080
+- version: 0.0.6
+  normalized: v006
+  date: 2014-05-01
+  packages:
+  - type: source
+    filename: gptrace-0.0.6.tar.gz
+    md5sum: 5a80f2584b2f1ddb6737dd8789ea2bfb
+- version: 0.0.5
+  normalized: v005
+  date: 2014-04-28
+  packages:
+  - type: source
+    filename: gptrace-0.0.5.tar.gz
+    md5sum: f5d4ed1ef79925d2e8a409daf2c7c328
+- version: 0.0.4
+  normalized: v004
+  date: 2014-04-27
+  packages:
+  - type: source
+    filename: gptrace-0.0.4.tar.gz
+    md5sum: 4db3e04e6fcbce89572a563109e576bc
+- version: 0.0.3
+  normalized: v003
+  date: 2014-04-26
+  packages:
+  - type: source
+    filename: gptrace-0.0.3.tar.gz
+    md5sum: ba67e33f78c23ce96d66bd06695c2cd6
+- version: 0.0.2
+  normalized: v002
+  date: 2014-04-21
+  packages:
+  - type: source
+    filename: gptrace-0.0.2.tar.gz
+    md5sum: 59952b7a1162a488fbaa6e12c7cb5c42
+- version: 0.0.1
+  normalized: v001
+  date: 2014-04-13
+  packages:
+  - type: source
+    filename: gptrace-0.0.1.tar.gz
+    md5sum: a6022eeee125fdd9b29174b63115e4b1
 translations:
 - english
 - italian

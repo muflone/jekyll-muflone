@@ -85,6 +85,38 @@ title: Cambiamenti
 
 # Versione 0.1.0 (4 Maggio 2014)
 
-* Rilascio iniziale
+* Primo rilascio pubblico
 
 ![Finestra principale di gpTrace 0.1.0](/resources/gptrace/archive/v0.1.0/italian/main.png)
+
+# Versione 0.0.6 (1 Maggio 2014)
+
+* Aggiunto un pulsante per avviare e annullare il tracciamento. Il tracciamento non è più avviato automaticamente quando un file è eseguito.
+* Aggiunta opzione di menu per ripulire la lista dei risultati immediatamente
+* Aggiunta opzione per ripulire automaticamente i risultati all'avvio del tracciamento
+
+# Versione 0.0.5 (28 Aprile 2014)
+
+* Aggiunta colonna formato
+* Aggiunta opzione di menu per impostare la visibilità delle colonne
+
+# Versione 0.0.4 (27 Aprile 2014)
+
+* Aggiunto conteggio delle syscall intercettate selezionate
+* Incremento velocità di chiusura della finestra principale nascondendola immediatamente
+* Spostate le opzioni debugger da SyscallTracer a MainWindow
+
+# Versione 0.0.3 (26 Aprile 2014)
+
+* Salvataggio e ripristino automatico della lista delle syscall intercettate
+* Aggiunta selezione delle syscall correlate ad argomenti file/percorso e socket
+* Aggiunto supporto a processi fork
+
+# Versione 0.0.2 (21 Aprile 2014)
+
+* Aggiunta una lista di syscall da intercettare
+* Aggiunte colonne PID e IP (Instruction Pointer) all'elenco dei risultati
+
+# Versione 0.0.1 (13 Aprile 2014)
+
+* Rilascio iniziale

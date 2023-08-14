@@ -85,6 +85,38 @@ title: Changelog
 
 # Version 0.1.0 (May 4, 2014)
 
-* Initial release
+* First public release
 
 ![Main window for gpTrace 0.1.0](/resources/gptrace/archive/v0.1.0/english/main.png)
+
+# Version 0.0.6 (May 1, 2014)
+
+* Added a button to start and cancel tracing. The tracing is not automatically anymore started when a file is executed.
+* Added menu item to clear the result list immediately
+* Added option item to automatically clear the results on tracing startup
+
+# Version 0.0.5 (Apr 28, 2014)
+
+* Added format column
+* Added option menu to set column visibility
+
+# Version 0.0.4 (Apr 27, 2014)
+
+* Added selected intercepted syscalls count
+* Main window closing speed-up by hiding it immediately
+* Moved the debugger options from SyscallTracer to MainWindow
+
+# Version 0.0.3 (Apr 26, 2014)
+
+* Automatic save and restore of intercepted syscalls list
+* Added selection of syscalls with filename/pathname arguments and socket related
+* Added forked process support
+
+# Version 0.0.2 (Apr 21, 2014)
+
+* Added a list for syscalls to intercept
+* Added PID and IP (Instruction Pointer) column in the results list
+
+# Version 0.0.1 (Apr 13, 2014)
+
+* Initial release
