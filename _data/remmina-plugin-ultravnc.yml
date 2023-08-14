@@ -14,6 +14,9 @@ versions:
   - type: source
     filename: remmina-plugin-ultravnc-1.3.0.0.tar.gz
     md5sum: d43c894ecd5bca86a3501896019e1e62
+  - type: archlinux64
+    filename: remmina-plugin-ultravnc-1.3.0.0-4-x86_64.pkg.tar.zst
+    md5sum: 263b25f9d88e2320d8d2deed5f0eae40
   - type: aur
     filename: remmina-plugin-ultravnc
     md5sum: '-'
