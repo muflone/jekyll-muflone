@@ -14,6 +14,9 @@ versions:
   - type: source
     filename: remmina-plugin-webkit-1.3.0.0.tar.gz
     md5sum: 2f01c52fbabac2d063a6921388f30bb8
+  - type: archlinux64
+    filename: remmina-plugin-webkit-1.3.0.0-4-x86_64.pkg.tar.zst
+    md5sum: 5c7755293fce284f8e2394feae40906e
   - type: aur
     filename: remmina-plugin-webkit
     md5sum: '-'
