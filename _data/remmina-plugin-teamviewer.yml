@@ -14,6 +14,9 @@ versions:
   - type: source
     filename: remmina-plugin-teamviewer-1.3.0.0.tar.gz
     md5sum: a3fe9365cbc5103c053d3d151fd841ce
+  - type: archlinux64
+    filename: remmina-plugin-teamviewer-1.3.0.0-4-x86_64.pkg.tar.zst
+    md5sum: 71d260d2b3009c1ec0c78bb6648f3596
   - type: aur
     filename: remmina-plugin-teamviewer
     md5sum: '-'
