@@ -3,6 +3,11 @@ layout: changelog
 order: 900
 title: Cambiamenti
 ---
+# Versione 0.4.0 (23 Marzo 2022)
+
+* Aggiunta classe AdminTextInputFilter per creare nuovi filtri basati su input
+* Aggiunta classe FieldTextFilter per filtrare utilizzando il valore esatto su campo di nome field
+
 # Versione 0.3.1 (10 Marzo 2022)
 
 * Aggiunta configurazione titolo indice, titolo e intestazione dell'amministrazione

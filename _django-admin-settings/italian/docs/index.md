@@ -24,6 +24,14 @@ Django Admin.
 * [ListDisplayLink]({% link _django-admin-settings/italian/docs/listdisplaylink.md %})
 * [ListFilter]({% link _django-admin-settings/italian/docs/listfilter.md %})
 
+## Filtri
+
+Le seguenti classi possono essere utilizzate all'interno del codice del progetto Django
+per applicare nuovi filtri in [Django Admin].
+
+* [AdminTextInputFilter]({% link _django-admin-settings/italian/docs/admintextinputfilter.md %})
+* [FieldTextFilter]({% link _django-admin-settings/italian/docs/fieldtextfilter.md %})
+
 {: target="_blank" .external }
 [Django]: https://www.djangoproject.com/
 

@@ -3,6 +3,11 @@ layout: changelog
 order: 900
 title: Changelog
 ---
+# Version 0.4.0 (Mar 23, 2023)
+
+* Added class AdminTextInputFilter to create new input filters
+* Added FieldTextFilter to filter by using the exact value for field
+
 # Version 0.3.1 (Mar 10, 2023)
 
 * Added admin configuration index title and site header and title
