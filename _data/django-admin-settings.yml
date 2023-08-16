@@ -7,6 +7,16 @@ gitrepo: https://github.com/muflone/django-admin-settings
 translations_repo:
 license: gpl3
 versions:
+- version: 0.4.1
+  normalized: v041
+  date: 2023-03-23
+  packages:
+  - type: source
+    filename: django-admin-settings-0.4.1.tar.gz
+    md5sum: 7b60f052c1ceadeac4c45bbc15e06038
+  - type: python-wheel
+    filename: django_admin_settings-0.4.1-py3-none-any.whl
+    md5sum: 1cac809c64f1b1122fd5dc2b283ee5d4
 - version: 0.4.0
   normalized: v040
   date: 2023-03-23

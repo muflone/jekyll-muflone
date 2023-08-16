@@ -3,6 +3,10 @@ layout: changelog
 order: 900
 title: Changelog
 ---
+# Version 0.4.1 (Mar 23, 2023)
+
+* Included templates directory in package
+
 # Version 0.4.0 (Mar 23, 2023)
 
 * Added class AdminTextInputFilter to create new input filters

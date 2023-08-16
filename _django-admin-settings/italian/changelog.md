@@ -3,6 +3,10 @@ layout: changelog
 order: 900
 title: Cambiamenti
 ---
+# Versione 0.4.1 (23 Marzo 2022)
+
+* Inclusa directory templates nel pacchetto
+
 # Versione 0.4.0 (23 Marzo 2022)
 
 * Aggiunta classe AdminTextInputFilter per creare nuovi filtri basati su input
