@@ -9,7 +9,7 @@ show_social: false
 icon_footer: apple-icon-60x60.png
 icon_home_1: apple-icon-120x120.png
 icon_home_2: android-icon-192x192.png
-footer_date: 2023-08-12
+footer_date: false
 sections:
   - contacts
   - articles
