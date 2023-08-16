@@ -3,6 +3,7 @@ layout: documentation
 order: 551
 depth: 2
 title: AdminTextInputFilter
+nav_prefix: Filtri
 ---
 # Filtro AdminTextInputFilter
 

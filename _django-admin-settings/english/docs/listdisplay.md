@@ -3,6 +3,7 @@ layout: documentation
 order: 531
 depth: 2
 title: ListDisplay
+nav_prefix: Models
 ---
 # Model ListDisplay
 

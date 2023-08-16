@@ -3,6 +3,7 @@ layout: documentation
 order: 511
 depth: 2
 title: awaitable
+nav_prefix: Functions
 ---
 
 # Function awaitable

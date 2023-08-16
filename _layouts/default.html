@@ -19,6 +19,9 @@ layout: base
             </ul>
             <!-- End of sidebar depth 2 -->
         {%- endif %}
+        {%- if doc.nav_prefix %}
+            <li class="menu1-prefix">{{ doc.nav_prefix }}</li>
+        {%- endif %}
             <li class="menu1"><a href="{{ doc.url }}">{{ doc.title }}</a></li>
       {%- else -%}
         {%- unless with_depth2 -%}
@@ -26,6 +29,9 @@ layout: base
             <!-- Begin of sidebar depth 2 -->
             <ul class="menu2">
         {%- endunless %}
+        {%- if doc.nav_prefix %}
+              <li class="menu2-prefix">{{ doc.nav_prefix }}</li>
+        {%- endif %}
               <li class="menu2"><a href="{{ doc.url }}">{{ doc.title }}</a></li>
       {%- endif -%}
       {%- assign last_depth = doc.depth -%}
