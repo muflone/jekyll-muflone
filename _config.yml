@@ -34,6 +34,7 @@ sections:
   - awaitable
   - pixelcolor
   - django-admin-settings
+  - watchpage
 collections:
   contacts:
     output: true
@@ -102,6 +103,9 @@ collections:
     output: true
     permalink: /:collection/:path:output_ext
   django-admin-settings:
+    output: true
+    permalink: /:collection/:path:output_ext
+  watchpage:
     output: true
     permalink: /:collection/:path:output_ext
 defaults:
@@ -388,5 +392,15 @@ defaults:
       language: english
   - scope:
       path: _django-admin-settings/italian
+    values:
+      language: italian
+
+  - scope:
+      path: _watchpage
+    values:
+      product: watchpage
+      language: english
+  - scope:
+      path: _watchpage/italian
     values:
       language: italian
