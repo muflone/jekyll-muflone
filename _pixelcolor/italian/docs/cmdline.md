@@ -4,7 +4,6 @@ order: 510
 depth: 2
 title: Riga di comando
 ---
-
 # Opzioni da riga di comando
 
 **PixelColor** è un'utilità a riga di comando e richiede alcuni argomenti e
@@ -13,7 +12,11 @@ opzioni. Argomenti e opzioni tra parentesi quadre sono opzionali.
 Per alcuni esempi di utilizzo vedi la pagina
 [Esempi di utilizzo]({% link _pixelcolor/italian/examples.md %}).
 
-## Usage
+## Utilizzo
+
+```shell
+$ pixelcolor --help
+```
 
 ```shell
 pixelcolor [-h] [-V] [--display DISPLAY] [--triplets] [--hex] [--upper] --x X --y Y

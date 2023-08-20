@@ -4,7 +4,6 @@ order: 510
 depth: 2
 title: Command-line options
 ---
-
 # Command-line options
 
 **PixelColor** is a command-line utility and requires some arguments and
@@ -14,6 +13,10 @@ For some usage examples please see the
 [Examples]({% link _pixelcolor/english/examples.md %}) page.
 
 ## Usage
+
+```shell
+$ pixelcolor --help
+```
 
 ```shell
 pixelcolor [-h] [-V] [--display DISPLAY] [--triplets] [--hex] [--upper] --x X --y Y

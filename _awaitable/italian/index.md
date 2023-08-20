@@ -6,7 +6,7 @@ title: Introduzione
 Un piccolo decoratore Python per eseguire in maniera asincrona funzioni
 sincrone.
 
-**Awaitable** può essere utile quando si desidera eseguide in maniera asincrona
+**Awaitable** può essere utile quando si desidera eseguire in maniera asincrona
 una funzione sincrona che non può essere riscritta in maniera asincrona
 utilizzando `await` poiché potrebbe contenere del codice che non può essere
 atteso, per la presenza di librerie di terze parti oppure se alcune funzioni

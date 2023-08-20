@@ -10,6 +10,6 @@ title: Documentation
 * [awaitable.awaitable]({% link _awaitable/english/docs/awaitable.md %})
 * [awaitable.run_awaitable]({% link _awaitable/english/docs/run_awaitable.md %})
 
-## Classes 
+## Classes
 
 * [awaitable.AsyncioGather]({% link _awaitable/english/docs/asynciogather.md %})
