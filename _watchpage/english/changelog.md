@@ -3,7 +3,7 @@ layout: changelog
 order: 900
 title: Changelog
 ---
-# Version 0.4.0 (Aug 20, 2023)
+# Version 0.4.1 (Aug 20, 2023)
 
 * Added filters REMOVE LEFT and REMOVE RIGHT
 
