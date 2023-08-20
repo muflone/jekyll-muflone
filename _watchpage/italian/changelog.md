@@ -3,6 +3,10 @@ layout: changelog
 order: 900
 title: Cambiamenti
 ---
+# Versione 0.4.1 (20 Agosto 2023)
+
+* Aggiunti i filtri REMOVE LEFT e REMOVE RIGHT
+
 # Versione 0.4.0 (17 Agosto 2023)
 
 * Aggiunta compatibilità con Python 3.11
