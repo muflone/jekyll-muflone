@@ -23,4 +23,4 @@ title: Cambiamenti
 
 # Versione 0.1.0 (12 Giugno 2022)
 
-* Rilascio iniziale.
+* Rilascio iniziale

@@ -35,6 +35,7 @@ sections:
   - pixelcolor
   - django-admin-settings
   - watchpage
+  - mumailer
 collections:
   contacts:
     output: true
@@ -106,6 +107,9 @@ collections:
     output: true
     permalink: /:collection/:path:output_ext
   watchpage:
+    output: true
+    permalink: /:collection/:path:output_ext
+  mumailer:
     output: true
     permalink: /:collection/:path:output_ext
 defaults:
@@ -402,5 +406,15 @@ defaults:
       language: english
   - scope:
       path: _watchpage/italian
+    values:
+      language: italian
+
+  - scope:
+      path: _mumailer
+    values:
+      product: mumailer
+      language: english
+  - scope:
+      path: _mumailer/italian
     values:
       language: italian
