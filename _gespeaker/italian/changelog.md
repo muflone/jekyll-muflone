@@ -24,7 +24,7 @@ title: Cambiamenti
 
 # Versione 0.8.2 (17 Ottobre 2010)
 
-* Rimossi i plugin amsn, emesene, kopete, pidgin, telepathy.
+* Rimossi i plugin amsn, emesene, kopete, pidgin, telepathy
   Sono stati spostati ad un altro repository sorgente per una manutenzione e un
   versionamento separati
 * Aggiunto handlepaths a EspeakFrontend.py
@@ -54,7 +54,7 @@ title: Cambiamenti
 # Versione 0.8 (13 Giugno 2010)
 
 * Spostati i traduttori dai files .po a doc/translators
-* Nuova traduzione polacca di Andrey J.
+* Nuova traduzione polacca di Andrey J
 * Nuova interfaccia DBUS per l'interazione da applicazioni esterne
 * Corretto il ritardo minimo delle parole da 5 a 0 nell'interfaccia principale
 
@@ -63,28 +63,28 @@ title: Cambiamenti
 # Versione 0.7 (13 Dicembre 2009)
 
 * Nuovo modulo handlepaths che riflette il cambiamento della struttura delle
-  directory.
-* Nuovo setup.py per l'installazione distutils.
-* Nuova pacchettizzazione che segue le regole Debian.
+  directory
+* Nuovo setup.py per l'installazione distutils
+* Nuova pacchettizzazione che segue le regole Debian
 
 ![Finestra delle informazioni di Gespeaker 0.7](/resources/gespeaker/archive/v0.7/italian/about.png)
 
 # Versione 0.6 (18 Luglio 2009)
 
-* Corretta la stringa localizzata per la verifica audio.
+* Corretta la stringa localizzata per la verifica audio
 * Invece di ignorare l'errore, un messaggio di errore viene mostrato se il
-  riproduttore audio non viene trovato.
-* Nuova traduzione spagnola fornita da David Prieto.
-* Nuovo supporto a MBROLA per voci più realistiche.
-* Aggiunge le voci MBROLA all'elenco delle lingue.
-* Finestra di dialogo delle preferenze a schede col nuovo supporto a MBROLA.
+  riproduttore audio non viene trovato
+* Nuova traduzione spagnola fornita da David Prieto
+* Nuovo supporto a MBROLA per voci più realistiche
+* Aggiunge le voci MBROLA all'elenco delle lingue
+* Finestra di dialogo delle preferenze a schede col nuovo supporto a MBROLA
 * Spostati lingua, tipo di voce e varianti alle impostazioni di base e
   intonazione, volume, velocità e ritardo alle impostazioni avanzate
-  dietro suggerimento frandavid100.
-* Aggiunta automaticamente estensione txt nel salvataggio del file di testo.
-* Aggiunta automaticamente estensione wav nel salvataggio del file WAVE.
+  dietro suggerimento frandavid100
+* Aggiunta automaticamente estensione txt nel salvataggio del file di testo
+* Aggiunta automaticamente estensione wav nel salvataggio del file WAVE
   Ciò causava strani rumori nella riproduzione della traccia registrata se il
-  nome del file non terminava in .wav.
+  nome del file non terminava in .wav
 
 ![Finestra principale di Gespeaker 0.6](/resources/gespeaker/archive/v0.6/italian/main.jpg)
 
@@ -93,20 +93,20 @@ title: Cambiamenti
 # Versione 0.5 (30 Giugno 2009)
 
 * Aggiunto un separatore espansore per le impostazioni in modo da massimizzare
-  l'utilizzo della finestra col testo.
-* Aggiunti i filtri per le finestre di dialogo carica/salva testo.
-* Aggiunto il supporto per il salvataggio in wave della traccia audio.
-* Aggiunta una barra di stato per mostrare la modalità di registrazione attiva.
-* Aggiunta la finestra delle preferenze.
+  l'utilizzo della finestra col testo
+* Aggiunti i filtri per le finestre di dialogo carica/salva testo
+* Aggiunto il supporto per il salvataggio in wave della traccia audio
+* Aggiunta una barra di stato per mostrare la modalità di registrazione attiva
+* Aggiunta la finestra delle preferenze
 * Aggiunte le preferenze per salvare e ricaricare il messaggio di benvenuto,
   le dimensioni della finestra, le impostazioni della voce e lo stato
-  dell'espansore.
+  dell'espansore
 * Aggiunto il supporto per il frontend audio: ```ALSA``` (aplay),
   ```PulseAudio``` (paplay) e comando di riproduzione personalizzato
-  dall'utente, con comando di verifica dell'audio.
+  dall'utente, con comando di verifica dell'audio
 * Aggiunte le varianti delle voci verificando la directory 
-  ```/usr/share/espeak-data/voices/!v``` per varianti extra della voce.
-* Sistemate le icone predefinite per ```DialogFileOpenSave```.
+  ```/usr/share/espeak-data/voices/!v``` per varianti extra della voce
+* Sistemate le icone predefinite per ```DialogFileOpenSave```
 
 ![Finestra principale di Gespeaker 0.5](/resources/gespeaker/archive/v0.5/italian/main.png)
 
@@ -116,39 +116,39 @@ title: Cambiamenti
 
 * Aggiunto ```SubprocessWrapper.Popen``` per racchiudere subprocess.Popen in
   modo da supportare versioni di Python antecedenti alla 2.6 che non offrono
-  l'argomento delete alla creazione dell'oggetto.
+  l'argomento delete alla creazione dell'oggetto
 * Aggiunto ```TempfileWrapper.NamedTemporaryFile``` per racchiudere l'oggetto
   Popen di tempfile in modo da supportare versioni di Python antecedenti alla
-  2.6 che non offrono i metodi terminate e send_signal.
-  Attualmente non viene più usato, rimasto per utilizzi futuri.
-* Adesso Gespeaker funziona con Python versioni 2.4 e successive.
+  2.6 che non offrono i metodi terminate e send_signal
+  Attualmente non viene più usato, rimasto per utilizzi futuri
+* Adesso Gespeaker funziona con Python versioni 2.4 e successive
 * Il file temporaneo per il testo da riprodurre viene creato all'avvio del
-  programma così non verranno più creati files temporanei dopo ogni riproduzione.
-* Incluse le funzionalità pausa e riprendi.
-* Nuove icona e logo, gentilmente forniti da MIX.
-* Nuova traduzione francese fornita da Emmanuel.
+  programma così non verranno più creati files temporanei dopo ogni riproduzione
+* Incluse le funzionalità pausa e riprendi
+* Nuove icona e logo, gentilmente forniti da MIX
+* Nuova traduzione francese fornita da Emmanuel
 
 ![Finestra principale di Gespeaker 0.4](/resources/gespeaker/archive/v0.4/italian/main.png)
 
 # Versione 0.3 (18 Giugno 2009)
 
-* Usata soltanto per verifiche, mai rilasciata.
+* Usata soltanto per verifiche, mai rilasciata
 * Aggiunto il supporto per il tipo di voce (maschile/femminile) con +12 per la
-  voce femminile.
+  voce femminile
 * Rimossa la sostituzione del testo con un file temporaneo più sicuro con il
-  testo da riprodurre.
+  testo da riprodurre
 * Sostituita la chiamata rediretta tramite shell con la più sicura redirezione
-  attraverso subprocess.
+  attraverso subprocess
 * Miglior controllo delle chiamate esterne, adesso sia l'esecuzione di espeak e
-  del riproduttore vengono controllati in caso di uscita e terminati se richiesto.
-* Aggiunti parametri documentazione e artisti a ```DialogAbout```.
+  del riproduttore vengono controllati in caso di uscita e terminati se richiesto
+* Aggiunti parametri documentazione e artisti a ```DialogAbout```
 
 # Versione 0.2 (14 Giugno 2009)
 
 * Cambiata l'interfaccia utente secondo le
   [specifiche HIG di GNOME 2.32][GNOME HIG specifications]
 * Corretto l'utilizzo dell'icona su ```DialogAbout.set_icon_from_file```, che
-  era stata erroneamente scritta nel codice.
+  era stata erroneamente scritta nel codice
 * Aggiunto collegamento simbolico del file di copyright a 
   ```/usr/share/doc/gespeaker/copyright```
 
@@ -156,7 +156,7 @@ title: Cambiamenti
 
 # Versione 0.1 (13 Giugno 2009)
 
-* Rilascio iniziale.
+* Rilascio iniziale
 
 ![Finestra principale di Gespeaker 0.1](/resources/gespeaker/archive/v0.1/italian/main.jpg)
 

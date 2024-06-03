@@ -149,6 +149,6 @@ title: Changelog
 
 # Version 0.1 (Sep 6, 2009)
 
-* Initial release.
+* Initial release
 
 ![Main window for gWakeOnLAN 0.1](/resources/gwakeonlan/archive/v0.1/english/main.png)

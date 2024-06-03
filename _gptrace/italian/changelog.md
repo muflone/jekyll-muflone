@@ -91,7 +91,7 @@ title: Cambiamenti
 
 # Versione 0.0.6 (1 Maggio 2014)
 
-* Aggiunto un pulsante per avviare e annullare il tracciamento. Il tracciamento non è più avviato automaticamente quando un file è eseguito.
+* Aggiunto un pulsante per avviare e annullare il tracciamento. Il tracciamento non è più avviato automaticamente quando un file è eseguito
 * Aggiunta opzione di menu per ripulire la lista dei risultati immediatamente
 * Aggiunta opzione per ripulire automaticamente i risultati all'avvio del tracciamento
 

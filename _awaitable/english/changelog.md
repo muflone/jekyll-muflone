@@ -23,4 +23,4 @@ title: Changelog
 
 # Version 0.1.0 (Jun 12, 2022)
 
-* Initial release.
+* Initial release

@@ -155,6 +155,6 @@ title: Cambiamenti
 
 # Versione 0.1 (6 Settembre 2009)
 
-* Rilascio iniziale.
+* Rilascio iniziale
 
 ![Finestra principale di gWakeOnLAN 0.1](/resources/gwakeonlan/archive/v0.1/italian/main.png)

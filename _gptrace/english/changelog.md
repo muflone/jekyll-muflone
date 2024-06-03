@@ -91,7 +91,7 @@ title: Changelog
 
 # Version 0.0.6 (May 1, 2014)
 
-* Added a button to start and cancel tracing. The tracing is not automatically anymore started when a file is executed.
+* Added a button to start and cancel tracing. The tracing is not automatically anymore started when a file is executed
 * Added menu item to clear the result list immediately
 * Added option item to automatically clear the results on tracing startup
 

@@ -66,6 +66,6 @@ title: Changelog
 
 # Version 0.1 (Sep 10, 2013)
 
-* Initial release.
+* Initial release
 
 ![Main window for CPUCompare 0.1](/resources/cpucompare/archive/v0.1/english/main.png)

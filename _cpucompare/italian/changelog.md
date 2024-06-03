@@ -66,12 +66,12 @@ title: Cambiamenti
 # Versione 0.2 (10 Settembre 2013)
 
 * Automaticamente viene scelto l'ultimo elemento dopo l'inserimento
-* Aggiunto il pulsante Rimuovi.
+* Aggiunto il pulsante Rimuovi
 
 ![Finestra principale di CPUCompare 0.2](/resources/cpucompare/archive/v0.2/italian/main.png)
 
 # Versione 0.1 (10 Settembre 2013)
 
-* Rilascio iniziale.
+* Rilascio iniziale
 
 ![Finestra principale di CPUCompare 0.1](/resources/cpucompare/archive/v0.1/italian/main.png)
