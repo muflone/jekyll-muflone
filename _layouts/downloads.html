@@ -49,11 +49,11 @@ layout: default
                                   <img class="package-icon" src="/theme/images/{{ site.data.translations[page.language].downloads.types[package.type].icon }}">
                                   {{ site.data.translations[page.language].downloads.types[package.type].title }}
                                 </td>
-                                <td class="package-name">{{ package.filename }}</td>
+                                <td class="package-name">{{ package.filename | replace: '$(VERSION)', version.version }}</td>
                                 <td class="package-checksum">{{ package.md5sum | upcase }}</td>
                                 <td class="package-download">
     {%- if package.type != 'aur' %}
-                                  <a href="{{ site.data[page.product].gitrepo }}/releases/download/{{ version.version }}/{{ package.filename }}"
+                                  <a href="{{ site.data[page.product].gitrepo }}/releases/download/{{ version.version }}/{{ package.filename | replace: '$(VERSION)', version.version }}"
                                      title="{{ site.data.translations[page.language].downloads.from.github }}">
                                       <img src="/theme/images/github-32.png"></a>
     {%- else %}

@@ -12,16 +12,16 @@ versions:
   date: 2022-10-01
   packages:
   - type: source
-    filename: cpucompare-0.8.2.tar.gz
+    filename: cpucompare-$(VERSION).tar.gz
     md5sum: 720ad1396dcdc907c7fad00761c0a1ea
   - type: debianubuntu
-    filename: cpucompare_0.8.2-1_all.deb
+    filename: cpucompare_$(VERSION)-1_all.deb
     md5sum: a8b8854aa5e096588ae66c9d73072b0b
   - type: appimage64
-    filename: cpucompare-0.8.2-x86_64.AppImage
+    filename: cpucompare-$(VERSION)-x86_64.AppImage
     md5sum: 72f299b5b754999a619a0caf68dbf140
   - type: archlinux
-    filename: cpucompare-0.8.2-1-any.pkg.tar.zst
+    filename: cpucompare-$(VERSION)-1-any.pkg.tar.zst
     md5sum: 509911f5ee22777418dd954100f9fb9b
   - type: aur
     filename: cpucompare
@@ -34,99 +34,99 @@ versions:
   date: 2022-08-22
   packages:
   - type: source
-    filename: cpucompare-0.8.1.tar.gz
+    filename: cpucompare-$(VERSION).tar.gz
     md5sum: 02feac05df50813bf30ea038cb0a9bdc
   - type: debianubuntu
-    filename: cpucompare_0.8.1-1_all.deb
+    filename: cpucompare_$(VERSION)-1_all.deb
     md5sum: c16e37f37b99bb372e0d2d75a2b3596a
   - type: appimage64
-    filename: cpucompare-0.8.1-x86_64.AppImage
+    filename: cpucompare-$(VERSION)-x86_64.AppImage
     md5sum: 8a98b933cffad81023ead8d00d6680ce
   - type: archlinux
-    filename: cpucompare-0.8.1-1-any.pkg.tar.zst
+    filename: cpucompare-$(VERSION)-1-any.pkg.tar.zst
     md5sum: 49f6c44a19067f0d6adc88d5b39491d5
 - version: 0.8.0
   normalized: v080
   date: 2022-05-20
   packages:
   - type: source
-    filename: cpucompare-0.8.0.tar.gz
+    filename: cpucompare-$(VERSION).tar.gz
     md5sum: bb29a51235aed8e0de525b36e5155c45
   - type: debianubuntu
-    filename: cpucompare_0.8.0-1_all.deb
+    filename: cpucompare_$(VERSION)-1_all.deb
     md5sum: b0c06a2a121b8cc3a3c78db9b036356f
   - type: appimage64
-    filename: cpucompare-0.8.0-x86_64.AppImage
+    filename: cpucompare-$(VERSION)-x86_64.AppImage
     md5sum: 625941b2324a0bf36fbcac9612d78576
   - type: archlinux
-    filename: cpucompare-0.8.0-2-any.pkg.tar.zst
+    filename: cpucompare-$(VERSION)-2-any.pkg.tar.zst
     md5sum: 'f404becaf6ee0bea4d23041009390415'
 - version: 0.7.0
   normalized: v070
   date: 2017-05-07
   packages:
   - type: source
-    filename: cpucompare-0.7.0.tar.gz
+    filename: cpucompare-$(VERSION).tar.gz
     md5sum: 4e495f645b94132eb1abb3a224b01e75
 - version: 0.6
   normalized: v060
   date: 2013-09-15
   packages:
   - type: source
-    filename: cpucompare-0.6.tar.gz
+    filename: cpucompare-$(VERSION).tar.gz
     md5sum: 34f5bc355a7a604991a1d96ad23c38e5
   - type: archlinux
-    filename: cpucompare-0.6-1-any.pkg.tar.xz
+    filename: cpucompare-$(VERSION)-1-any.pkg.tar.xz
     md5sum: 5803d45ad30ef75501680b939580864e
 - version: 0.5
   normalized: v050
   date: 2013-09-13
   packages:
   - type: source
-    filename: cpucompare-0.5.tar.gz
+    filename: cpucompare-$(VERSION).tar.gz
     md5sum: ac11b06e51b55155435d5ae5bb474878
   - type: archlinux
-    filename: cpucompare-0.5-3-any.pkg.tar.xz
+    filename: cpucompare-$(VERSION)-3-any.pkg.tar.xz
     md5sum: 75725661df27ec13f1713fade1c233e1
 - version: 0.4
   normalized: v040
   date: 2013-09-12
   packages:
   - type: source
-    filename: cpucompare-0.4.tar.gz
+    filename: cpucompare-$(VERSION).tar.gz
     md5sum: 4745925bd23a712b1984b8e48cc3303d
   - type: archlinux
-    filename: cpucompare-0.4-1-any.pkg.tar.xz
+    filename: cpucompare-$(VERSION)-1-any.pkg.tar.xz
     md5sum: 30ae3e7f653be06c306953eb8397f927
 - version: 0.3
   normalized: v030
   date: 2013-09-11
   packages:
   - type: source
-    filename: cpucompare-0.3.tar.gz
+    filename: cpucompare-$(VERSION).tar.gz
     md5sum: c7b1893174fedcc104a22d0548f4f893
   - type: archlinux
-    filename: cpucompare-0.3-1-any.pkg.tar.xz
+    filename: cpucompare-$(VERSION)-1-any.pkg.tar.xz
     md5sum: 0cc18b01f7aaba532965e39d88809f42
 - version: 0.2
   normalized: v020
   date: 2013-09-10
   packages:
   - type: source
-    filename: cpucompare-0.2.tar.gz
+    filename: cpucompare-$(VERSION).tar.gz
     md5sum: 022e8cc2d65423ee595375d603aab223
   - type: archlinux
-    filename: cpucompare-0.2-1-any.pkg.tar.xz
+    filename: cpucompare-$(VERSION)-1-any.pkg.tar.xz
     md5sum: 0c16ccd1e6c6cf3deccc134bbbe98007
 - version: 0.1
   normalized: v010
   date: 2013-09-10
   packages:
   - type: source
-    filename: cpucompare-0.1.tar.gz
+    filename: cpucompare-$(VERSION).tar.gz
     md5sum: aeeceb2ff1ba3520d089053d78aaec71
   - type: archlinux
-    filename: cpucompare-0.1-1-any.pkg.tar.xz
+    filename: cpucompare-$(VERSION)-1-any.pkg.tar.xz
     md5sum: ed240b6c168156f4903c1a7a0a096edd
 translations:
   - english

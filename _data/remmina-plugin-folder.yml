@@ -12,10 +12,10 @@ versions:
   date: 2019-12-20
   packages:
   - type: source
-    filename: remmina-plugin-folder-1.3.0.0.tar.gz
+    filename: remmina-plugin-folder-$(VERSION).tar.gz
     md5sum: 41ec0728b4fbe49c599415f3765db6f2
   - type: archlinux64
-    filename: remmina-plugin-folder-1.3.0.0-5-x86_64.pkg.tar.zst
+    filename: remmina-plugin-folder-$(VERSION)-5-x86_64.pkg.tar.zst
     md5sum: 58b659e123dfa001aae2464421027c15
   - type: aur
     filename: remmina-plugin-folder
@@ -25,66 +25,66 @@ versions:
   date: 2016-04-24
   packages:
   - type: source
-    filename: remmina-plugin-folder-1.2.3.0.tar.gz
+    filename: remmina-plugin-folder-$(VERSION).tar.gz
     md5sum: 73ce79c710b96c3189a8b7a9206eccb1
 - version: 1.2.2.0
   normalized: v1220
   date: 2015-11-15
   packages:
   - type: source
-    filename: remmina-plugin-folder-1.2.2.0.tar.gz
+    filename: remmina-plugin-folder-$(VERSION).tar.gz
     md5sum: 2d8a8199f7f47c321db0cf3f20728650
 - version: 1.2.1.0
   normalized: v1210
   date: 2015-11-14
   packages:
   - type: source
-    filename: remmina-plugin-folder-1.2.1.0.tar.gz
+    filename: remmina-plugin-folder-$(VERSION).tar.gz
     md5sum: 7e4cd7b9f407af11fdcfd2a791f302f2
 - version: 1.2.0.0
   normalized: v1200
   date: 2015-11-14
   packages:
   - type: source
-    filename: remmina-plugin-folder-1.2.0.0.tar.gz
+    filename: remmina-plugin-folder-$(VERSION).tar.gz
     md5sum: 0a4440a80f9b42cad8874d2fb39e0963
 - version: 1.1.1.0
   normalized: v1110
   date: 2014-11-02
   packages:
   - type: source
-    filename: remmina-plugin-folder-1.1.1.0.tar.gz
+    filename: remmina-plugin-folder-$(VERSION).tar.gz
     md5sum: 7ea827988bf494f599969447bc5b780c
 - version: 1.0.0.2
   normalized: v1002
   date: 2013-05-27
   packages:
   - type: source
-    filename: remmina-plugin-folder-1.0.0.2.tar.gz
+    filename: remmina-plugin-folder-$(VERSION).tar.gz
     md5sum: C681F23AF54EFE13EB44A0C5E4CC5CD6
   - type: debianubuntu32
-    filename: remmina-plugin-folder_1.0.0.2-1_i386.deb
+    filename: remmina-plugin-folder_$(VERSION)-1_i386.deb
     md5sum: B0850F274A76CB573FB991FDD486B101
   - type: debianubuntu64
-    filename: remmina-plugin-folder_1.0.0.2-1_amd64.deb
+    filename: remmina-plugin-folder_$(VERSION)-1_amd64.deb
     md5sum: 3D75A599AB6F2A28BBBB6C8000E17FE6
   - type: archlinux32
-    filename: remmina-plugin-folder-1.0.0.2-2-i686.pkg.tar.xz
+    filename: remmina-plugin-folder-$(VERSION)-2-i686.pkg.tar.xz
     md5sum: 8C49EAE9ECECB8F721718795E4514E30
   - type: archlinux64
-    filename: remmina-plugin-folder-1.0.0.2-2-x86_64.pkg.tar.xz
+    filename: remmina-plugin-folder-$(VERSION)-2-x86_64.pkg.tar.xz
     md5sum: 2D7C5326F4B45959EC2C5788B8877C12
 - version: 1.0.0.1
   normalized: v1001
   date: 2013-05-27
   packages:
   - type: source
-    filename: remmina-plugin-folder-1.0.0.1.tar.gz
+    filename: remmina-plugin-folder-$(VERSION).tar.gz
     md5sum: 259458740E2F92D7D033D893F3B01446
 - version: 1.0.0.0
   normalized: v1000
   date: 2013-05-11
   packages:
   - type: source
-    filename: remmina-plugin-folder-1.0.0.0.tar.gz
+    filename: remmina-plugin-folder-$(VERSION).tar.gz
     md5sum: 201D3A459D48B2BBF071E94C136DE0D5

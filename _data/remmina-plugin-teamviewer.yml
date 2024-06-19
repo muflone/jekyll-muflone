@@ -12,10 +12,10 @@ versions:
   date: 2019-12-21
   packages:
   - type: source
-    filename: remmina-plugin-teamviewer-1.3.0.0.tar.gz
+    filename: remmina-plugin-teamviewer-$(VERSION).tar.gz
     md5sum: a3fe9365cbc5103c053d3d151fd841ce
   - type: archlinux64
-    filename: remmina-plugin-teamviewer-1.3.0.0-4-x86_64.pkg.tar.zst
+    filename: remmina-plugin-teamviewer-$(VERSION)-4-x86_64.pkg.tar.zst
     md5sum: 71d260d2b3009c1ec0c78bb6648f3596
   - type: aur
     filename: remmina-plugin-teamviewer
@@ -25,66 +25,66 @@ versions:
   date: 2016-04-23
   packages:
   - type: source
-    filename: remmina-plugin-teamviewer-1.2.3.0.tar.gz
+    filename: remmina-plugin-teamviewer-$(VERSION).tar.gz
     md5sum: dc0b69c021e8c9bb6bf95fb218db0279
 - version: 1.2.2.0
   normalized: v1220
   date: 2015-11-15
   packages:
   - type: source
-    filename: remmina-plugin-teamviewer-1.2.2.0.tar.gz
+    filename: remmina-plugin-teamviewer-$(VERSION).tar.gz
     md5sum: 78fd4ebdbb8c4d194a377c0193f7385a
 - version: 1.2.1.0
   normalized: v1210
   date: 2015-11-15
   packages:
   - type: source
-    filename: remmina-plugin-teamviewer-1.2.1.0.tar.gz
+    filename: remmina-plugin-teamviewer-$(VERSION).tar.gz
     md5sum: 58a1c646484561263145492b46d74e50
 - version: 1.2.0.0
   normalized: v1200
   date: 2015-11-15
   packages:
   - type: source
-    filename: remmina-plugin-teamviewer-1.2.0.0.tar.gz
+    filename: remmina-plugin-teamviewer-$(VERSION).tar.gz
     md5sum: c8a58b056b338b03d4c8071cdddbba5b
 - version: 1.1.1.0
   normalized: v1110
   date: 2014-11-02
   packages:
   - type: source
-    filename: remmina-plugin-teamviewer-1.1.1.0.tar.gz
+    filename: remmina-plugin-teamviewer-$(VERSION).tar.gz
     md5sum: 0680e876a732f4291b3d158456ef07c1
 - version: 1.0.0.2
   normalized: v1002
   date: 2013-09-25
   packages:
   - type: source
-    filename: remmina-plugin-teamviewer-1.0.0.2.tar.gz
+    filename: remmina-plugin-teamviewer-$(VERSION).tar.gz
     md5sum: 1B3110F4860E18EBF4F3926DA0691001
   - type: debianubuntu32
-    filename: remmina-plugin-teamviewer_1.0.0.2-1_i386.deb
+    filename: remmina-plugin-teamviewer_$(VERSION)-1_i386.deb
     md5sum: 1C6F95AA1E7C31C36FC1728E40248E30
   - type: debianubuntu64
-    filename: remmina-plugin-teamviewer_1.0.0.2-1_amd64.deb
+    filename: remmina-plugin-teamviewer_$(VERSION)-1_amd64.deb
     md5sum: 80738C5CF4F67ADEF385D170A18852AD
   - type: archlinux32
-    filename: remmina-plugin-teamviewer-1.0.0.2-1-i686.pkg.tar.xz
+    filename: remmina-plugin-teamviewer-$(VERSION)-1-i686.pkg.tar.xz
     md5sum: A558052A1780ECC9BC86F9E43117945C
   - type: archlinux64
-    filename: remmina-plugin-teamviewer-1.0.0.2-1-x86_64.pkg.tar.xz
+    filename: remmina-plugin-teamviewer-$(VERSION)-1-x86_64.pkg.tar.xz
     md5sum: 1041834B388B54AB9EFAC93BB3D2F899
 - version: 1.0.0.1
   normalized: v1001
   date: 2013-05-27
   packages:
   - type: source
-    filename: remmina-plugin-teamviewer-1.0.0.1.tar.gz
+    filename: remmina-plugin-teamviewer-$(VERSION).tar.gz
     md5sum: 4D41D9ED140C9F70ACC38CEC76528F31
 - version: 1.0.0.0
   normalized: v1000
   date: 2013-05-01
   packages:
   - type: source
-    filename: remmina-plugin-teamviewer-1.0.0.0.tar.gz
+    filename: remmina-plugin-teamviewer-$(VERSION).tar.gz
     md5sum: F9522EA88925B72381944AB5889BC773

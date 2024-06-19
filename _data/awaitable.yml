@@ -12,13 +12,13 @@ versions:
   date: 2022-09-24
   packages:
   - type: source
-    filename: awaitable-0.2.3.tar.gz
+    filename: awaitable-$(VERSION).tar.gz
     md5sum: ac4dff78db7f98e6a6b3674420f54828
   - type: python-wheel
-    filename: Awaitable-0.2.3-py3-none-any.whl
+    filename: Awaitable-$(VERSION)-py3-none-any.whl
     md5sum: 18d03140bf4992d3b0403b58268ce6db
   - type: archlinux
-    filename: python-awaitable-0.2.3-1-any.pkg.tar.zst
+    filename: python-awaitable-$(VERSION)-1-any.pkg.tar.zst
     md5sum: 3b50509eb4daa7fd212a1a7b45e4ab4d
   - type: aur
     filename: python-awaitable-git
@@ -28,51 +28,51 @@ versions:
   date: 2022-09-22
   packages:
   - type: source
-    filename: awaitable-0.2.2.tar.gz
+    filename: awaitable-$(VERSION).tar.gz
     md5sum: 3393bbd05a9d6d5d711137529b474158
   - type: python-wheel
-    filename: Awaitable-0.2.2-py3-none-any.whl
+    filename: Awaitable-$(VERSION)-py3-none-any.whl
     md5sum: f3abe5727dbb793cb4079e4aec1e45a4
   - type: archlinux
-    filename: python-awaitable-0.2.2-1-any.pkg.tar.zst
+    filename: python-awaitable-$(VERSION)-1-any.pkg.tar.zst
     md5sum: 8dd9e63b1d371ce81b77071e00b848b1
 - version: 0.2.1
   normalized: v021
   date: 2022-09-22
   packages:
   - type: source
-    filename: awaitable-0.2.1.tar.gz
+    filename: awaitable-$(VERSION).tar.gz
     md5sum: 82f6e0e6c4baa610f9bf6ff12860cf61
   - type: python-wheel
-    filename: Awaitable-0.2.1-py3-none-any.whl
+    filename: Awaitable-$(VERSION)-py3-none-any.whl
     md5sum: 05eef918ecaa52999423f689c52fa65a
   - type: archlinux
-    filename: python-awaitable-0.2.1-1-any.pkg.tar.zst
+    filename: python-awaitable-$(VERSION)-1-any.pkg.tar.zst
     md5sum: d1f98a1b311649646808e3f846ec0be7
 - version: 0.2.0
   normalized: v020
   date: 2022-06-12
   packages:
   - type: source
-    filename: awaitable-0.2.0.tar.gz
+    filename: awaitable-$(VERSION).tar.gz
     md5sum: aae765c4de66726b8356797ebcfb8eb7
   - type: python-wheel
-    filename: Awaitable-0.2.0-py3-none-any.whl
+    filename: Awaitable-$(VERSION)-py3-none-any.whl
     md5sum: 0b25288234e3695feb00bc7c9a48f593
   - type: archlinux
-    filename: python-awaitable-0.2.0-1-any.pkg.tar.zst
+    filename: python-awaitable-$(VERSION)-1-any.pkg.tar.zst
     md5sum: b9be840d87b60e172d1d8fe0e472d6ad
 - version: 0.1.0
   normalized: v010
   date: 2022-06-12
   packages:
   - type: source
-    filename: awaitable-0.1.0.tar.gz
+    filename: awaitable-$(VERSION).tar.gz
     md5sum: a10a38eb1854904ab25d63f6da537b5e
   - type: python-wheel
-    filename: Awaitable-0.1.0-py3-none-any.whl
+    filename: Awaitable-$(VERSION)-py3-none-any.whl
     md5sum: ecd66a01e8e4ea3bfd6705ee939b01a0
   - type: archlinux
-    filename: python-awaitable-0.1.0-1-any.pkg.tar.zst
+    filename: python-awaitable-$(VERSION)-1-any.pkg.tar.zst
     md5sum: 99e5235f8a868a4eff2d66128e37137c
 translations:

@@ -12,16 +12,16 @@ versions:
   date: 2022-10-01
   packages:
   - type: source
-    filename: gnome-appfolders-manager-0.4.7.tar.gz
+    filename: gnome-appfolders-manager-$(VERSION).tar.gz
     md5sum: b233fc60c50299c4f7744a6c0ad3dcc8
   - type: debianubuntu
-    filename: gnome-appfolders-manager_0.4.7-1_all.deb
+    filename: gnome-appfolders-manager_$(VERSION)-1_all.deb
     md5sum: ec011bcbbe18c28c0fea83e6a3996d6a
   - type: appimage64
-    filename: gnome-appfolders-manager-0.4.7-x86_64.AppImage
+    filename: gnome-appfolders-manager-$(VERSION)-x86_64.AppImage
     md5sum: ea5b66ad05a2c7145b405617db4f23c4
   - type: archlinux
-    filename: gnome-appfolders-manager-0.4.7-1-any.pkg.tar.zst
+    filename: gnome-appfolders-manager-$(VERSION)-1-any.pkg.tar.zst
     md5sum: 4dbf8cc23b49c67edb88f3977da8e58d
   - type: aur
     filename: gnome-appfolders-manager-git
@@ -31,180 +31,180 @@ versions:
   date: 2022-08-22
   packages:
   - type: source
-    filename: gnome-appfolders-manager-0.4.6.tar.gz
+    filename: gnome-appfolders-manager-$(VERSION).tar.gz
     md5sum: 455a7e3fec94822782162479066bfe70
   - type: debianubuntu
-    filename: gnome-appfolders-manager_0.4.6-1_all.deb
+    filename: gnome-appfolders-manager_$(VERSION)-1_all.deb
     md5sum: 0525c6f3d732ccba0cc991be3cf2eae6
   - type: appimage64
-    filename: gnome-appfolders-manager-0.4.6-x86_64.AppImage
+    filename: gnome-appfolders-manager-$(VERSION)-x86_64.AppImage
     md5sum: 82c32826cfe65e646b53687022a288c3
   - type: archlinux
-    filename: gnome-appfolders-manager-0.4.6-1-any.pkg.tar.zst
+    filename: gnome-appfolders-manager-$(VERSION)-1-any.pkg.tar.zst
     md5sum: a5f5a33860622b7bf82f304215150596
 - version: 0.4.5
   normalized: v045
   date: 2022-05-22
   packages:
   - type: source
-    filename: gnome-appfolders-manager-0.4.5.tar.gz
+    filename: gnome-appfolders-manager-$(VERSION).tar.gz
     md5sum: 5b381df77ca05b50f618651f2315feb1
   - type: debianubuntu
-    filename: gnome-appfolders-manager_0.4.5-1_all.deb
+    filename: gnome-appfolders-manager_$(VERSION)-1_all.deb
     md5sum: a3ceb2689ec4e92457eac948000cacd0
   - type: appimage64
-    filename: gnome-appfolders-manager-0.4.5-x86_64.AppImage
+    filename: gnome-appfolders-manager-$(VERSION)-x86_64.AppImage
     md5sum: 0c9204c37d90929ac256aa0a80dac664
   - type: archlinux
-    filename: gnome-appfolders-manager-0.4.5-1-any.pkg.tar.zst
+    filename: gnome-appfolders-manager-$(VERSION)-1-any.pkg.tar.zst
     md5sum: 9332c7d432655cf715e82c0d667241a1
 - version: 0.4.4
   normalized: v044
   date: 2022-04-10
   packages:
   - type: source
-    filename: gnome-appfolders-manager-0.4.4.tar.gz
+    filename: gnome-appfolders-manager-$(VERSION).tar.gz
     md5sum: 9039a2dfe25aa5533545db2a84a8f024
   - type: debianubuntu
-    filename: gnome-appfolders-manager_0.4.4-1_all.deb
+    filename: gnome-appfolders-manager_$(VERSION)-1_all.deb
     md5sum: db3bdda208fc2980453acccf1acd5193
   - type: appimage64
-    filename: gnome-appfolders-manager-0.4.4-x86_64.AppImage
+    filename: gnome-appfolders-manager-$(VERSION)-x86_64.AppImage
     md5sum: 05696b7b580667cc72d9a34757ef4e74
   - type: archlinux
-    filename: gnome-appfolders-manager-0.4.4-1-any.pkg.tar.zst
+    filename: gnome-appfolders-manager-$(VERSION)-1-any.pkg.tar.zst
     md5sum: 42fc29b02835438209e9fcc686e5f39e
 - version: 0.4.3
   normalized: v043
   date: 2022-04-04
   packages:
   - type: source
-    filename: gnome-appfolders-manager-0.4.3.tar.gz
+    filename: gnome-appfolders-manager-$(VERSION).tar.gz
     md5sum: 06e780973686767d3dd891f86af6831a
   - type: debianubuntu
-    filename: gnome-appfolders-manager_0.4.3-1_all.deb
+    filename: gnome-appfolders-manager_$(VERSION)-1_all.deb
     md5sum: 3f4c779ce7766c6a10520f3bd1f83ac2
   - type: appimage64
-    filename: gnome-appfolders-manager-0.4.3-x86_64.AppImage
+    filename: gnome-appfolders-manager-$(VERSION)-x86_64.AppImage
     md5sum: f9867847e6f7f1959d74f8b70333ce9b
   - type: archlinux
-    filename: gnome-appfolders-manager-0.4.3-1-any.pkg.tar.zst
+    filename: gnome-appfolders-manager-$(VERSION)-1-any.pkg.tar.zst
     md5sum: 5ed7b5a33bd8769043ab035485c7e44b
 - version: 0.4.2
   normalized: v042
   date: 2022-01-14
   packages:
   - type: source
-    filename: gnome-appfolders-manager-0.4.2.tar.gz
+    filename: gnome-appfolders-manager-$(VERSION).tar.gz
     md5sum: a69348176d0fbe46a32654dcb9a95a0e
   - type: archlinux
-    filename: gnome-appfolders-manager-0.4.2-1-any.pkg.tar.zst
+    filename: gnome-appfolders-manager-$(VERSION)-1-any.pkg.tar.zst
     md5sum: f9867847e6f7f1959d74f8b70333ce9b
 - version: 0.4.1
   normalized: v041
   date: 2022-01-10
   packages:
   - type: source
-    filename: gnome-appfolders-manager-0.4.1.tar.gz
+    filename: gnome-appfolders-manager-$(VERSION).tar.gz
     md5sum: 3c7b70e43e05924ea71cabde2df1fbb8
   - type: archlinux
-    filename: gnome-appfolders-manager-0.4.1-1-any.pkg.tar.zst
+    filename: gnome-appfolders-manager-$(VERSION)-1-any.pkg.tar.zst
     md5sum: f2b1c6d03aca230966fa0f979c92b94c
 - version: 0.4.0
   normalized: v040
   date: 2022-01-10
   packages:
   - type: source
-    filename: gnome-appfolders-manager-0.4.0.tar.gz
+    filename: gnome-appfolders-manager-$(VERSION).tar.gz
     md5sum: be0d24ab0b2b72da142488bd2ee46465
   - type: debianubuntu
-    filename: gnome-appfolders-manager_0.4.0-1_all.deb
+    filename: gnome-appfolders-manager_$(VERSION)-1_all.deb
     md5sum: 73a2e438643779dfcc409dd3e7d06c57
   - type: archlinux
-    filename: gnome-appfolders-manager-0.4.0-1-any.pkg.tar.zst
+    filename: gnome-appfolders-manager-$(VERSION)-1-any.pkg.tar.zst
     md5sum: 452552596229772257ddf617282c0d60
 - version: 0.3.2
   normalized: v032
   date: 2017-04-22
   packages:
   - type: source
-    filename: gnome-appfolders-manager-0.3.2.tar.gz
+    filename: gnome-appfolders-manager-$(VERSION).tar.gz
     md5sum: b4a86e4490c4e9e9a187727cdb30e433
   - type: archlinux
-    filename: gnome-appfolders-manager-0.3.2-1-any.pkg.tar.xz
+    filename: gnome-appfolders-manager-$(VERSION)-1-any.pkg.tar.xz
     md5sum: 8f80cd11ed886208fe7db4c70fa8a5f5
 - version: 0.3.1
   normalized: v031
   date: 2016-05-31
   packages:
   - type: source
-    filename: gnome-appfolders-manager-0.3.1.tar.gz
+    filename: gnome-appfolders-manager-$(VERSION).tar.gz
     md5sum: d425c9a908dcb829794b24c097706dae
   - type: debianubuntu
-    filename: gnome-appfolders-manager_0.3.1-1_all.deb
+    filename: gnome-appfolders-manager_$(VERSION)-1_all.deb
     md5sum: ed08a0b7d96e017ef0ae344850010c12
   - type: archlinux
-    filename: gnome-appfolders-manager-0.3.1-1-any.pkg.tar.xz
+    filename: gnome-appfolders-manager-$(VERSION)-1-any.pkg.tar.xz
     md5sum: 708f1e58555b3d4fb20ef89d7bba558b
 - version: 0.3.0
   normalized: v030
   date: 2016-05-28
   packages:
   - type: source
-    filename: gnome-appfolders-manager-0.3.0.tar.gz
+    filename: gnome-appfolders-manager-$(VERSION).tar.gz
     md5sum: 78d28319a16d5b0d3947b011166cf3da
   - type: archlinux
-    filename: gnome-appfolders-manager-0.3.0-1-any.pkg.tar.xz
+    filename: gnome-appfolders-manager-$(VERSION)-1-any.pkg.tar.xz
     md5sum: a5af1e6ac821d72e722cb8917b8e5dd4
 - version: 0.2.4
   normalized: v024
   date: 2016-05-22
   packages:
   - type: source
-    filename: gnome-appfolders-manager-0.2.4.tar.gz
+    filename: gnome-appfolders-manager-$(VERSION).tar.gz
     md5sum: b347db8cd7f683b9dba16bb2df74ae9e
   - type: archlinux
-    filename: gnome-appfolders-manager-0.2.4-1-any.pkg.tar.xz
+    filename: gnome-appfolders-manager-$(VERSION)-1-any.pkg.tar.xz
     md5sum: b2d34e0c57d115111ab8f39efeebf520
 - version: 0.2.3
   normalized: v023
   date: 2016-05-22
   packages:
   - type: source
-    filename: gnome-appfolders-manager-0.2.3.tar.gz
+    filename: gnome-appfolders-manager-$(VERSION).tar.gz
     md5sum: 772d5a3da68c5bed019ea4587e4ef9af
   - type: archlinux
-    filename: gnome-appfolders-manager-0.2.3-1-any.pkg.tar.xz
+    filename: gnome-appfolders-manager-$(VERSION)-1-any.pkg.tar.xz
     md5sum: 327f324c5da6c42246f827a4329a2465
 - version: 0.2.2
   normalized: v022
   date: 2016-05-20
   packages:
   - type: source
-    filename: gnome-appfolders-manager-0.2.2.tar.gz
+    filename: gnome-appfolders-manager-$(VERSION).tar.gz
     md5sum: b9d8fe110cda51f8fcdf45c23996f099
   - type: archlinux
-    filename: gnome-appfolders-manager-0.2.2-1-any.pkg.tar.xz
+    filename: gnome-appfolders-manager-$(VERSION)-1-any.pkg.tar.xz
     md5sum: b164c47fffdd3be8fb67131c96379f24
 - version: 0.2.1
   normalized: v021
   date: 2016-05-15
   packages:
   - type: source
-    filename: gnome-appfolders-manager-0.2.1.tar.gz
+    filename: gnome-appfolders-manager-$(VERSION).tar.gz
     md5sum: e759657e7d30dbe3dca2ec3c2c3b9bd5
   - type: archlinux
-    filename: gnome-appfolders-manager-0.2.1-1-any.pkg.tar.xz
+    filename: gnome-appfolders-manager-$(VERSION)-1-any.pkg.tar.xz
     md5sum: 43df8d4dd8386dd18e97750ad8a194a2
 - version: 0.2.0
   normalized: v020
   date: 2016-05-15
   packages:
   - type: source
-    filename: gnome-appfolders-manager-0.2.0.tar.gz
+    filename: gnome-appfolders-manager-$(VERSION).tar.gz
     md5sum: 5d400e119d8d56c9ccac4501269cee81
   - type: archlinux
-    filename: gnome-appfolders-manager-0.2.0-1-any.pkg.tar.xz
+    filename: gnome-appfolders-manager-$(VERSION)-1-any.pkg.tar.xz
     md5sum: d0989c7f654fee7d9f908c7ec628d449
 translations:
 - english

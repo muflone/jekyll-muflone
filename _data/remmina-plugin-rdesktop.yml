@@ -12,10 +12,10 @@ versions:
   date: 2019-12-21
   packages:
   - type: source
-    filename: remmina-plugin-rdesktop-1.3.0.0.tar.gz
+    filename: remmina-plugin-rdesktop-$(VERSION).tar.gz
     md5sum: 6e6751c0f4e47c0b9f285cf93d212cbc
   - type: archlinux64
-    filename: remmina-plugin-rdesktop-1.3.0.0-4-x86_64.pkg.tar.zst
+    filename: remmina-plugin-rdesktop-$(VERSION)-4-x86_64.pkg.tar.zst
     md5sum: f054b524fd824a64c2d52f1962b24d72
   - type: aur
     filename: remmina-plugin-rdesktop
@@ -25,73 +25,73 @@ versions:
   date: 2016-04-24
   packages:
   - type: source
-    filename: remmina-plugin-rdesktop-1.2.3.0.tar.gz
+    filename: remmina-plugin-rdesktop-$(VERSION).tar.gz
     md5sum: c719aef67b97679fa0bb8c658ac8f475
 - version: 1.2.2.0
   normalized: v1220
   date: 2015-12-08
   packages:
   - type: source
-    filename: remmina-plugin-rdesktop-1.2.2.0.tar.gz
+    filename: remmina-plugin-rdesktop-$(VERSION).tar.gz
     md5sum: 9f57bfd057049e905d4288e5efafb808
 - version: 1.2.1.0
   normalized: v1210
   date: 2015-12-08
   packages:
   - type: source
-    filename: remmina-plugin-rdesktop-1.2.1.0.tar.gz
+    filename: remmina-plugin-rdesktop-$(VERSION).tar.gz
     md5sum: 4a4ecdaabeefe3fba60b81ef0420ab3b
 - version: 1.2.0.0
   normalized: v1200
   date: 2015-12-08
   packages:
   - type: source
-    filename: remmina-plugin-rdesktop-1.2.0.0.tar.gz
+    filename: remmina-plugin-rdesktop-$(VERSION).tar.gz
     md5sum: d5879caf02dcb26f7846a29f9d985483
 - version: 1.1.1.0
   normalized: v1110
   date: 2014-11-02
   packages:
   - type: source
-    filename: remmina-plugin-rdesktop-1.1.1.0.tar.gz
+    filename: remmina-plugin-rdesktop-$(VERSION).tar.gz
     md5sum: 1f5fb411e96f0f6bcb19c11fc6c95d67
 - version: 1.0.0.3
   normalized: v1003
   date: 2013-10-03
   packages:
   - type: source
-    filename: remmina-plugin-rdesktop-1.0.0.3.tar.gz
+    filename: remmina-plugin-rdesktop-$(VERSION).tar.gz
     md5sum: 6B882C27235750BB49A5B2B1BEDD0596
   - type: debianubuntu32
-    filename: remmina-plugin-rdesktop_1.0.0.3-1_i386.deb
+    filename: remmina-plugin-rdesktop_$(VERSION)-1_i386.deb
     md5sum: 82E02BE7F940ABF851CE03B75AF66CD2
   - type: debianubuntu64
-    filename: remmina-plugin-rdesktop_1.0.0.3-1_amd64.deb
+    filename: remmina-plugin-rdesktop_$(VERSION)-1_amd64.deb
     md5sum: 23BFC80C5E8CDF5A8BEBFDA50D5BB207
   - type: archlinux32
-    filename: remmina-plugin-rdesktop-1.0.0.3-1-i686.pkg.tar.xz
+    filename: remmina-plugin-rdesktop-$(VERSION)-1-i686.pkg.tar.xz
     md5sum: 530666A52308201098B6095C76283BD6
   - type: archlinux64
-    filename: remmina-plugin-rdesktop-1.0.0.3-1-x86_64.pkg.tar.xz
+    filename: remmina-plugin-rdesktop-$(VERSION)-1-x86_64.pkg.tar.xz
     md5sum: CE86623FA2DAF83A17C6C6DFB31D1EFC
 - version: 1.0.0.2
   normalized: v1002
   date: 2013-10-03
   packages:
   - type: source
-    filename: remmina-plugin-rdesktop-1.0.0.2.tar.gz
+    filename: remmina-plugin-rdesktop-$(VERSION).tar.gz
     md5sum: 7F5BC5568CC097378FB50456E7B7D09A
 - version: 1.0.0.1
   normalized: v1001
   date: 2013-05-27
   packages:
   - type: source
-    filename: remmina-plugin-rdesktop-1.0.0.1.tar.gz
+    filename: remmina-plugin-rdesktop-$(VERSION).tar.gz
     md5sum: 990CDF17E5C3CA399CA932F3DCAA5903
 - version: 1.0.0.0
   normalized: v1000
   date: 2013-05-01
   packages:
   - type: source
-    filename: remmina-plugin-rdesktop-1.0.0.0.tar.gz
+    filename: remmina-plugin-rdesktop-$(VERSION).tar.gz
     md5sum: 66E25B76949CE6C11897F7992CD0FD27

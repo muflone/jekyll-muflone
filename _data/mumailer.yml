@@ -12,13 +12,13 @@ versions:
   date: 2023-11-26
   packages:
   - type: source
-    filename: mumailer-0.5.0.tar.gz
+    filename: mumailer-$(VERSION).tar.gz
     md5sum: caac1b284a7fadf4918e7246128c6740
   - type: python-wheel
-    filename: MuMailer-0.5.0-py3-none-any.whl
+    filename: MuMailer-$(VERSION)-py3-none-any.whl
     md5sum: 88f4a043185c9db6579a617d8015c3f9
   - type: archlinux
-    filename: mumailer-0.5.0-3-any.pkg.tar.zst
+    filename: mumailer-$(VERSION)-3-any.pkg.tar.zst
     md5sum: 0c008a0b8b590066b2b252579a9fb764
   - type: aur
     filename: python-mumailer
@@ -31,150 +31,150 @@ versions:
   date: 2023-11-26
   packages:
   - type: source
-    filename: mumailer-0.4.4.tar.gz
+    filename: mumailer-$(VERSION).tar.gz
     md5sum: d079d2ada50a09534d2f6ed1b2c643f5
   - type: python-wheel
-    filename: MuMailer-0.4.4-py3-none-any.whl
+    filename: MuMailer-$(VERSION)-py3-none-any.whl
     md5sum: 82fd0e27ca1044fb62889850b355e61f
   - type: archlinux
-    filename: python-mumailer-0.4.4-1-any.pkg.tar.zst
+    filename: python-mumailer-$(VERSION)-1-any.pkg.tar.zst
     md5sum: d57386a09e948ed5c1e9776fe686689a
   - type: archlinux
-    filename: mumailer-0.4.4-1-any.pkg.tar.zst
+    filename: mumailer-$(VERSION)-1-any.pkg.tar.zst
     md5sum: f9022071b1536d473f94893dcf48aa8f
 - version: 0.4.3
   normalized: v043
   date: 2022-09-24
   packages:
   - type: source
-    filename: mumailer-0.4.3.tar.gz
+    filename: mumailer-$(VERSION).tar.gz
     md5sum: d483d3e5e128db73f19125b44bf4dbaf
   - type: python-wheel
-    filename: MuMailer-0.4.3-py3-none-any.whl
+    filename: MuMailer-$(VERSION)-py3-none-any.whl
     md5sum: b8630b730f4bd83e61bf0d29b8b59149
   - type: archlinux
-    filename: python-mumailer-0.4.3-1-any.pkg.tar.zst
+    filename: python-mumailer-$(VERSION)-1-any.pkg.tar.zst
     md5sum: 2e2bbde1e8384e08c29acf6d9d41e297
   - type: archlinux
-    filename: mumailer-0.4.3-1-any.pkg.tar.zst
+    filename: mumailer-$(VERSION)-1-any.pkg.tar.zst
     md5sum: 3cf963cb06ca5a157230ecbe77b7deb3
 - version: 0.4.2
   normalized: v042
   date: 2022-09-23
   packages:
   - type: source
-    filename: mumailer-0.4.2.tar.gz
+    filename: mumailer-$(VERSION).tar.gz
     md5sum: e8798c9cdc849b38f1974ec73a6150b4
   - type: python-wheel
-    filename: MuMailer-0.4.2-py3-none-any.whl
+    filename: MuMailer-$(VERSION)-py3-none-any.whl
     md5sum: ad7921ff630f972393524f72366d9002
   - type: archlinux
-    filename: python-mumailer-0.4.2-1-any.pkg.tar.zst
+    filename: python-mumailer-$(VERSION)-1-any.pkg.tar.zst
     md5sum: 8028e520d4b5385b5052293c6ff99724
   - type: archlinux
-    filename: mumailer-0.4.2-1-any.pkg.tar.zst
+    filename: mumailer-$(VERSION)-1-any.pkg.tar.zst
     md5sum: 6d4ddf68d759e9818bfec7ccb616a230
 - version: 0.4.1
   normalized: v041
   date: 2022-01-08
   packages:
   - type: source
-    filename: mumailer-0.4.1.tar.gz
+    filename: mumailer-$(VERSION).tar.gz
     md5sum: 4d974518a4dec32c05719ed967db6720
   - type: python-wheel
-    filename: MuMailer-0.4.1-py3-none-any.whl
+    filename: MuMailer-$(VERSION)-py3-none-any.whl
     md5sum: 48be6d2483104ad143aef3d0d4992afb
   - type: archlinux
-    filename: python-mumailer-0.4.1-1-any.pkg.tar.zst
+    filename: python-mumailer-$(VERSION)-1-any.pkg.tar.zst
     md5sum: 781791da38202948c775d8d7200cd3b7
   - type: archlinux
-    filename: mumailer-0.4.1-1-any.pkg.tar.zst
+    filename: mumailer-$(VERSION)-1-any.pkg.tar.zst
     md5sum: 09e782082d0cd408385829e8ae2194d7
 - version: 0.4.0
   normalized: v040
   date: 2022-01-08
   packages:
   - type: source
-    filename: mumailer-0.4.0.tar.gz
+    filename: mumailer-$(VERSION).tar.gz
     md5sum: 1431f990b3274ba64a392a75f9c7baf0
   - type: python-wheel
-    filename: MuMailer-0.4.0-py3-none-any.whl
+    filename: MuMailer-$(VERSION)-py3-none-any.whl
     md5sum: d99823962304e5e4f19d6641924cd726
   - type: archlinux
-    filename: python-mumailer-0.4.0-1-any.pkg.tar.zst
+    filename: python-mumailer-$(VERSION)-1-any.pkg.tar.zst
     md5sum: 2bd462ed031d498021051decc55de72b
   - type: archlinux
-    filename: mumailer-0.4.0-1-any.pkg.tar.zst
+    filename: mumailer-$(VERSION)-1-any.pkg.tar.zst
     md5sum: 53e65f24d58203b2bb9f6a79a79edc7e
 - version: 0.3.1
   normalized: v031
   date: 2022-01-07
   packages:
   - type: source
-    filename: mumailer-0.3.1.tar.gz
+    filename: mumailer-$(VERSION).tar.gz
     md5sum: 605ce6da8f8064d9778a06fe9281179c
   - type: python-wheel
-    filename: MuMailer-0.3.1-py3-none-any.whl
+    filename: MuMailer-$(VERSION)-py3-none-any.whl
     md5sum: 9ac1f041c6a2f43c5b29dfcd7acd4400
   - type: archlinux
-    filename: python-mumailer-0.3.1-1-any.pkg.tar.zst
+    filename: python-mumailer-$(VERSION)-1-any.pkg.tar.zst
     md5sum: 1a2482eaf748191dafc3a3b1dd9cb093
   - type: archlinux
-    filename: mumailer-0.3.1-1-any.pkg.tar.zst
+    filename: mumailer-$(VERSION)-1-any.pkg.tar.zst
     md5sum: 83bdb3baf2fb16fbf05135af49e38ac1
 - version: 0.3.0
   normalized: v030
   date: 2022-01-06
   packages:
   - type: source
-    filename: mumailer-0.3.0.tar.gz
+    filename: mumailer-$(VERSION).tar.gz
     md5sum: 6ce80ce0a3ddfc94fb7ec5ea78d8c849
   - type: python-wheel
-    filename: MuMailer-0.3.0-py3-none-any.whl
+    filename: MuMailer-$(VERSION)-py3-none-any.whl
     md5sum: 3bc37fc3081a3c3b4c2754032c8e0472
   - type: archlinux
-    filename: python-mumailer-0.3.0-1-any.pkg.tar.zst
+    filename: python-mumailer-$(VERSION)-1-any.pkg.tar.zst
     md5sum: 2c069aa39345b25770adbd064fccd856
   - type: archlinux
-    filename: mumailer-0.3.0-1-any.pkg.tar.zst
+    filename: mumailer-$(VERSION)-1-any.pkg.tar.zst
     md5sum: c74efaf1f58e950b10c49fc43ce84f36
 - version: 0.2.0
   normalized: v020
   date: 2022-01-03
   packages:
   - type: source
-    filename: mumailer-0.2.0.tar.gz
+    filename: mumailer-$(VERSION).tar.gz
     md5sum: fce52faa10523eda393a53be065281b6
   - type: python-wheel
-    filename: MuMailer-0.2.0-py3-none-any.whl
+    filename: MuMailer-$(VERSION)-py3-none-any.whl
     md5sum: 9594e570232b06ac73e823bc89c7d01b
   - type: archlinux
-    filename: python-mumailer-0.2.0-1-any.pkg.tar.zst
+    filename: python-mumailer-$(VERSION)-1-any.pkg.tar.zst
     md5sum: c44b4e8345aef735718fb57083b8d5f1
 - version: 0.1.1
   normalized: v011
   date: 2021-12-26
   packages:
   - type: source
-    filename: mumailer-0.1.1.tar.gz
+    filename: mumailer-$(VERSION).tar.gz
     md5sum: 124d685ffb13eac017538dac0c4e8644
   - type: python-wheel
-    filename: MuMailer-0.1.1-py3-none-any.whl
+    filename: MuMailer-$(VERSION)-py3-none-any.whl
     md5sum: b197cbfcdc16f8c1783185ddc04c2b46
   - type: archlinux
-    filename: python-mumailer-0.1.1-2-any.pkg.tar.zst
+    filename: python-mumailer-$(VERSION)-2-any.pkg.tar.zst
     md5sum: 12aa1d9a820a9986335d20b12cd7f526
 - version: 0.1.0
   normalized: v010
   date: 2021-12-26
   packages:
   - type: source
-    filename: mumailer-0.1.0.tar.gz
+    filename: mumailer-$(VERSION).tar.gz
     md5sum: f063a8510916ef756d3babf99587ac7c
   - type: python-wheel
-    filename: MuMailer-0.1.0-py3-none-any.whl
+    filename: MuMailer-$(VERSION)-py3-none-any.whl
     md5sum: 773c2d6fe61cc20d29fba0ce44ac2aa1
   - type: archlinux
-    filename: python-mumailer-0.1.0-1-any.pkg.tar.zst
+    filename: python-mumailer-$(VERSION)-1-any.pkg.tar.zst
     md5sum: 2b84c6f072a816c4a6f5271055423ba5
 translations:

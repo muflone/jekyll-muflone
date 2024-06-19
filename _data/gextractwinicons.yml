@@ -12,16 +12,16 @@ versions:
   date: 2022-10-01
   packages:
   - type: source
-    filename: gextractwinicons-0.5.2.tar.gz
+    filename: gextractwinicons-$(VERSION).tar.gz
     md5sum: 7f5ab41ee14295875145739fb38ab1f6
   - type: debianubuntu
-    filename: gextractwinicons_0.5.2-1_all.deb
+    filename: gextractwinicons_$(VERSION)-1_all.deb
     md5sum: 29680e2ea107558baec50eedd1483fdb
   - type: appimage64
-    filename: gextractwinicons-0.5.2-x86_64.AppImage
+    filename: gextractwinicons-$(VERSION)-x86_64.AppImage
     md5sum: a8bfc0c091f14e810c951a64fcfa5e51
   - type: archlinux
-    filename: gextractwinicons-0.5.2-1-any.pkg.tar.zst
+    filename: gextractwinicons-$(VERSION)-1-any.pkg.tar.zst
     md5sum: d8abcde41073df76f59302ccc3eea782
   - type: aur
     filename: gextractwinicons
@@ -34,85 +34,85 @@ versions:
   date: 2022-08-22
   packages:
   - type: source
-    filename: gextractwinicons-0.5.1.tar.gz
+    filename: gextractwinicons-$(VERSION).tar.gz
     md5sum: b56ca17860a54f010d68ddc2bb0fa47b
   - type: debianubuntu
-    filename: gextractwinicons_0.5.1-1_all.deb
+    filename: gextractwinicons_$(VERSION)-1_all.deb
     md5sum: 1b6ae11f3e4cfb5702ea6813a59644ea
   - type: appimage64
-    filename: gextractwinicons-0.5.1-x86_64.AppImage
+    filename: gextractwinicons-$(VERSION)-x86_64.AppImage
     md5sum: c9bf5d2ca998d68a1fec30e0efba6b55
   - type: archlinux
-    filename: gextractwinicons-0.5.1-1-any.pkg.tar.zst
+    filename: gextractwinicons-$(VERSION)-1-any.pkg.tar.zst
     md5sum: 3de4e0dba3a1d17741d0ce438ce56cd0
 - version: 0.5.0
   normalized: v050
   date: 2022-04-18
   packages:
   - type: source
-    filename: gextractwinicons-0.5.0.tar.gz
+    filename: gextractwinicons-$(VERSION).tar.gz
     md5sum: 45e8831ce69246ea8d375d6fc3f8c1ee
   - type: debianubuntu
-    filename: gextractwinicons_0.5.0-1_all.deb
+    filename: gextractwinicons_$(VERSION)-1_all.deb
     md5sum: 3451b839e1706423eac514b8c6008243
   - type: appimage64
-    filename: gextractwinicons-0.5.0-x86_64.AppImage
+    filename: gextractwinicons-$(VERSION)-x86_64.AppImage
     md5sum: c7fcef474b1cc5d6714171bf264120c2
   - type: archlinux
-    filename: gextractwinicons-0.5.0-1-any.pkg.tar.zst
+    filename: gextractwinicons-$(VERSION)-1-any.pkg.tar.zst
     md5sum: 3166c28f20a4a90739cd8834e04b6330
 - version: 0.4.2
   normalized: v042
   date: 2014-10-04
   packages:
   - type: source
-    filename: gextractwinicons-0.4.2.tar.gz
+    filename: gextractwinicons-$(VERSION).tar.gz
     md5sum: 723a7302479fc93ae264d774d23a3384
   - type: archlinux
-    filename: gextractwinicons-0.4.2-1-any.pkg.tar.xz
+    filename: gextractwinicons-$(VERSION)-1-any.pkg.tar.xz
     md5sum: f65db7d9756b8bad560f96436c5adc72
 - version: 0.4.1
   normalized: v041
   date: 2014-09-06
   packages:
   - type: source
-    filename: gextractwinicons-0.4.1.tar.gz
+    filename: gextractwinicons-$(VERSION).tar.gz
     md5sum: 52a3ad3ce477a9c6b9165d47510af238
   - type: archlinux
-    filename: gextractwinicons-0.4.1-1-any.pkg.tar.xz
+    filename: gextractwinicons-$(VERSION)-1-any.pkg.tar.xz
     md5sum: 176f717f23897a1f4bf6b3a09d120cb0
 - version: 0.4
   normalized: v040
   date: 2013-10-27
   packages:
   - type: source
-    filename: gextractwinicons-0.4.tar.gz
+    filename: gextractwinicons-$(VERSION).tar.gz
     md5sum: e9a6a6cdc7fc6b10e821b3790ca58e39
   - type: archlinux
-    filename: gextractwinicons-0.4-1-any.pkg.tar.xz
+    filename: gextractwinicons-$(VERSION)-1-any.pkg.tar.xz
     md5sum: 9654c8b8ef33f46f4c07eb5f0a88eb5a
 - version: 0.3.1
   normalized: v031
   date: 2010-10-24
   packages:
   - type: source
-    filename: gextractwinicons-0.3.1.tar.gz
+    filename: gextractwinicons-$(VERSION).tar.gz
     md5sum: 1598568b87d9fea2de96d79a87ee68c5
   - type: debianubuntu
-    filename: gextractwinicons_0.3.1-1_all.deb
+    filename: gextractwinicons_$(VERSION)-1_all.deb
     md5sum: 914d5713b9121fbc7a130231d254f34a
   - type: archlinux
-    filename: gextractwinicons-0.3.1-1-any.pkg.tar.xz
+    filename: gextractwinicons-$(VERSION)-1-any.pkg.tar.xz
     md5sum: bc2243d00e9ad2a8141dbf1b5b126f62
 - version: 0.3
   normalized: v030
   date: 2010-01-23
   packages:
   - type: source
-    filename: gextractwinicons-0.3.tar.gz
+    filename: gextractwinicons-$(VERSION).tar.gz
     md5sum: ee205a165e3aebf2e106b9f2f10f44f2
   - type: debianubuntu
-    filename: gextractwinicons_0.3-1_all.deb
+    filename: gextractwinicons_$(VERSION)-1_all.deb
     md5sum: fe2cbc6a33ef3ff2677923a974dc3822
 translations:
 - english

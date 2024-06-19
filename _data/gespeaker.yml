@@ -12,13 +12,13 @@ versions:
   date: 2015-08-02
   packages:
   - type: source
-    filename: gespeaker-0.8.6.tar.gz
+    filename: gespeaker-$(VERSION).tar.gz
     md5sum: DCCFED9A29393692E3FAB334541BC996
   - type: debianubuntu
-    filename: gespeaker_0.8.6-1_all.deb
+    filename: gespeaker_$(VERSION)-1_all.deb
     md5sum: 429787EC6621F6836B5287583F5E6029
   - type: archlinux
-    filename: gespeaker-0.8.6-1-any.pkg.tar.xz
+    filename: gespeaker-$(VERSION)-1-any.pkg.tar.xz
     md5sum: 4B18FBD1178B151AE18D4FFA42893354
   - type: aur
     filename: gespeaker-git
@@ -28,93 +28,93 @@ versions:
   date: 2014-10-04
   packages:
   - type: source
-    filename: gespeaker-0.8.5.tar.gz
+    filename: gespeaker-$(VERSION).tar.gz
     md5sum: 5D97DED1B867C5E3D83F7D31E54B9628
   - type: debianubuntu
-    filename: gespeaker_0.8.5-2_all.deb
+    filename: gespeaker_$(VERSION)-2_all.deb
     md5sum: 40A5D32F4F87EEE47B09D8E1B6BD2A82
   - type: archlinux
-    filename: gespeaker-0.8.5-1-any.pkg.tar.xz
+    filename: gespeaker-$(VERSION)-1-any.pkg.tar.xz
     md5sum: 960C0FBE1E596A122635C4744F4BBB0E
 - version: 0.8.4
   normalized: v084
   date: 2014-09-06
   packages:
   - type: source
-    filename: gespeaker-0.8.4.tar.gz
+    filename: gespeaker-$(VERSION).tar.gz
     md5sum: 63C7A8B9EF3DB4340EB197E4860DC244
   - type: debianubuntu
-    filename: gespeaker_0.8.4-1_all.deb
+    filename: gespeaker_$(VERSION)-1_all.deb
     md5sum: C13EF8F8CD54BD01D313B2B5DB724078
   - type: archlinux
-    filename: gespeaker-0.8.4-1-any.pkg.tar.xz
+    filename: gespeaker-$(VERSION)-1-any.pkg.tar.xz
     md5sum: D1772D76588206F3359B7082F24AE6EB
 - version: 0.8.3
   normalized: v083
   date: 2014-08-31
   packages:
   - type: source
-    filename: gespeaker-0.8.3.tar.gz
+    filename: gespeaker-$(VERSION).tar.gz
     md5sum: 3BB5F54810CB875C55A1A4E9401213C6
   - type: debianubuntu
-    filename: gespeaker_0.8.3-1_all.deb
+    filename: gespeaker_$(VERSION)-1_all.deb
     md5sum: 14834B2E9A3DE691781E83171FBC0CFE
   - type: archlinux
-    filename: gespeaker-0.8.3-1-any.pkg.tar.xz
+    filename: gespeaker-$(VERSION)-1-any.pkg.tar.xz
     md5sum: A1AFF7C06637A9950B80D22FF61E77CD
 - version: 0.8.2
   normalized: v082
   date: 2013-07-11
   packages:
   - type: source
-    filename: gespeaker-0.8.2.tar.gz
+    filename: gespeaker-$(VERSION).tar.gz
     md5sum: 12C74AB7858C818D0EA12CF0AD4A4FD8
   - type: debianubuntu
-    filename: gespeaker_0.8.2-1_all.deb
+    filename: gespeaker_$(VERSION)-1_all.deb
     md5sum: FAA3BEE358D295B84480C8F5ADEAD1AE
   - type: archlinux
-    filename: gespeaker-0.8.2-1-any.pkg.tar.xz
+    filename: gespeaker-$(VERSION)-1-any.pkg.tar.xz
     md5sum: F24C87CE159946FBEFEFB0A2A854D88F
   - type: fedora
-    filename: gespeaker-0.8.2-1.fedora16.noarch.rpm
+    filename: gespeaker-$(VERSION)-1.fedora16.noarch.rpm
     md5sum: 89732883e13c04afafd50e8eabae0d3d
   - type: opensuse
-    filename: gespeaker-0.8.2-1.opensuse12.noarch.rpm
+    filename: gespeaker-$(VERSION)-1.opensuse12.noarch.rpm
     md5sum: e2162689aba3226a12dec4b84346e9a0
 - version: 0.8.1
   normalized: v081
   date: 2010-06-26
   packages:
   - type: source
-    filename: gespeaker-0.8.1.tar.gz
+    filename: gespeaker-$(VERSION).tar.gz
     md5sum: e807a93de53710a9ba459bb54b749da3
   - type: debianubuntu
-    filename: gespeaker_0.8.1-2_all.deb
+    filename: gespeaker_$(VERSION)-2_all.deb
     md5sum: 077544494690c7d386d2580022426cc8
   - type: debianubuntu
-    filename: gespeaker-plugin-amsn_0.8.1-2_all.deb
+    filename: gespeaker-plugin-amsn_$(VERSION)-2_all.deb
     md5sum: b9275d247f84d8fe976f53728ff9d910
   - type: debianubuntu
-    filename: gespeaker-plugin-debug_0.8.1-2_all.deb
+    filename: gespeaker-plugin-debug_$(VERSION)-2_all.deb
     md5sum: 82cfbb514d1d55ea70038710b242774c
   - type: debianubuntu
-    filename: gespeaker-plugin-emesene_0.8.1-2_all.deb
+    filename: gespeaker-plugin-emesene_$(VERSION)-2_all.deb
     md5sum: d59186a7ba1e9cf61fd65dc74b84c388
   - type: debianubuntu
-    filename: gespeaker-plugin-kopete_0.8.1-2_all.deb
+    filename: gespeaker-plugin-kopete_$(VERSION)-2_all.deb
     md5sum: d3e3db69928247ec9b80e18ad4d6123d
   - type: debianubuntu
-    filename: gespeaker-plugin-pidgin_0.8.1-2_all.deb
+    filename: gespeaker-plugin-pidgin_$(VERSION)-2_all.deb
     md5sum: 6744a2e9ffaacfe49030c01751eb62ed
   - type: debianubuntu
-    filename: gespeaker-plugin-telepathy_0.8.1-2_all.deb
+    filename: gespeaker-plugin-telepathy_$(VERSION)-2_all.deb
     md5sum: 13d46df8aebc59fa8a441f895ccc00a1
 - version: 0.8.0
   normalized: v080
   date: 2010-06-13
   packages:
   - type: source
-    filename: gespeaker-0.8.0.tar.gz
+    filename: gespeaker-$(VERSION).tar.gz
     md5sum: cbe63f6e1d8b1113c17621da7be1f65f
   - type: debianubuntu
     filename: gespeaker_0.8-1_all.deb
@@ -124,7 +124,7 @@ versions:
   date: 2009-12-12
   packages:
   - type: source
-    filename: gespeaker-0.7.0.tar.gz
+    filename: gespeaker-$(VERSION).tar.gz
     md5sum: 38c9870948c1e0280ca3ef380ea4be59
   - type: debianubuntu
     filename: gespeaker_0.7-2_all.deb
@@ -134,7 +134,7 @@ versions:
   date: 2009-07-18
   packages:
   - type: source
-    filename: gespeaker-0.6.0.tar.gz
+    filename: gespeaker-$(VERSION).tar.gz
     md5sum: d9f2155819feab14d2babbcfe5b5d844
   - type: debianubuntu
     filename: gespeaker_0.6_all.deb
@@ -144,7 +144,7 @@ versions:
   date: 2009-06-30
   packages:
   - type: source
-    filename: gespeaker-0.5.0.tar.gz
+    filename: gespeaker-$(VERSION).tar.gz
     md5sum: f691fba9acdb5639659afb9e0776bcbd
   - type: debianubuntu
     filename: gespeaker_0.5_all.deb
@@ -154,7 +154,7 @@ versions:
   date: 2009-06-20
   packages:
   - type: source
-    filename: gespeaker-0.4.0.tar.gz
+    filename: gespeaker-$(VERSION).tar.gz
     md5sum: 00b0da6e0e1453c474f4aa5c568133bc
   - type: debianubuntu
     filename: gespeaker_0.4_all.deb
@@ -164,7 +164,7 @@ versions:
   date: 2009-06-19
   packages:
   - type: source
-    filename: gespeaker-0.2.0.tar.gz
+    filename: gespeaker-$(VERSION).tar.gz
     md5sum: 9508a3e2bc724683af3b176650e7a7c2
   - type: debianubuntu
     filename: gespeaker_0.2_all.deb
@@ -174,7 +174,7 @@ versions:
   date: 2009-06-19
   packages:
   - type: source
-    filename: gespeaker-0.1.0.tar.gz
+    filename: gespeaker-$(VERSION).tar.gz
     md5sum: 09ab872a51fcb36c6fc82b0c9e929e48
   - type: debianubuntu
     filename: gespeaker_0.1_all.deb

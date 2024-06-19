@@ -12,16 +12,16 @@ versions:
   date: 2022-10-01
   packages:
   - type: source
-    filename: gtransmemory-0.4.0.tar.gz
+    filename: gtransmemory-$(VERSION).tar.gz
     md5sum: e0d0c9f85bb532249f8d5980dd783a82
   - type: debianubuntu
-    filename: gtransmemory_0.4.0-1_all.deb
+    filename: gtransmemory_$(VERSION)-1_all.deb
     md5sum: e071af06091f65040c767cb0091e026e
   - type: appimage64
-    filename: gtransmemory-0.4.0-x86_64.AppImage
+    filename: gtransmemory-$(VERSION)-x86_64.AppImage
     md5sum: 860a7c8fbccf0a3b218c8f82f91569d9
   - type: archlinux
-    filename: gtransmemory-0.4.0-1-any.pkg.tar.zst
+    filename: gtransmemory-$(VERSION)-1-any.pkg.tar.zst
     md5sum: bdb57f65097f3a91467cb18efd38d475
   - type: aur
     filename: gtransmemory
@@ -34,50 +34,50 @@ versions:
   date: 2016-07-10
   packages:
   - type: source
-    filename: gtransmemory-0.3.0.tar.gz
+    filename: gtransmemory-$(VERSION).tar.gz
     md5sum: a53f05259c1632437addb8c1bf10bd42
   - type: archlinux
-    filename: gtransmemory-0.3.0-1-any.pkg.tar.xz
+    filename: gtransmemory-$(VERSION)-1-any.pkg.tar.xz
     md5sum: 1e6017775c403e896afd3eaa5640a0bc
 - version: 0.2.0
   normalized: v020
   date: 2016-07-10
   packages:
   - type: source
-    filename: gtransmemory-0.2.0.tar.gz
+    filename: gtransmemory-$(VERSION).tar.gz
     md5sum: 4f064bbfe2a4cd03998e3dd6bc3c66a6
   - type: archlinux
-    filename: gtransmemory-0.2.0-1-any.pkg.tar.xz
+    filename: gtransmemory-$(VERSION)-1-any.pkg.tar.xz
     md5sum: a4d9bf274ae092dcabbe97ec7c8956e7
 - version: 0.1.0
   normalized: v010
   date: 2016-07-10
   packages:
   - type: source
-    filename: gtransmemory-0.1.0.tar.gz
+    filename: gtransmemory-$(VERSION).tar.gz
     md5sum: 6ed6579732f8e500e00a5a3b2a16b42f
   - type: archlinux
-    filename: gtransmemory-0.1.0-1-any.pkg.tar.xz
+    filename: gtransmemory-$(VERSION)-1-any.pkg.tar.xz
     md5sum: e7948b369497f1ce544cb272e8ce4ecb
 - version: 0.0.2
   normalized: v002
   date: 2016-07-10
   packages:
   - type: source
-    filename: gtransmemory-0.0.2.tar.gz
+    filename: gtransmemory-$(VERSION).tar.gz
     md5sum: 48cca1e544fba0df5a324ced457a7d72
   - type: archlinux
-    filename: gtransmemory-0.0.2-1-any.pkg.tar.xz
+    filename: gtransmemory-$(VERSION)-1-any.pkg.tar.xz
     md5sum: a712274b6d4d5cb5dc07a8b8419708b4
 - version: 0.0.1
   normalized: v001
   date: 2016-07-10
   packages:
   - type: source
-    filename: gtransmemory-0.0.1.tar.gz
+    filename: gtransmemory-$(VERSION).tar.gz
     md5sum: fa294ca4fded195ca49995f96bc4c42e
   - type: archlinux
-    filename: gtransmemory-0.0.1-1-any.pkg.tar.xz
+    filename: gtransmemory-$(VERSION)-1-any.pkg.tar.xz
     md5sum: 576d4ca245bd009a9a9e27fd0ced57c0
 translations:
 - english

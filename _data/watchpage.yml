@@ -12,13 +12,13 @@ versions:
   date: 2023-08-20
   packages:
   - type: source
-    filename: watchpage-0.4.1.tar.gz
+    filename: watchpage-$(VERSION).tar.gz
     md5sum: 1334afe42b8767bf8825e9cbb5c537c4
   - type: python-wheel
-    filename: WatchPage-0.4.1-py3-none-any.whl
+    filename: WatchPage-$(VERSION)-py3-none-any.whl
     md5sum: fa32c680a70c699b2c58d1112d446439
   - type: archlinux
-    filename: watchpage-0.4.1-1-any.pkg.tar.zst
+    filename: watchpage-$(VERSION)-1-any.pkg.tar.zst
     md5sum: d8485cdef4d3b1e39b07a0dd8c81ee38
   - type: aur
     filename: watchpage
@@ -28,77 +28,77 @@ versions:
   date: 2023-08-17
   packages:
   - type: source
-    filename: watchpage-0.4.0.tar.gz
+    filename: watchpage-$(VERSION).tar.gz
     md5sum: 99f529e5949eddf6992b1c120bbc74f3
   - type: python-wheel
-    filename: WatchPage-0.4.0-py3-none-any.whl
+    filename: WatchPage-$(VERSION)-py3-none-any.whl
     md5sum: 83464212391a191a29fc2adfa82382ef
   - type: archlinux
-    filename: watchpage-0.4.0-1-any.pkg.tar.zst
+    filename: watchpage-$(VERSION)-1-any.pkg.tar.zst
     md5sum: 957e5f1adf9dda2591c5728c9fea057e
 - version: 0.3.0
   normalized: v030
   date: 2023-08-17
   packages:
   - type: source
-    filename: watchpage-0.3.0.tar.gz
+    filename: watchpage-$(VERSION).tar.gz
     md5sum: 9aaa4a13c5c71fb4a92df2b5da6c7ce1
   - type: python-wheel
-    filename: WatchPage-0.3.0-py3-none-any.whl
+    filename: WatchPage-$(VERSION)-py3-none-any.whl
     md5sum: 2d0a69569e3045d25cb25b00de37a732
   - type: archlinux
-    filename: watchpage-0.3.0-1-any.pkg.tar.zst
+    filename: watchpage-$(VERSION)-1-any.pkg.tar.zst
     md5sum: 2e8105af9938e2de2878e32c2bf95b44
 - version: 0.2.0
   normalized: v020
   date: 2023-08-16
   packages:
   - type: source
-    filename: watchpage-0.2.0.tar.gz
+    filename: watchpage-$(VERSION).tar.gz
     md5sum: 8baf530f4cf805b4bf15adcfb8440d4d
   - type: python-wheel
-    filename: WatchPage-0.2.0-py3-none-any.whl
+    filename: WatchPage-$(VERSION)-py3-none-any.whl
     md5sum: 3da0b5d8cd326b97feca3f4eb0ce2d77
   - type: archlinux
-    filename: watchpage-0.2.0-1-any.pkg.tar.zst
+    filename: watchpage-$(VERSION)-1-any.pkg.tar.zst
     md5sum: 62432ad8fdd7491dab7606bf24eca10c
 - version: 0.1.2
   normalized: v012
   date: 2022-09-24
   packages:
   - type: source
-    filename: watchpage-0.1.2.tar.gz
+    filename: watchpage-$(VERSION).tar.gz
     md5sum: 4b0b103bc0b2323ba57b0945041032db
   - type: python-wheel
-    filename: WatchPage-0.1.2-py3-none-any.whl
+    filename: WatchPage-$(VERSION)-py3-none-any.whl
     md5sum: 50e8b7a98bc1290eae1b762b1e1cf824
   - type: archlinux
-    filename: watchpage-0.1.2-1-any.pkg.tar.zst
+    filename: watchpage-$(VERSION)-1-any.pkg.tar.zst
     md5sum: 96987a0a958bd524ab8e5094c5e20bc4
 - version: 0.1.1
   normalized: v011
   date: 2022-09-22
   packages:
   - type: source
-    filename: watchpage-0.1.1.tar.gz
+    filename: watchpage-$(VERSION).tar.gz
     md5sum: 2d555e082ce62d14ead2a46c145f5846
   - type: python-wheel
-    filename: WatchPage-0.1.1-py3-none-any.whl
+    filename: WatchPage-$(VERSION)-py3-none-any.whl
     md5sum: 73f9e932c042360ffebc869b2791140e
   - type: archlinux
-    filename: watchpage-0.1.1-1-any.pkg.tar.zst
+    filename: watchpage-$(VERSION)-1-any.pkg.tar.zst
     md5sum: 0b1aab70a627a90789e0406427cd355c
 - version: 0.1.0
   normalized: v010
   date: 2022-08-07
   packages:
   - type: source
-    filename: watchpage-0.1.0.tar.gz
+    filename: watchpage-$(VERSION).tar.gz
     md5sum: cd8e5d562497868e7aa93f25c2002471
   - type: python-wheel
-    filename: WatchPage-0.1.0-py3-none-any.whl
+    filename: WatchPage-$(VERSION)-py3-none-any.whl
     md5sum: 460b0f5a207415e3eac449900eac85f4
   - type: archlinux
-    filename: watchpage-0.1.0-1-any.pkg.tar.zst
+    filename: watchpage-$(VERSION)-1-any.pkg.tar.zst
     md5sum: bd5f852b87f5064e3eaa6b5d4dbd66f0
 translations:

@@ -12,13 +12,13 @@ versions:
   date: 2022-10-01
   packages:
   - type: source
-    filename: bluewho-0.5.2.tar.gz
+    filename: bluewho-$(VERSION).tar.gz
     md5sum: 97b729af10b213bc3c619a96467e160c
   - type: appimage64
-    filename: bluewho-0.5.2-x86_64.AppImage
+    filename: bluewho-$(VERSION)-x86_64.AppImage
     md5sum: 8cc41acd55575d9d8187724a69496817
   - type: archlinux64
-    filename: bluewho-0.5.2-1-any.pkg.tar.zst
+    filename: bluewho-$(VERSION)-1-any.pkg.tar.zst
     md5sum: 75a5ef40831a75a917a46e2e41eb7227
   - type: aur
     filename: bluewho
@@ -31,80 +31,80 @@ versions:
   date: 2022-08-22
   packages:
   - type: source
-    filename: bluewho-0.5.1.tar.gz
+    filename: bluewho-$(VERSION).tar.gz
     md5sum: 22561cb62be9c10595cd4128d20193f7
   - type: appimage64
-    filename: bluewho-0.5.1-x86_64.AppImage
+    filename: bluewho-$(VERSION)-x86_64.AppImage
     md5sum: 3d50fcb50c79e1346e8b8d4e0d255ab7
   - type: archlinux64
-    filename: bluewho-0.5.1-1-any.pkg.tar.zst
+    filename: bluewho-$(VERSION)-1-any.pkg.tar.zst
     md5sum: b96569b5cb03f3efe174b5691a92f886
 - version: 0.5.0
   normalized: v050
   date: 2022-05-15
   packages:
   - type: source
-    filename: bluewho-0.5.0.tar.gz
+    filename: bluewho-$(VERSION).tar.gz
     md5sum: ffb6ab79aa64d24eecc6fca4371dee4e
   - type: appimage64
-    filename: bluewho-0.5.0-x86_64.AppImage
+    filename: bluewho-$(VERSION)-x86_64.AppImage
     md5sum: 628a3d423987e5990ba3795190df802d
   - type: archlinux64
-    filename: bluewho-0.5.0-1-any.pkg.tar.zst
+    filename: bluewho-$(VERSION)-1-any.pkg.tar.zst
     md5sum: 023759ac6d537e78620d3018eb8edd75
 - version: 0.4.0
   normalized: v040
   date: 2021-04-30
   packages:
   - type: source
-    filename: bluewho-0.4.0.tar.gz
+    filename: bluewho-$(VERSION).tar.gz
     md5sum: c0e7ae1e04bd951c572280b07dc2e62d
 - version: 0.3.0
   normalized: v030
   date: 2021-04-26
   packages:
   - type: source
-    filename: bluewho-0.3.0.tar.gz
+    filename: bluewho-$(VERSION).tar.gz
     md5sum: b510d1580b57c346d7d45db1e6fdea44
 - version: 0.2.2
   normalized: v022
   date: 2014-10-04
   packages:
   - type: source
-    filename: bluewho-0.2.2.tar.gz
+    filename: bluewho-$(VERSION).tar.gz
     md5sum: 9e5853ee2ace518931beb05954757250
 - version: 0.2.1
   normalized: v021
   date: 2014-09-06
   packages:
   - type: source
-    filename: bluewho-0.2.1.tar.gz
+    filename: bluewho-$(VERSION).tar.gz
     md5sum: df8ab67e21081bcdc3261596f56bc220
   - type: archlinux
-    filename: bluewho-0.2.1-1-any.pkg.tar.xz
+    filename: bluewho-$(VERSION)-1-any.pkg.tar.xz
     md5sum: 5a4547e00a975143d39f6c47a6ffb32e
 - version: 0.2
   normalized: v020
   date: 2013-11-11
   packages:
   - type: source
-    filename: bluewho-0.2.tar.gz
+    filename: bluewho-$(VERSION).tar.gz
     md5sum: 658c4431e652de5b05296c5d42db4525
   - type: archlinux
-    filename: bluewho-0.2-1-any.pkg.tar.xz
+    filename: bluewho-$(VERSION)-1-any.pkg.tar.xz
     md5sum: d1f9e42262e0e70c9e1457dbb5f03b64
 - version: 0.1
   normalized: v010
   date: 2010-01-10
   packages:
   - type: source
-    filename: bluewho-0.1.tar.gz
+    filename: bluewho-$(VERSION).tar.gz
     md5sum: e263d2c77b704514fa5c1c97984cfd9d
   - type: debianubuntu
-    filename: bluewho_0.1-1_all.deb
+    filename: bluewho_$(VERSION)-1_all.deb
     md5sum: a6f61f7b6e689f583988a56bd02663c1
   - type: archlinux
-    filename: bluewho-0.1-1-any.pkg.tar.xz
+    filename: bluewho-$(VERSION)-1-any.pkg.tar.xz
     md5sum: 3c01fe0eca7d2eb6dd30f7ad1c1f4e3e
 translations:
 - english

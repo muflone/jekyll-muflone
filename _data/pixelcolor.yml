@@ -12,13 +12,13 @@ versions:
   date: 2022-11-13
   packages:
   - type: source
-    filename: pixelcolor-0.2.0.tar.gz
+    filename: pixelcolor-$(VERSION).tar.gz
     md5sum: f1075bf143f5e3f8eda38a086a23764c
   - type: debianubuntu
-    filename: pixelcolor_0.2.0-1_all.deb
+    filename: pixelcolor_$(VERSION)-1_all.deb
     md5sum: c92b54f0d9f86a8f868dce07a72d9c6a
   - type: archlinux
-    filename: pixelcolor-0.2.0-1-any.pkg.tar.zst
+    filename: pixelcolor-$(VERSION)-1-any.pkg.tar.zst
     md5sum: e3f658703f8dac1a5002f317ce1e0fd8
   - type: aur
     filename: pixelcolor
@@ -31,12 +31,12 @@ versions:
   date: 2022-11-07
   packages:
   - type: source
-    filename: pixelcolor-0.1.0.tar.gz
+    filename: pixelcolor-$(VERSION).tar.gz
     md5sum: d0e3422b14954974642001181e9790c7
   - type: debianubuntu
-    filename: pixelcolor_0.1.0-1_all.deb
+    filename: pixelcolor_$(VERSION)-1_all.deb
     md5sum: b5eb7901a40401da6275c8eab937f82e
   - type: archlinux
-    filename: pixelcolor-0.1.0-1-any.pkg.tar.zst
+    filename: pixelcolor-$(VERSION)-1-any.pkg.tar.zst
     md5sum: e3f658703f8dac1a5002f317ce1e0fd8
 translations:

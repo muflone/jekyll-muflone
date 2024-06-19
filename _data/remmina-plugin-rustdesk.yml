@@ -12,10 +12,10 @@ versions:
   date: 2022-10-31
   packages:
   - type: source
-    filename: remmina-plugin-rustdesk-1.0.0.0.tar.gz
+    filename: remmina-plugin-rustdesk-$(VERSION).tar.gz
     md5sum: 8df49058fb0894557d00c4fd7aa69581
   - type: archlinux64
-    filename: remmina-plugin-rustdesk-1.0.0.0-2-x86_64.pkg.tar.zst
+    filename: remmina-plugin-rustdesk-$(VERSION)-2-x86_64.pkg.tar.zst
     md5sum: 085f158f4073609088b7aab8ab8db181
   - type: aur
     filename: remmina-plugin-rustdesk
