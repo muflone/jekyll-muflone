@@ -23,7 +23,7 @@ class Connection(server: str,
                  password: str = None)
 ```
 
-#### Argomenti
+#### Parametri
 
 - **server**: server SMTP a cui connettersi.
 - **port**: porta del server SMTP a cui connettersi, generalmente molti server
@@ -54,7 +54,7 @@ Connection.set_encryption(protocol: str = '',
 
 Configura il protocollo di cifratura e le cifre.
 
-#### Argomenti
+#### Parametri
 
 - **protocol**: protocollo di cifratura da utilizzare, vedi la pagina [Cifratura].
 - **ciphers**: cifre di cifratura disponibili per il protocollo scelto.
@@ -81,7 +81,7 @@ Connection.connect(timeout: int = 30)
 Stabilisce la connessione al server SMTP col metodo di cifratura
 precedentemente configurato.
 
-#### Argomenti
+#### Parametri
 
 - **timeout**: tempo prima che la connessione venga annullata se il server non
   risponde nel numero di secondi specificato, predefinito 30 secondi.
@@ -146,7 +146,7 @@ Connection.send(message: Message)
 
 Invia un messaggio di posta.
 
-#### Argomenti
+#### Parametri
 
 - **message**: oggetto [Message] con i dettagli del messaggio da inviare.
 

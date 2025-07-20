@@ -20,7 +20,7 @@ class Recipient(name: str,
                 address: str)
 ```
 
-#### Arguments
+#### Parameters
 
 - **name**: optional name for the recipient.
 - **address**: string recipient email address.
@@ -47,7 +47,7 @@ The static method **parse** can be used to create a new Recipient object from a
 string representation in the form "Name email@address" or just
 "email@address".
 
-#### Arguments
+#### Parameters
 
 - **address**: string recipient representation.
 
@@ -74,7 +74,7 @@ The static method **parse_as_list** can be used to get a list of Recipient
 objects from a list of string representations in the form "Name email@address"
 or just "email@address".
 
-#### Arguments
+#### Parameters
 
 - **addresses**: list of string recipient representation.
 

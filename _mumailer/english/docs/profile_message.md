@@ -21,7 +21,7 @@ To see some usage examples you can look at the page
 class ProfileMessage(filename: str)
 ```
 
-#### Arguments
+#### Parameters
 
 - **filename**: YAML filename to load the message specifications.
 
@@ -47,7 +47,7 @@ an attachment.
 Basically it gets the content-type from the content_types list if it has
 multiple values otherwise it will use the first value.
 
-#### Arguments
+#### Parameters
 
 - **index**: index of the attachment for which to get the content-type.
 

@@ -23,7 +23,7 @@ class Connection(server: str,
                  password: str = None)
 ```
 
-#### Arguments
+#### Parameters
 
 - **server**: SMTP server to which to connect.
 - **port**: SMTP server port to which to connect, usually most SMTP servers
@@ -54,7 +54,7 @@ Connection.set_encryption(protocol: str = '',
 
 Configure the encryption protocol and ciphers.
 
-#### Arguments
+#### Parameters
 
 - **protocol**: encryption protocol to use, see the [Encryption] page.
 - **ciphers**: encryption available ciphers for the selected protocol.
@@ -81,7 +81,7 @@ Connection.connect(timeout: int = 30)
 Establish the connection to the SMTP server with the encryption method
 previously configured.
 
-#### Arguments
+#### Parameters
 
 - **timeout**: timeout before the connection is aborted if the server doesn't
   reply in the specified amount of seconds, defaults to 30 seconds.
@@ -146,7 +146,7 @@ Connection.send(message: Message)
 
 Send a mail message.
 
-#### Arguments
+#### Parameters
 
 - **message**: [Message] object with the message details to send.
 

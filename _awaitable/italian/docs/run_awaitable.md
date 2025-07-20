@@ -16,7 +16,7 @@ def run_awaitable(func: typing.Callable, *args, **kwargs) -> None
 La funzione **run_awaitable** consente di eseguire una funzione asincrona da
 un'altra funzione sincrona.
 
-#### Argomenti
+#### Parametri
 
 - **func**: la funzione asincrona da eseguire.
 - **\*args**: una lista di argomenti posizionali da passare alla funzione.

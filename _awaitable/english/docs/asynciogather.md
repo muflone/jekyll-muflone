@@ -26,7 +26,7 @@ to execute.
 This method is used to add an asynchronous function to the tasks list to
 execute them all in parallel at the end of the collect.
 
-#### Arguments
+#### Parameters
 
 - **coroutine**: the asynchronous function to execute.
 

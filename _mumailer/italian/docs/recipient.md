@@ -20,7 +20,7 @@ class Recipient(name: str,
                 address: str)
 ```
 
-#### Argomenti
+#### Parametri
 
 - **name**: nome opzionale per il contatto.
 - **address**: stringa dell'indirizzo email del contatto.
@@ -47,7 +47,7 @@ Il metodo statico **parse** può essere utilizzato per creare un nuovo oggetto
 Recipient dalla rappresentazione stringa nella forma "Nome indirizzo@email"
 oppure soltanto "indirizzo@email".
 
-#### Argomenti
+#### Parametri
 
 - **address**: stringa con la rappresentazione del contatto.
 
@@ -74,7 +74,7 @@ Il metodo statico **parse_as_list** può essere utilizzato per ottenere una list
 di oggetti Recipient da una lista di rappresentazioni nella forma
 "Nome indirizzo@email" oppure soltanto "indirizzo@email".
 
-#### Argomenti
+#### Parametri
 
 - **addresses**: lista di stringhe di rappresentazione dei contatti.
 

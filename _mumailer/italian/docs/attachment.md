@@ -20,7 +20,7 @@ class Attachment(filename: str,
                  content_type: str = None)
 ```
 
-#### Argomenti
+#### Parametri
 
 - **filename**: nome del file per l'allegato nel messaggio.
 - **content**: contenuto binario dell'allegato.
@@ -49,7 +49,7 @@ Il metodo statico **load_filename** può essere utilizzato per caricare un
 nuovo oggetto Attachment dal file attraverso il suo percorso. Il contenuto del
 file sarà caricato in un nuovo oggetto Attachment.
 
-#### Argomenti
+#### Parametri
 
 - **filename**: percorso del file da caricare.
 - **content_type**: tipo del contenuto per il file da allegare.

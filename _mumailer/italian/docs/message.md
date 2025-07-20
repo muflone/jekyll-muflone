@@ -29,7 +29,7 @@ class Message(sender: Recipient,
               headers: Optional[list[Header]] = [])
 ```
 
-#### Argomenti
+#### Parametri
 
 - **sender**: oggetto [Recipient] per impostare il mittente del messaggio.
 - **subject**: testo dell'oggetto del messaggio.
@@ -44,7 +44,7 @@ class Message(sender: Recipient,
 - **headers**: lista di oggetti [Header] da includere come intestazioni
   aggiuntive del messaggio.
 
-È possibile anche istanziare l'oggetto passando soltanto gli argomenti *sender*,
+È possibile anche istanziare l'oggetto passando soltanto i parametri *sender*,
 *subject* e *body* e impostare dopo gli altri campi, usando il loro nome.
 
 Le intestazioni aggiuntive generalmente non sono necessarie fintanto che il
@@ -76,7 +76,7 @@ Message.add_attachment(attachment: Attachment)
 Il metodo **add_attachment** è utilizzato per aggiungere un altro oggetto
 [Attachment] alla lista degli allegati.
 
-#### Argomenti
+#### Parametri
 
 - **attachment**: oggetto [Attachment] da aggiungere.
 
@@ -103,7 +103,7 @@ Message.add_header(header: Header)
 Il metodo **add_header** è utilizzato per aggiungere un altro oggetto [Header]
 alla lista di intestazioni.
 
-#### Argomenti
+#### Parametri
 
 - **header**: oggetto [Header] da aggiungere.
 

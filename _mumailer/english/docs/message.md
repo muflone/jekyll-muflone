@@ -29,7 +29,7 @@ class Message(sender: Recipient,
               headers: Optional[list[Header]] = [])
 ```
 
-#### Arguments
+#### Parameters
 
 - **sender**: [Recipient] object to set as sender for the message.
 - **subject**: subject text for the message.
@@ -45,7 +45,7 @@ class Message(sender: Recipient,
   headers.
 
 You can also instance the object by passing only the *sender*, *subject* and
-*body* arguments and later set the other fields, just by using their names.
+*body* parameters and later set the other fields, just by using their names.
 
 Additional headers are generally not needed until your SMTP server needs them
 for particular reasons, or you want to specify additional information in the
@@ -76,7 +76,7 @@ Message.add_attachment(attachment: Attachment)
 The **add_attachment** method is used to add another [Attachment] object to
 the attachments list.
 
-#### Arguments
+#### Parameters
 
 - **attachment**: [Attachment] object to append.
 
@@ -103,7 +103,7 @@ Message.add_header(header: Header)
 The **add_header** method is used to add another [Header] object to
 the headers list.
 
-#### Arguments
+#### Parameters
 
 - **header**: [Header] object to append.
 

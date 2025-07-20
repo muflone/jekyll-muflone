@@ -21,7 +21,7 @@ Per osservare qualche esempio di utilizzo fare riferimento alla pagina
 class ProfileMessage(filename: str)
 ```
 
-#### Argomenti
+#### Parametri
 
 - **filename**: nome del file YAML da caricare con le specifiche di messaggio.
 
@@ -47,7 +47,7 @@ per un allegato.
 Fondamentalmente ottiene il content-type dalla lista content_types se ha valori
 multipli altrimenti utilizzerà il primo valore.
 
-#### Argomenti
+#### Parametri
 
 - **index**: indice dell'allegato per il quale ottenere il content-type.
 

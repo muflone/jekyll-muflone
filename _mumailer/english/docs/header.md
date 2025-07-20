@@ -20,7 +20,7 @@ class Header(name: str,
              value: str)
 ```
 
-#### Arguments
+#### Parameters
 
 - **name**: name of the header.
 - **value**: string value assigned to the header.
@@ -46,7 +46,7 @@ Header.parse(header: str)
 The static method **parse** can be used to create a new Header object from a
 string representation in the form Name=Value.
 
-#### Arguments
+#### Parameters
 
 - **header**: string header representation.
 
@@ -72,7 +72,7 @@ Header.parse_as_list(headers: list[str])
 The static method **parse_as_list** can be used to get a list of Header objects
 from a list of string representations in the form Name=Value.
 
-#### Arguments
+#### Parameters
 
 - **headers**: list of string header representation.
 

@@ -18,7 +18,7 @@ La funzione decoratore **awaitable** mira a contrassegnare una funzione
 sincrona come funzione awaitable da poter essere chiamata da un'altra
 funzione asincrona.
 
-#### Argomenti
+#### Parametri
 
 - **func**: la funzione decorata da racchiudere e trasformare in funzione
             asincrona.

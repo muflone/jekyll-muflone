@@ -27,7 +27,7 @@ Il metodo viene usato per aggiungere una funzione asincrona all'elenco dei task
 affinché al termine della raccolta dei task essi possano essere elaborati tutti
 parallelamente.
 
-#### Argomenti
+#### Parametri
 
 - **coroutine**: la funzione asincrona da eseguire.
 

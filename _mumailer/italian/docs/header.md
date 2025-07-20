@@ -20,7 +20,7 @@ class Header(name: str,
              value: str)
 ```
 
-#### Argomenti
+#### Parametri
 
 - **name**: nome dell'intestazione.
 - **value**: valore stringa assegnata all'intestazione.
@@ -46,7 +46,7 @@ Header.parse(header: str)
 Il metodo statico **parse** può essere utilizzato per creare un nuovo oggetto
 Header dalla rappresentazione stringa nella forma Nome=Valore.
 
-#### Argomenti
+#### Parametri
 
 - **header**: stringa con la rappresentazione dell'intestazione.
 
@@ -72,7 +72,7 @@ Header.parse_as_list(headers: list[str])
 Il metodo statico **parse_as_list** può essere utilizzato per ottenere una lista
 di oggetti Header da una lista di rappresentazioni nella forma Nome=Valore.
 
-#### Argomenti
+#### Parametri
 
 - **headers**: lista di stringhe di rappresentazione dell'intestazione.
 

@@ -21,7 +21,7 @@ Per osservare qualche esempio di utilizzo fare riferimento alla pagina
 class ProfileSmtp(filename: str)
 ```
 
-#### Argomenti
+#### Parametri
 
 - **filename**: nome del file YAML da caricare con le specifiche di connessione.
 

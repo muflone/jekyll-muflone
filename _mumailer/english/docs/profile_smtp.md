@@ -21,7 +21,7 @@ To see some usage examples you can look at the page
 class ProfileSmtp(filename: str)
 ```
 
-#### Arguments
+#### Parameters
 
 - **filename**: YAML filename to load the connection specifications.
 

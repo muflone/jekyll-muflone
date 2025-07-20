@@ -20,7 +20,7 @@ class Attachment(filename: str,
                  content_type: str = None)
 ```
 
-#### Arguments
+#### Parameters
 
 - **filename**: filename for the attachment in the message.
 - **content**: binary content for the attachment.
@@ -49,7 +49,7 @@ The static method **load_filename** can be used to load a new Attachment object
 from a file by its path. The file content will be loaded in a new Attachment
 object.
 
-#### Arguments
+#### Parameters
 
 - **filename**: path of the file to load.
 - **content_type**: content type for the file to attach.

@@ -19,7 +19,7 @@ Per osservare qualche esempio di utilizzo fare riferimento alla pagina
 class YamlProfile(filename: str)
 ```
 
-#### Argomenti
+#### Parametri
 
 - **filename**: nome del file YAML da caricare con le specifiche.
 
@@ -43,7 +43,7 @@ Il metodo **get_option** può essere utilizzato per ottenere un'opzione dal file
 YAML dal nome dell'opzione e fornendo opzionalmente un valore predefinito se
 l'opzione è mancante.
 
-#### Argomenti
+#### Parametri
 
 - **option**: nome dell'opzione
 - **default**: valore predefinito se l'opzione è mancante

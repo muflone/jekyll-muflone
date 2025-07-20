@@ -19,7 +19,7 @@ To see some usage examples you can look at the page
 class YamlProfile(filename: str)
 ```
 
-#### Arguments
+#### Parameters
 
 - **filename**: YAML filename to load the specifications.
 
@@ -43,7 +43,7 @@ The method **get_option** can be used to get an option from the YAML file
 by the option name and giving optionally a default value if the option is
 missing.
 
-#### Arguments
+#### Parameters
 
 - **option**: option name
 - **default**: default value for missing option

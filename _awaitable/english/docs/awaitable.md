@@ -17,7 +17,7 @@ def awaitable(func: typing.Callable)
 The function decorator **awaitable** aims to mark a synchronous function as
 an awaitable function to be called from another asynchronous function.
 
-#### Arguments
+#### Parameters
 
 - **func**: the decorated function to wrap and transform it in an asynchronous
             function.
