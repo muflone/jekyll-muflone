@@ -6,6 +6,7 @@ title: Message
 ---
 
 # Classe Message
+{: .no_toc }
 
 La classe **Message** è utilizzata per configurare i dettagli del messaggio,
 i destinatari, il contenuto, il formato e gli allegati.
@@ -13,6 +14,10 @@ i destinatari, il contenuto, il formato e gli allegati.
 Per osservare qualche esempio di utilizzo fare riferimento alla pagina
 [Esempi di utilizzo].
 
+- TOC
+{: toc }
+
+---
 ## Costruttore
 
 ```python

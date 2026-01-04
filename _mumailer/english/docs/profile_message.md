@@ -6,6 +6,7 @@ title: ProfileMessage
 ---
 
 # Class ProfileMessage
+{: .no_toc }
 
 The **ProfileMessage** class is inherited from the [YamlProfile] class
 and is used to load the message specifications from a file in YAML format.
@@ -15,6 +16,10 @@ The file format must match the specifications indicated below.
 To see some usage examples you can look at the page
 [Usage examples].
 
+- TOC
+{: toc }
+
+---
 ## Constructor
 
 ```python

@@ -6,6 +6,7 @@ title: ProfileSMTP
 ---
 
 # Classe ProfileSMTP
+{: .no_toc }
 
 La classe **ProfileSMTP** è ereditata dalla classe [YamlProfile] ed è
 utilizzata per caricare le specifiche della connessione da un file in formato YAML.
@@ -15,6 +16,10 @@ Il formato del file deve corrispondere alle specifiche indicate sotto.
 Per osservare qualche esempio di utilizzo fare riferimento alla pagina
 [Esempi di utilizzo].
 
+- TOC
+{: toc }
+
+---
 ## Costruttore
 
 ```python

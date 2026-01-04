@@ -6,6 +6,7 @@ title: Recipient
 ---
 
 # Classe Recipient
+{: .no_toc }
 
 La classe **Recipient** è utilizzata per configurare un contatto che può essere
 utilizzato come sender, to, cc, bcc o reply-to nel messaggio.
@@ -13,6 +14,10 @@ utilizzato come sender, to, cc, bcc o reply-to nel messaggio.
 Per osservare qualche esempio di utilizzo fare riferimento alla pagina
 [Esempi di utilizzo].
 
+- TOC
+{: toc }
+
+---
 ## Costruttore
 
 ```python

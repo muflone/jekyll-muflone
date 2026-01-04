@@ -7,6 +7,7 @@ nav_prefix: Classes
 ---
 
 # Class Connection
+{: .no_toc }
 
 The **Connection** class is used to establish the connection to the SMTP
 server and to send the messages to it.
@@ -14,6 +15,10 @@ server and to send the messages to it.
 To see some usage examples you can look at the page
 [Usage examples].
 
+- TOC
+{: toc }
+
+---
 ## Constructor
 
 ```python

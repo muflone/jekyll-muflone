@@ -6,6 +6,7 @@ title: Header
 ---
 
 # Classe Header
+{: .no_toc }
 
 La classe **Header** è utilizzata per configurare un'intestazione di messaggio
 aggiuntiva.
@@ -13,6 +14,10 @@ aggiuntiva.
 Per osservare qualche esempio di utilizzo fare riferimento alla pagina
 [Esempi di utilizzo].
 
+- TOC
+{: toc }
+
+---
 ## Costruttore
 
 ```python

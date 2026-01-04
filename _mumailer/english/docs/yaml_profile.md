@@ -6,6 +6,7 @@ title: YamlProfile
 ---
 
 # Class YamlProfile
+{: .no_toc }
 
 The **YamlProfile** class is the base class for loading YAML files and it's
 basically used to get options from the file.
@@ -13,6 +14,10 @@ basically used to get options from the file.
 To see some usage examples you can look at the page
 [Usage examples].
 
+- TOC
+{: toc }
+
+---
 ## Constructor
 
 ```python

@@ -6,6 +6,7 @@ title: YamlProfile
 ---
 
 # Classe ProfileSMTP
+{: .no_toc }
 
 La classe **ProfileSMTP** è la classe base per il caricamento di file YAML ed
 è fondamentalmente usata per ottenere opzioni dal file.
@@ -13,6 +14,10 @@ La classe **ProfileSMTP** è la classe base per il caricamento di file YAML ed
 Per osservare qualche esempio di utilizzo fare riferimento alla pagina
 [Esempi di utilizzo].
 
+- TOC
+{: toc }
+
+---
 ## Costruttore
 
 ```python

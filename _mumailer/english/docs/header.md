@@ -6,6 +6,7 @@ title: Header
 ---
 
 # Class Header
+{: .no_toc }
 
 The **Header** class is used to configure an additional message
 header.
@@ -13,6 +14,10 @@ header.
 To see some usage examples you can look at the page
 [Usage examples].
 
+- TOC
+{: toc }
+
+---
 ## Constructor
 
 ```python

@@ -6,12 +6,17 @@ title: Attachment
 ---
 
 # Class Attachment
+{: .no_toc }
 
 The **Attachment** class is used to configure an attachment details.
 
 To see some usage examples you can look at the page
 [Usage examples].
 
+- TOC
+{: toc }
+
+---
 ## Constructor
 
 ```python

@@ -6,12 +6,17 @@ title: Attachment
 ---
 
 # Classe Attachment
+{: .no_toc }
 
 La classe **Attachment** è utilizzata per configurare i dettagli di un allegato.
 
 Per osservare qualche esempio di utilizzo fare riferimento alla pagina
 [Esempi di utilizzo].
 
+- TOC
+{: toc }
+
+---
 ## Costruttore
 
 ```python

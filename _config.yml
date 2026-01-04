@@ -10,6 +10,8 @@ icon_footer: apple-icon-60x60.png
 icon_home_1: apple-icon-120x120.png
 icon_home_2: android-icon-192x192.png
 footer_date: false
+kramdown:
+  toc_levels: 1..2
 sections:
   - contacts
   - articles

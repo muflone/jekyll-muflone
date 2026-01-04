@@ -6,6 +6,7 @@ title: Message
 ---
 
 # Class Message
+{: .no_toc }
 
 The **Message** class is used to configure the message details, recipients,
 content, format and attachments.
@@ -13,6 +14,10 @@ content, format and attachments.
 To see some usage examples you can look at the page
 [Usage examples].
 
+- TOC
+{: toc }
+
+---
 ## Constructor
 
 ```python
