@@ -13,7 +13,7 @@ The **ListDisplay** model allows to set the *[list_display]* attribute
 in the Django Admin models to define the columns to show in
 Django Admin.
 
-{:.center}
+{: .center }
 ![Columns list](/resources/django-admin-settings/archive/latest/english/listdisplay.png)
 
 In the above example all the existing columns for *ListDisplayAdmin* are

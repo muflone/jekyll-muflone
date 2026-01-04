@@ -15,7 +15,7 @@ order: 1410
 date: 2018-04-25T00:00:00Z
 ---
 
-{:.center}
+{: .center }
 ![Zabbix logo](/resources/articles/zabbix/logo.png)
 
 Il processo di configurazione di un host controllato passa da tre semplici

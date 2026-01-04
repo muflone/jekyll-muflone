@@ -17,5 +17,5 @@ assegnare il titolo che si desidera assegnare alle pagine.
 ADMIN_SITE_HEADER = 'Header'
 ```
 
-{:.center}
+{: .center }
 ![Intestazioni](/resources/django-admin-settings/archive/latest/italian/headers.png)

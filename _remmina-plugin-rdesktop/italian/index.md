@@ -10,7 +10,7 @@ sincronizzazione degli appunti, il supporto alle cartelle remote, l'audio
 remoto, il supporto all'RDP trasparente (seamless) and numerose impostazioni
 sulle prestazioni.
 
-{:.center}
+{: .center }
 ![Impostazioni generali](/resources/remmina-plugin-rdesktop/archive/latest/italian/general.png)
 
 E' richiesta l'installazione di RDesktop affinchè questo plugin funzioni.

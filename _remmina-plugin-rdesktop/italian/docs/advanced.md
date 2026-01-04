@@ -6,7 +6,7 @@ title: Impostazioni avanzate
 ---
 # Scheda Avanzato
 
-{:.center}
+{: .center }
 ![Scheda Avanzato](/resources/remmina-plugin-rdesktop/archive/latest/italian/advanced.png)
 
 ## **Window title** (*title*)

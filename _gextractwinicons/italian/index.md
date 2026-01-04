@@ -7,5 +7,5 @@ title: Introduzione
 immagini PNG da file di risorse per Microsoft Windows (come .exe, .dll, .ocx e
 .cpl).
 
-{:.center}
+{: .center }
 ![Finestra principale](/resources/gextractwinicons/archive/latest/italian/main.png)

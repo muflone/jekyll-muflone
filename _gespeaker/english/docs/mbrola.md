@@ -24,7 +24,7 @@ one MBROLA voice like for example ```mbrola-en1``` or ```mbrola-us3```
 
 # MBROLA usage
 
-{:.center}
+{: .center }
 ![Preferences window for MBROLA](/resources/gespeaker/archive/latest/english/mbrola.png)
 
 After installing the required packages check in the preferences window the

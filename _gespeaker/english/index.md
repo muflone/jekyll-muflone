@@ -12,7 +12,7 @@ for future listening.
 The text can be read with
 [many available languages]({% link _gespeaker/english/languages.md %}).
 
-{:.center}
+{: .center }
 ![Main window](/resources/gespeaker/archive/latest/english/main.png)
 
 To hear some samples of recorded voices please see the

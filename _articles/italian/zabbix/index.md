@@ -8,5 +8,5 @@ order: 1400
 content_after: false
 ---
 
-{:.center}
+{: .center }
 ![Zabbix logo](/resources/articles/zabbix/logo.png)

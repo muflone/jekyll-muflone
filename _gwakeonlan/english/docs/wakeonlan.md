@@ -22,7 +22,7 @@ must be met.
 
 # Local usage
 
-{:.center}
+{: .center }
 ![Local usage](/resources/gwakeonlan/usage/english/local.png)
 
 When the request type made from gWakeOnLAN is **Local (broadcast)** the
@@ -33,7 +33,7 @@ any level, all the machines in the local network will receive the packet.
 
 # Internet usage
 
-{:.center}
+{: .center }
 ![Internet usage](/resources/gwakeonlan/usage/english/internet.png)
 
 When the request type is **Internet** a destination host is required and the

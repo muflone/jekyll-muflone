@@ -11,7 +11,7 @@ title: ListFilter
 Il modello **ListFilter** consente di definire l'attributo *[list_filter]*
 dei modelli di Django Admin per la definizione dei filtri da configurare.
 
-{:.center}
+{: .center }
 ![Elenco dei filtri](/resources/django-admin-settings/archive/latest/italian/listfilter.png)
 
 Nell'esempio qui sopra mostrato, sono stati configurati i filtri sui campi

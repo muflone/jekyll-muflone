@@ -6,7 +6,7 @@ title: Impostazioni avanzate
 ---
 # Scheda Avanzato
 
-{:.center}
+{: .center }
 ![Scheda Avanzato](/resources/remmina-plugin-webkit/archive/latest/italian/advanced.png)
 
 

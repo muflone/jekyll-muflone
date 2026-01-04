@@ -17,7 +17,7 @@ per filtrare i record usando il campo di nome *field*.
 
 ## Configurazione
 
-{:.center}
+{: .center }
 ![](/resources/django-admin-settings/archive/latest/italian/fieldtextfilter_filter.png)
 
 Basterà aggiungere ai modelli ListDisplay, ListDisplayLink o ListFilter
@@ -26,7 +26,7 @@ nome del campo `django_admin_settings.admin.FieldTextFilter`.
 
 ## Risultato
 
-{:.center}
+{: .center }
 ![](/resources/django-admin-settings/archive/latest/italian/fieldtextfilter_results.png)
 
 Il filtro farà corrispondenza esatta di qualsiasi records con un campo di nome *field* col valore specificato.

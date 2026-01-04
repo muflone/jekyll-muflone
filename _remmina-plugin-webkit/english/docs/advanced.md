@@ -6,7 +6,7 @@ title: Advanced settings
 ---
 # Advanced tab
 
-{:.center}
+{: .center }
 ![Advanced tab](/resources/remmina-plugin-webkit/archive/latest/english/advanced.png)
 
 ## **Disable status bar** (*no status*)

@@ -18,5 +18,5 @@ you want to assign the index page.
 ADMIN_INDEX_TITLE = 'Index'
 ```
 
-{:.center}
+{: .center }
 ![Headers](/resources/django-admin-settings/archive/latest/english/headers.png)

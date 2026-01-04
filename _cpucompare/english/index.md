@@ -9,5 +9,5 @@ insterest.
 Every CPU has a score based on benchmarks so you can determine what processor
 has greater or lower performances.
 
-{:.center}
+{: .center }
 ![Main window](/resources/cpucompare/archive/latest/english/main.png)

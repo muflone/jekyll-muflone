@@ -13,27 +13,27 @@ order: 1408
 date: 2018-04-18T00:00:00Z
 ---
 
-{:.center}
+{: .center }
 ![Zabbix logo](/resources/articles/zabbix/logo.png)
 
 All'accesso di Zabbix Frontend Web saranno chiesti utente e password prima di
 poter visionare l'interfaccia di gestione di Zabbix.
 
-{:.center}
+{: .center }
 ![Zabbix login](/resources/articles/zabbix/login.png)
 
 >>>>>> I dati di accesso predefiniti a Zabbix Frontend Web sono i seguenti:  
 **Utente**: Admin  
 **Password**: zabbix
 
-{:.center}
+{: .center }
 [![Dashboard](/resources/articles/zabbix/overview/dashboard-initial-thumb.png)][Dashboard full]
 
 Al primo accesso sarà mostrata la **Dashboard** predefinita, ovvero un cruscotto
 di controllo dello stato di salute di tutto il sistema, inclusi anche tutti gli
 altri sistemi controllati.
 
-{:.center}
+{: .center }
 ![Sections](/resources/articles/zabbix/overview/sections.png)
 
 L'area superiore di qualsiasi schermata di Zabbix mostra le sezioni di interesse

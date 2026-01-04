@@ -17,5 +17,5 @@ you want to assign to the pages.
 ADMIN_SITE_TITLE = 'Title'
 ```
 
-{:.center}
+{: .center }
 ![Headers](/resources/django-admin-settings/archive/latest/english/headers.png)

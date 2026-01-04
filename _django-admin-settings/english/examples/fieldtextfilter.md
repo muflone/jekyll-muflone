@@ -17,7 +17,7 @@ to filter the records using the field named *field*.
 
 ## Configuration
 
-{:.center}
+{: .center }
 ![](/resources/django-admin-settings/archive/latest/english/fieldtextfilter_filter.png)
 
 You can simply add a new filter with field name `django_admin_settings.admin.FieldTextFilter`
@@ -26,7 +26,7 @@ to the models ListDisplay, ListDisplayLink or ListFilter
 
 ## Results
 
-{:.center}
+{: .center }
 ![](/resources/django-admin-settings/archive/latest/english/fieldtextfilter_results.png)
 
 The filter will match any records with the field named *field* with the specified value.

@@ -6,7 +6,7 @@ title: Basic settings
 ---
 # Basic tab
 
-{:.center}
+{: .center }
 ![Basic tab](/resources/remmina-plugin-teamviewer/archive/latest/english/general.png)
 
 ## **Server** (*server*)

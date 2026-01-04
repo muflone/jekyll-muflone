@@ -22,7 +22,7 @@ class TextInputFilterExact(AdminTextInputFilter):
 
 Filtra i record del modello riportando quelli il cui campo data1 **corrisponde esattamente** al valore indicato.
 
-{:.center}
+{: .center }
 ![](/resources/django-admin-settings/archive/latest/italian/admintextinputfilter_exact.png)
 
 ## Corrispondenza parziale con contains
@@ -46,7 +46,7 @@ class TextInputFilterIContains(AdminTextInputFilter):
 Filtra i record del modello riportando quelli il cui campo data1 **contiene** il valore indicato, ignorando le
 differenze tra maiuscole e minuscole.
 
-{:.center}
+{: .center }
 ![](/resources/django-admin-settings/archive/latest/italian/admintextinputfilter_contains.png)
 
 ## Corrispondenza iniziale o finale
@@ -60,7 +60,7 @@ class TextInputFilterStarting(AdminTextInputFilter):
 
 Filtra i record del modello riportando quelli il cui campo data1 **inizia** col valore indicato.
 
-{:.center}
+{: .center }
 ![](/resources/django-admin-settings/archive/latest/italian/admintextinputfilter_startswith.png)
 
 ```python
@@ -73,7 +73,7 @@ class TextInputFilterIEnding(AdminTextInputFilter):
 Filtra i record del modello riportando quelli il cui campo data1 **termina** col valore indicato, ignorando le
 differenze tra maiuscole e minuscole.
 
-{:.center}
+{: .center }
 ![](/resources/django-admin-settings/archive/latest/italian/admintextinputfilter_endswith.png)
 
 ## Corrispondenza con espressione regolare
@@ -91,7 +91,7 @@ del valore indicato.
 Inserendo sul filtro il valore `^[0-9]{4}$` saranno ad esempio trovati i record il cui campo data1 contiene
 esattamente 4 numeri.
 
-{:.center}
+{: .center }
 ![](/resources/django-admin-settings/archive/latest/italian/admintextinputfilter_regex.png)
 
 
@@ -110,7 +110,7 @@ del valore indicato, utilizzando il filtro avanzato.
 Inserendo sul filtro il valore `^[0-9]{4}$` saranno ad esempio trovati i record il cui campo data1 contiene
 esattamente 4 numeri.
 
-{:.center}
+{: .center }
 ![](/resources/django-admin-settings/archive/latest/italian/admintextinputfilter_regex.png)
 
 {: target="_blank" .external }

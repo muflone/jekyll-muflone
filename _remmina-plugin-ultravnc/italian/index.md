@@ -8,7 +8,7 @@ connessioni usando [UltraVNC], un'applicazione open source di controllo remoto
 VNC con numerose funzionalità sviluppata per MS Windows ed eseguibile in
 GNU/Linux attraverso [Wine].
 
-{:.center}
+{: .center }
 ![Impostazioni generali](/resources/remmina-plugin-ultravnc/archive/latest/italian/general.png)
 
 E' richiesta l'installazione di UltraVNC affinchè questo plugin funzioni.

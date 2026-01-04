@@ -12,7 +12,7 @@ order: 1401
 date: 2018-04-17T00:00:00Z
 ---
 
-{:.center}
+{: .center }
 ![Zabbix logo](/resources/articles/zabbix/logo.png)
 
 # Cosa è Zabbix?
@@ -33,7 +33,7 @@ propri sistemi, della rete e delle applicazioni.
 ----
 # Cosa può fare Zabbix?
 
-{:.center}
+{: .center }
 ![Metrics](/resources/articles/zabbix/metric_collection.svg){:height="400px"}
 
 Zabbix può controllare:

@@ -10,5 +10,5 @@ interesse.
 Ogni CPU ha un suo punteggio basato su benchmark in modo da poter determinare
 quale processore ha migliori o peggiori prestazioni.
 
-{:.center}
+{: .center }
 ![Finestra principale](/resources/cpucompare/archive/latest/italian/main.png)

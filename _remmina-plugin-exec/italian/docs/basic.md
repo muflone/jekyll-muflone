@@ -6,7 +6,7 @@ title: Impostazioni generali
 ---
 # Scheda Generale
 
-{:.center}
+{: .center }
 ![Impostazioni generali](/resources/remmina-plugin-exec/archive/latest/italian/general.png)
 
 ## **Programma di avvio** (*server*)

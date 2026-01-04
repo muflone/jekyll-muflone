@@ -7,6 +7,7 @@ nav_prefix: Classi
 ---
 
 # Classe AsyncioGather
+{: .no_toc }
 
 La classe **AsyncioGather** è utilizzata per raccogliere i task da eseguire
 parallelamente e al termine elaborarli tutti insieme in maniera asincrona.
@@ -14,6 +15,10 @@ parallelamente e al termine elaborarli tutti insieme in maniera asincrona.
 Per osservare qualche esempio di utilizzo fare riferimento alla pagina
 [Esempi di utilizzo]({% link _awaitable/italian/examples/index.md %}).
 
+- TOC
+{: toc }
+
+---
 ## Metodo add
 
 ```python

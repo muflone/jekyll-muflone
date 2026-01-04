@@ -13,7 +13,7 @@ order: 1413
 date: 2018-04-25T00:00:00Z
 ---
 
-{:.center}
+{: .center }
 ![Zabbix logo](/resources/articles/zabbix/logo.png)
 
 Dalla pagina [Download and install Precompiled Zabbix Agents] è possibile
@@ -54,7 +54,7 @@ Per eseguire l'installazione dell'agente di Zabbix come servizio è possibile
 avviare un prompt dei comandi **come amministratore** ed eseguire i seguenti
 comandi:
 
-{:.center}
+{: .center }
 ![Agent installation](/resources/articles/zabbix/agent-installation/windows-installation.png)
 
     CD \Zabbix
@@ -68,7 +68,7 @@ Subito dopo l'installazione è possibile avviare il servizio con:
 
     NET START "Zabbix Agent"
 
-{:.center}
+{: .center }
 ![Windows firewall](/resources/articles/zabbix/agent-installation/windows-firewall.png)
 
 Nel caso che il firewall di Windows risultasse attivo, potrebbe essere necessario

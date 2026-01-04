@@ -10,7 +10,7 @@ Some examples of external applications could be third party remote access
 applications not supported by any Remmina protocol, network calculators,
 network diagram draw applications and many others.
 
-{:.center}
+{: .center }
 ![General settings](/resources/remmina-plugin-exec/archive/latest/english/general.png)
 
 # Settings

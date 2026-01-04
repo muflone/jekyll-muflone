@@ -6,7 +6,7 @@ title: Basic settings
 ---
 # Basic tab
 
-{:.center}
+{: .center }
 ![Basic settings](/resources/remmina-plugin-exec/archive/latest/english/general.png)
 
 ## **Startup program** (*server*)

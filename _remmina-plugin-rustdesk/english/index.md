@@ -8,7 +8,7 @@ connections using [RustDesk], a free open source remote control application with
 many features and capable of connecting even through NAT, both for Windows,
 Linux and others operating systems.
 
-{:.center}
+{: .center }
 ![General Settings](/resources/remmina-plugin-rustdesk/archive/latest/english/general.png)
 
 RustDesk installation is required in order to let this plugin to work properly.

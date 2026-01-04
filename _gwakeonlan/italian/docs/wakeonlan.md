@@ -22,7 +22,7 @@ di sistema devono essere soddisfatti.
 
 # Utilizzo locale
 
-{:.center}
+{: .center }
 ![Utilizzo locale](/resources/gwakeonlan/usage/italian/local.png)
           
 Quando il tipo di richiesta inviata gWakeOnLAN è **Locale (broadcast)** il
@@ -33,7 +33,7 @@ bloccati, tutte le macchine nella rete locale riceveranno il pacchetto.
 
 # Utilizzo Internet
 
-{:.center}
+{: .center }
 ![Utilizzo Internet](/resources/gwakeonlan/usage/italian/internet.png)
           
 Quando il tipo di richiesta è **Internet** è richiesto un sistema di

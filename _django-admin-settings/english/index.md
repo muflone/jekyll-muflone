@@ -6,13 +6,13 @@ title: Introduction
 **Django Admin Settings** is a Django application to configure some aspects
 of the [Django Admin] administration interface.
 
-{:.center}
+{: .center }
 ![Columns list](/resources/django-admin-settings/archive/latest/english/listdisplay.png)
 
 Using the models **ListDisplay** and **ListDisplayLink** will be possible
 to configure the records list in Django Admin.
 
-{:.center}
+{: .center }
 ![Filters list](/resources/django-admin-settings/archive/latest/english/listfilter.png)
 
 Using the **ListFilter** model will be possible to define what filters are

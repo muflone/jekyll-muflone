@@ -13,7 +13,7 @@ order: 1406
 date: 2018-04-18T00:00:00Z
 ---
 
-{:.center}
+{: .center }
 ![Zabbix logo](/resources/articles/zabbix/logo.png)
 
 L'installazione di Zabbix Server e Zabbix Frontend Web su Arch Linux non viene

@@ -12,7 +12,7 @@ Il modello **ListDisplayLink** consente di definire l'attributo *[list_display_l
 dei modelli di Django Admin per definire quali campi nell'elenco dei record sono
 cliccabili per accedere ai record su Django Admin.
 
-{:.center}
+{: .center }
 ![Colonne cliccabili](/resources/django-admin-settings/archive/latest/italian/listdisplaylink.png)
 
 Nell'esempio qui sopra mostrato, sono state rese cliccabili le colonne **id** e

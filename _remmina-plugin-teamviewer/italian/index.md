@@ -8,7 +8,7 @@ connessioni usando [TeamViewer], un'applicazione di controllo remoto con
 numerose funzionalità e in grado di stabilire connessioni anche attraverso NAT,
 sia per Windows, Linux e altri sistemi operativi.
 
-{:.center}
+{: .center }
 ![Impostazioni generali](/resources/remmina-plugin-teamviewer/archive/latest/italian/general.png)
           
 E' richiesta l'installazione di TeamViewer affinchè questo plugin funzioni.

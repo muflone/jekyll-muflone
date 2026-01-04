@@ -6,7 +6,7 @@ title: Advanced settings
 ---
 # Advanced tab
 
-{:.center}
+{: .center }
 ![Advanced tab](/resources/remmina-plugin-rdesktop/archive/latest/english/advanced.png)
 
 ## **Window title** (*title*)

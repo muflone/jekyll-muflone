@@ -10,7 +10,7 @@ remoto di terze parti non supportate da alcun protocollo di Remmina,
 calcolatrici di rete, applicazioni per il disegno di diagrammi di rete e molti
 altri.
 
-{:.center}
+{: .center }
 ![Impostazioni generali](/resources/remmina-plugin-exec/archive/latest/italian/general.png)
 
 # Impostazioni

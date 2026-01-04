@@ -13,7 +13,7 @@ order: 1407
 date: 2018-04-18T00:00:00Z
 ---
 
-{:.center}
+{: .center }
 ![Zabbix logo](/resources/articles/zabbix/logo.png)
 
 >>>>>> Nel caso di utilizzo della Zabbix Appliance questa procedura non è
@@ -25,13 +25,13 @@ Accedendo al server web di Zabbix Frontend Web all'indirizzo
 installato Zabbix sulla radice del server web) verrà mostrata la procedura
 guidata di configurazione.
 
-{:.center}
+{: .center }
 ![Welcome to Zabbix](/resources/articles/zabbix/frontend-setup/01.png)
 
 La procedura inizia con una finestra di benvenuti sulla quale si potrà avanzare
 cliccando il pulsante **Next step**.
 
-{:.center}
+{: .center }
 ![Check of pre-requisites](/resources/articles/zabbix/frontend-setup/02.png)
 
 Successivamente saranno mostrati i requisiti minimi per il funzionamento e i
@@ -40,7 +40,7 @@ sarà possibile procedere con la configurazione di Zabbix Frontend Web. In tal
 caso si raccomanda di verificare la procedura di installazione e rimediare prima
 di configurare nuovamente Zabbix Frontend Web.
 
-{:.center}
+{: .center }
 ![Configure DB connection](/resources/articles/zabbix/frontend-setup/03.png)
 
 Il passaggio principale della configurazione di Zabbix Frontend Web è la
@@ -57,7 +57,7 @@ configurazione della connessione al database e per far ciò è necessario indica
    **zabbix**)
 1. La password di accesso correlata all'utente del server e del database
 
-{:.center}
+{: .center }
 ![Zabbix server details](/resources/articles/zabbix/frontend-setup/04.png)
 
 Segue la procedura con l'indicazione dei dati di Zabbix Server:
@@ -70,13 +70,13 @@ Segue la procedura con l'indicazione dei dati di Zabbix Server:
 1. Indicare il nome che sarà visualizzato nell'interfaccia web di Zabbix per
    identificare il server controllato (in questo esempio&nbsp;**Zabbix Muflone**)
 
-{:.center}
+{: .center }
 ![Pre-installation summary](/resources/articles/zabbix/frontend-setup/05.png)
 
 Prima di avviare la configurazione di Zabbix Frontend Web sarà data un'ultima
 possibilità di visionare i dati immessi.
 
-{:.center}
+{: .center }
 ![Install](/resources/articles/zabbix/frontend-setup/06.png)
 
 Se la procedura è andata a buon fine sarà mostrata una schermata di
@@ -85,7 +85,7 @@ congratulazioni che conferma il salvataggio della configurazione nel file
 
 Terminare la procedura guidata cliccando su **Finish**.
 
-{:.center}
+{: .center }
 ![Zabbix login](/resources/articles/zabbix/login.png)
 
 Successivamente sarà automaticamente mostrata la finestra di accesso a

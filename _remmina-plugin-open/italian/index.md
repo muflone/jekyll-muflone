@@ -10,7 +10,7 @@ E' utile per avviare un'applicazione esterna associata ad un documento, come un
 gestore di password cifrate oppure un elenco con i sistemi in rete salvato in
 formato LibreOffice senza lasciare la finestra di Remmina.
 
-{:.center}
+{: .center }
 ![Impostazioni generali](/resources/remmina-plugin-open/archive/latest/italian/general.png)
 
 # Impostazioni

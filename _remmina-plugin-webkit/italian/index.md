@@ -8,7 +8,7 @@ web utilizzando un browser integrato basato su GTK+ WebKit. Diventa utile quando
 è necessario accedere alle risorse dalla finestra di Remmina, come avere accesso
 alle pagine web di amministrazione di router, stampanti e altre risorse in rete.
 
-{:.center}
+{: .center }
 ![Impostazioni generali](/resources/remmina-plugin-webkit/archive/latest/italian/general.png)
           
 # Impostazioni

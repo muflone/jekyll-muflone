@@ -10,7 +10,7 @@ It's useful to launch an external application associated to a document, like
 your encrypted passwords manager or a list of your network hosts saved in
 LibreOffice format without leaving the Remmina window.
 
-{:.center}
+{: .center }
 ![General settings](/resources/remmina-plugin-open/archive/latest/english/general.png)
 
 # Settings

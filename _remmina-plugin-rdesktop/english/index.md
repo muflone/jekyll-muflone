@@ -9,7 +9,7 @@ integrated plugin in Remmina and also provides a lot of features like clipboard
 sync, remote folders support, remote audio, seamless RDP and various settings
 for performances.
 
-{:.center}
+{: .center }
 ![General settings](/resources/remmina-plugin-rdesktop/archive/latest/english/general.png)
 
 RDesktop installation is required in order to let this plugin to work properly.

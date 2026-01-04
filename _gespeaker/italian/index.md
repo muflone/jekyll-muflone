@@ -13,7 +13,7 @@ per ascoltarlo successivamente.
 Il testo può essere letto con 
 [tante lingue disponibili]({% link _gespeaker/italian/languages.md %}).
 
-{:.center}
+{: .center }
 ![Finestra principale](/resources/gespeaker/archive/latest/italian/main.png)
 
 Per ascoltare alcuni esempi di voci registrate vedere la pagina 

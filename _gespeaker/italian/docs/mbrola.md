@@ -26,7 +26,7 @@ almeno una voce di MBROLA come ad esempio ```mbrola-it3``` o ```mbrola-it4```
 
 # Utilizzo di MBROLA
 
-{:.center}
+{: .center }
 ![Finestra delle preferenze per MBROLA](/resources/gespeaker/archive/latest/italian/mbrola.png)
 
 Dopo aver installato i pacchetti necessari sarà necessario controllare nella

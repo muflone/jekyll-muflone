@@ -9,7 +9,7 @@ using an external file manager from the Remmina window.
 It's useful to access to your documents folder or your settings without leaving
 the Remmina window.
 
-{:.center}
+{: .center }
 ![General settings](/resources/remmina-plugin-folder/archive/latest/english/general.png)
 
 # Settings

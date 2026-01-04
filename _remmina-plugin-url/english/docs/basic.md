@@ -6,7 +6,7 @@ title: Basic settings
 ---
 # Basic tab
 
-{:.center}
+{: .center }
 ![Basic tab](/resources/remmina-plugin-url/archive/latest/english/general.png)
 
 ## **URL** (*server*)

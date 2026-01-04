@@ -8,7 +8,7 @@ using an integrated GTK+ WebKit web browser. It's useful when you need to access
 your resources from the Remmina window, like gaining access to routers
 administration web pages, printers and others resources in the network.
 
-{:.center}
+{: .center }
 ![General Settings](/resources/remmina-plugin-webkit/archive/latest/english/general.png)
 
 # Settings

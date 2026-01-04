@@ -22,7 +22,7 @@ class TextInputFilterExact(AdminTextInputFilter):
 
 Filters the model records including those whose data1 field **matches the exact** specified value.
 
-{:.center}
+{: .center }
 ![](/resources/django-admin-settings/archive/latest/english/admintextinputfilter_exact.png)
 
 ## Partial match with contains
@@ -46,7 +46,7 @@ class TextInputFilterIContains(AdminTextInputFilter):
 Filters the model records including those whose data1 field **contains** the specified value, ignoring
 any differences between upper and lower case.
 
-{:.center}
+{: .center }
 ![](/resources/django-admin-settings/archive/latest/english/admintextinputfilter_contains.png)
 
 ## Initial or final match
@@ -60,7 +60,7 @@ class TextInputFilterStarting(AdminTextInputFilter):
 
 Filters the model records including those whose data1 field **begins** with the indicated value.
 
-{:.center}
+{: .center }
 ![](/resources/django-admin-settings/archive/latest/english/admintextinputfilter_startswith.png)
 
 ```python
@@ -73,7 +73,7 @@ class TextInputFilterIEnding(AdminTextInputFilter):
 Filters the model records including those whose data1 field **ends** with the indicated value, ignoring
 any differences between upper and lower case.
 
-{:.center}
+{: .center }
 ![](/resources/django-admin-settings/archive/latest/english/admintextinputfilter_endswith.png)
 
 ## Match with regular expression
@@ -91,7 +91,7 @@ with the indicated value.
 For example, specifying on the filter the value `^[0-9]{4}$` only the records with 4 digits in the data1
 field will be found.
 
-{:.center}
+{: .center }
 ![](/resources/django-admin-settings/archive/latest/english/admintextinputfilter_regex.png)
 
 
@@ -110,7 +110,7 @@ with the indicated value, using the advanced filter.
 For example, specifying on the filter the value `^[0-9]{4}$` only the records with 4 digits in the data1
 field will be found.
 
-{:.center}
+{: .center }
 ![](/resources/django-admin-settings/archive/latest/english/admintextinputfilter_regex.png)
 
 {: target="_blank" .external }

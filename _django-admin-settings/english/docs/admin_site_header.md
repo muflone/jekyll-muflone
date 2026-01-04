@@ -17,5 +17,5 @@ you want to assign to the pages.
 ADMIN_SITE_HEADER = 'Header'
 ```
 
-{:.center}
+{: .center }
 ![Headers](/resources/django-admin-settings/archive/latest/english/headers.png)

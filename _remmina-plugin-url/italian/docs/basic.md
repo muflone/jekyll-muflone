@@ -6,7 +6,7 @@ title: Impostazioni generali
 ---
 # Scheda Generale
 
-{:.center}
+{: .center }
 ![Scheda Generale](/resources/remmina-plugin-url/archive/latest/italian/general.png)
 
 ## **URL** (*server*)

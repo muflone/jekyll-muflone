@@ -12,7 +12,7 @@ The **ListDisplayLink** model allows to set the *[list_display_links]* attribute
 in the Django Admin models to define what columns in the records list can be
 clicked to access the record in Django Admin.
 
-{:.center}
+{: .center }
 ![Clickable columns](/resources/django-admin-settings/archive/latest/english/listdisplaylink.png)
 
 In the above example the **id** and the **\_\_str\_\_** columns in the

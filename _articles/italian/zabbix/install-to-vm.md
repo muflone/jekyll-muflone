@@ -13,7 +13,7 @@ order: 1405
 date: 2018-04-18T00:00:00Z
 ---
 
-{:.center}
+{: .center }
 ![Zabbix logo](/resources/articles/zabbix/logo.png)
 
 Alla pagina [Download and install Zabbix][Download appliance] è possibile
@@ -51,19 +51,19 @@ della macchina virtuale.
 
 # Importazione su Oracle VirtualBox
 
-{:.center}
+{: .center }
 ![Importa applicazione virtuale](/resources/articles/zabbix/install-to-virtualbox/01.png)
 
 Su Oracle VirtualBox, aprendo il menu **File** scegliere l'opzione
 **Importa applicazione virtuale**.
 
-{:.center}
+{: .center }
 ![Applicazione virtuale da importare](/resources/articles/zabbix/install-to-virtualbox/02.png)
 
 La finestra guidata di importazione chiederà semplicemente il percorso del file
 .ovf da importare.
 
-{:.center}
+{: .center }
 ![Impostazioni applicazione virtuale](/resources/articles/zabbix/install-to-virtualbox/03.png)
 
 Al secondo passaggio dell'importazione della macchina virtuale sarà possibile
@@ -74,13 +74,13 @@ di CPU e di memoria RAM da impiegare.
 In generale è meglio non effettuare variazioni, eccetto il nome della macchina
 virtuale che è modificabile liberamente, in questo esempio **Zabbix Appliance**.
 
-{:.center}
+{: .center }
 ![Importazione applicazione virtuale](/resources/articles/zabbix/install-to-virtualbox/04.png)
 
 La procedura di importazione richiederà qualche minuto e si concluderà
 automaticamente non appena raggiunto il 100%.
 
-{:.center}
+{: .center }
 ![Configurazione rete virtuale](/resources/articles/zabbix/install-to-virtualbox/05.png)
 
 Prima di avviare la macchina virtuale si raccomanda di configurare la scheda di
@@ -99,7 +99,7 @@ seguenti:
 **Utente**: appliance  
 **Password**: zabbix
 
-{:.center}
+{: .center }
 ![Accesso al server locale](/resources/articles/zabbix/install-from-iso/03.png)
 
 L'indirizzo IP alla macchina appena installata sarà fornito automaticamente via
@@ -109,7 +109,7 @@ ed eseguire il comando ```ip a```, nell'esempio l'indirizzo è 192.168.1.67.
 Per accedere al sistema basterà quindi avviare un browser da un'altra postazione
 e puntare alla pagina http://INDIRIZZO_SERVER/zabbix
 
-{:.center}
+{: .center }
 ![Zabbix login](/resources/articles/zabbix/login.png)
 
 La configurazione iniziale è terminata ed è il momento di

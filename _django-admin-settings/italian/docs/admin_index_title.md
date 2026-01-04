@@ -18,5 +18,5 @@ assegnare il titolo che si desidera assegnare alla pagina indice.
 ADMIN_INDEX_TITLE = 'Index'
 ```
 
-{:.center}
+{: .center }
 ![Intestazioni](/resources/django-admin-settings/archive/latest/italian/headers.png)

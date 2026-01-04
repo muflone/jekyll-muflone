@@ -11,7 +11,7 @@ title: ListFilter
 The **ListFilter** model allows to set the *[list_filter]* attribute
 in the Django Admin models to define the filters to configure.
 
-{:.center}
+{: .center }
 ![Filters list](/resources/django-admin-settings/archive/latest/english/listfilter.png)
 
 In the above example the filters for the fields **is_active** and **model**

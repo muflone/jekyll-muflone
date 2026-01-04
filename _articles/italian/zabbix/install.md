@@ -13,7 +13,7 @@ order: 1403
 date: 2018-04-18T00:00:00Z
 ---
 
-{:.center}
+{: .center }
 ![Zabbix logo](/resources/articles/zabbix/logo.png)
 
 L'installazione di **Zabbix** può essere eseguita in numerose modalità. La più

@@ -7,7 +7,7 @@ title: Introduction
 connections using [UltraVNC], an open source control VNC client with many
 features developed for MS Windows and executable under GNU/Linux via [Wine].
 
-{:.center}
+{: .center }
 ![General Settings](/resources/remmina-plugin-ultravnc/archive/latest/english/general.png)
 
 UltraVNC installation is required in order to let this plugin to work properly.

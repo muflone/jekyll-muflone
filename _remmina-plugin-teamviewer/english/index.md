@@ -8,7 +8,7 @@ connections using [TeamViewer], a remote control application with many features
 and capable of connecting even through NAT, both for Windows, Linux and others
 operating systems.
 
-{:.center}
+{: .center }
 ![General Settings](/resources/remmina-plugin-teamviewer/archive/latest/english/general.png)
 
 TeamViewer installation is required in order to let this plugin to work properly.

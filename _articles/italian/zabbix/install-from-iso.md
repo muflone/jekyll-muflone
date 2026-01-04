@@ -13,7 +13,7 @@ order: 1404
 date: 2018-04-18T00:00:00Z
 ---
 
-{:.center}
+{: .center }
 ![Zabbix logo](/resources/articles/zabbix/logo.png)
 
 Alla pagina [Download and install Zabbix][Download appliance] è possibile
@@ -27,7 +27,7 @@ quindi formattata e preparata per accogliere Ubuntu e Zabbix.
 >>> L'installazione di Zabbix Appliance comporta la cancellazione, **senza
 alcuna conferma**, di tutti i dati presenti nei dischi rilevati.
 
-{:.center}
+{: .center }
 ![Avvio dell'installazione di Zabbix Appliance](/resources/articles/zabbix/install-from-iso/01.png)
 
 All'avvio del sistema dal disco di installazione verrà richiesto se installare:
@@ -40,7 +40,7 @@ All'avvio del sistema dal disco di installazione verrà richiesto se installare:
 Effettuare la scelta con una delle prime due opzioni, il database scelto non
 cambia il funzionamento del sistema.
 
-{:.center}
+{: .center }
 ![Installazione di Ubuntu Server](/resources/articles/zabbix/install-from-iso/02.png)
 
 La procedura proseguirà automaticamente con la reinstallazione del sistema
@@ -58,7 +58,7 @@ seguenti:
 **Utente**: appliance  
 **Password**: zabbix
 
-{:.center}
+{: .center }
 ![Accesso al server locale](/resources/articles/zabbix/install-from-iso/03.png)
 
 L'indirizzo IP alla macchina appena installata sarà fornito automaticamente via
@@ -68,7 +68,7 @@ ed eseguire il comando ```ip a```, nell'esempio l'indirizzo è 192.168.1.67.
 Per accedere al sistema basterà quindi avviare un browser da un'altra postazione
 e puntare alla pagina http://INDIRIZZO_SERVER/zabbix
 
-{:.center}
+{: .center }
 ![Zabbix login](/resources/articles/zabbix/login.png)
 
 La configurazione iniziale è terminata ed è il momento di

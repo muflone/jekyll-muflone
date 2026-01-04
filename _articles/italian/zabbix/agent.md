@@ -14,7 +14,7 @@ order: 1412
 date: 2018-04-25T00:00:00Z
 ---
 
-{:.center}
+{: .center }
 ![Zabbix logo](/resources/articles/zabbix/logo.png)
 
 **Zabbix Agent** rappresenta uno dei software fondamentali per il monitoraggio

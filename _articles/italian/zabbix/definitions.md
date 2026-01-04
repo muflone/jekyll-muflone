@@ -12,7 +12,7 @@ order: 1409
 date: 2018-04-18T00:00:00Z
 ---
 
-{:.center}
+{: .center }
 ![Zabbix logo](/resources/articles/zabbix/logo.png)
 
 Su Zabbix sono utilizzati numerosi termini tecnici che è fondamentale conoscere

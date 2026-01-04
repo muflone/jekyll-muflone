@@ -11,13 +11,13 @@ order: 1402
 date: 2018-04-17T00:00:00Z
 ---
 
-{:.center}
+{: .center }
 ![Zabbix logo](/resources/articles/zabbix/logo.png)
 
 **Zabbix** si compone di tante parti, ognuna delle quali con uno scopo preciso e
 necessario ad ottenere l'analisi dei valori dei sistemi controllati.
 
-{:.center}
+{: .center }
 ![Components](/resources/articles/zabbix/security_authentication.svg){:height="400px"}
 
 # Zabbix Server
