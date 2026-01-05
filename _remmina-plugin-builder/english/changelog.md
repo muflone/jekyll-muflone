@@ -3,6 +3,10 @@ layout: changelog
 order: 900
 title: Changelog
 ---
+# Version 1.4.37.0 (Dec 31, 2024)
+
+* Rebased on Remmina 1.4.37
+
 # Version 1.4.31.0 (Aug 14, 2023)
 
 * Rebased on Remmina 1.4.31
