@@ -1,0 +1,289 @@
+name: PyOdoo
+lowername: pyodoo
+description:
+  italian: Una libreria Python per interagire con server odoo utilizzando XML-RPC.
+  english: A Python library to interact with Odoo servers using XML-RPC.
+gitrepo: https://github.com/muflone/pyodoo
+translations_repo:
+license: gpl3
+versions:
+- version: 0.7.2
+  normalized: v072
+  date: 2025-08-19
+  packages:
+  - type: source
+    filename: pyodoo-$(VERSION).tar.gz
+    md5sum: 3ab3d09d2895b4950749b4156f362f3f
+  - type: python-wheel
+    filename: PyOdoo-$(VERSION)-py3-none-any.whl
+    md5sum: 930f7db2541dfa4f44f29339fa563b87
+  - type: archlinux
+    filename: python-pyodoo-$(VERSION)-1-any.pkg.tar.zst
+    md5sum: f8fc4f0041e7126a7cfe4a8eaf0bafce
+  - type: aur
+    filename: python-pyodoo
+    md5sum: '-'
+- version: 0.7.1
+  normalized: v071
+  date: 2024-06-20
+  packages:
+  - type: source
+    filename: pyodoo-$(VERSION).tar.gz
+    md5sum: 9e9dc31b4a1248e1922c172764daadf6
+  - type: python-wheel
+    filename: PyOdoo-$(VERSION)-py3-none-any.whl
+    md5sum: ef550d552dc8125f450e01b7052f17de
+  - type: archlinux
+    filename: python-pyodoo-$(VERSION)-1-any.pkg.tar.zst
+    md5sum: 7bf7208d33e7a0185debc5f8b7490236
+- version: 0.7.0
+  normalized: v070
+  date: 2023-10-07
+  packages:
+  - type: source
+    filename: pyodoo-$(VERSION).tar.gz
+    md5sum: 64797859d45fbae92c53582453747a40
+  - type: python-wheel
+    filename: PyOdoo-$(VERSION)-py3-none-any.whl
+    md5sum: e7419967581fdc990a81462fb9e16e74
+- version: 0.6.0
+  normalized: v060
+  date: 2023-06-26
+  packages:
+  - type: source
+    filename: pyodoo-$(VERSION).tar.gz
+    md5sum: 38ed4fe7711e71e5d44f39042bdcbf5c
+  - type: python-wheel
+    filename: PyOdoo-$(VERSION)-py3-none-any.whl
+    md5sum: 478461e88e86de8adfa1dedc064e1346
+- version: 0.5.10
+  normalized: v0510
+  date: 2023-06-03
+  packages:
+  - type: source
+    filename: pyodoo-$(VERSION).tar.gz
+    md5sum: bfd4e74173185723d571cf9d609b43b8
+  - type: python-wheel
+    filename: PyOdoo-$(VERSION)-py3-none-any.whl
+    md5sum: f26bd819836aecccef8a6f5421dabb49
+- version: 0.5.9
+  normalized: v059
+  date: 2023-05-17
+  packages:
+  - type: source
+    filename: pyodoo-$(VERSION).tar.gz
+    md5sum: 1823da48c66070bd0487beb4a2703458
+  - type: python-wheel
+    filename: PyOdoo-$(VERSION)-py3-none-any.whl
+    md5sum: 6aa8996a0a3d0b8b2ae0a1dbf872e2d5
+- version: 0.5.8
+  normalized: v058
+  date: 2023-05-16
+  packages:
+  - type: source
+    filename: pyodoo-$(VERSION).tar.gz
+    md5sum: 2d806a9968f797ec99450552171db7ec
+  - type: python-wheel
+    filename: PyOdoo-$(VERSION)-py3-none-any.whl
+    md5sum: e38dcfd57e24d63b5009c33dda237f9e
+- version: 0.5.7
+  normalized: v057
+  date: 2023-03-19
+  packages:
+  - type: source
+    filename: pyodoo-$(VERSION).tar.gz
+    md5sum: 70eb2a60bcd7d7cfe7b311be18ffb1d1
+  - type: python-wheel
+    filename: PyOdoo-$(VERSION)-py3-none-any.whl
+    md5sum: 0e641a78f1491badc98fc77461163edf
+- version: 0.5.6
+  normalized: v056
+  date: 2023-02-12
+  packages:
+  - type: source
+    filename: pyodoo-$(VERSION).tar.gz
+    md5sum: 17b5d2f3110fa6084d963493cb838c60
+  - type: python-wheel
+    filename: PyOdoo-$(VERSION)-py3-none-any.whl
+    md5sum: 6438a8b31475fef94d538b06fe0f880c
+- version: 0.5.5
+  normalized: v055
+  date: 2023-02-05
+  packages:
+  - type: source
+    filename: pyodoo-$(VERSION).tar.gz
+    md5sum: 3b5139bf2aed639cb93fe6d9f4486da4
+  - type: python-wheel
+    filename: PyOdoo-$(VERSION)-py3-none-any.whl
+    md5sum: ec31e0b256baa38120d0b8256820e996
+- version: 0.5.4
+  normalized: v054
+  date: 2023-02-05
+  packages:
+  - type: source
+    filename: pyodoo-$(VERSION).tar.gz
+    md5sum: ea5be957d7c7c8765e1ceadd0ef036f0
+  - type: python-wheel
+    filename: PyOdoo-$(VERSION)-py3-none-any.whl
+    md5sum: 38a2abdd96e938acebb94e6820f5c554
+- version: 0.5.3
+  normalized: v053
+  date: 2022-09-24
+  packages:
+  - type: source
+    filename: pyodoo-$(VERSION).tar.gz
+    md5sum: 2201ce932814499c313dd7aa430d36f9
+  - type: python-wheel
+    filename: PyOdoo-$(VERSION)-py3-none-any.whl
+    md5sum: 8db51d82e612b844b6d9a814a79d1263
+- version: 0.5.2
+  normalized: v052
+  date: 2022-09-24
+  packages:
+  - type: source
+    filename: pyodoo-$(VERSION).tar.gz
+    md5sum: cf4d3b3bb3425220a8ee8c91dcc806ce
+  - type: python-wheel
+    filename: PyOdoo-$(VERSION)-py3-none-any.whl
+    md5sum: 3367311f0cd4c8c597f53faa582ab8c2
+- version: 0.5.1
+  normalized: v051
+  date: 2022-09-22
+  packages:
+  - type: source
+    filename: pyodoo-$(VERSION).tar.gz
+    md5sum: 5c826123d806042167df400032a87ef0
+  - type: python-wheel
+    filename: PyOdoo-$(VERSION)-py3-none-any.whl
+    md5sum: 23fbb6d81da913f1aa61b7e8f417f8db
+- version: 0.5.0
+  normalized: v050
+  date: 2022-09-11
+  packages:
+  - type: source
+    filename: pyodoo-$(VERSION).tar.gz
+    md5sum: 77da3251b135e3659d04edaa25e357c6
+  - type: python-wheel
+    filename: PyOdoo-$(VERSION)-py3-none-any.whl
+    md5sum: 2a52acddc666cfdee81b49045209ec5d
+- version: 0.4.3
+  normalized: v043
+  date: 2022-09-10
+  packages:
+  - type: source
+    filename: pyodoo-$(VERSION).tar.gz
+    md5sum: e54ce36e9dadb0c8812da55929c2fc04
+  - type: python-wheel
+    filename: PyOdoo-$(VERSION)-py3-none-any.whl
+    md5sum: 4147670ef6c8ffa559033670b278e5b5
+- version: 0.4.2
+  normalized: v042
+  date: 2022-08-25
+  packages:
+  - type: source
+    filename: pyodoo-$(VERSION).tar.gz
+    md5sum: 0e906079c4a1502c8ed3dab36c4a409c
+  - type: python-wheel
+    filename: PyOdoo-$(VERSION)-py3-none-any.whl
+    md5sum: 606674f7633bfc8270bdbf0a52c6c4bf
+- version: 0.4.1
+  normalized: v041
+  date: 2022-06-12
+  packages:
+  - type: source
+    filename: pyodoo-$(VERSION).tar.gz
+    md5sum: ccbb804e7f51461699c6034c4c61be97
+  - type: python-wheel
+    filename: PyOdoo-$(VERSION)-py3-none-any.whl
+    md5sum: 5e3cdb3d32f2a0bf7557907c00fab034
+- version: 0.4.0
+  normalized: v040
+  date: 2022-06-12
+  packages:
+  - type: source
+    filename: pyodoo-$(VERSION).tar.gz
+    md5sum: ed197e8839ee636a986c7144967c5ab0
+  - type: python-wheel
+    filename: PyOdoo-$(VERSION)-py3-none-any.whl
+    md5sum: ca48033cffa0c0bc9d6c4b4332bac569
+- version: 0.3.0
+  normalized: v030
+  date: 2022-06-07
+  packages:
+  - type: source
+    filename: pyodoo-$(VERSION).tar.gz
+    md5sum: 218ba46c97fa62e96d410c80cb4521b3
+  - type: python-wheel
+    filename: PyOdoo-$(VERSION)-py3-none-any.whl
+    md5sum: 9031364ee19a2405f2730504d49c8fb1
+- version: 0.2.3
+  normalized: v023
+  date: 2021-07-21
+  packages:
+  - type: source
+    filename: pyodoo-$(VERSION).tar.gz
+    md5sum: 5a303a92b34ebc0f7093e76ae47774f1
+  - type: python-wheel
+    filename: PyOdoo-$(VERSION)-py3-none-any.whl
+    md5sum: ecbceedcd093838d43311cc0ad3e8ede
+- version: 0.2.2
+  normalized: v022
+  date: 2021-06-06
+  packages:
+  - type: source
+    filename: pyodoo-$(VERSION).tar.gz
+    md5sum: 4d16b50b785e0a96c6ea2dead3e96df6
+  - type: python-wheel
+    filename: PyOdoo-$(VERSION)-py3-none-any.whl
+    md5sum: 479bc22ffd00324c126cb221e58f3f0e
+- version: 0.2.1
+  normalized: v021
+  date: 2021-06-06
+  packages:
+  - type: source
+    filename: pyodoo-$(VERSION).tar.gz
+    md5sum: 2d291c9abf21747ff19d98a973c58e98
+  - type: python-wheel
+    filename: PyOdoo-$(VERSION)-py3-none-any.whl
+    md5sum: 04b4e2e853ddfc403fd4113a48ef8a0f
+- version: 0.2.0
+  normalized: v020
+  date: 2021-06-06
+  packages:
+  - type: source
+    filename: pyodoo-$(VERSION).tar.gz
+    md5sum: eca8f2d2c0c456e6fff86c8f98cd0071
+  - type: python-wheel
+    filename: PyOdoo-$(VERSION)-py3-none-any.whl
+    md5sum: 2e69a4bd1838238678a298f626c63214
+- version: 0.1.1
+  normalized: v011
+  date: 2021-06-06
+  packages:
+  - type: source
+    filename: pyodoo-$(VERSION).tar.gz
+    md5sum: 4c4b10ffb54f79974e691f6b3e335ad7
+  - type: python-wheel
+    filename: PyOdoo-$(VERSION)-py3-none-any.whl
+    md5sum: 7f3ca9bd8a7a1f7d0f91b7da6fa9af35
+- version: 0.1.0
+  normalized: v010
+  date: 2021-06-06
+  packages:
+  - type: source
+    filename: pyodoo-$(VERSION).tar.gz
+    md5sum: 90e92a410b0b45f33c973386da20852e
+  - type: python-wheel
+    filename: PyOdoo-$(VERSION)-py3-none-any.whl
+    md5sum: 1ed795837fa49650d2288c291378c08b
+- version: 0.0.1
+  normalized: v001
+  date: 2021-06-04
+  packages:
+  - type: source
+    filename: pyodoo-$(VERSION).tar.gz
+    md5sum: c8d8ccf924daaada0bd1db0fdd739621
+  - type: python-wheel
+    filename: PyOdoo-$(VERSION)-py3-none-any.whl
+    md5sum: 59ef0838809a738e47d35afc0e9788ea
+translations:

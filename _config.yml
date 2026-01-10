@@ -38,6 +38,7 @@ sections:
   - django-admin-settings
   - watchpage
   - mumailer
+  - pyodoo
 collections:
   contacts:
     output: true
@@ -112,6 +113,9 @@ collections:
     output: true
     permalink: /:collection/:path:output_ext
   mumailer:
+    output: true
+    permalink: /:collection/:path:output_ext
+  pyodoo:
     output: true
     permalink: /:collection/:path:output_ext
 defaults:
@@ -418,5 +422,15 @@ defaults:
       language: english
   - scope:
       path: _mumailer/italian
+    values:
+      language: italian
+
+  - scope:
+      path: _pyodoo
+    values:
+      product: pyodoo
+      language: english
+  - scope:
+      path: _pyodoo/italian
     values:
       language: italian
