@@ -21,8 +21,8 @@ versions:
     filename: gextractwinicons-$(VERSION)-x86_64.AppImage
     md5sum: a8bfc0c091f14e810c951a64fcfa5e51
   - type: archlinux
-    filename: gextractwinicons-$(VERSION)-1-any.pkg.tar.zst
-    md5sum: d8abcde41073df76f59302ccc3eea782
+    filename: gextractwinicons-$(VERSION)-2-any.pkg.tar.zst
+    md5sum: e9ff7cdd5c7fe4707a82f9a32664a7d8
   - type: aur
     filename: gextractwinicons
     md5sum: '-'
