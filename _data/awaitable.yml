@@ -18,8 +18,8 @@ versions:
     filename: Awaitable-$(VERSION)-py3-none-any.whl
     md5sum: 18d03140bf4992d3b0403b58268ce6db
   - type: archlinux
-    filename: python-awaitable-$(VERSION)-1-any.pkg.tar.zst
-    md5sum: 3b50509eb4daa7fd212a1a7b45e4ab4d
+    filename: python-awaitable-$(VERSION)-2-any.pkg.tar.zst
+    md5sum: bde9a7a4a264777e0697f6795a54a6b8
   - type: aur
     filename: python-awaitable-git
     md5sum: '-'
