@@ -18,8 +18,8 @@ versions:
     filename: PyOdoo-$(VERSION)-py3-none-any.whl
     md5sum: 930f7db2541dfa4f44f29339fa563b87
   - type: archlinux
-    filename: python-pyodoo-$(VERSION)-1-any.pkg.tar.zst
-    md5sum: f8fc4f0041e7126a7cfe4a8eaf0bafce
+    filename: python-pyodoo-$(VERSION)-2-any.pkg.tar.zst
+    md5sum: be93a04abd8b6846b3da65d6d22ffda0
   - type: aur
     filename: python-pyodoo
     md5sum: '-'
