@@ -21,8 +21,8 @@ versions:
     filename: gnome-appfolders-manager-$(VERSION)-x86_64.AppImage
     md5sum: ea5b66ad05a2c7145b405617db4f23c4
   - type: archlinux
-    filename: gnome-appfolders-manager-$(VERSION)-1-any.pkg.tar.zst
-    md5sum: 4dbf8cc23b49c67edb88f3977da8e58d
+    filename: gnome-appfolders-manager-$(VERSION)-5-any.pkg.tar.zst
+    md5sum: 4d3a3200f63e5c1dff84cb59d19fe6e9
   - type: aur
     filename: gnome-appfolders-manager-git
     md5sum: '-'
