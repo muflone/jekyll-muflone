@@ -18,8 +18,8 @@ versions:
     filename: WatchPage-$(VERSION)-py3-none-any.whl
     md5sum: fa32c680a70c699b2c58d1112d446439
   - type: archlinux
-    filename: watchpage-$(VERSION)-1-any.pkg.tar.zst
-    md5sum: d8485cdef4d3b1e39b07a0dd8c81ee38
+    filename: watchpage-$(VERSION)-2-any.pkg.tar.zst
+    md5sum: 455933a2ad78f50bf5be4afbab102e2f
   - type: aur
     filename: watchpage
     md5sum: '-'
