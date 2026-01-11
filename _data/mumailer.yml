@@ -9,7 +9,7 @@ license: gpl3
 versions:
 - version: 0.5.0
   normalized: v050
-  date: 2023-11-26
+  date: 2023-11-19
   packages:
   - type: source
     filename: mumailer-$(VERSION).tar.gz
@@ -18,17 +18,14 @@ versions:
     filename: MuMailer-$(VERSION)-py3-none-any.whl
     md5sum: 88f4a043185c9db6579a617d8015c3f9
   - type: archlinux
-    filename: mumailer-$(VERSION)-3-any.pkg.tar.zst
-    md5sum: 0c008a0b8b590066b2b252579a9fb764
-  - type: aur
-    filename: python-mumailer
-    md5sum: '-'
+    filename: mumailer-$(VERSION)-4-any.pkg.tar.zst
+    md5sum: 100606b3de79b981f5f7e28b303f8cc5
   - type: aur
     filename: mumailer
     md5sum: '-'
 - version: 0.4.4
   normalized: v044
-  date: 2023-11-26
+  date: 2023-11-19
   packages:
   - type: source
     filename: mumailer-$(VERSION).tar.gz
