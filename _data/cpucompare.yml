@@ -21,8 +21,8 @@ versions:
     filename: cpucompare-$(VERSION)-x86_64.AppImage
     md5sum: 72f299b5b754999a619a0caf68dbf140
   - type: archlinux
-    filename: cpucompare-$(VERSION)-1-any.pkg.tar.zst
-    md5sum: 509911f5ee22777418dd954100f9fb9b
+    filename: cpucompare-$(VERSION)-2-any.pkg.tar.zst
+    md5sum: 58bca517693e69aeede1996975e01c8f
   - type: aur
     filename: cpucompare
     md5sum: '-'
