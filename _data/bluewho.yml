@@ -18,8 +18,8 @@ versions:
     filename: bluewho-$(VERSION)-x86_64.AppImage
     md5sum: 8cc41acd55575d9d8187724a69496817
   - type: archlinux64
-    filename: bluewho-$(VERSION)-1-any.pkg.tar.zst
-    md5sum: 75a5ef40831a75a917a46e2e41eb7227
+    filename: bluewho-$(VERSION)-2-any.pkg.tar.zst
+    md5sum: 699369e693129b93be5adb56ad9cbd53
   - type: aur
     filename: bluewho
     md5sum: '-'
