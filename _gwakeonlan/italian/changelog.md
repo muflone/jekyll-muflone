@@ -3,6 +3,12 @@ layout: changelog
 order: 900
 title: Cambiamenti
 ---
+# Versione 0.8.6 (28 Agosto 2024)
+
+* Aggiornata la traduzione in turco
+* Aggiornata la traduzione in russo
+* Aggiornata la traduzione in slovacco da Jozef Gaal
+
 # Versione 0.8.5 (1 Ottobre 2022)
 
 * Aggiornata la traduzione francese da Albano Battistella

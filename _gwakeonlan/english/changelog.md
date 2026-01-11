@@ -3,6 +3,12 @@ layout: changelog
 order: 900
 title: Changelog
 ---
+# Version 0.8.6 (Aug 28, 2024)
+
+* Updated Turkish translations
+* Updated Russian translation
+* Updated Slovak translation by Jozef Gaal
+
 # Version 0.8.5 (Oct 1, 2022)
 
 * Updated French translation by Albano Battistella
