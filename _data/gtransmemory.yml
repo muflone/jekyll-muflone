@@ -21,8 +21,8 @@ versions:
     filename: gtransmemory-$(VERSION)-x86_64.AppImage
     md5sum: 860a7c8fbccf0a3b218c8f82f91569d9
   - type: archlinux
-    filename: gtransmemory-$(VERSION)-1-any.pkg.tar.zst
-    md5sum: bdb57f65097f3a91467cb18efd38d475
+    filename: gtransmemory-$(VERSION)-2-any.pkg.tar.zst
+    md5sum: cecffab68c66b1e8616cd8963fe9d1da
   - type: aur
     filename: gtransmemory
     md5sum: '-'
