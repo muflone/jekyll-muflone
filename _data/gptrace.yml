@@ -21,8 +21,8 @@ versions:
     filename: gptrace-$(VERSION)-x86_64.AppImage
     md5sum: 4376aade6b47e3423e83bd51fc24f254
   - type: archlinux
-    filename: gptrace-$(VERSION)-1-any.pkg.tar.zst
-    md5sum: 1c961f12b6d7a58a8256cbe1c6c74427
+    filename: gptrace-$(VERSION)-2-any.pkg.tar.zst
+    md5sum: 044f518812a051716fc618b59ffa11bc
   - type: aur
     filename: gptrace
     md5sum: '-'
