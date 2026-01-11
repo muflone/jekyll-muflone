@@ -18,8 +18,8 @@ versions:
     filename: pixelcolor_$(VERSION)-1_all.deb
     md5sum: c92b54f0d9f86a8f868dce07a72d9c6a
   - type: archlinux
-    filename: pixelcolor-$(VERSION)-1-any.pkg.tar.zst
-    md5sum: e3f658703f8dac1a5002f317ce1e0fd8
+    filename: pixelcolor-$(VERSION)-2-any.pkg.tar.zst
+    md5sum: d10cf3a41a0c468e2bf92cf01c5d0f59
   - type: aur
     filename: pixelcolor
     md5sum: '-'
